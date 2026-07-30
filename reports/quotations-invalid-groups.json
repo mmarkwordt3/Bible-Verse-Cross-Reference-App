@@ -1,0 +1,102 @@
+[
+  {
+    "groupIndex": 713,
+    "raw": {
+      "originalReference": "2CH 8:13,16",
+      "sourceAttribute": "HEB",
+      "annotation": "0000000022200000000000001110",
+      "sourceOrder": 1
+    },
+    "reason": "Malformed passage reference: 2CH 8:13,16"
+  },
+  {
+    "groupIndex": 1482,
+    "raw": {
+      "originalReference": "LUK 6:27-28,35",
+      "sourceAttribute": "GRK",
+      "annotation": "12200522230000300051112300003000003000003021511120002",
+      "sourceOrder": 1
+    },
+    "reason": "Malformed passage reference: LUK 6:27-28,35"
+  },
+  {
+    "groupIndex": 1529,
+    "raw": {
+      "originalReference": "MRK 1:32,34",
+      "sourceAttribute": "GRK",
+      "annotation": "2221111411222250252022225212521211522",
+      "sourceOrder": 1
+    },
+    "reason": "Malformed passage reference: MRK 1:32,34"
+  },
+  {
+    "groupIndex": 1580,
+    "raw": {
+      "originalReference": "LUK 10:5,7",
+      "sourceAttribute": "GRK",
+      "annotation": "2222220000004111120000003000000000000",
+      "sourceOrder": 3
+    },
+    "reason": "Malformed passage reference: LUK 10:5,7"
+  },
+  {
+    "groupIndex": 1700,
+    "raw": {
+      "originalReference": "MRK 7:1,5",
+      "sourceAttribute": "GRK",
+      "annotation": "111112200102241112002521122212222411111",
+      "sourceOrder": 1
+    },
+    "reason": "Malformed passage reference: MRK 7:1,5"
+  },
+  {
+    "groupIndex": 1919,
+    "raw": {
+      "originalReference": "LUK 7:37-38,46",
+      "sourceAttribute": "GRK",
+      "annotation": "00000000030012221142200002223000000052200210022200003000000002220",
+      "sourceOrder": 2
+    },
+    "reason": "Malformed passage reference: LUK 7:37-38,46"
+  },
+  {
+    "groupIndex": 1974,
+    "raw": {
+      "originalReference": "JHN 18:33,37",
+      "sourceAttribute": "GRK",
+      "annotation": "000000005111010522222300000000422220003000000000030003000000000",
+      "sourceOrder": 3
+    },
+    "reason": "Malformed passage reference: JHN 18:33,37"
+  },
+  {
+    "groupIndex": 2095,
+    "raw": {
+      "originalReference": "ACT 22:13,16",
+      "sourceAttribute": "GRK",
+      "annotation": "10011205214111100000051000000000",
+      "sourceOrder": 2
+    },
+    "reason": "Malformed passage reference: ACT 22:13,16"
+  },
+  {
+    "groupIndex": 2113,
+    "raw": {
+      "originalReference": "ACT 24:15,21",
+      "sourceAttribute": "GRK",
+      "annotation": "101110000030000003000001211052222000",
+      "sourceOrder": 1
+    },
+    "reason": "Malformed passage reference: ACT 24:15,21"
+  },
+  {
+    "groupIndex": 2141,
+    "raw": {
+      "originalReference": "EPH 2:1,5",
+      "sourceAttribute": "GRK",
+      "annotation": "222222200232222221140100",
+      "sourceOrder": 0
+    },
+    "reason": "Malformed passage reference: EPH 2:1,5"
+  }
+]
