@@ -159,6 +159,7 @@ jobs:
           LXX_GENERATED_AT: ${{ steps.greek.outputs.lxx_date }}
           NESTLE1904_SOURCE_COMMIT: ${{ steps.greek.outputs.nt_commit }}
           NESTLE1904_GENERATED_AT: ${{ steps.greek.outputs.nt_date }}
+          NODE_OPTIONS: --max-old-space-size=6144
         run: npm run data:refresh 2>&1 | tee bootstrap-data.log
 
       - name: Lint
