@@ -1,1 +1,30 @@
-{"name":"scripture-index","version":"1.0.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"dev":"vite","build":"vite build","preview":"vite preview","data:refresh":"node scripts/build-data.mjs --refresh","data:build":"node scripts/build-data.mjs","data:audit":"node scripts/validate-data.mjs","test":"vitest run","typecheck":"tsc --noEmit","lint":"eslint .","check":"npm run lint && npm run typecheck && npm test && npm run data:audit"},"devDependencies":{"@eslint/js":"^9.32.0","eslint":"^9.32.0","typescript":"^5.8.3","typescript-eslint":"^8.38.0","vite":"^7.0.6","vitest":"^3.2.4"}}
+{
+  "name": "scripture-index",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data:refresh": "node scripts/build-data.mjs --refresh",
+    "data:build": "node scripts/build-data.mjs",
+    "data:audit": "node scripts/validate-data.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "check": "npm run lint && npm run typecheck && npm test && npm run data:audit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4",
+    "@types/node": "^22.15.0"
+  }
+}

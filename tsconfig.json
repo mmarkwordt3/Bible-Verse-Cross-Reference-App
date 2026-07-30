@@ -7,15 +7,21 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "lib": [
-      "ES2022",
+      "ES2023",
+      "ESNext.Disposable",
       "DOM",
       "DOM.Iterable"
     ],
     "allowJs": true,
-    "checkJs": false
+    "checkJs": false,
+    "types": [
+      "node"
+    ],
+    "skipLibCheck": true
   },
   "include": [
     "src",
+    "scripts",
     "tests",
     "vite.config.ts"
   ]
