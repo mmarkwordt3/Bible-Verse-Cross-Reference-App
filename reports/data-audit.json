@@ -1,0 +1,1410 @@
+{
+  "manifest": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-04-18T11:53:48+02:00",
+    "datasetTitle": "Original Douay-Rheims Bible",
+    "license": "CC0 1.0",
+    "datasetSource": "https://github.com/janvier-s/original-douay-rheims",
+    "translation": "Original Douay-Rheims (1609 Old Testament; 1582 New Testament)",
+    "canonicalBooks": 73,
+    "verses": 35810,
+    "versesWithCrossReferences": 1913,
+    "rawReferences": 1984,
+    "exactReferences": 772,
+    "uniqueEdges": 772,
+    "chapterOnly": 691,
+    "ambiguous": 1483,
+    "invalidTargets": 9,
+    "excludedBookReferences": 5,
+    "selfLinks": 0,
+    "exactParsePercentage": 26.08108108108108,
+    "sourceFiles": [
+      {
+        "slug": "genesis",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/genesis.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "0337a0eaa58b7e8b40de54a05db3d85bb71a73877fb3eddcb8e499cfec4f4adc",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "exodus",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/exodus.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "ab612b6c057021e6c343ef07345a33287419b8b217466f0548ef5ecab870228f",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "leviticus",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/leviticus.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "dca1cb25351a3d2f06782fe5098c65a68dbf6e2150d7c47b9fd2442ea56671a2",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "numbers",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/numbers.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "6ec4264b03943efc2b21c302a1c3128d852d08a22fb9707f6dc5edfff1c934b1",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "deuteronomy",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/deuteronomy.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "c4b71aedb23210d5500b1cc7a4303c330ca5d4891107c776b3a8b0a45a9c6a1c",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "josue",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/josue.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "151e6486cd188968c20779ae2a6be60ddfb75ac301a3679dccb2677cfe419ee7",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "judges",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/judges.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "b9c7ccf82e5e322922461c7de0589f5f79e2f9575934d2d4b04ee350b5000ec3",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "ruth",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/ruth.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "53c67ef70bef00fa0851a0a5b77917c0e368ceb21a7111d27a27df8f8d537e0b",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-kings",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-kings.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "05fdb3738fbbf90d3ed563380b0b33ea35dd7301e9ed13e6f26fb8aae36b727e",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-kings",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-kings.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "e0b306973bfe33c56353a1a5f9413750d01236ad0e85f2b3ba199fadc3e8463b",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "3-kings",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/3-kings.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "2f4a36156d008d721d02dff83929946769463ecbc81781e844dfd0ccd1851ef8",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "4-kings",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/4-kings.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "75ccfde9769c372ad930b3d9d9d494a20a5ce21744eaf19e969d60c7d39a16cf",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-paralipomenon",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-paralipomenon.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "8b76f7e3ed538045c1693a151afbd4a37a6a5b4cd2627a784614a306f540c347",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-paralipomenon",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-paralipomenon.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "d862e534dc7a13b6adc36038f3fb2633d58d626192b04f5b541d986e58fdba1e",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-esdras",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-esdras.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "eda7a8cf1d557a13f67ac676b7bf8600c82cf76ba53b9fc636a723fa15728cc2",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-esdras",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-esdras.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "8b864e7a9695dcbeceb88b02dad1abb366e1c15c78912add0b7fa9e039337bdd",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "tobias",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/tobias.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "6a4ae21b29d6869910671ea00f93ec97b611749ea9fd6b909c4a63db528c3714",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "judith",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/judith.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "cca1745f29a8a0ecf7ab10963978ea2ac88abe7658950e75aa9220ae9acbcaf6",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "esther",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/esther.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "0f2f8a59d481a5a0aa1a4bd5281185cc5bc0103414d704f301b97a2b271e031b",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-machabees",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-machabees.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "94a2af44048c0c11e638c22f20d0e2e5ceacd04271963341bca6be71a40fca69",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-machabees",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-machabees.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "13c7339018d2b0d0d92d19f989b6b5990498748005bf571475fc9f6d30667ead",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "job",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/job.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "3725604104ef378bfa183ab876958375f738a1a1c0ebd2788f9f330c1de0d46b",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "psalms",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/psalms.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "5251fb703bb014a0d06c89b01b6e055eab46ddd31bc2bb7b6f97d94d07f71e44",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "proverbs",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/proverbs.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "4b3b7e1d13725afe0333f70e25653d69a1384282115f1f86e61071891d497cee",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "ecclesiastes",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/ecclesiastes.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "e6e82b97aefe1af9c8662f1ab4e59ed5fa1ee954a111748eb6d52310021136c4",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "canticle-of-canticles",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/canticle-of-canticles.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "d88e663e5aa3274dca02d69c8abf7e6c6e5d397d9db767853194e260069e5f03",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "wisdom",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/wisdom.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "aaa0e3da80ae4a30990e209a0c9bd539688999cb747d83a965850ab3990f474d",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "ecclesiasticus",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/ecclesiasticus.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "3ef9a8f0667f0b598082ea9a5b0e4443ef7555613d41c14b55d49fbf62917e00",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "isaie",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/isaie.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "e8ac555a583333a58ae97e12f55669a7a5d4961be196b28b89f317146ae32889",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "jeremie",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/jeremie.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "b5da556b275db72764869bbc87e6ae58664656f11447af33881adee3ea31de8b",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "lamentations",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/lamentations.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "488ddb2144dfe7d8c2f675928b951e5cec2eed48aa95bd07a6990d201368ba61",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "baruch",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/baruch.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "cc2278819cc7ea09230e3a4b309a84c9864675525ecc0155230bbcf6561d356d",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "ezechiel",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/ezechiel.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "4291105afb0e88587e921eb96108958a34b4996dc5fb3811e369894f8e8473df",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "daniel",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/daniel.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "fcbc91426517afc2cfa31917747ee253d184339132d08a65fc4a39a008371b2a",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "osee",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/osee.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "dac7e27945ba8c3fbffa7025b76d3ad6eaec62e9e41f20c119481aa7ac1448f3",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "joel",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/joel.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "7669e2e393f1a225f7d0b54bcda6b323f73b0b6d4cc8dd2b93a7e1a8a01f5411",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "amos",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/amos.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "d53a8c0b31faa9a68d28dce1d377ffaf6a8b9b8f00f7aea9c2cf18a339b92f47",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "abdias",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/abdias.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "676d80ab19799496826dca175ce3ed278a4868b41701ff7eaf4d084fa5a07ebf",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "jonas",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/jonas.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "514ce3fc488aeb684b62044b83af07a65e513211355a31a7a7ca38c5aafb83cb",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "micheas",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/micheas.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "b4319d43436aa43d2901b3b96272fbce599ab6bd2fcddf9bd8bc22e15f7d3d10",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "nahum",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/nahum.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "65549c71782e19cb7ddb08190389e0356510c86c29ddc7c2e9216958f0eef252",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "habacuc",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/habacuc.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "560c8889ae43061d1dbd2938d443df3ea533468733f849bdaf8749acd207b5b6",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "sophonias",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/sophonias.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "14da127967c27baf39edaf22116e2f8b9bf59c2fa83a624ffa1ce42d47322606",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "aggeus",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/aggeus.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "50e593c2c871673ec5b53c937c9df20f6b9df3f4195acf1cca858f4cfc62b4f0",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "zacharias",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/zacharias.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "b28f0e154bb6f8008b35d5ea0f418901da35bd2affc7354a7e63e814b4f6a36e",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "malachie",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/malachie.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "fb19ba19e70b9291fc35b6335127ca7284a2de87c7d08661d5eb5e79b14763a4",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "matthew",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/matthew.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "4accdef61add881e1550dc5ecdf862d322228b90b844d3c673103493c89a862a",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "mark",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/mark.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "a85a88a409ec08df2a272e018734f0ac9effd8f0e82c59929d43e453ff15fd9c",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "luke",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/luke.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "0218b47a72c0f0953e8ef2e66ac8e50459abbeb631fd2005b1deabfd0044b91f",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "john",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/john.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "8d028d7d113931454006ff1c2094b20b7686ddee2143091ff5ac25d10fcaf225",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "acts",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/acts.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "5002511f5812a6aec0d6358476dd26bde6651108063fd4477d83e398ab133660",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "romans",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/romans.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "ae8d83000d900a7b17ad3a7043c62c5083d36a15ca5f5c45ed44e6443e20c59c",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-corinthians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-corinthians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "58d9a6d8bdf2cfe5c682246a55ad34fdc600cf213fe1fb70e9fb5c8c04bc9087",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-corinthians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-corinthians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "722774c435779f7ff8bf7722f569a99a3aea5cc70a55c12ac09e48c0795de493",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "galatians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/galatians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "78c61bdd092741a482a0d347b0b4c94ec7a9043801d9e3e41ab0141899975a22",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "ephesians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/ephesians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "36dfe944e92b131399118d515fb179ad77890a6aed6b6fca4183d2512365197e",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "philippians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/philippians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "6bdc14f4fa26064992d169b55d37b7a16be4c958ecf15311cf85ab590704a2e6",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "colossians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/colossians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "91d850a7e9b697348fa38373f00354d8311d2ff8bf72f2e12dddc356b95ebc50",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-thessalonians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-thessalonians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "4962d22d9f9a569c7a6b4a0ec04d25fe800cfddc1356acaeb3093f5fd19c6973",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-thessalonians",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-thessalonians.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "92841b472494e37fb0e6d4e62559aae3438344092d2e1075bd9f8edbd0bb89f5",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-timothy",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-timothy.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "6e3e0de5f13b02903c48af2a6bac6a519ff4a3cd992d00547aab066556d84535",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-timothy",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-timothy.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "4385cf571d6d85855bb29c675be3fc31372f2327fa465c759d1dd5c151edd0d1",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "titus",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/titus.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "96fa1d67e2d1d4e0eb1acef1bd617da0ff7c58afe2e82b64e4b5489382e555d8",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "philemon",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/philemon.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "b27a5d27c7fb42bef032be05c83f74785a995b63985b7240482a17d1a315cbf6",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "hebrews",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/hebrews.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "917abe911b5451978acc19cceda54e327bb44da75bc9870acb6b2cab0ed93fd5",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "james",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/james.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "7f8cdbde454fc24d9f2a62d29fb3ddfd49ff71c23dc1319266c679e0f23024e1",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-peter",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-peter.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "c57b95adb5b37e18059616e3046694b752cf3065616cc332e2a9368399e44868",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-peter",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-peter.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "7b37c81eba4cc3b3d5dd690de9fb16a34e51c37f55d648ceb173585e8cc0fd6d",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "1-john",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/1-john.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "f296b1d5c5984f3c6e98c15e4604de51fd6c7e4651886baede39716d038e53ce",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "2-john",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/2-john.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "d2532e5617df57f82e71a83c8d3b5dfefc1c9a8d3b899c133fab62ae37e04ed0",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "3-john",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/3-john.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "5d79473546d518ded6cc5718a0e213c173f284a8e16c8413d211a962a6835a70",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "jude",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/jude.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "acf37a985f57eb48e88f3053000ab8a773011a9f5101d188c4fa7941199e70f6",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      },
+      {
+        "slug": "apocalypse",
+        "url": "https://github.com/janvier-s/original-douay-rheims/blob/0bf4218b9b46b5b00d29a703b5b74226051b97a5/bible/raw/apocalypse.json",
+        "sourceType": "local-git-checkout",
+        "sourceRepository": "https://github.com/janvier-s/original-douay-rheims",
+        "sourceCommit": "0bf4218b9b46b5b00d29a703b5b74226051b97a5",
+        "fallback": false,
+        "sha256": "0f98662e93666916bffa75f129a167fef24c9b98d121edf3e0dd82d968f46a54",
+        "fetchedAt": "2026-04-18T11:53:48+02:00"
+      }
+    ],
+    "fallbackUsed": false
+  },
+  "quality": {
+    "exactReferences": 772,
+    "uniqueEdges": 772,
+    "exactParsePercentage": 26.08108108108108,
+    "chapterOnly": 691,
+    "ambiguous": 1483,
+    "invalidTargets": 9,
+    "excludedBookReferences": 5,
+    "selfLinks": 0,
+    "uniqueAbbreviations": 292,
+    "unresolvedByBook": [
+      {
+        "book": "luke",
+        "count": 199
+      },
+      {
+        "book": "psalms",
+        "count": 194
+      },
+      {
+        "book": "isaie",
+        "count": 177
+      },
+      {
+        "book": "ecclesiasticus",
+        "count": 166
+      },
+      {
+        "book": "matthew",
+        "count": 157
+      },
+      {
+        "book": "jeremie",
+        "count": 154
+      },
+      {
+        "book": "mark",
+        "count": 138
+      },
+      {
+        "book": "john",
+        "count": 109
+      },
+      {
+        "book": "acts",
+        "count": 65
+      },
+      {
+        "book": "apocalypse",
+        "count": 59
+      }
+    ],
+    "samples": [
+      {
+        "source": "genesis.1.6",
+        "raw": "Job. 38. Jer. 10, 13.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.3.6",
+        "raw": "Eccl. 25. 1. Tim. 2, 14.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.3.16",
+        "raw": "1. Cor. 14.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.4.3",
+        "raw": "Heb. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.4.8",
+        "raw": "Sap. 10.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.4.9",
+        "raw": "1. Io. 3.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.5.1",
+        "raw": "Sap. 2, 24. Eccl. 17, 1.",
+        "status": "invalid-target",
+        "reason": "Target ecclesiastes.17.1 does not exist"
+      },
+      {
+        "source": "genesis.7.7",
+        "raw": "Mat. 24. Luc. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.7.7",
+        "raw": "Mat. 24. Luc. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.7.23",
+        "raw": "Eccl. 39.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.7.24",
+        "raw": "1. Pet. 3.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.9.4",
+        "raw": "Levi. 17.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Levi."
+      },
+      {
+        "source": "genesis.9.28",
+        "raw": "Heb. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.12.1",
+        "raw": "Act. 7.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.12.3",
+        "raw": "Heb. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.15.6",
+        "raw": "Ro. 4. Gal. 3. Iac. 2.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Ro."
+      },
+      {
+        "source": "genesis.15.6",
+        "raw": "Ro. 4. Gal. 3. Iac. 2.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.15.13",
+        "raw": "Act. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.15.14",
+        "raw": "Exod. 12.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.18.3",
+        "raw": "Heb. 13.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.18.10",
+        "raw": "Rom. 9.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.22.1",
+        "raw": "Judith. 8.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.22.2",
+        "raw": "Heb. 11",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.28.12",
+        "raw": "Sap. 10.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "genesis.35.19",
+        "raw": "Math. 2.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Math."
+      },
+      {
+        "source": "genesis.48.7",
+        "raw": "Mat. 2.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "exodus.9.16",
+        "raw": "Rom. 9.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "exodus.14.17",
+        "raw": "1 Reg. 6.",
+        "status": "ambiguous",
+        "reason": "Number required for Reg."
+      },
+      {
+        "source": "exodus.33.22",
+        "raw": "Rom. 9.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "numbers.12.1",
+        "raw": "Exod. 2.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "josue.8.33",
+        "raw": "Deut. 27.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "josue.12.4",
+        "raw": "Num. 21. Deut. 3.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "josue.12.4",
+        "raw": "Num. 21. Deut. 3.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judges.11.17",
+        "raw": "Num. 20.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-kings.17.34",
+        "raw": "* or, for and. v. 36. 37.",
+        "status": "unparsed",
+        "reason": "Unrecognized segment: * or, for"
+      },
+      {
+        "source": "1-kings.17.34",
+        "raw": "* or, for and. v. 36. 37.",
+        "status": "unparsed",
+        "reason": "Unknown book alias and."
+      },
+      {
+        "source": "1-kings.17.34",
+        "raw": "* or, for and. v. 36. 37.",
+        "status": "unparsed",
+        "reason": "Unknown book alias v."
+      },
+      {
+        "source": "2-kings.21.2",
+        "raw": "Iosue 9.",
+        "status": "unparsed",
+        "reason": "Unrecognized segment: Iosue"
+      },
+      {
+        "source": "3-kings.6.38",
+        "raw": "Mat. 22.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "3-kings.11.15",
+        "raw": "2. Reg. 8.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "3-kings.11.23",
+        "raw": "2. Reg. 10.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "3-kings.16.34",
+        "raw": "Iosue. 6.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Iosue."
+      },
+      {
+        "source": "4-kings.14.6",
+        "raw": "Deut. 21.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.6.11",
+        "raw": "2. Paral. 26.",
+        "status": "unparsed",
+        "reason": "Unknown book alias 2. Paral."
+      },
+      {
+        "source": "1-paralipomenon.16.8",
+        "raw": "Psal. 104.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.16.23",
+        "raw": "Psa. 95.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Psa."
+      },
+      {
+        "source": "1-paralipomenon.16.34",
+        "raw": "Psa. 105.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Psa."
+      },
+      {
+        "source": "1-paralipomenon.19.1",
+        "raw": "2. Reg. 10.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.20.1",
+        "raw": "2. Reg. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.28.1",
+        "raw": "3. Reg. 1.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.28.3",
+        "raw": "2. Reg. 7.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-paralipomenon.29.22",
+        "raw": "3. Reg. 1. v. 34.",
+        "status": "unparsed",
+        "reason": "Unknown book alias 1. v."
+      },
+      {
+        "source": "2-paralipomenon.1.4",
+        "raw": "1. Paral. 13.",
+        "status": "unparsed",
+        "reason": "Unknown book alias 1. Paral."
+      },
+      {
+        "source": "2-paralipomenon.2.2",
+        "raw": "3. Reg. 5.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.3.2",
+        "raw": "2. Reg. 24. 3. Reg. 6.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.3.2",
+        "raw": "2. Reg. 24. 3. Reg. 6.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.3.17",
+        "raw": "3. Reg. 7.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.4.2",
+        "raw": "3. Reg. 7.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.5.2",
+        "raw": "3. Reg. 7.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.9.1",
+        "raw": "3. Reg. 10.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.10.1",
+        "raw": "3. Reg. 12.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.13.1",
+        "raw": "3. Reg. 15.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.16.1",
+        "raw": "3. Reg. 15.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.20.21",
+        "raw": "Psal. 135.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.21.1",
+        "raw": "4. Reg. 8.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.22.1",
+        "raw": "4. Reg. 8. v. 25. c. 9.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.22.1",
+        "raw": "4. Reg. 8. v. 25. c. 9.",
+        "status": "unparsed",
+        "reason": "Unknown book alias v."
+      },
+      {
+        "source": "2-paralipomenon.22.1",
+        "raw": "4. Reg. 8. v. 25. c. 9.",
+        "status": "unparsed",
+        "reason": "Unknown book alias c."
+      },
+      {
+        "source": "2-paralipomenon.23.1",
+        "raw": "4. Reg. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.24.21",
+        "raw": "Mat. 23.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.25.1",
+        "raw": "4. Reg. 14.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.25.4",
+        "raw": "Deu. 24.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Deu."
+      },
+      {
+        "source": "2-paralipomenon.25.16",
+        "raw": "4. Reg. 8.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.27.1",
+        "raw": "4. Reg. 15.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.28.1",
+        "raw": "4. Reg. 16.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.29.1",
+        "raw": "4. Reg. 18.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.30.9",
+        "raw": "4. Reg. 8.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.32.1",
+        "raw": "2. Reg. 18. Isa. 36.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.32.1",
+        "raw": "2. Reg. 18. Isa. 36.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Isa."
+      },
+      {
+        "source": "2-paralipomenon.33.1",
+        "raw": "4. Reg. 21.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.34.1",
+        "raw": "4. Reg. 22.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.34.5",
+        "raw": "3. Reg. 12.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-paralipomenon.36.21",
+        "raw": "Jere. 25.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Jere."
+      },
+      {
+        "source": "1-esdras.1.1",
+        "raw": "Isa. 44. 45. Jer. 25. 29.",
+        "status": "unparsed",
+        "reason": "Unknown book alias Isa."
+      },
+      {
+        "source": "1-esdras.1.1",
+        "raw": "Isa. 44. 45. Jer. 25. 29.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "1-esdras.1.1",
+        "raw": "Isa. 44. 45. Jer. 25. 29.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-esdras.8.9",
+        "raw": "1. Esd. 2.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-esdras.13.2",
+        "raw": "Deut. 23. Num. 22.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "2-esdras.13.2",
+        "raw": "Deut. 23. Num. 22.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "tobias.2.6",
+        "raw": "Amos 8. v. 10.",
+        "status": "unparsed",
+        "reason": "Unrecognized segment: Amos"
+      },
+      {
+        "source": "tobias.2.6",
+        "raw": "Amos 8. v. 10.",
+        "status": "unparsed",
+        "reason": "Unknown book alias v."
+      },
+      {
+        "source": "judith.4.13",
+        "raw": "Exod. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.7",
+        "raw": "Gen. 11.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.9",
+        "raw": "Gen. 12.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.10",
+        "raw": "Exod. 1.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.10",
+        "raw": "Exod. 7. &c.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.10",
+        "raw": "Exod. 7. &c.",
+        "status": "unparsed",
+        "reason": "Unrecognized segment: . &"
+      },
+      {
+        "source": "judith.5.10",
+        "raw": "Exod. 7. &c.",
+        "status": "unparsed",
+        "reason": "Unknown book alias c."
+      },
+      {
+        "source": "judith.5.15",
+        "raw": "Exod. 15. 16. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      },
+      {
+        "source": "judith.5.15",
+        "raw": "Exod. 15. 16. 17.",
+        "status": "chapter-only",
+        "reason": "Chapter-only notation"
+      }
+    ]
+  }
+}
