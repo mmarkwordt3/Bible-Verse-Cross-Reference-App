@@ -1,11 +1,11 @@
 {
   "incoming": [
     {
+      "id": "openbible:ISA.9.7",
       "book": "ISA",
       "chapter": 9,
       "verse": 7,
-      "id": "openbible:ISA.9.7",
-      "text": null,
+      "text": "Of the increase of His government and peace there will be no end. He will reign on the throne of David and over his kingdom, to establish and sustain it with justice and righteousness from that time and forevermore. The zeal of the LORD of Hosts will accomplish this.",
       "incoming": 193,
       "outgoing": 55,
       "connected": 226,
@@ -23,11 +23,11 @@
       "order": 23
     },
     {
+      "id": "openbible:TIT.2.14",
       "book": "TIT",
       "chapter": 2,
       "verse": 14,
-      "id": "openbible:TIT.2.14",
-      "text": null,
+      "text": "He gave Himself for us to redeem us from all lawlessness and to purify for Himself a people for His own possession, zealous for good deeds.",
       "incoming": 183,
       "outgoing": 54,
       "connected": 204,
@@ -45,11 +45,11 @@
       "order": 56
     },
     {
+      "id": "openbible:1PE.2.9",
       "book": "1PE",
       "chapter": 2,
       "verse": 9,
-      "id": "openbible:1PE.2.9",
-      "text": null,
+      "text": "But you are a chosen people, a royal priesthood, a holy nation, a people for God’s own possession, to proclaim the virtues of Him who called you out of darkness into His marvelous light.",
       "incoming": 181,
       "outgoing": 57,
       "connected": 205,
@@ -67,11 +67,11 @@
       "order": 60
     },
     {
+      "id": "openbible:REV.5.9",
       "book": "REV",
       "chapter": 5,
       "verse": 9,
-      "id": "openbible:REV.5.9",
-      "text": null,
+      "text": "And they sang a new song: “Worthy are You to take the scroll and open its seals, because You were slain, and by Your blood You purchased for God those from every tribe and tongue and people and nation.",
       "incoming": 176,
       "outgoing": 44,
       "connected": 195,
@@ -89,11 +89,11 @@
       "order": 66
     },
     {
+      "id": "openbible:ISA.9.6",
       "book": "ISA",
       "chapter": 9,
       "verse": 6,
-      "id": "openbible:ISA.9.6",
-      "text": null,
+      "text": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
       "incoming": 172,
       "outgoing": 110,
       "connected": 251,
@@ -111,11 +111,11 @@
       "order": 23
     },
     {
+      "id": "openbible:MAT.28.20",
       "book": "MAT",
       "chapter": 28,
       "verse": 20,
-      "id": "openbible:MAT.28.20",
-      "text": null,
+      "text": "and teaching them to obey all that I have commanded you. And surely I am with you always, even to the end of the age.”",
       "incoming": 164,
       "outgoing": 118,
       "connected": 263,
@@ -133,11 +133,11 @@
       "order": 40
     },
     {
+      "id": "openbible:REV.19.20",
       "book": "REV",
       "chapter": 19,
       "verse": 20,
-      "id": "openbible:REV.19.20",
-      "text": null,
+      "text": "But the beast was captured along with the false prophet, who on its behalf had performed signs deceiving those who had the mark of the beast and worshiped its image. Both the beast and the false prophet were thrown alive into the fiery lake of burning sulfur.",
       "incoming": 160,
       "outgoing": 67,
       "connected": 204,
@@ -155,11 +155,11 @@
       "order": 66
     },
     {
+      "id": "openbible:TIT.3.5",
       "book": "TIT",
       "chapter": 3,
       "verse": 5,
-      "id": "openbible:TIT.3.5",
-      "text": null,
+      "text": "He saved us, not by the righteous deeds we had done, but according to His mercy, through the washing of new birth and renewal by the Holy Spirit.",
       "incoming": 149,
       "outgoing": 52,
       "connected": 184,
@@ -177,11 +177,11 @@
       "order": 56
     },
     {
+      "id": "openbible:2CO.5.21",
       "book": "2CO",
       "chapter": 5,
       "verse": 21,
-      "id": "openbible:2CO.5.21",
-      "text": null,
+      "text": "God made Him who knew no sin to be sin on our behalf, so that in Him we might become the righteousness of God.",
       "incoming": 147,
       "outgoing": 45,
       "connected": 166,
@@ -199,11 +199,11 @@
       "order": 47
     },
     {
+      "id": "openbible:ISA.55.7",
       "book": "ISA",
       "chapter": 55,
       "verse": 7,
-      "id": "openbible:ISA.55.7",
-      "text": null,
+      "text": "Let the wicked man forsake his way and the unrighteous man his thoughts; let him return to the LORD, that He may have compassion, and to our God, for He will freely pardon.",
       "incoming": 145,
       "outgoing": 79,
       "connected": 200,
@@ -221,11 +221,11 @@
       "order": 23
     },
     {
+      "id": "openbible:ACT.26.18",
       "book": "ACT",
       "chapter": 26,
       "verse": 18,
-      "id": "openbible:ACT.26.18",
-      "text": null,
+      "text": "to open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and an inheritance among those sanctified by faith in Me.’",
       "incoming": 143,
       "outgoing": 120,
       "connected": 222,
@@ -243,11 +243,11 @@
       "order": 44
     },
     {
+      "id": "openbible:2TH.2.10",
       "book": "2TH",
       "chapter": 2,
       "verse": 10,
-      "id": "openbible:2TH.2.10",
-      "text": null,
+      "text": "and with every wicked deception directed against those who are perishing, because they refused the love of the truth that would have saved them.",
       "incoming": 143,
       "outgoing": 41,
       "connected": 174,
@@ -265,11 +265,11 @@
       "order": 53
     },
     {
+      "id": "openbible:REV.11.15",
       "book": "REV",
       "chapter": 11,
       "verse": 15,
-      "id": "openbible:REV.11.15",
-      "text": null,
+      "text": "Then the seventh angel sounded his trumpet, and loud voices called out in heaven: “The kingdom of the world has become the kingdom of our Lord and of His Christ, and He will reign forever and ever.”",
       "incoming": 141,
       "outgoing": 77,
       "connected": 187,
@@ -287,11 +287,11 @@
       "order": 66
     },
     {
+      "id": "openbible:JER.23.6",
       "book": "JER",
       "chapter": 23,
       "verse": 6,
-      "id": "openbible:JER.23.6",
-      "text": null,
+      "text": "In His days Judah will be saved, and Israel will dwell securely. And this is His name by which He will be called: The LORD Our Righteousness.",
       "incoming": 134,
       "outgoing": 56,
       "connected": 169,
@@ -309,11 +309,11 @@
       "order": 24
     },
     {
+      "id": "openbible:GAL.5.22",
       "book": "GAL",
       "chapter": 5,
       "verse": 22,
-      "id": "openbible:GAL.5.22",
-      "text": null,
+      "text": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,",
       "incoming": 133,
       "outgoing": 112,
       "connected": 217,
@@ -331,11 +331,11 @@
       "order": 48
     },
     {
+      "id": "openbible:ISA.41.10",
       "book": "ISA",
       "chapter": 41,
       "verse": 10,
-      "id": "openbible:ISA.41.10",
-      "text": null,
+      "text": "Do not fear, for I am with you; do not be afraid, for I am your God. I will strengthen you; I will surely help you; I will uphold you with My righteous right hand.",
       "incoming": 131,
       "outgoing": 58,
       "connected": 173,
@@ -353,11 +353,11 @@
       "order": 23
     },
     {
+      "id": "openbible:2TH.1.8",
       "book": "2TH",
       "chapter": 1,
       "verse": 8,
-      "id": "openbible:2TH.1.8",
-      "text": null,
+      "text": "in blazing fire, inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus.",
       "incoming": 131,
       "outgoing": 71,
       "connected": 180,
@@ -375,11 +375,11 @@
       "order": 53
     },
     {
+      "id": "openbible:2TH.2.11",
       "book": "2TH",
       "chapter": 2,
       "verse": 11,
-      "id": "openbible:2TH.2.11",
-      "text": null,
+      "text": "For this reason God will send them a powerful delusion so that they believe the lie,",
       "incoming": 131,
       "outgoing": 41,
       "connected": 159,
@@ -397,11 +397,11 @@
       "order": 53
     },
     {
+      "id": "openbible:PSA.2.6",
       "book": "PSA",
       "chapter": 2,
       "verse": 6,
-      "id": "openbible:PSA.2.6",
-      "text": null,
+      "text": "“I have installed My King on Zion, upon My holy mountain.”",
       "incoming": 130,
       "outgoing": 28,
       "connected": 148,
@@ -419,11 +419,11 @@
       "order": 19
     },
     {
+      "id": "openbible:2PE.2.3",
       "book": "2PE",
       "chapter": 2,
       "verse": 3,
-      "id": "openbible:2PE.2.3",
-      "text": null,
+      "text": "In their greed, these false teachers will exploit you with deceptive words. The longstanding verdict against them remains in force, and their destruction does not sleep.",
       "incoming": 130,
       "outgoing": 45,
       "connected": 153,
@@ -441,11 +441,11 @@
       "order": 61
     },
     {
+      "id": "openbible:ISA.61.1",
       "book": "ISA",
       "chapter": 61,
       "verse": 1,
-      "id": "openbible:ISA.61.1",
-      "text": null,
+      "text": "The Spirit of the Lord GOD is on Me, because the LORD has anointed Me to preach good news to the poor. He has sent Me to bind up the brokenhearted, to proclaim liberty to the captives and freedom to the prisoners,",
       "incoming": 129,
       "outgoing": 63,
       "connected": 159,
@@ -463,11 +463,11 @@
       "order": 23
     },
     {
+      "id": "openbible:2CO.4.6",
       "book": "2CO",
       "chapter": 4,
       "verse": 6,
-      "id": "openbible:2CO.4.6",
-      "text": null,
+      "text": "For God, who said, “Let light shine out of darkness,” made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
       "incoming": 128,
       "outgoing": 43,
       "connected": 153,
@@ -485,11 +485,11 @@
       "order": 47
     },
     {
+      "id": "openbible:ISA.61.3",
       "book": "ISA",
       "chapter": 61,
       "verse": 3,
-      "id": "openbible:ISA.61.3",
-      "text": null,
+      "text": "to console the mourners in Zion— to give them a crown of beauty for ashes, the oil of joy for mourning, and a garment of praise for a spirit of despair. So they will be called oaks of righteousness, the planting of the LORD, that He may be glorified.",
       "incoming": 127,
       "outgoing": 48,
       "connected": 164,
@@ -507,11 +507,11 @@
       "order": 23
     },
     {
+      "id": "openbible:EPH.3.8",
       "book": "EPH",
       "chapter": 3,
       "verse": 8,
-      "id": "openbible:EPH.3.8",
-      "text": null,
+      "text": "Though I am less than the least of all the saints, this grace was given me: to preach to the Gentiles the unsearchable riches of Christ,",
       "incoming": 126,
       "outgoing": 39,
       "connected": 150,
@@ -529,11 +529,11 @@
       "order": 49
     },
     {
+      "id": "openbible:REV.7.14",
       "book": "REV",
       "chapter": 7,
       "verse": 14,
-      "id": "openbible:REV.7.14",
-      "text": null,
+      "text": "“Sir,” I answered, “you know.” So he replied, “These are the ones who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb.",
       "incoming": 126,
       "outgoing": 35,
       "connected": 145,
@@ -553,11 +553,11 @@
   ],
   "connected": [
     {
+      "id": "openbible:GEN.35.22",
       "book": "GEN",
       "chapter": 35,
       "verse": 22,
-      "id": "openbible:GEN.35.22",
-      "text": null,
+      "text": "While Israel was living in that region, Reuben went in and slept with his father’s concubine Bilhah, and Israel heard about it. Jacob had twelve sons:",
       "incoming": 26,
       "outgoing": 422,
       "connected": 436,
@@ -575,11 +575,11 @@
       "order": 1
     },
     {
+      "id": "openbible:LUK.24.44",
       "book": "LUK",
       "chapter": 24,
       "verse": 44,
-      "id": "openbible:LUK.24.44",
-      "text": null,
+      "text": "Jesus said to them, “These are the words I spoke to you while I was still with you: Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms.”",
       "incoming": 78,
       "outgoing": 337,
       "connected": 394,
@@ -597,11 +597,11 @@
       "order": 42
     },
     {
+      "id": "openbible:ACT.7.36",
       "book": "ACT",
       "chapter": 7,
       "verse": 36,
-      "id": "openbible:ACT.7.36",
-      "text": null,
+      "text": "He led them out and performed wonders and signs in the land of Egypt, at the Red Sea, and for forty years in the wilderness.",
       "incoming": 29,
       "outgoing": 296,
       "connected": 317,
@@ -619,11 +619,11 @@
       "order": 44
     },
     {
+      "id": "openbible:ACT.3.19",
       "book": "ACT",
       "chapter": 3,
       "verse": 19,
-      "id": "openbible:ACT.3.19",
-      "text": null,
+      "text": "Repent, then, and turn back, so that your sins may be wiped away,",
       "incoming": 63,
       "outgoing": 247,
       "connected": 294,
@@ -641,11 +641,11 @@
       "order": 44
     },
     {
+      "id": "openbible:ACT.4.27",
       "book": "ACT",
       "chapter": 4,
       "verse": 27,
-      "id": "openbible:ACT.4.27",
-      "text": null,
+      "text": "In fact, this is the very city where Herod and Pontius Pilate conspired with the Gentiles and the people of Israel against Your holy servant Jesus, whom You anointed.",
       "incoming": 106,
       "outgoing": 206,
       "connected": 293,
@@ -663,11 +663,11 @@
       "order": 44
     },
     {
+      "id": "openbible:2CH.36.17",
       "book": "2CH",
       "chapter": 36,
       "verse": 17,
-      "id": "openbible:2CH.36.17",
-      "text": null,
+      "text": "So He brought up against them the king of the Chaldeans, who put their young men to the sword in the sanctuary, sparing neither young men nor young women, neither elderly nor infirm. God gave them all into the hand of Nebuchadnezzar,",
       "incoming": 71,
       "outgoing": 220,
       "connected": 281,
@@ -685,11 +685,11 @@
       "order": 14
     },
     {
+      "id": "openbible:JER.29.11",
       "book": "JER",
       "chapter": 29,
       "verse": 11,
-      "id": "openbible:JER.29.11",
-      "text": null,
+      "text": "For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, to give you a future and a hope.",
       "incoming": 23,
       "outgoing": 253,
       "connected": 269,
@@ -707,11 +707,11 @@
       "order": 24
     },
     {
+      "id": "openbible:GEN.42.13",
       "book": "GEN",
       "chapter": 42,
       "verse": 13,
-      "id": "openbible:GEN.42.13",
-      "text": null,
+      "text": "But they answered, “Your servants are twelve brothers, the sons of one man in the land of Canaan. The youngest is now with our father, and one is no more.”",
       "incoming": 11,
       "outgoing": 263,
       "connected": 268,
@@ -729,11 +729,11 @@
       "order": 1
     },
     {
+      "id": "openbible:DAN.9.27",
       "book": "DAN",
       "chapter": 9,
       "verse": 27,
-      "id": "openbible:DAN.9.27",
-      "text": null,
+      "text": "And he will confirm a covenant with many for one week, but in the middle of the week he will put an end to sacrifice and offering. And on the wing of the temple will come the abomination that causes desolation, until the decreed destruction is poured out upon him. ”",
       "incoming": 62,
       "outgoing": 217,
       "connected": 268,
@@ -751,11 +751,11 @@
       "order": 27
     },
     {
+      "id": "openbible:ISA.44.8",
       "book": "ISA",
       "chapter": 44,
       "verse": 8,
-      "id": "openbible:ISA.44.8",
-      "text": null,
+      "text": "Do not tremble or fear. Have I not told you and declared it long ago? You are My witnesses! Is there any God but Me? There is no other Rock; I know not one.”",
       "incoming": 39,
       "outgoing": 235,
       "connected": 266,
@@ -773,11 +773,11 @@
       "order": 23
     },
     {
+      "id": "openbible:MAT.28.20",
       "book": "MAT",
       "chapter": 28,
       "verse": 20,
-      "id": "openbible:MAT.28.20",
-      "text": null,
+      "text": "and teaching them to obey all that I have commanded you. And surely I am with you always, even to the end of the age.”",
       "incoming": 164,
       "outgoing": 118,
       "connected": 263,
@@ -795,11 +795,11 @@
       "order": 40
     },
     {
+      "id": "openbible:EZK.2.3",
       "book": "EZK",
       "chapter": 2,
       "verse": 3,
-      "id": "openbible:EZK.2.3",
-      "text": null,
+      "text": "“Son of man,” He said to me, “I am sending you to the Israelites, to a rebellious nation that has rebelled against Me. To this very day they and their fathers have rebelled against Me.",
       "incoming": 19,
       "outgoing": 242,
       "connected": 259,
@@ -817,11 +817,11 @@
       "order": 26
     },
     {
+      "id": "openbible:ISA.9.6",
       "book": "ISA",
       "chapter": 9,
       "verse": 6,
-      "id": "openbible:ISA.9.6",
-      "text": null,
+      "text": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
       "incoming": 172,
       "outgoing": 110,
       "connected": 251,
@@ -839,11 +839,11 @@
       "order": 23
     },
     {
+      "id": "openbible:JER.28.8",
       "book": "JER",
       "chapter": 28,
       "verse": 8,
-      "id": "openbible:JER.28.8",
-      "text": null,
+      "text": "The prophets of old who preceded you and me prophesied war, disaster, and plague against many lands and great kingdoms.",
       "incoming": 14,
       "outgoing": 235,
       "connected": 249,
@@ -861,11 +861,11 @@
       "order": 24
     },
     {
+      "id": "openbible:JER.30.15",
       "book": "JER",
       "chapter": 30,
       "verse": 15,
-      "id": "openbible:JER.30.15",
-      "text": null,
+      "text": "Why do you cry out over your wound? Your pain has no cure! Because of your great iniquity and your numerous sins I have done these things to you.",
       "incoming": 21,
       "outgoing": 233,
       "connected": 246,
@@ -883,11 +883,11 @@
       "order": 24
     },
     {
+      "id": "openbible:COL.2.16",
       "book": "COL",
       "chapter": 2,
       "verse": 16,
-      "id": "openbible:COL.2.16",
-      "text": null,
+      "text": "Therefore let no one judge you by what you eat or drink, or with regard to a feast, a New Moon, or a Sabbath.",
       "incoming": 28,
       "outgoing": 232,
       "connected": 244,
@@ -905,11 +905,11 @@
       "order": 51
     },
     {
+      "id": "openbible:ISA.11.11",
       "book": "ISA",
       "chapter": 11,
       "verse": 11,
-      "id": "openbible:ISA.11.11",
-      "text": null,
+      "text": "On that day the Lord will extend His hand a second time to recover the remnant of His people from Assyria, from Egypt, from Pathros, from Cush, from Elam, from Shinar, from Hamath, and from the islands of the sea.",
       "incoming": 90,
       "outgoing": 176,
       "connected": 238,
@@ -927,11 +927,11 @@
       "order": 23
     },
     {
+      "id": "openbible:JER.21.2",
       "book": "JER",
       "chapter": 21,
       "verse": 2,
-      "id": "openbible:JER.21.2",
-      "text": null,
+      "text": "“Please inquire of the LORD on our behalf, since Nebuchadnezzar king of Babylon is waging war against us. Perhaps the LORD will perform for us something like all His past wonders, so that Nebuchadnezzar will withdraw from us.”",
       "incoming": 19,
       "outgoing": 223,
       "connected": 236,
@@ -949,11 +949,11 @@
       "order": 24
     },
     {
+      "id": "openbible:HEB.12.2",
       "book": "HEB",
       "chapter": 12,
       "verse": 2,
-      "id": "openbible:HEB.12.2",
-      "text": null,
+      "text": "Let us fix our eyes on Jesus, the author and perfecter of our faith, who for the joy set before Him endured the cross, scorning its shame, and sat down at the right hand of the throne of God.",
       "incoming": 121,
       "outgoing": 136,
       "connected": 232,
@@ -971,11 +971,11 @@
       "order": 58
     },
     {
+      "id": "openbible:EZK.20.36",
       "book": "EZK",
       "chapter": 20,
       "verse": 36,
-      "id": "openbible:EZK.20.36",
-      "text": null,
+      "text": "Just as I entered into judgment with your fathers in the wilderness of the land of Egypt, so I will enter into judgment with you, declares the Lord GOD.",
       "incoming": 12,
       "outgoing": 219,
       "connected": 231,
@@ -993,11 +993,11 @@
       "order": 26
     },
     {
+      "id": "openbible:DAN.9.11",
       "book": "DAN",
       "chapter": 9,
       "verse": 11,
-      "id": "openbible:DAN.9.11",
-      "text": null,
+      "text": "All Israel has transgressed Your law and turned away, refusing to obey Your voice; so the oath and the curse written in the Law of Moses the servant of God has been poured out on us, because we have sinned against You.",
       "incoming": 74,
       "outgoing": 160,
       "connected": 229,
@@ -1015,11 +1015,11 @@
       "order": 27
     },
     {
+      "id": "openbible:HOS.2.14",
       "book": "HOS",
       "chapter": 2,
       "verse": 14,
-      "id": "openbible:HOS.2.14",
-      "text": null,
+      "text": "“Therefore, behold, I will allure her and lead her to the wilderness, and speak to her tenderly.",
       "incoming": 22,
       "outgoing": 213,
       "connected": 229,
@@ -1037,11 +1037,11 @@
       "order": 28
     },
     {
+      "id": "openbible:ACT.24.25",
       "book": "ACT",
       "chapter": 24,
       "verse": 25,
-      "id": "openbible:ACT.24.25",
-      "text": null,
+      "text": "As Paul expounded on righteousness, self-control, and the coming judgment, Felix became frightened and said, “You may go for now. When I find the time, I will call for you.”",
       "incoming": 48,
       "outgoing": 198,
       "connected": 227,
@@ -1059,11 +1059,11 @@
       "order": 44
     },
     {
+      "id": "openbible:ISA.9.7",
       "book": "ISA",
       "chapter": 9,
       "verse": 7,
-      "id": "openbible:ISA.9.7",
-      "text": null,
+      "text": "Of the increase of His government and peace there will be no end. He will reign on the throne of David and over his kingdom, to establish and sustain it with justice and righteousness from that time and forevermore. The zeal of the LORD of Hosts will accomplish this.",
       "incoming": 193,
       "outgoing": 55,
       "connected": 226,
@@ -1081,11 +1081,11 @@
       "order": 23
     },
     {
+      "id": "openbible:ISA.63.7",
       "book": "ISA",
       "chapter": 63,
       "verse": 7,
-      "id": "openbible:ISA.63.7",
-      "text": null,
+      "text": "I will make known the LORD’s loving devotion and His praiseworthy acts, because of all that the LORD has done for us— the many good things for the house of Israel according to His great compassion and loving devotion.",
       "incoming": 42,
       "outgoing": 188,
       "connected": 225,
@@ -1105,11 +1105,11 @@
   ],
   "sourceBooks": [
     {
+      "id": "openbible:2PE.2.3",
       "book": "2PE",
       "chapter": 2,
       "verse": 3,
-      "id": "openbible:2PE.2.3",
-      "text": null,
+      "text": "In their greed, these false teachers will exploit you with deceptive words. The longstanding verdict against them remains in force, and their destruction does not sleep.",
       "incoming": 130,
       "outgoing": 45,
       "connected": 153,
@@ -1127,11 +1127,11 @@
       "order": 61
     },
     {
+      "id": "openbible:ISA.55.7",
       "book": "ISA",
       "chapter": 55,
       "verse": 7,
-      "id": "openbible:ISA.55.7",
-      "text": null,
+      "text": "Let the wicked man forsake his way and the unrighteous man his thoughts; let him return to the LORD, that He may have compassion, and to our God, for He will freely pardon.",
       "incoming": 145,
       "outgoing": 79,
       "connected": 200,
@@ -1149,11 +1149,11 @@
       "order": 23
     },
     {
+      "id": "openbible:MAT.28.20",
       "book": "MAT",
       "chapter": 28,
       "verse": 20,
-      "id": "openbible:MAT.28.20",
-      "text": null,
+      "text": "and teaching them to obey all that I have commanded you. And surely I am with you always, even to the end of the age.”",
       "incoming": 164,
       "outgoing": 118,
       "connected": 263,
@@ -1171,11 +1171,11 @@
       "order": 40
     },
     {
+      "id": "openbible:ISA.9.6",
       "book": "ISA",
       "chapter": 9,
       "verse": 6,
-      "id": "openbible:ISA.9.6",
-      "text": null,
+      "text": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
       "incoming": 172,
       "outgoing": 110,
       "connected": 251,
@@ -1193,11 +1193,11 @@
       "order": 23
     },
     {
+      "id": "openbible:2CO.6.16",
       "book": "2CO",
       "chapter": 6,
       "verse": 16,
-      "id": "openbible:2CO.6.16",
-      "text": null,
+      "text": "What agreement can exist between the temple of God and idols? For we are the temple of the living God. As God has said: “I will dwell with them and walk among them, and I will be their God, and they will be My people.”",
       "incoming": 113,
       "outgoing": 74,
       "connected": 168,
@@ -1215,11 +1215,11 @@
       "order": 47
     },
     {
+      "id": "openbible:TIT.2.14",
       "book": "TIT",
       "chapter": 2,
       "verse": 14,
-      "id": "openbible:TIT.2.14",
-      "text": null,
+      "text": "He gave Himself for us to redeem us from all lawlessness and to purify for Himself a people for His own possession, zealous for good deeds.",
       "incoming": 183,
       "outgoing": 54,
       "connected": 204,
@@ -1237,11 +1237,11 @@
       "order": 56
     },
     {
+      "id": "openbible:REV.21.8",
       "book": "REV",
       "chapter": 21,
       "verse": 8,
-      "id": "openbible:REV.21.8",
-      "text": null,
+      "text": "But to the cowardly and unbelieving and abominable and murderers and sexually immoral and sorcerers and idolaters and all liars, their place will be in the lake that burns with fire and sulfur. This is the second death.”",
       "incoming": 111,
       "outgoing": 48,
       "connected": 141,
@@ -1259,11 +1259,11 @@
       "order": 66
     },
     {
+      "id": "openbible:ISA.9.7",
       "book": "ISA",
       "chapter": 9,
       "verse": 7,
-      "id": "openbible:ISA.9.7",
-      "text": null,
+      "text": "Of the increase of His government and peace there will be no end. He will reign on the throne of David and over his kingdom, to establish and sustain it with justice and righteousness from that time and forevermore. The zeal of the LORD of Hosts will accomplish this.",
       "incoming": 193,
       "outgoing": 55,
       "connected": 226,
@@ -1281,11 +1281,11 @@
       "order": 23
     },
     {
+      "id": "openbible:2TH.2.10",
       "book": "2TH",
       "chapter": 2,
       "verse": 10,
-      "id": "openbible:2TH.2.10",
-      "text": null,
+      "text": "and with every wicked deception directed against those who are perishing, because they refused the love of the truth that would have saved them.",
       "incoming": 143,
       "outgoing": 41,
       "connected": 174,
@@ -1303,11 +1303,11 @@
       "order": 53
     },
     {
+      "id": "openbible:2TH.2.11",
       "book": "2TH",
       "chapter": 2,
       "verse": 11,
-      "id": "openbible:2TH.2.11",
-      "text": null,
+      "text": "For this reason God will send them a powerful delusion so that they believe the lie,",
       "incoming": 131,
       "outgoing": 41,
       "connected": 159,
@@ -1325,11 +1325,11 @@
       "order": 53
     },
     {
+      "id": "openbible:1PE.2.9",
       "book": "1PE",
       "chapter": 2,
       "verse": 9,
-      "id": "openbible:1PE.2.9",
-      "text": null,
+      "text": "But you are a chosen people, a royal priesthood, a holy nation, a people for God’s own possession, to proclaim the virtues of Him who called you out of darkness into His marvelous light.",
       "incoming": 181,
       "outgoing": 57,
       "connected": 205,
@@ -1347,11 +1347,11 @@
       "order": 60
     },
     {
+      "id": "openbible:ROM.2.7",
       "book": "ROM",
       "chapter": 2,
       "verse": 7,
-      "id": "openbible:ROM.2.7",
-      "text": null,
+      "text": "To those who by perseverance in doing good seek glory, honor, and immortality, He will give eternal life.",
       "incoming": 105,
       "outgoing": 44,
       "connected": 133,
@@ -1369,11 +1369,11 @@
       "order": 45
     },
     {
+      "id": "openbible:2PE.2.1",
       "book": "2PE",
       "chapter": 2,
       "verse": 1,
-      "id": "openbible:2PE.2.1",
-      "text": null,
+      "text": "Now there were also false prophets among the people, just as there will be false teachers among you. They will secretly introduce destructive heresies, even denying the Master who bought them—bringing swift destruction on themselves.",
       "incoming": 103,
       "outgoing": 133,
       "connected": 195,
@@ -1391,11 +1391,11 @@
       "order": 61
     },
     {
+      "id": "openbible:ROM.8.31",
       "book": "ROM",
       "chapter": 8,
       "verse": 31,
-      "id": "openbible:ROM.8.31",
-      "text": null,
+      "text": "What then shall we say in response to these things? If God is for us, who can be against us?",
       "incoming": 116,
       "outgoing": 32,
       "connected": 136,
@@ -1413,11 +1413,11 @@
       "order": 45
     },
     {
+      "id": "openbible:HEB.6.18",
       "book": "HEB",
       "chapter": 6,
       "verse": 18,
-      "id": "openbible:HEB.6.18",
-      "text": null,
+      "text": "Thus by two unchangeable things in which it is impossible for God to lie, we who have fled to take hold of the hope set before us may be strongly encouraged.",
       "incoming": 119,
       "outgoing": 58,
       "connected": 162,
@@ -1435,11 +1435,11 @@
       "order": 58
     },
     {
+      "id": "openbible:MAT.25.40",
       "book": "MAT",
       "chapter": 25,
       "verse": 40,
-      "id": "openbible:MAT.25.40",
-      "text": null,
+      "text": "And the King will reply, ‘Truly I tell you, whatever you did for one of the least of these brothers of Mine, you did for Me.’",
       "incoming": 123,
       "outgoing": 60,
       "connected": 162,
@@ -1457,11 +1457,11 @@
       "order": 40
     },
     {
+      "id": "openbible:2CO.6.17",
       "book": "2CO",
       "chapter": 6,
       "verse": 17,
-      "id": "openbible:2CO.6.17",
-      "text": null,
+      "text": "“Therefore come out from among them and be separate, says the Lord. Touch no unclean thing, and I will receive you.”",
       "incoming": 96,
       "outgoing": 17,
       "connected": 104,
@@ -1479,11 +1479,11 @@
       "order": 47
     },
     {
+      "id": "openbible:2CO.11.13",
       "book": "2CO",
       "chapter": 11,
       "verse": 13,
-      "id": "openbible:2CO.11.13",
-      "text": null,
+      "text": "For such men are false apostles, deceitful workers, masquerading as apostles of Christ.",
       "incoming": 79,
       "outgoing": 55,
       "connected": 117,
@@ -1501,11 +1501,11 @@
       "order": 47
     },
     {
+      "id": "openbible:1PE.5.5",
       "book": "1PE",
       "chapter": 5,
       "verse": 5,
-      "id": "openbible:1PE.5.5",
-      "text": null,
+      "text": "Young men, in the same way, submit yourselves to your elders. And all of you, clothe yourselves with humility toward one another, because, “God opposes the proud, but gives grace to the humble.”",
       "incoming": 101,
       "outgoing": 21,
       "connected": 113,
@@ -1523,11 +1523,11 @@
       "order": 60
     },
     {
+      "id": "openbible:1JN.1.9",
       "book": "1JN",
       "chapter": 1,
       "verse": 9,
-      "id": "openbible:1JN.1.9",
-      "text": null,
+      "text": "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
       "incoming": 96,
       "outgoing": 90,
       "connected": 168,
@@ -1545,11 +1545,11 @@
       "order": 62
     },
     {
+      "id": "openbible:REV.19.20",
       "book": "REV",
       "chapter": 19,
       "verse": 20,
-      "id": "openbible:REV.19.20",
-      "text": null,
+      "text": "But the beast was captured along with the false prophet, who on its behalf had performed signs deceiving those who had the mark of the beast and worshiped its image. Both the beast and the false prophet were thrown alive into the fiery lake of burning sulfur.",
       "incoming": 160,
       "outgoing": 67,
       "connected": 204,
@@ -1567,11 +1567,11 @@
       "order": 66
     },
     {
+      "id": "openbible:ISA.41.10",
       "book": "ISA",
       "chapter": 41,
       "verse": 10,
-      "id": "openbible:ISA.41.10",
-      "text": null,
+      "text": "Do not fear, for I am with you; do not be afraid, for I am your God. I will strengthen you; I will surely help you; I will uphold you with My righteous right hand.",
       "incoming": 131,
       "outgoing": 58,
       "connected": 173,
@@ -1589,11 +1589,11 @@
       "order": 23
     },
     {
+      "id": "openbible:MIC.7.18",
       "book": "MIC",
       "chapter": 7,
       "verse": 18,
-      "id": "openbible:MIC.7.18",
-      "text": null,
+      "text": "Who is a God like You, who pardons iniquity and passes over the transgression of the remnant of His inheritance— who does not retain His anger forever, because He delights in loving devotion?",
       "incoming": 113,
       "outgoing": 88,
       "connected": 172,
@@ -1611,11 +1611,11 @@
       "order": 33
     },
     {
+      "id": "openbible:2CO.4.6",
       "book": "2CO",
       "chapter": 4,
       "verse": 6,
-      "id": "openbible:2CO.4.6",
-      "text": null,
+      "text": "For God, who said, “Let light shine out of darkness,” made His light shine in our hearts to give us the light of the knowledge of the glory of God in the face of Jesus Christ.",
       "incoming": 128,
       "outgoing": 43,
       "connected": 153,
@@ -1633,11 +1633,11 @@
       "order": 47
     },
     {
+      "id": "openbible:2CO.5.20",
       "book": "2CO",
       "chapter": 5,
       "verse": 20,
-      "id": "openbible:2CO.5.20",
-      "text": null,
+      "text": "Therefore we are ambassadors for Christ, as though God were making His appeal through us. We implore you on behalf of Christ: Be reconciled to God.",
       "incoming": 96,
       "outgoing": 41,
       "connected": 125,

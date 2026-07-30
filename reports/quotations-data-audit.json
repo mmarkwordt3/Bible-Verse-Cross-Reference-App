@@ -10,30 +10,38 @@
     "sourceLastModified": null,
     "license": "CC BY-SA 4.0",
     "sourceGroups": 2193,
-    "directionalGroups": 249,
+    "mixedOtNtGroups": 249,
     "quotationEvents": 422,
+    "distinctNtTargetPassages": 340,
+    "distinctNtTargetVerses": 364,
+    "distinctNtTargetBooks": 18,
+    "sourcePassagesWithText": 260,
+    "sourcePassagesPartialText": 0,
+    "sourcePassagesMissingText": 2,
+    "ntOccurrencesMissingText": 1,
+    "bsbVerses": 31086,
     "rankedSourcePassages": 262,
-    "rankedSourceVerses": 282,
-    "rankedTargetVerses": 365,
-    "sourceBookCount": 24,
+    "rankedSourceVerses": 280,
+    "rankedTargetVerses": 364,
+    "representedSourceBooks": 24,
     "sourceBooks": [
-      "LEV",
       "PSA",
+      "JER",
+      "JOL",
+      "LEV",
       "EXO",
       "DEU",
-      "GEN",
       "ISA",
+      "GEN",
       "DAN",
-      "JER",
       "HAB",
       "MAL",
       "2SA",
-      "NEH",
       "PRO",
-      "HOS",
-      "JOL",
       "MIC",
       "ZEC",
+      "NEH",
+      "HOS",
       "NUM",
       "1SA",
       "1KI",
@@ -110,99 +118,9 @@
     "directionlessGroups": 0,
     "invalidGroups": 10,
     "invalidPassages": 10,
-    "coveredBooks": 24,
-    "unionRegistryVerses": 262,
     "fallbackUsed": false
   },
-  "top": [
-    {
-      "bookId": "LEV",
-      "startChapter": 19,
-      "startVerse": 18,
-      "endChapter": 19,
-      "endVerse": 18,
-      "originalReference": "LEV 19:18",
-      "match": {
-        "none": 18,
-        "partial": 0,
-        "full": 6,
-        "total": 24
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "000000000000000222222000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:LEV.19.18"
-      ],
-      "id": "quotations:LEV.19.18-19.18",
-      "events": [
-        "quotation-event:583e87c203ff036e",
-        "quotation-event:8fb2a8f1a8e6801b",
-        "quotation-event:a1b20f4014ad5165",
-        "quotation-event:0bd040ed677450d8",
-        "quotation-event:b2bc85fa45794c64",
-        "quotation-event:10873c4d1137ac03",
-        "quotation-event:89e481bf2fe75e0d",
-        "quotation-event:af664c6e0fad8580",
-        "quotation-event:38604b28ab318b3c"
-      ],
-      "targetPassages": [
-        "MAT 5:43",
-        "MAT 19:19",
-        "MAT 22:39",
-        "MRK 12:31",
-        "MRK 12:33",
-        "LUK 10:27",
-        "ROM 13:9",
-        "GAL 5:14",
-        "JAS 2:8"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK",
-        "ROM",
-        "GAL",
-        "JAS"
-      ],
-      "targetVerses": [
-        "quotations:MAT.5.43",
-        "quotations:MAT.19.19",
-        "quotations:MAT.22.39",
-        "quotations:MRK.12.31",
-        "quotations:MRK.12.33",
-        "quotations:LUK.10.27",
-        "quotations:ROM.13.9",
-        "quotations:GAL.5.14",
-        "quotations:JAS.2.8"
-      ],
-      "groups": [
-        "ubs-320-069426811932"
-      ],
-      "full": 54,
-      "partial": 0,
-      "reuseEvents": 9,
-      "distinctNtPassages": 9,
-      "distinctNtBooks": 6,
-      "distinctNtVerses": 9,
-      "groupCount": 1,
-      "fullMatchWords": 54,
-      "partialMatchWords": 0,
-      "rank": 1,
-      "slug": "LEV",
-      "modern": "Leviticus",
-      "historical": "Leviticus",
-      "testament": "Old",
-      "order": 3,
-      "chapter": 19,
-      "verse": 18,
-      "text": null,
-      "incoming": 9,
-      "outgoing": 9,
-      "sourceBooks": 6,
-      "connected": 9,
-      "deuterocanonical": false
-    },
+  "topByGroups": [
     {
       "bookId": "PSA",
       "startChapter": 110,
@@ -222,6 +140,8 @@
       "verseIds": [
         "quotations:PSA.110.1"
       ],
+      "text": "The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”",
+      "textComplete": true,
       "id": "quotations:PSA.110.1-110.1",
       "events": [
         "quotation-event:c3e9b6ecdb3eb02e",
@@ -267,16 +187,20 @@
         "ubs-1250-77185a2983bf",
         "ubs-1251-68cbfe2696e9"
       ],
-      "full": 116,
-      "partial": 6,
-      "reuseEvents": 8,
-      "distinctNtPassages": 8,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 11,
-      "groupCount": 2,
-      "fullMatchWords": 116,
-      "partialMatchWords": 6,
-      "rank": 2,
+      "full": 24,
+      "partial": 2,
+      "maximumTargetOverlap": 84.61538461538461,
+      "highestOverlapTarget": "LUK 20:42-43",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 8,
+      "distinctNtPassageCount": 8,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 11,
+      "fullMatchWordCount": 24,
+      "partialMatchWordCount": 2,
+      "meanVerbalOverlap": 54.34782608695652,
+      "maximumVerbalOverlap": 84.61538461538461,
+      "rank": 1,
       "slug": "PSA",
       "modern": "Psalms",
       "historical": "Psalms",
@@ -284,88 +208,311 @@
       "order": 19,
       "chapter": 110,
       "verse": 1,
-      "text": null,
-      "incoming": 8,
+      "incoming": 2,
       "outgoing": 8,
       "sourceBooks": 5,
       "connected": 8,
       "deuterocanonical": false
     },
     {
-      "bookId": "EXO",
-      "startChapter": 20,
-      "startVerse": 12,
-      "endChapter": 20,
-      "endVerse": 12,
-      "originalReference": "EXO 20:12",
+      "bookId": "JER",
+      "startChapter": 31,
+      "startVerse": 34,
+      "endChapter": 31,
+      "endVerse": 34,
+      "originalReference": "JER 31:34",
       "match": {
-        "none": 20,
+        "none": 2,
         "partial": 0,
-        "full": 7,
-        "total": 27
+        "full": 40,
+        "total": 42
       },
       "sourceAttribute": "HEB",
-      "annotation": "222222200000000000000000000",
+      "annotation": "222222225222225222222520022252222252222222",
       "sourceOrder": 0,
       "verseIds": [
-        "quotations:EXO.20.12"
+        "quotations:JER.31.34"
       ],
-      "id": "quotations:EXO.20.12-20.12",
+      "text": "No longer will each man teach his neighbor or his brother, saying, ‘Know the LORD,’ because they will all know Me, from the least of them to the greatest, declares the LORD. For I will forgive their iniquities and will remember their sins no more.”",
+      "textComplete": true,
+      "id": "quotations:JER.31.34-31.34",
       "events": [
-        "quotation-event:a649c11ad248b18c",
-        "quotation-event:d0fef5c8585590df",
-        "quotation-event:faed5cb9c2e7ee97",
-        "quotation-event:c481fa2f9972fc4a",
-        "quotation-event:6e5d9a95647c89da",
-        "quotation-event:5d8f1c032425e7c6"
+        "quotation-event:7c143672c02cb9eb",
+        "quotation-event:8c2bf164bd771fe5",
+        "quotation-event:f0724d2cec9182c4"
       ],
       "targetPassages": [
-        "MAT 15:4",
+        "HEB 8:11-12",
+        "HEB 10:17"
+      ],
+      "targetBooks": [
+        "HEB"
+      ],
+      "targetVerses": [
+        "quotations:HEB.8.11",
+        "quotations:HEB.8.12",
+        "quotations:HEB.10.17"
+      ],
+      "groups": [
+        "ubs-1378-03878d50f529",
+        "ubs-1379-dbe917600100"
+      ],
+      "full": 48,
+      "partial": 3,
+      "maximumTargetOverlap": 100,
+      "highestOverlapTarget": "HEB 8:11-12",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 1,
+      "distinctNtVerseCount": 3,
+      "fullMatchWordCount": 48,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 58.92857142857142,
+      "maximumVerbalOverlap": 100,
+      "rank": 1,
+      "slug": "JER",
+      "modern": "Jeremiah",
+      "historical": "Jeremiah",
+      "testament": "Old",
+      "order": 24,
+      "chapter": 31,
+      "verse": 34,
+      "incoming": 2,
+      "outgoing": 3,
+      "sourceBooks": 1,
+      "connected": 2,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "PSA",
+      "startChapter": 69,
+      "startVerse": 10,
+      "endChapter": 69,
+      "endVerse": 10,
+      "originalReference": "PSA 69:10",
+      "match": {
+        "none": 10,
+        "partial": 0,
+        "full": 7,
+        "total": 17
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "02222222000000000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:PSA.69.10"
+      ],
+      "text": "I wept and fasted, but it brought me reproach.",
+      "textComplete": true,
+      "id": "quotations:PSA.69.10-69.10",
+      "events": [
+        "quotation-event:a929f3890a67bcb0",
+        "quotation-event:15398ff0e4bc7cc3"
+      ],
+      "targetPassages": [
+        "JHN 2:17",
+        "ROM 15:3"
+      ],
+      "targetBooks": [
+        "JHN",
+        "ROM"
+      ],
+      "targetVerses": [
+        "quotations:JHN.2.17",
+        "quotations:ROM.15.3"
+      ],
+      "groups": [
+        "ubs-1228-5d2d1952b48e",
+        "ubs-1229-5c28c9be22d7"
+      ],
+      "full": 15,
+      "partial": 0,
+      "maximumTargetOverlap": 50,
+      "highestOverlapTarget": "JHN 2:17",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "distinctNtVerseCount": 2,
+      "fullMatchWordCount": 15,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 44.11764705882352,
+      "maximumVerbalOverlap": 50,
+      "rank": 1,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
+      "testament": "Old",
+      "order": 19,
+      "chapter": 69,
+      "verse": 10,
+      "incoming": 2,
+      "outgoing": 2,
+      "sourceBooks": 2,
+      "connected": 2,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "JOL",
+      "startChapter": 3,
+      "startVerse": 5,
+      "endChapter": 3,
+      "endVerse": 5,
+      "originalReference": "JOL 3:5",
+      "match": {
+        "none": 18,
+        "partial": 0,
+        "full": 10,
+        "total": 28
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "2222222222300000000030000000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:JOL.3.5"
+      ],
+      "text": "For you took My silver and gold and carried off My finest treasures to your temples.",
+      "textComplete": true,
+      "id": "quotations:JOL.3.5-3.5",
+      "events": [
+        "quotation-event:9d2bbb5282d5bce2",
+        "quotation-event:584875e7b66a9215"
+      ],
+      "targetPassages": [
+        "ACT 2:21",
+        "ROM 10:13"
+      ],
+      "targetBooks": [
+        "ACT",
+        "ROM"
+      ],
+      "targetVerses": [
+        "quotations:ACT.2.21",
+        "quotations:ROM.10.13"
+      ],
+      "groups": [
+        "ubs-1413-d04d5ecc1212",
+        "ubs-1414-e422a4a5921e"
+      ],
+      "full": 18,
+      "partial": 0,
+      "maximumTargetOverlap": 100,
+      "highestOverlapTarget": "ACT 2:21",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "distinctNtVerseCount": 2,
+      "fullMatchWordCount": 18,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 32.14285714285714,
+      "maximumVerbalOverlap": 100,
+      "rank": 1,
+      "slug": "JOL",
+      "modern": "Joel",
+      "historical": "Joel",
+      "testament": "Old",
+      "order": 29,
+      "chapter": 3,
+      "verse": 5,
+      "incoming": 2,
+      "outgoing": 2,
+      "sourceBooks": 2,
+      "connected": 2,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "LEV",
+      "startChapter": 19,
+      "startVerse": 18,
+      "endChapter": 19,
+      "endVerse": 18,
+      "originalReference": "LEV 19:18",
+      "match": {
+        "none": 18,
+        "partial": 0,
+        "full": 6,
+        "total": 24
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "000000000000000222222000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:LEV.19.18"
+      ],
+      "text": "Do not seek revenge or bear a grudge against any of your people, but love your neighbor as yourself. I am the LORD.",
+      "textComplete": true,
+      "id": "quotations:LEV.19.18-19.18",
+      "events": [
+        "quotation-event:583e87c203ff036e",
+        "quotation-event:8fb2a8f1a8e6801b",
+        "quotation-event:a1b20f4014ad5165",
+        "quotation-event:0bd040ed677450d8",
+        "quotation-event:b2bc85fa45794c64",
+        "quotation-event:10873c4d1137ac03",
+        "quotation-event:89e481bf2fe75e0d",
+        "quotation-event:af664c6e0fad8580",
+        "quotation-event:38604b28ab318b3c"
+      ],
+      "targetPassages": [
+        "MAT 5:43",
         "MAT 19:19",
-        "MRK 7:10",
-        "MRK 10:19",
-        "LUK 18:20",
-        "EPH 6:2"
+        "MAT 22:39",
+        "MRK 12:31",
+        "MRK 12:33",
+        "LUK 10:27",
+        "ROM 13:9",
+        "GAL 5:14",
+        "JAS 2:8"
       ],
       "targetBooks": [
         "MAT",
         "MRK",
         "LUK",
-        "EPH"
+        "ROM",
+        "GAL",
+        "JAS"
       ],
       "targetVerses": [
-        "quotations:MAT.15.4",
+        "quotations:MAT.5.43",
         "quotations:MAT.19.19",
-        "quotations:MRK.7.10",
-        "quotations:MRK.10.19",
-        "quotations:LUK.18.20",
-        "quotations:EPH.6.2"
+        "quotations:MAT.22.39",
+        "quotations:MRK.12.31",
+        "quotations:MRK.12.33",
+        "quotations:LUK.10.27",
+        "quotations:ROM.13.9",
+        "quotations:GAL.5.14",
+        "quotations:JAS.2.8"
       ],
       "groups": [
-        "ubs-115-7c3b271c22fc"
+        "ubs-320-069426811932"
       ],
-      "full": 42,
+      "full": 6,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 42,
-      "partialMatchWords": 0,
-      "rank": 3,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
+      "maximumTargetOverlap": 60,
+      "highestOverlapTarget": "MAT 22:39",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 9,
+      "distinctNtPassageCount": 9,
+      "distinctNtBookCount": 6,
+      "distinctNtVerseCount": 9,
+      "fullMatchWordCount": 6,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 25,
+      "maximumVerbalOverlap": 60,
+      "rank": 5,
+      "slug": "LEV",
+      "modern": "Leviticus",
+      "historical": "Leviticus",
       "testament": "Old",
-      "order": 2,
-      "chapter": 20,
-      "verse": 12,
-      "text": null,
-      "incoming": 6,
-      "outgoing": 6,
-      "sourceBooks": 4,
-      "connected": 6,
+      "order": 3,
+      "chapter": 19,
+      "verse": 18,
+      "incoming": 1,
+      "outgoing": 9,
+      "sourceBooks": 6,
+      "connected": 9,
       "deuterocanonical": false
     },
     {
@@ -387,6 +534,8 @@
       "verseIds": [
         "quotations:EXO.20.13"
       ],
+      "text": "You shall not murder.",
+      "textComplete": true,
       "id": "quotations:EXO.20.13-20.13",
       "events": [
         "quotation-event:e5e83bf9f90908d3",
@@ -422,16 +571,20 @@
       "groups": [
         "ubs-117-c6bfc9392bdc"
       ],
-      "full": 12,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 13.333333333333334,
+      "highestOverlapTarget": "MAT 5:21",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 13.333333333333334,
+      "rank": 5,
       "slug": "EXO",
       "modern": "Exodus",
       "historical": "Exodus",
@@ -439,8 +592,7 @@
       "order": 2,
       "chapter": 20,
       "verse": 13,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 5,
       "connected": 6,
@@ -465,6 +617,8 @@
       "verseIds": [
         "quotations:EXO.20.14"
       ],
+      "text": "You shall not commit adultery.",
+      "textComplete": true,
       "id": "quotations:EXO.20.14-20.14",
       "events": [
         "quotation-event:6c47991dcbd1fa88",
@@ -500,16 +654,20 @@
       "groups": [
         "ubs-119-a31116ce900e"
       ],
-      "full": 12,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 40,
+      "highestOverlapTarget": "MAT 5:27",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 40,
+      "rank": 5,
       "slug": "EXO",
       "modern": "Exodus",
       "historical": "Exodus",
@@ -517,87 +675,9 @@
       "order": 2,
       "chapter": 20,
       "verse": 14,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 5,
-      "connected": 6,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 5,
-      "startVerse": 16,
-      "endChapter": 5,
-      "endVerse": 16,
-      "originalReference": "DEU 5:16",
-      "match": {
-        "none": 26,
-        "partial": 1,
-        "full": 7,
-        "total": 34
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "2222222100000000000000000000000000",
-      "sourceOrder": 1,
-      "verseIds": [
-        "quotations:DEU.5.16"
-      ],
-      "id": "quotations:DEU.5.16-5.16",
-      "events": [
-        "quotation-event:8ca91f7ec0edbd22",
-        "quotation-event:a2fb4a7f3eeeaca3",
-        "quotation-event:747a0a80de818648",
-        "quotation-event:001b2f5222099e99",
-        "quotation-event:fc8a251c13d87dd1",
-        "quotation-event:592192ecca86c3dc"
-      ],
-      "targetPassages": [
-        "MAT 15:4",
-        "MAT 19:19",
-        "MRK 7:10",
-        "MRK 10:19",
-        "LUK 18:20",
-        "EPH 6:2"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK",
-        "EPH"
-      ],
-      "targetVerses": [
-        "quotations:MAT.15.4",
-        "quotations:MAT.19.19",
-        "quotations:MRK.7.10",
-        "quotations:MRK.10.19",
-        "quotations:LUK.18.20",
-        "quotations:EPH.6.2"
-      ],
-      "groups": [
-        "ubs-115-7c3b271c22fc"
-      ],
-      "full": 42,
-      "partial": 6,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 42,
-      "partialMatchWords": 6,
-      "rank": 3,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 5,
-      "verse": 16,
-      "text": null,
-      "incoming": 6,
-      "outgoing": 6,
-      "sourceBooks": 4,
       "connected": 6,
       "deuterocanonical": false
     },
@@ -620,6 +700,8 @@
       "verseIds": [
         "quotations:DEU.5.17"
       ],
+      "text": "You shall not murder.",
+      "textComplete": true,
       "id": "quotations:DEU.5.17-5.17",
       "events": [
         "quotation-event:0817c83eb8a63077",
@@ -655,16 +737,20 @@
       "groups": [
         "ubs-117-c6bfc9392bdc"
       ],
-      "full": 12,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 13.333333333333334,
+      "highestOverlapTarget": "MAT 5:21",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 13.333333333333334,
+      "rank": 5,
       "slug": "DEU",
       "modern": "Deuteronomy",
       "historical": "Deuteronomy",
@@ -672,8 +758,7 @@
       "order": 5,
       "chapter": 5,
       "verse": 17,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 5,
       "connected": 6,
@@ -698,6 +783,8 @@
       "verseIds": [
         "quotations:DEU.5.18"
       ],
+      "text": "You shall not commit adultery.",
+      "textComplete": true,
       "id": "quotations:DEU.5.18-5.18",
       "events": [
         "quotation-event:69e97926ff60bb18",
@@ -733,16 +820,20 @@
       "groups": [
         "ubs-119-a31116ce900e"
       ],
-      "full": 12,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 40,
+      "highestOverlapTarget": "MAT 5:27",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 40,
+      "rank": 5,
       "slug": "DEU",
       "modern": "Deuteronomy",
       "historical": "Deuteronomy",
@@ -750,84 +841,9 @@
       "order": 5,
       "chapter": 5,
       "verse": 18,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 5,
-      "connected": 6,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "PSA",
-      "startChapter": 110,
-      "startVerse": 4,
-      "endChapter": 110,
-      "endVerse": 4,
-      "originalReference": "PSA 110:4",
-      "match": {
-        "none": 1,
-        "partial": 0,
-        "full": 14,
-        "total": 15
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "222222022222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:PSA.110.4"
-      ],
-      "id": "quotations:PSA.110.4-110.4",
-      "events": [
-        "quotation-event:f4743b61c4ccd423",
-        "quotation-event:e3614d301b88b773",
-        "quotation-event:65a785a2c563e2c4",
-        "quotation-event:4a8e1422ac95705e",
-        "quotation-event:d9739bfe589069cc",
-        "quotation-event:68988268833af74c"
-      ],
-      "targetPassages": [
-        "HEB 5:6",
-        "HEB 5:10",
-        "HEB 6:20",
-        "HEB 7:11",
-        "HEB 7:17",
-        "HEB 7:21"
-      ],
-      "targetBooks": [
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:HEB.5.6",
-        "quotations:HEB.5.10",
-        "quotations:HEB.6.20",
-        "quotations:HEB.7.11",
-        "quotations:HEB.7.17",
-        "quotations:HEB.7.21"
-      ],
-      "groups": [
-        "ubs-1252-6d14fb3eeb7c"
-      ],
-      "full": 84,
-      "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 84,
-      "partialMatchWords": 0,
-      "rank": 3,
-      "slug": "PSA",
-      "modern": "Psalms",
-      "historical": "Psalms",
-      "testament": "Old",
-      "order": 19,
-      "chapter": 110,
-      "verse": 4,
-      "text": null,
-      "incoming": 6,
-      "outgoing": 6,
-      "sourceBooks": 1,
       "connected": 6,
       "deuterocanonical": false
     },
@@ -851,6 +867,8 @@
         "quotations:PSA.118.22",
         "quotations:PSA.118.23"
       ],
+      "text": "The stone the builders rejected has become the cornerstone. This is from the LORD, and it is marvelous in our eyes.",
+      "textComplete": true,
       "id": "quotations:PSA.118.22-118.23",
       "events": [
         "quotation-event:cafd312dd3c798ee",
@@ -887,16 +905,20 @@
       "groups": [
         "ubs-1262-b902e2310229"
       ],
-      "full": 120,
+      "full": 20,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 7,
-      "groupCount": 1,
-      "fullMatchWords": 120,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 80,
+      "highestOverlapTarget": "MRK 12:10-11",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 7,
+      "fullMatchWordCount": 20,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 80,
+      "rank": 5,
       "slug": "PSA",
       "modern": "Psalms",
       "historical": "Psalms",
@@ -904,10 +926,173 @@
       "order": 19,
       "chapter": 118,
       "verse": 22,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 12,
+      "endChapter": 20,
+      "endVerse": 12,
+      "originalReference": "EXO 20:12",
+      "match": {
+        "none": 20,
+        "partial": 0,
+        "full": 7,
+        "total": 27
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "222222200000000000000000000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.12"
+      ],
+      "text": "Honor your father and mother, so that your days may be long in the land that the LORD your God is giving you.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.12-20.12",
+      "events": [
+        "quotation-event:a649c11ad248b18c",
+        "quotation-event:d0fef5c8585590df",
+        "quotation-event:faed5cb9c2e7ee97",
+        "quotation-event:c481fa2f9972fc4a",
+        "quotation-event:6e5d9a95647c89da",
+        "quotation-event:5d8f1c032425e7c6"
+      ],
+      "targetPassages": [
+        "MAT 15:4",
+        "MAT 19:19",
+        "MRK 7:10",
+        "MRK 10:19",
+        "LUK 18:20",
+        "EPH 6:2"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "targetVerses": [
+        "quotations:MAT.15.4",
+        "quotations:MAT.19.19",
+        "quotations:MRK.7.10",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:EPH.6.2"
+      ],
+      "groups": [
+        "ubs-115-7c3b271c22fc"
+      ],
+      "full": 7,
+      "partial": 0,
+      "maximumTargetOverlap": 53.84615384615385,
+      "highestOverlapTarget": "EPH 6:2",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 7,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 25.925925925925924,
+      "maximumVerbalOverlap": 53.84615384615385,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 12,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 4,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 5,
+      "startVerse": 16,
+      "endChapter": 5,
+      "endVerse": 16,
+      "originalReference": "DEU 5:16",
+      "match": {
+        "none": 26,
+        "partial": 1,
+        "full": 7,
+        "total": 34
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "2222222100000000000000000000000000",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:DEU.5.16"
+      ],
+      "text": "Honor your father and your mother, as the LORD your God has commanded you, so that your days may be long and that it may go well with you in the land that the LORD your God is giving you.",
+      "textComplete": true,
+      "id": "quotations:DEU.5.16-5.16",
+      "events": [
+        "quotation-event:8ca91f7ec0edbd22",
+        "quotation-event:a2fb4a7f3eeeaca3",
+        "quotation-event:747a0a80de818648",
+        "quotation-event:001b2f5222099e99",
+        "quotation-event:fc8a251c13d87dd1",
+        "quotation-event:592192ecca86c3dc"
+      ],
+      "targetPassages": [
+        "MAT 15:4",
+        "MAT 19:19",
+        "MRK 7:10",
+        "MRK 10:19",
+        "LUK 18:20",
+        "EPH 6:2"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "targetVerses": [
+        "quotations:MAT.15.4",
+        "quotations:MAT.19.19",
+        "quotations:MRK.7.10",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:EPH.6.2"
+      ],
+      "groups": [
+        "ubs-115-7c3b271c22fc"
+      ],
+      "full": 7,
+      "partial": 1,
+      "maximumTargetOverlap": 53.84615384615385,
+      "highestOverlapTarget": "EPH 6:2",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 7,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 22.058823529411764,
+      "maximumVerbalOverlap": 53.84615384615385,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 5,
+      "verse": 16,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 4,
       "connected": 6,
       "deuterocanonical": false
     },
@@ -930,6 +1115,8 @@
       "verseIds": [
         "quotations:PSA.118.26"
       ],
+      "text": "Blessed is he who comes in the name of the LORD. From the house of the LORD we bless you.",
+      "textComplete": true,
       "id": "quotations:PSA.118.26-118.26",
       "events": [
         "quotation-event:13e82df87cbb87e1",
@@ -964,16 +1151,20 @@
       "groups": [
         "ubs-1263-2a36ca72f172"
       ],
-      "full": 36,
+      "full": 6,
       "partial": 0,
-      "reuseEvents": 6,
-      "distinctNtPassages": 6,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 36,
-      "partialMatchWords": 0,
-      "rank": 3,
+      "maximumTargetOverlap": 42.857142857142854,
+      "highestOverlapTarget": "MRK 11:9",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 6,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 54.54545454545454,
+      "maximumVerbalOverlap": 42.857142857142854,
+      "rank": 5,
       "slug": "PSA",
       "modern": "Psalms",
       "historical": "Psalms",
@@ -981,232 +1172,89 @@
       "order": 19,
       "chapter": 118,
       "verse": 26,
-      "text": null,
-      "incoming": 6,
+      "incoming": 1,
       "outgoing": 6,
       "sourceBooks": 4,
       "connected": 6,
       "deuterocanonical": false
     },
     {
-      "bookId": "GEN",
-      "startChapter": 15,
-      "startVerse": 6,
-      "endChapter": 15,
-      "endVerse": 6,
-      "originalReference": "GEN 15:6",
+      "bookId": "PSA",
+      "startChapter": 110,
+      "startVerse": 4,
+      "endChapter": 110,
+      "endVerse": 4,
+      "originalReference": "PSA 110:4",
       "match": {
-        "none": 0,
-        "partial": 1,
-        "full": 9,
-        "total": 10
+        "none": 1,
+        "partial": 0,
+        "full": 14,
+        "total": 15
       },
       "sourceAttribute": "HEB",
-      "annotation": "1222222222",
+      "annotation": "222222022222222",
       "sourceOrder": 0,
       "verseIds": [
-        "quotations:GEN.15.6"
+        "quotations:PSA.110.4"
       ],
-      "id": "quotations:GEN.15.6-15.6",
+      "text": "The LORD has sworn and will not change His mind: “You are a priest forever in the order of Melchizedek.”",
+      "textComplete": true,
+      "id": "quotations:PSA.110.4-110.4",
       "events": [
-        "quotation-event:992dcf38904e285c",
-        "quotation-event:070a4fc55bdac3c5",
-        "quotation-event:2a057380cf683f64",
-        "quotation-event:2d218259033f3d78",
-        "quotation-event:149474f9abee93b0"
+        "quotation-event:f4743b61c4ccd423",
+        "quotation-event:e3614d301b88b773",
+        "quotation-event:65a785a2c563e2c4",
+        "quotation-event:4a8e1422ac95705e",
+        "quotation-event:d9739bfe589069cc",
+        "quotation-event:68988268833af74c"
       ],
       "targetPassages": [
-        "ROM 4:3",
-        "ROM 4:9",
-        "ROM 4:22",
-        "GAL 3:6",
-        "JAS 2:23"
+        "HEB 5:6",
+        "HEB 5:10",
+        "HEB 6:20",
+        "HEB 7:11",
+        "HEB 7:17",
+        "HEB 7:21"
       ],
       "targetBooks": [
-        "ROM",
-        "GAL",
-        "JAS"
+        "HEB"
       ],
       "targetVerses": [
-        "quotations:ROM.4.3",
-        "quotations:ROM.4.9",
-        "quotations:ROM.4.22",
-        "quotations:GAL.3.6",
-        "quotations:JAS.2.23"
+        "quotations:HEB.5.6",
+        "quotations:HEB.5.10",
+        "quotations:HEB.6.20",
+        "quotations:HEB.7.11",
+        "quotations:HEB.7.17",
+        "quotations:HEB.7.21"
       ],
       "groups": [
-        "ubs-34-8ee843973459"
+        "ubs-1252-6d14fb3eeb7c"
       ],
-      "full": 45,
-      "partial": 5,
-      "reuseEvents": 5,
-      "distinctNtPassages": 5,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 5,
-      "groupCount": 1,
-      "fullMatchWords": 45,
-      "partialMatchWords": 5,
-      "rank": 12,
-      "slug": "GEN",
-      "modern": "Genesis",
-      "historical": "Genesis",
+      "full": 14,
+      "partial": 0,
+      "maximumTargetOverlap": 75,
+      "highestOverlapTarget": "HEB 7:17",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 1,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 14,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 93.33333333333333,
+      "maximumVerbalOverlap": 75,
+      "rank": 5,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
       "testament": "Old",
-      "order": 1,
-      "chapter": 15,
-      "verse": 6,
-      "text": null,
-      "incoming": 5,
-      "outgoing": 5,
-      "sourceBooks": 3,
-      "connected": 5,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "EXO",
-      "startChapter": 3,
-      "startVerse": 6,
-      "endChapter": 3,
-      "endVerse": 6,
-      "originalReference": "EXO 3:6",
-      "match": {
-        "none": 10,
-        "partial": 4,
-        "full": 16,
-        "total": 30
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "022522211252222222302000401000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:EXO.3.6"
-      ],
-      "id": "quotations:EXO.3.6-3.6",
-      "events": [
-        "quotation-event:e56bb70f35890eaa",
-        "quotation-event:8a238aff84d7b437",
-        "quotation-event:fdb1ad7c1daa1686",
-        "quotation-event:337b236cc9367827",
-        "quotation-event:dd8cacef84477c3c"
-      ],
-      "targetPassages": [
-        "MAT 22:32",
-        "MRK 12:26",
-        "LUK 20:37",
-        "ACT 3:13",
-        "ACT 7:32"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK",
-        "ACT"
-      ],
-      "targetVerses": [
-        "quotations:MAT.22.32",
-        "quotations:MRK.12.26",
-        "quotations:LUK.20.37",
-        "quotations:ACT.3.13",
-        "quotations:ACT.7.32"
-      ],
-      "groups": [
-        "ubs-86-31dd484b3502"
-      ],
-      "full": 80,
-      "partial": 20,
-      "reuseEvents": 5,
-      "distinctNtPassages": 5,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 5,
-      "groupCount": 1,
-      "fullMatchWords": 80,
-      "partialMatchWords": 20,
-      "rank": 12,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
-      "testament": "Old",
-      "order": 2,
-      "chapter": 3,
-      "verse": 6,
-      "text": null,
-      "incoming": 5,
-      "outgoing": 5,
-      "sourceBooks": 4,
-      "connected": 5,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "EXO",
-      "startChapter": 3,
-      "startVerse": 15,
-      "endChapter": 3,
-      "endVerse": 15,
-      "originalReference": "EXO 3:15",
-      "match": {
-        "none": 20,
-        "partial": 3,
-        "full": 16,
-        "total": 39
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "022201130000522221522222223000300000000",
-      "sourceOrder": 1,
-      "verseIds": [
-        "quotations:EXO.3.15"
-      ],
-      "id": "quotations:EXO.3.15-3.15",
-      "events": [
-        "quotation-event:d36329f46f6a9056",
-        "quotation-event:fddfade5830c5544",
-        "quotation-event:3b14ec44f73e2d71",
-        "quotation-event:04ffba45c24ba497",
-        "quotation-event:29f899d3fd796b8a"
-      ],
-      "targetPassages": [
-        "MAT 22:32",
-        "MRK 12:26",
-        "LUK 20:37",
-        "ACT 3:13",
-        "ACT 7:32"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK",
-        "ACT"
-      ],
-      "targetVerses": [
-        "quotations:MAT.22.32",
-        "quotations:MRK.12.26",
-        "quotations:LUK.20.37",
-        "quotations:ACT.3.13",
-        "quotations:ACT.7.32"
-      ],
-      "groups": [
-        "ubs-86-31dd484b3502"
-      ],
-      "full": 80,
-      "partial": 15,
-      "reuseEvents": 5,
-      "distinctNtPassages": 5,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 5,
-      "groupCount": 1,
-      "fullMatchWords": 80,
-      "partialMatchWords": 15,
-      "rank": 12,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
-      "testament": "Old",
-      "order": 2,
-      "chapter": 3,
-      "verse": 15,
-      "text": null,
-      "incoming": 5,
-      "outgoing": 5,
-      "sourceBooks": 4,
-      "connected": 5,
+      "order": 19,
+      "chapter": 110,
+      "verse": 4,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 1,
+      "connected": 6,
       "deuterocanonical": false
     },
     {
@@ -1229,6 +1277,8 @@
         "quotations:ISA.6.9",
         "quotations:ISA.6.10"
       ],
+      "text": "And He replied: “Go and tell this people, ‘Be ever hearing, but never understanding; be ever seeing, but never perceiving.’ Make the hearts of this people calloused; deafen their ears and close their eyes. Otherwise they might see with their eyes, hear with their ears, understand with their hearts, and turn and be healed. ”",
+      "textComplete": true,
       "id": "quotations:ISA.6.9-6.10",
       "events": [
         "quotation-event:145173648fef50bc",
@@ -1263,16 +1313,20 @@
       "groups": [
         "ubs-1296-a8b1e7f46f35"
       ],
-      "full": 235,
+      "full": 47,
       "partial": 0,
-      "reuseEvents": 5,
-      "distinctNtPassages": 5,
-      "distinctNtBooks": 5,
-      "distinctNtVerses": 7,
-      "groupCount": 1,
-      "fullMatchWords": 235,
-      "partialMatchWords": 0,
-      "rank": 12,
+      "maximumTargetOverlap": 85.45454545454545,
+      "highestOverlapTarget": "MAT 13:14-15",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 7,
+      "fullMatchWordCount": 47,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 83.92857142857143,
+      "maximumVerbalOverlap": 85.45454545454545,
+      "rank": 5,
       "slug": "ISA",
       "modern": "Isaiah",
       "historical": "Isaiah",
@@ -1280,10 +1334,245 @@
       "order": 23,
       "chapter": 6,
       "verse": 9,
-      "text": null,
-      "incoming": 5,
+      "incoming": 1,
       "outgoing": 5,
       "sourceBooks": 5,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 3,
+      "startVerse": 6,
+      "endChapter": 3,
+      "endVerse": 6,
+      "originalReference": "EXO 3:6",
+      "match": {
+        "none": 10,
+        "partial": 4,
+        "full": 16,
+        "total": 30
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "022522211252222222302000401000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.3.6"
+      ],
+      "text": "Then He said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” At this, Moses hid his face, for he was afraid to look at God.",
+      "textComplete": true,
+      "id": "quotations:EXO.3.6-3.6",
+      "events": [
+        "quotation-event:e56bb70f35890eaa",
+        "quotation-event:8a238aff84d7b437",
+        "quotation-event:fdb1ad7c1daa1686",
+        "quotation-event:337b236cc9367827",
+        "quotation-event:dd8cacef84477c3c"
+      ],
+      "targetPassages": [
+        "MAT 22:32",
+        "MRK 12:26",
+        "LUK 20:37",
+        "ACT 3:13",
+        "ACT 7:32"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.32",
+        "quotations:MRK.12.26",
+        "quotations:LUK.20.37",
+        "quotations:ACT.3.13",
+        "quotations:ACT.7.32"
+      ],
+      "groups": [
+        "ubs-86-31dd484b3502"
+      ],
+      "full": 16,
+      "partial": 4,
+      "maximumTargetOverlap": 72.5,
+      "highestOverlapTarget": "ACT 7:32",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 16,
+      "partialMatchWordCount": 4,
+      "meanVerbalOverlap": 60,
+      "maximumVerbalOverlap": 72.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 3,
+      "verse": 6,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 4,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 3,
+      "startVerse": 15,
+      "endChapter": 3,
+      "endVerse": 15,
+      "originalReference": "EXO 3:15",
+      "match": {
+        "none": 20,
+        "partial": 3,
+        "full": 16,
+        "total": 39
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "022201130000522221522222223000300000000",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:EXO.3.15"
+      ],
+      "text": "God also told Moses, “Say to the Israelites, ‘The LORD, the God of your fathers—the God of Abraham, the God of Isaac, and the God of Jacob—has sent me to you.’ This is My name forever, and this is how I am to be remembered in every generation.",
+      "textComplete": true,
+      "id": "quotations:EXO.3.15-3.15",
+      "events": [
+        "quotation-event:d36329f46f6a9056",
+        "quotation-event:fddfade5830c5544",
+        "quotation-event:3b14ec44f73e2d71",
+        "quotation-event:04ffba45c24ba497",
+        "quotation-event:29f899d3fd796b8a"
+      ],
+      "targetPassages": [
+        "MAT 22:32",
+        "MRK 12:26",
+        "LUK 20:37",
+        "ACT 3:13",
+        "ACT 7:32"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.32",
+        "quotations:MRK.12.26",
+        "quotations:LUK.20.37",
+        "quotations:ACT.3.13",
+        "quotations:ACT.7.32"
+      ],
+      "groups": [
+        "ubs-86-31dd484b3502"
+      ],
+      "full": 16,
+      "partial": 3,
+      "maximumTargetOverlap": 72.5,
+      "highestOverlapTarget": "ACT 7:32",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 16,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 44.871794871794876,
+      "maximumVerbalOverlap": 72.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 3,
+      "verse": 15,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 4,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "GEN",
+      "startChapter": 15,
+      "startVerse": 6,
+      "endChapter": 15,
+      "endVerse": 6,
+      "originalReference": "GEN 15:6",
+      "match": {
+        "none": 0,
+        "partial": 1,
+        "full": 9,
+        "total": 10
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "1222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:GEN.15.6"
+      ],
+      "text": "Abram believed the LORD, and it was credited to him as righteousness.",
+      "textComplete": true,
+      "id": "quotations:GEN.15.6-15.6",
+      "events": [
+        "quotation-event:992dcf38904e285c",
+        "quotation-event:070a4fc55bdac3c5",
+        "quotation-event:2a057380cf683f64",
+        "quotation-event:2d218259033f3d78",
+        "quotation-event:149474f9abee93b0"
+      ],
+      "targetPassages": [
+        "ROM 4:3",
+        "ROM 4:9",
+        "ROM 4:22",
+        "GAL 3:6",
+        "JAS 2:23"
+      ],
+      "targetBooks": [
+        "ROM",
+        "GAL",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:ROM.4.3",
+        "quotations:ROM.4.9",
+        "quotations:ROM.4.22",
+        "quotations:GAL.3.6",
+        "quotations:JAS.2.23"
+      ],
+      "groups": [
+        "ubs-34-8ee843973459"
+      ],
+      "full": 9,
+      "partial": 1,
+      "maximumTargetOverlap": 90,
+      "highestOverlapTarget": "GAL 3:6",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 9,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 95,
+      "maximumVerbalOverlap": 90,
+      "rank": 5,
+      "slug": "GEN",
+      "modern": "Genesis",
+      "historical": "Genesis",
+      "testament": "Old",
+      "order": 1,
+      "chapter": 15,
+      "verse": 6,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 3,
       "connected": 5,
       "deuterocanonical": false
     },
@@ -1306,6 +1595,8 @@
       "verseIds": [
         "quotations:DAN.7.13"
       ],
+      "text": "In my vision in the night I continued to watch, and I saw One like the Son of Man coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence.",
+      "textComplete": true,
       "id": "quotations:DAN.7.13-7.13",
       "events": [
         "quotation-event:0cb04a75de3c3d75",
@@ -1336,16 +1627,20 @@
       "groups": [
         "ubs-1402-1d40a9ac1026"
       ],
-      "full": 40,
-      "partial": 20,
-      "reuseEvents": 5,
-      "distinctNtPassages": 5,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 5,
-      "groupCount": 1,
-      "fullMatchWords": 40,
-      "partialMatchWords": 20,
-      "rank": 12,
+      "full": 8,
+      "partial": 4,
+      "maximumTargetOverlap": 46.666666666666664,
+      "highestOverlapTarget": "MRK 13:26",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 8,
+      "partialMatchWordCount": 4,
+      "meanVerbalOverlap": 35.714285714285715,
+      "maximumVerbalOverlap": 46.666666666666664,
+      "rank": 5,
       "slug": "DAN",
       "modern": "Daniel",
       "historical": "Daniel",
@@ -1353,8 +1648,7 @@
       "order": 27,
       "chapter": 7,
       "verse": 13,
-      "text": null,
-      "incoming": 5,
+      "incoming": 1,
       "outgoing": 5,
       "sourceBooks": 3,
       "connected": 5,
@@ -1379,6 +1673,8 @@
       "verseIds": [
         "quotations:GEN.2.24"
       ],
+      "text": "For this reason a man will leave his father and mother and be united to his wife, and they will become one flesh.",
+      "textComplete": true,
       "id": "quotations:GEN.2.24-2.24",
       "events": [
         "quotation-event:1e3253581f57e48a",
@@ -1408,16 +1704,20 @@
       "groups": [
         "ubs-5-7202cdd5a371"
       ],
-      "full": 96,
+      "full": 24,
       "partial": 0,
-      "reuseEvents": 4,
-      "distinctNtPassages": 4,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 5,
-      "groupCount": 1,
-      "fullMatchWords": 96,
-      "partialMatchWords": 0,
-      "rank": 17,
+      "maximumTargetOverlap": 97.72727272727273,
+      "highestOverlapTarget": "EPH 5:31",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 24,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 97.72727272727273,
+      "rank": 5,
       "slug": "GEN",
       "modern": "Genesis",
       "historical": "Genesis",
@@ -1425,8 +1725,7 @@
       "order": 1,
       "chapter": 2,
       "verse": 24,
-      "text": null,
-      "incoming": 4,
+      "incoming": 1,
       "outgoing": 4,
       "sourceBooks": 4,
       "connected": 4,
@@ -1451,6 +1750,8 @@
       "verseIds": [
         "quotations:EXO.20.15"
       ],
+      "text": "You shall not steal.",
+      "textComplete": true,
       "id": "quotations:EXO.20.15-20.15",
       "events": [
         "quotation-event:75b9c55063415ee3",
@@ -1479,16 +1780,20 @@
       "groups": [
         "ubs-121-4189668bba59"
       ],
-      "full": 8,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 4,
-      "distinctNtPassages": 4,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 4,
-      "groupCount": 1,
-      "fullMatchWords": 8,
-      "partialMatchWords": 0,
-      "rank": 17,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
       "slug": "EXO",
       "modern": "Exodus",
       "historical": "Exodus",
@@ -1496,8 +1801,7 @@
       "order": 2,
       "chapter": 20,
       "verse": 15,
-      "text": null,
-      "incoming": 4,
+      "incoming": 1,
       "outgoing": 4,
       "sourceBooks": 4,
       "connected": 4,
@@ -1522,6 +1826,8 @@
       "verseIds": [
         "quotations:DEU.5.19"
       ],
+      "text": "You shall not steal.",
+      "textComplete": true,
       "id": "quotations:DEU.5.19-5.19",
       "events": [
         "quotation-event:71b52992119d21fa",
@@ -1550,16 +1856,20 @@
       "groups": [
         "ubs-121-4189668bba59"
       ],
-      "full": 8,
+      "full": 2,
       "partial": 0,
-      "reuseEvents": 4,
-      "distinctNtPassages": 4,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 4,
-      "groupCount": 1,
-      "fullMatchWords": 8,
-      "partialMatchWords": 0,
-      "rank": 17,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
       "slug": "DEU",
       "modern": "Deuteronomy",
       "historical": "Deuteronomy",
@@ -1567,80 +1877,9 @@
       "order": 5,
       "chapter": 5,
       "verse": 19,
-      "text": null,
-      "incoming": 4,
+      "incoming": 1,
       "outgoing": 4,
       "sourceBooks": 4,
-      "connected": 4,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 6,
-      "startVerse": 5,
-      "endChapter": 6,
-      "endVerse": 5,
-      "originalReference": "DEU 6:5",
-      "match": {
-        "none": 0,
-        "partial": 1,
-        "full": 22,
-        "total": 23
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "22222222222522222522212",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.6.5"
-      ],
-      "id": "quotations:DEU.6.5-6.5",
-      "events": [
-        "quotation-event:58150c196e68b23b",
-        "quotation-event:8b78dd6191674574",
-        "quotation-event:7b683c8771121d3f",
-        "quotation-event:5e4e369857c17829"
-      ],
-      "targetPassages": [
-        "MAT 22:37",
-        "MRK 12:30",
-        "MRK 12:33",
-        "LUK 10:27"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.22.37",
-        "quotations:MRK.12.30",
-        "quotations:MRK.12.33",
-        "quotations:LUK.10.27"
-      ],
-      "groups": [
-        "ubs-353-ac26e77c0329"
-      ],
-      "full": 88,
-      "partial": 4,
-      "reuseEvents": 4,
-      "distinctNtPassages": 4,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 4,
-      "groupCount": 1,
-      "fullMatchWords": 88,
-      "partialMatchWords": 4,
-      "rank": 17,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 6,
-      "verse": 5,
-      "text": null,
-      "incoming": 4,
-      "outgoing": 4,
-      "sourceBooks": 3,
       "connected": 4,
       "deuterocanonical": false
     },
@@ -1663,6 +1902,8 @@
       "verseIds": [
         "quotations:ISA.40.3"
       ],
+      "text": "A voice of one calling: “Prepare the way for the LORD in the wilderness; make a straight highway for our God in the desert.",
+      "textComplete": true,
       "id": "quotations:ISA.40.3-40.3",
       "events": [
         "quotation-event:b330d1ac6ad48494",
@@ -1691,16 +1932,20 @@
       "groups": [
         "ubs-1316-95ce8d313d14"
       ],
-      "full": 52,
-      "partial": 12,
-      "reuseEvents": 4,
-      "distinctNtPassages": 4,
-      "distinctNtBooks": 4,
-      "distinctNtVerses": 4,
-      "groupCount": 1,
-      "fullMatchWords": 52,
-      "partialMatchWords": 12,
-      "rank": 17,
+      "full": 13,
+      "partial": 3,
+      "maximumTargetOverlap": 96.42857142857143,
+      "highestOverlapTarget": "MRK 1:3",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 13,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 90.625,
+      "maximumVerbalOverlap": 96.42857142857143,
+      "rank": 5,
       "slug": "ISA",
       "modern": "Isaiah",
       "historical": "Isaiah",
@@ -1708,10 +1953,84 @@
       "order": 23,
       "chapter": 40,
       "verse": 3,
-      "text": null,
-      "incoming": 4,
+      "incoming": 1,
       "outgoing": 4,
       "sourceBooks": 4,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 6,
+      "startVerse": 5,
+      "endChapter": 6,
+      "endVerse": 5,
+      "originalReference": "DEU 6:5",
+      "match": {
+        "none": 0,
+        "partial": 1,
+        "full": 22,
+        "total": 23
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "22222222222522222522212",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:DEU.6.5"
+      ],
+      "text": "And you shall love the LORD your God with all your heart and with all your soul and with all your strength.",
+      "textComplete": true,
+      "id": "quotations:DEU.6.5-6.5",
+      "events": [
+        "quotation-event:58150c196e68b23b",
+        "quotation-event:8b78dd6191674574",
+        "quotation-event:7b683c8771121d3f",
+        "quotation-event:5e4e369857c17829"
+      ],
+      "targetPassages": [
+        "MAT 22:37",
+        "MRK 12:30",
+        "MRK 12:33",
+        "LUK 10:27"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.37",
+        "quotations:MRK.12.30",
+        "quotations:MRK.12.33",
+        "quotations:LUK.10.27"
+      ],
+      "groups": [
+        "ubs-353-ac26e77c0329"
+      ],
+      "full": 22,
+      "partial": 1,
+      "maximumTargetOverlap": 94.82758620689656,
+      "highestOverlapTarget": "MRK 12:30",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 22,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 97.82608695652173,
+      "maximumVerbalOverlap": 94.82758620689656,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 6,
+      "verse": 5,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 3,
       "connected": 4,
       "deuterocanonical": false
     },
@@ -1734,6 +2053,8 @@
       "verseIds": [
         "quotations:EXO.20.16"
       ],
+      "text": "You shall not bear false witness against your neighbor.",
+      "textComplete": true,
       "id": "quotations:EXO.20.16-20.16",
       "events": [
         "quotation-event:72c83af4e39e7d73",
@@ -1758,16 +2079,20 @@
       "groups": [
         "ubs-123-4abbb884a3d9"
       ],
-      "full": 24,
+      "full": 8,
       "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 24,
-      "partialMatchWords": 0,
-      "rank": 22,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 3,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 3,
+      "fullMatchWordCount": 8,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
       "slug": "EXO",
       "modern": "Exodus",
       "historical": "Exodus",
@@ -1775,8 +2100,1856 @@
       "order": 2,
       "chapter": 20,
       "verse": 16,
-      "text": null,
-      "incoming": 3,
+      "incoming": 1,
+      "outgoing": 3,
+      "sourceBooks": 3,
+      "connected": 3,
+      "deuterocanonical": false
+    }
+  ],
+  "topByOccurrences": [
+    {
+      "bookId": "LEV",
+      "startChapter": 19,
+      "startVerse": 18,
+      "endChapter": 19,
+      "endVerse": 18,
+      "originalReference": "LEV 19:18",
+      "match": {
+        "none": 18,
+        "partial": 0,
+        "full": 6,
+        "total": 24
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "000000000000000222222000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:LEV.19.18"
+      ],
+      "text": "Do not seek revenge or bear a grudge against any of your people, but love your neighbor as yourself. I am the LORD.",
+      "textComplete": true,
+      "id": "quotations:LEV.19.18-19.18",
+      "events": [
+        "quotation-event:583e87c203ff036e",
+        "quotation-event:8fb2a8f1a8e6801b",
+        "quotation-event:a1b20f4014ad5165",
+        "quotation-event:0bd040ed677450d8",
+        "quotation-event:b2bc85fa45794c64",
+        "quotation-event:10873c4d1137ac03",
+        "quotation-event:89e481bf2fe75e0d",
+        "quotation-event:af664c6e0fad8580",
+        "quotation-event:38604b28ab318b3c"
+      ],
+      "targetPassages": [
+        "MAT 5:43",
+        "MAT 19:19",
+        "MAT 22:39",
+        "MRK 12:31",
+        "MRK 12:33",
+        "LUK 10:27",
+        "ROM 13:9",
+        "GAL 5:14",
+        "JAS 2:8"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "GAL",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:MAT.5.43",
+        "quotations:MAT.19.19",
+        "quotations:MAT.22.39",
+        "quotations:MRK.12.31",
+        "quotations:MRK.12.33",
+        "quotations:LUK.10.27",
+        "quotations:ROM.13.9",
+        "quotations:GAL.5.14",
+        "quotations:JAS.2.8"
+      ],
+      "groups": [
+        "ubs-320-069426811932"
+      ],
+      "full": 6,
+      "partial": 0,
+      "maximumTargetOverlap": 60,
+      "highestOverlapTarget": "MAT 22:39",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 9,
+      "distinctNtPassageCount": 9,
+      "distinctNtBookCount": 6,
+      "distinctNtVerseCount": 9,
+      "fullMatchWordCount": 6,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 25,
+      "maximumVerbalOverlap": 60,
+      "rank": 5,
+      "slug": "LEV",
+      "modern": "Leviticus",
+      "historical": "Leviticus",
+      "testament": "Old",
+      "order": 3,
+      "chapter": 19,
+      "verse": 18,
+      "incoming": 1,
+      "outgoing": 9,
+      "sourceBooks": 6,
+      "connected": 9,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "PSA",
+      "startChapter": 110,
+      "startVerse": 1,
+      "endChapter": 110,
+      "endVerse": 1,
+      "originalReference": "PSA 110:1",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 22,
+        "total": 23
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "02252222252225222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:PSA.110.1"
+      ],
+      "text": "The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”",
+      "textComplete": true,
+      "id": "quotations:PSA.110.1-110.1",
+      "events": [
+        "quotation-event:c3e9b6ecdb3eb02e",
+        "quotation-event:5aede51a40d74f88",
+        "quotation-event:eadf5c26ef82a65b",
+        "quotation-event:17d720538deb0d42",
+        "quotation-event:8e02a4fb4785a1df",
+        "quotation-event:beecc9e919c5a17d",
+        "quotation-event:543c8fbbb53f7ac3",
+        "quotation-event:ba61220b9f03f7c8"
+      ],
+      "targetPassages": [
+        "MAT 22:43-44",
+        "MRK 12:36",
+        "LUK 20:42-43",
+        "ACT 2:34-35",
+        "HEB 1:13",
+        "MAT 26:64",
+        "MRK 14:62",
+        "LUK 22:69"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT",
+        "HEB"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.43",
+        "quotations:MAT.22.44",
+        "quotations:MRK.12.36",
+        "quotations:LUK.20.42",
+        "quotations:LUK.20.43",
+        "quotations:ACT.2.34",
+        "quotations:ACT.2.35",
+        "quotations:HEB.1.13",
+        "quotations:MAT.26.64",
+        "quotations:MRK.14.62",
+        "quotations:LUK.22.69"
+      ],
+      "groups": [
+        "ubs-1250-77185a2983bf",
+        "ubs-1251-68cbfe2696e9"
+      ],
+      "full": 24,
+      "partial": 2,
+      "maximumTargetOverlap": 84.61538461538461,
+      "highestOverlapTarget": "LUK 20:42-43",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 8,
+      "distinctNtPassageCount": 8,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 11,
+      "fullMatchWordCount": 24,
+      "partialMatchWordCount": 2,
+      "meanVerbalOverlap": 54.34782608695652,
+      "maximumVerbalOverlap": 84.61538461538461,
+      "rank": 1,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
+      "testament": "Old",
+      "order": 19,
+      "chapter": 110,
+      "verse": 1,
+      "incoming": 2,
+      "outgoing": 8,
+      "sourceBooks": 5,
+      "connected": 8,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 13,
+      "endChapter": 20,
+      "endVerse": 13,
+      "originalReference": "EXO 20:13",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.13"
+      ],
+      "text": "You shall not murder.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.13-20.13",
+      "events": [
+        "quotation-event:e5e83bf9f90908d3",
+        "quotation-event:c59dec738b558cca",
+        "quotation-event:b95bdf661c74f1b4",
+        "quotation-event:cb80e069eda2e004",
+        "quotation-event:36c5f6308660940d",
+        "quotation-event:fa849776e9779092"
+      ],
+      "targetPassages": [
+        "MAT 5:21",
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9",
+        "JAS 2:11"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:MAT.5.21",
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9",
+        "quotations:JAS.2.11"
+      ],
+      "groups": [
+        "ubs-117-c6bfc9392bdc"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 13.333333333333334,
+      "highestOverlapTarget": "MAT 5:21",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 13.333333333333334,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 13,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 14,
+      "endChapter": 20,
+      "endVerse": 14,
+      "originalReference": "EXO 20:14",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.14"
+      ],
+      "text": "You shall not commit adultery.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.14-20.14",
+      "events": [
+        "quotation-event:6c47991dcbd1fa88",
+        "quotation-event:fdc3f48fadf41eb4",
+        "quotation-event:9a543d1463fe8ba0",
+        "quotation-event:3fc8f672bbbfb332",
+        "quotation-event:abe146b090dbb5a0",
+        "quotation-event:d8e66e6b5d635af8"
+      ],
+      "targetPassages": [
+        "MAT 5:27",
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9",
+        "JAS 2:11"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:MAT.5.27",
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9",
+        "quotations:JAS.2.11"
+      ],
+      "groups": [
+        "ubs-119-a31116ce900e"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 40,
+      "highestOverlapTarget": "MAT 5:27",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 40,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 14,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 5,
+      "startVerse": 17,
+      "endChapter": 5,
+      "endVerse": 17,
+      "originalReference": "DEU 5:17",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:DEU.5.17"
+      ],
+      "text": "You shall not murder.",
+      "textComplete": true,
+      "id": "quotations:DEU.5.17-5.17",
+      "events": [
+        "quotation-event:0817c83eb8a63077",
+        "quotation-event:6d381d6ec077c75d",
+        "quotation-event:a687cf0e753effb2",
+        "quotation-event:92d250308e6125ce",
+        "quotation-event:538f8fc458eb2108",
+        "quotation-event:40de594a9b7e60ae"
+      ],
+      "targetPassages": [
+        "MAT 5:21",
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9",
+        "JAS 2:11"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:MAT.5.21",
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9",
+        "quotations:JAS.2.11"
+      ],
+      "groups": [
+        "ubs-117-c6bfc9392bdc"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 13.333333333333334,
+      "highestOverlapTarget": "MAT 5:21",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 13.333333333333334,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 5,
+      "verse": 17,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 5,
+      "startVerse": 18,
+      "endChapter": 5,
+      "endVerse": 18,
+      "originalReference": "DEU 5:18",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:DEU.5.18"
+      ],
+      "text": "You shall not commit adultery.",
+      "textComplete": true,
+      "id": "quotations:DEU.5.18-5.18",
+      "events": [
+        "quotation-event:69e97926ff60bb18",
+        "quotation-event:2f055ffbf25b2c95",
+        "quotation-event:86e19474a0c0c8c0",
+        "quotation-event:a098e178daea62cb",
+        "quotation-event:5979b5b269c6c5a9",
+        "quotation-event:3141843f2b4ab4eb"
+      ],
+      "targetPassages": [
+        "MAT 5:27",
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9",
+        "JAS 2:11"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:MAT.5.27",
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9",
+        "quotations:JAS.2.11"
+      ],
+      "groups": [
+        "ubs-119-a31116ce900e"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 40,
+      "highestOverlapTarget": "MAT 5:27",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 40,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 5,
+      "verse": 18,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "PSA",
+      "startChapter": 118,
+      "startVerse": 22,
+      "endChapter": 118,
+      "endVerse": 23,
+      "originalReference": "PSA 118:22-23",
+      "match": {
+        "none": 0,
+        "partial": 0,
+        "full": 20,
+        "total": 20
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "22222522225222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:PSA.118.22",
+        "quotations:PSA.118.23"
+      ],
+      "text": "The stone the builders rejected has become the cornerstone. This is from the LORD, and it is marvelous in our eyes.",
+      "textComplete": true,
+      "id": "quotations:PSA.118.22-118.23",
+      "events": [
+        "quotation-event:cafd312dd3c798ee",
+        "quotation-event:eae79d79cfb266eb",
+        "quotation-event:c7599cb463dcab95",
+        "quotation-event:abaadd8ed7bc5e17",
+        "quotation-event:9b3168d50b6f06c8",
+        "quotation-event:66558b18c4cd12a3"
+      ],
+      "targetPassages": [
+        "MAT 21:42",
+        "MRK 12:10-11",
+        "LUK 20:17",
+        "ACT 4:11",
+        "1PE 2:4",
+        "1PE 2:7"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT",
+        "1PE"
+      ],
+      "targetVerses": [
+        "quotations:MAT.21.42",
+        "quotations:MRK.12.10",
+        "quotations:MRK.12.11",
+        "quotations:LUK.20.17",
+        "quotations:ACT.4.11",
+        "quotations:1PE.2.4",
+        "quotations:1PE.2.7"
+      ],
+      "groups": [
+        "ubs-1262-b902e2310229"
+      ],
+      "full": 20,
+      "partial": 0,
+      "maximumTargetOverlap": 80,
+      "highestOverlapTarget": "MRK 12:10-11",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 7,
+      "fullMatchWordCount": 20,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 80,
+      "rank": 5,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
+      "testament": "Old",
+      "order": 19,
+      "chapter": 118,
+      "verse": 22,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 5,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 12,
+      "endChapter": 20,
+      "endVerse": 12,
+      "originalReference": "EXO 20:12",
+      "match": {
+        "none": 20,
+        "partial": 0,
+        "full": 7,
+        "total": 27
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "222222200000000000000000000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.12"
+      ],
+      "text": "Honor your father and mother, so that your days may be long in the land that the LORD your God is giving you.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.12-20.12",
+      "events": [
+        "quotation-event:a649c11ad248b18c",
+        "quotation-event:d0fef5c8585590df",
+        "quotation-event:faed5cb9c2e7ee97",
+        "quotation-event:c481fa2f9972fc4a",
+        "quotation-event:6e5d9a95647c89da",
+        "quotation-event:5d8f1c032425e7c6"
+      ],
+      "targetPassages": [
+        "MAT 15:4",
+        "MAT 19:19",
+        "MRK 7:10",
+        "MRK 10:19",
+        "LUK 18:20",
+        "EPH 6:2"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "targetVerses": [
+        "quotations:MAT.15.4",
+        "quotations:MAT.19.19",
+        "quotations:MRK.7.10",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:EPH.6.2"
+      ],
+      "groups": [
+        "ubs-115-7c3b271c22fc"
+      ],
+      "full": 7,
+      "partial": 0,
+      "maximumTargetOverlap": 53.84615384615385,
+      "highestOverlapTarget": "EPH 6:2",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 7,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 25.925925925925924,
+      "maximumVerbalOverlap": 53.84615384615385,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 12,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 4,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 5,
+      "startVerse": 16,
+      "endChapter": 5,
+      "endVerse": 16,
+      "originalReference": "DEU 5:16",
+      "match": {
+        "none": 26,
+        "partial": 1,
+        "full": 7,
+        "total": 34
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "2222222100000000000000000000000000",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:DEU.5.16"
+      ],
+      "text": "Honor your father and your mother, as the LORD your God has commanded you, so that your days may be long and that it may go well with you in the land that the LORD your God is giving you.",
+      "textComplete": true,
+      "id": "quotations:DEU.5.16-5.16",
+      "events": [
+        "quotation-event:8ca91f7ec0edbd22",
+        "quotation-event:a2fb4a7f3eeeaca3",
+        "quotation-event:747a0a80de818648",
+        "quotation-event:001b2f5222099e99",
+        "quotation-event:fc8a251c13d87dd1",
+        "quotation-event:592192ecca86c3dc"
+      ],
+      "targetPassages": [
+        "MAT 15:4",
+        "MAT 19:19",
+        "MRK 7:10",
+        "MRK 10:19",
+        "LUK 18:20",
+        "EPH 6:2"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "targetVerses": [
+        "quotations:MAT.15.4",
+        "quotations:MAT.19.19",
+        "quotations:MRK.7.10",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:EPH.6.2"
+      ],
+      "groups": [
+        "ubs-115-7c3b271c22fc"
+      ],
+      "full": 7,
+      "partial": 1,
+      "maximumTargetOverlap": 53.84615384615385,
+      "highestOverlapTarget": "EPH 6:2",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 7,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 22.058823529411764,
+      "maximumVerbalOverlap": 53.84615384615385,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 5,
+      "verse": 16,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 4,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "PSA",
+      "startChapter": 118,
+      "startVerse": 26,
+      "endChapter": 118,
+      "endVerse": 26,
+      "originalReference": "PSA 118:26",
+      "match": {
+        "none": 5,
+        "partial": 0,
+        "full": 6,
+        "total": 11
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "22222200000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:PSA.118.26"
+      ],
+      "text": "Blessed is he who comes in the name of the LORD. From the house of the LORD we bless you.",
+      "textComplete": true,
+      "id": "quotations:PSA.118.26-118.26",
+      "events": [
+        "quotation-event:13e82df87cbb87e1",
+        "quotation-event:bd63b5cc64d2cb1a",
+        "quotation-event:8b038f0cc8a7bc50",
+        "quotation-event:65a10cae14a3b106",
+        "quotation-event:96f48a329c592cc4",
+        "quotation-event:59f903b4339bc44b"
+      ],
+      "targetPassages": [
+        "MAT 21:9",
+        "MAT 23:39",
+        "MRK 11:9",
+        "LUK 13:35",
+        "LUK 19:38",
+        "JHN 12:13"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN"
+      ],
+      "targetVerses": [
+        "quotations:MAT.21.9",
+        "quotations:MAT.23.39",
+        "quotations:MRK.11.9",
+        "quotations:LUK.13.35",
+        "quotations:LUK.19.38",
+        "quotations:JHN.12.13"
+      ],
+      "groups": [
+        "ubs-1263-2a36ca72f172"
+      ],
+      "full": 6,
+      "partial": 0,
+      "maximumTargetOverlap": 42.857142857142854,
+      "highestOverlapTarget": "MRK 11:9",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 6,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 54.54545454545454,
+      "maximumVerbalOverlap": 42.857142857142854,
+      "rank": 5,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
+      "testament": "Old",
+      "order": 19,
+      "chapter": 118,
+      "verse": 26,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 4,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "PSA",
+      "startChapter": 110,
+      "startVerse": 4,
+      "endChapter": 110,
+      "endVerse": 4,
+      "originalReference": "PSA 110:4",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 14,
+        "total": 15
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "222222022222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:PSA.110.4"
+      ],
+      "text": "The LORD has sworn and will not change His mind: “You are a priest forever in the order of Melchizedek.”",
+      "textComplete": true,
+      "id": "quotations:PSA.110.4-110.4",
+      "events": [
+        "quotation-event:f4743b61c4ccd423",
+        "quotation-event:e3614d301b88b773",
+        "quotation-event:65a785a2c563e2c4",
+        "quotation-event:4a8e1422ac95705e",
+        "quotation-event:d9739bfe589069cc",
+        "quotation-event:68988268833af74c"
+      ],
+      "targetPassages": [
+        "HEB 5:6",
+        "HEB 5:10",
+        "HEB 6:20",
+        "HEB 7:11",
+        "HEB 7:17",
+        "HEB 7:21"
+      ],
+      "targetBooks": [
+        "HEB"
+      ],
+      "targetVerses": [
+        "quotations:HEB.5.6",
+        "quotations:HEB.5.10",
+        "quotations:HEB.6.20",
+        "quotations:HEB.7.11",
+        "quotations:HEB.7.17",
+        "quotations:HEB.7.21"
+      ],
+      "groups": [
+        "ubs-1252-6d14fb3eeb7c"
+      ],
+      "full": 14,
+      "partial": 0,
+      "maximumTargetOverlap": 75,
+      "highestOverlapTarget": "HEB 7:17",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 1,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 14,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 93.33333333333333,
+      "maximumVerbalOverlap": 75,
+      "rank": 5,
+      "slug": "PSA",
+      "modern": "Psalms",
+      "historical": "Psalms",
+      "testament": "Old",
+      "order": 19,
+      "chapter": 110,
+      "verse": 4,
+      "incoming": 1,
+      "outgoing": 6,
+      "sourceBooks": 1,
+      "connected": 6,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "ISA",
+      "startChapter": 6,
+      "startVerse": 9,
+      "endChapter": 6,
+      "endVerse": 10,
+      "originalReference": "ISA 6:9-10",
+      "match": {
+        "none": 9,
+        "partial": 0,
+        "full": 47,
+        "total": 56
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "00000000222222222222222222222220222222222222222222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:ISA.6.9",
+        "quotations:ISA.6.10"
+      ],
+      "text": "And He replied: “Go and tell this people, ‘Be ever hearing, but never understanding; be ever seeing, but never perceiving.’ Make the hearts of this people calloused; deafen their ears and close their eyes. Otherwise they might see with their eyes, hear with their ears, understand with their hearts, and turn and be healed. ”",
+      "textComplete": true,
+      "id": "quotations:ISA.6.9-6.10",
+      "events": [
+        "quotation-event:145173648fef50bc",
+        "quotation-event:7a0376f4751c9274",
+        "quotation-event:26316018e11bb0f7",
+        "quotation-event:f1d54589bc1779bc",
+        "quotation-event:5908b1909f3a67f8"
+      ],
+      "targetPassages": [
+        "MAT 13:14-15",
+        "MRK 4:12",
+        "LUK 8:10",
+        "JHN 12:40",
+        "ACT 28:26-27"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN",
+        "ACT"
+      ],
+      "targetVerses": [
+        "quotations:MAT.13.14",
+        "quotations:MAT.13.15",
+        "quotations:MRK.4.12",
+        "quotations:LUK.8.10",
+        "quotations:JHN.12.40",
+        "quotations:ACT.28.26",
+        "quotations:ACT.28.27"
+      ],
+      "groups": [
+        "ubs-1296-a8b1e7f46f35"
+      ],
+      "full": 47,
+      "partial": 0,
+      "maximumTargetOverlap": 85.45454545454545,
+      "highestOverlapTarget": "MAT 13:14-15",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 7,
+      "fullMatchWordCount": 47,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 83.92857142857143,
+      "maximumVerbalOverlap": 85.45454545454545,
+      "rank": 5,
+      "slug": "ISA",
+      "modern": "Isaiah",
+      "historical": "Isaiah",
+      "testament": "Old",
+      "order": 23,
+      "chapter": 6,
+      "verse": 9,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 5,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 3,
+      "startVerse": 6,
+      "endChapter": 3,
+      "endVerse": 6,
+      "originalReference": "EXO 3:6",
+      "match": {
+        "none": 10,
+        "partial": 4,
+        "full": 16,
+        "total": 30
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "022522211252222222302000401000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.3.6"
+      ],
+      "text": "Then He said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” At this, Moses hid his face, for he was afraid to look at God.",
+      "textComplete": true,
+      "id": "quotations:EXO.3.6-3.6",
+      "events": [
+        "quotation-event:e56bb70f35890eaa",
+        "quotation-event:8a238aff84d7b437",
+        "quotation-event:fdb1ad7c1daa1686",
+        "quotation-event:337b236cc9367827",
+        "quotation-event:dd8cacef84477c3c"
+      ],
+      "targetPassages": [
+        "MAT 22:32",
+        "MRK 12:26",
+        "LUK 20:37",
+        "ACT 3:13",
+        "ACT 7:32"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.32",
+        "quotations:MRK.12.26",
+        "quotations:LUK.20.37",
+        "quotations:ACT.3.13",
+        "quotations:ACT.7.32"
+      ],
+      "groups": [
+        "ubs-86-31dd484b3502"
+      ],
+      "full": 16,
+      "partial": 4,
+      "maximumTargetOverlap": 72.5,
+      "highestOverlapTarget": "ACT 7:32",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 16,
+      "partialMatchWordCount": 4,
+      "meanVerbalOverlap": 60,
+      "maximumVerbalOverlap": 72.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 3,
+      "verse": 6,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 4,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 3,
+      "startVerse": 15,
+      "endChapter": 3,
+      "endVerse": 15,
+      "originalReference": "EXO 3:15",
+      "match": {
+        "none": 20,
+        "partial": 3,
+        "full": 16,
+        "total": 39
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "022201130000522221522222223000300000000",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:EXO.3.15"
+      ],
+      "text": "God also told Moses, “Say to the Israelites, ‘The LORD, the God of your fathers—the God of Abraham, the God of Isaac, and the God of Jacob—has sent me to you.’ This is My name forever, and this is how I am to be remembered in every generation.",
+      "textComplete": true,
+      "id": "quotations:EXO.3.15-3.15",
+      "events": [
+        "quotation-event:d36329f46f6a9056",
+        "quotation-event:fddfade5830c5544",
+        "quotation-event:3b14ec44f73e2d71",
+        "quotation-event:04ffba45c24ba497",
+        "quotation-event:29f899d3fd796b8a"
+      ],
+      "targetPassages": [
+        "MAT 22:32",
+        "MRK 12:26",
+        "LUK 20:37",
+        "ACT 3:13",
+        "ACT 7:32"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.32",
+        "quotations:MRK.12.26",
+        "quotations:LUK.20.37",
+        "quotations:ACT.3.13",
+        "quotations:ACT.7.32"
+      ],
+      "groups": [
+        "ubs-86-31dd484b3502"
+      ],
+      "full": 16,
+      "partial": 3,
+      "maximumTargetOverlap": 72.5,
+      "highestOverlapTarget": "ACT 7:32",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 16,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 44.871794871794876,
+      "maximumVerbalOverlap": 72.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 3,
+      "verse": 15,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 4,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "GEN",
+      "startChapter": 15,
+      "startVerse": 6,
+      "endChapter": 15,
+      "endVerse": 6,
+      "originalReference": "GEN 15:6",
+      "match": {
+        "none": 0,
+        "partial": 1,
+        "full": 9,
+        "total": 10
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "1222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:GEN.15.6"
+      ],
+      "text": "Abram believed the LORD, and it was credited to him as righteousness.",
+      "textComplete": true,
+      "id": "quotations:GEN.15.6-15.6",
+      "events": [
+        "quotation-event:992dcf38904e285c",
+        "quotation-event:070a4fc55bdac3c5",
+        "quotation-event:2a057380cf683f64",
+        "quotation-event:2d218259033f3d78",
+        "quotation-event:149474f9abee93b0"
+      ],
+      "targetPassages": [
+        "ROM 4:3",
+        "ROM 4:9",
+        "ROM 4:22",
+        "GAL 3:6",
+        "JAS 2:23"
+      ],
+      "targetBooks": [
+        "ROM",
+        "GAL",
+        "JAS"
+      ],
+      "targetVerses": [
+        "quotations:ROM.4.3",
+        "quotations:ROM.4.9",
+        "quotations:ROM.4.22",
+        "quotations:GAL.3.6",
+        "quotations:JAS.2.23"
+      ],
+      "groups": [
+        "ubs-34-8ee843973459"
+      ],
+      "full": 9,
+      "partial": 1,
+      "maximumTargetOverlap": 90,
+      "highestOverlapTarget": "GAL 3:6",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 9,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 95,
+      "maximumVerbalOverlap": 90,
+      "rank": 5,
+      "slug": "GEN",
+      "modern": "Genesis",
+      "historical": "Genesis",
+      "testament": "Old",
+      "order": 1,
+      "chapter": 15,
+      "verse": 6,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 3,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DAN",
+      "startChapter": 7,
+      "startVerse": 13,
+      "endChapter": 7,
+      "endVerse": 13,
+      "originalReference": "DAN 7:13",
+      "match": {
+        "none": 16,
+        "partial": 4,
+        "full": 8,
+        "total": 28
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "0000021122221222100000000000",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:DAN.7.13"
+      ],
+      "text": "In my vision in the night I continued to watch, and I saw One like the Son of Man coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence.",
+      "textComplete": true,
+      "id": "quotations:DAN.7.13-7.13",
+      "events": [
+        "quotation-event:0cb04a75de3c3d75",
+        "quotation-event:9ac4e7cd13f93be9",
+        "quotation-event:f86a88739713aa33",
+        "quotation-event:4b7d1e0d33cd1d92",
+        "quotation-event:390e60a2ce9626c9"
+      ],
+      "targetPassages": [
+        "MAT 24:30",
+        "MAT 26:64",
+        "MRK 13:26",
+        "MRK 14:62",
+        "LUK 21:27"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK"
+      ],
+      "targetVerses": [
+        "quotations:MAT.24.30",
+        "quotations:MAT.26.64",
+        "quotations:MRK.13.26",
+        "quotations:MRK.14.62",
+        "quotations:LUK.21.27"
+      ],
+      "groups": [
+        "ubs-1402-1d40a9ac1026"
+      ],
+      "full": 8,
+      "partial": 4,
+      "maximumTargetOverlap": 46.666666666666664,
+      "highestOverlapTarget": "MRK 13:26",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 8,
+      "partialMatchWordCount": 4,
+      "meanVerbalOverlap": 35.714285714285715,
+      "maximumVerbalOverlap": 46.666666666666664,
+      "rank": 5,
+      "slug": "DAN",
+      "modern": "Daniel",
+      "historical": "Daniel",
+      "testament": "Old",
+      "order": 27,
+      "chapter": 7,
+      "verse": 13,
+      "incoming": 1,
+      "outgoing": 5,
+      "sourceBooks": 3,
+      "connected": 5,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "GEN",
+      "startChapter": 2,
+      "startVerse": 24,
+      "endChapter": 2,
+      "endVerse": 24,
+      "originalReference": "GEN 2:24",
+      "match": {
+        "none": 0,
+        "partial": 0,
+        "full": 24,
+        "total": 24
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "222222222222222222222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:GEN.2.24"
+      ],
+      "text": "For this reason a man will leave his father and mother and be united to his wife, and they will become one flesh.",
+      "textComplete": true,
+      "id": "quotations:GEN.2.24-2.24",
+      "events": [
+        "quotation-event:1e3253581f57e48a",
+        "quotation-event:88ee4408d78d34fc",
+        "quotation-event:965c72e20cc8a94f",
+        "quotation-event:83dceea7c59a8655"
+      ],
+      "targetPassages": [
+        "MAT 19:5",
+        "MRK 10:7-8",
+        "1CO 6:16",
+        "EPH 5:31"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "1CO",
+        "EPH"
+      ],
+      "targetVerses": [
+        "quotations:MAT.19.5",
+        "quotations:MRK.10.7",
+        "quotations:MRK.10.8",
+        "quotations:1CO.6.16",
+        "quotations:EPH.5.31"
+      ],
+      "groups": [
+        "ubs-5-7202cdd5a371"
+      ],
+      "full": 24,
+      "partial": 0,
+      "maximumTargetOverlap": 97.72727272727273,
+      "highestOverlapTarget": "EPH 5:31",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 5,
+      "fullMatchWordCount": 24,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 97.72727272727273,
+      "rank": 5,
+      "slug": "GEN",
+      "modern": "Genesis",
+      "historical": "Genesis",
+      "testament": "Old",
+      "order": 1,
+      "chapter": 2,
+      "verse": 24,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 4,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 15,
+      "endChapter": 20,
+      "endVerse": 15,
+      "originalReference": "EXO 20:15",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.15"
+      ],
+      "text": "You shall not steal.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.15-20.15",
+      "events": [
+        "quotation-event:75b9c55063415ee3",
+        "quotation-event:023306eda49619aa",
+        "quotation-event:e3bef37614b260f7",
+        "quotation-event:489a127101cb439e"
+      ],
+      "targetPassages": [
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM"
+      ],
+      "targetVerses": [
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9"
+      ],
+      "groups": [
+        "ubs-121-4189668bba59"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 15,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 4,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 5,
+      "startVerse": 19,
+      "endChapter": 5,
+      "endVerse": 19,
+      "originalReference": "DEU 5:19",
+      "match": {
+        "none": 1,
+        "partial": 0,
+        "full": 2,
+        "total": 3
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "220",
+      "sourceOrder": 1,
+      "verseIds": [
+        "quotations:DEU.5.19"
+      ],
+      "text": "You shall not steal.",
+      "textComplete": true,
+      "id": "quotations:DEU.5.19-5.19",
+      "events": [
+        "quotation-event:71b52992119d21fa",
+        "quotation-event:370b212a14f35ae3",
+        "quotation-event:38b03d6bd89b33cc",
+        "quotation-event:3ed305fb63c8409c"
+      ],
+      "targetPassages": [
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20",
+        "ROM 13:9"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM"
+      ],
+      "targetVerses": [
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20",
+        "quotations:ROM.13.9"
+      ],
+      "groups": [
+        "ubs-121-4189668bba59"
+      ],
+      "full": 2,
+      "partial": 0,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 2,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 66.66666666666666,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 5,
+      "verse": 19,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 4,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "ISA",
+      "startChapter": 40,
+      "startVerse": 3,
+      "endChapter": 40,
+      "endVerse": 3,
+      "originalReference": "ISA 40:3",
+      "match": {
+        "none": 0,
+        "partial": 3,
+        "full": 13,
+        "total": 16
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "2222222222222111",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:ISA.40.3"
+      ],
+      "text": "A voice of one calling: “Prepare the way for the LORD in the wilderness; make a straight highway for our God in the desert.",
+      "textComplete": true,
+      "id": "quotations:ISA.40.3-40.3",
+      "events": [
+        "quotation-event:b330d1ac6ad48494",
+        "quotation-event:ae3d587a653f9e5e",
+        "quotation-event:b189875e72e1f96c",
+        "quotation-event:61891fe3136eacd1"
+      ],
+      "targetPassages": [
+        "MAT 3:3",
+        "MRK 1:3",
+        "LUK 3:4",
+        "JHN 1:23"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN"
+      ],
+      "targetVerses": [
+        "quotations:MAT.3.3",
+        "quotations:MRK.1.3",
+        "quotations:LUK.3.4",
+        "quotations:JHN.1.23"
+      ],
+      "groups": [
+        "ubs-1316-95ce8d313d14"
+      ],
+      "full": 13,
+      "partial": 3,
+      "maximumTargetOverlap": 96.42857142857143,
+      "highestOverlapTarget": "MRK 1:3",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 4,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 13,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 90.625,
+      "maximumVerbalOverlap": 96.42857142857143,
+      "rank": 5,
+      "slug": "ISA",
+      "modern": "Isaiah",
+      "historical": "Isaiah",
+      "testament": "Old",
+      "order": 23,
+      "chapter": 40,
+      "verse": 3,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 4,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "DEU",
+      "startChapter": 6,
+      "startVerse": 5,
+      "endChapter": 6,
+      "endVerse": 5,
+      "originalReference": "DEU 6:5",
+      "match": {
+        "none": 0,
+        "partial": 1,
+        "full": 22,
+        "total": 23
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "22222222222522222522212",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:DEU.6.5"
+      ],
+      "text": "And you shall love the LORD your God with all your heart and with all your soul and with all your strength.",
+      "textComplete": true,
+      "id": "quotations:DEU.6.5-6.5",
+      "events": [
+        "quotation-event:58150c196e68b23b",
+        "quotation-event:8b78dd6191674574",
+        "quotation-event:7b683c8771121d3f",
+        "quotation-event:5e4e369857c17829"
+      ],
+      "targetPassages": [
+        "MAT 22:37",
+        "MRK 12:30",
+        "MRK 12:33",
+        "LUK 10:27"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK"
+      ],
+      "targetVerses": [
+        "quotations:MAT.22.37",
+        "quotations:MRK.12.30",
+        "quotations:MRK.12.33",
+        "quotations:LUK.10.27"
+      ],
+      "groups": [
+        "ubs-353-ac26e77c0329"
+      ],
+      "full": 22,
+      "partial": 1,
+      "maximumTargetOverlap": 94.82758620689656,
+      "highestOverlapTarget": "MRK 12:30",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 4,
+      "distinctNtPassageCount": 4,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 4,
+      "fullMatchWordCount": 22,
+      "partialMatchWordCount": 1,
+      "meanVerbalOverlap": 97.82608695652173,
+      "maximumVerbalOverlap": 94.82758620689656,
+      "rank": 5,
+      "slug": "DEU",
+      "modern": "Deuteronomy",
+      "historical": "Deuteronomy",
+      "testament": "Old",
+      "order": 5,
+      "chapter": 6,
+      "verse": 5,
+      "incoming": 1,
+      "outgoing": 4,
+      "sourceBooks": 3,
+      "connected": 4,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "JER",
+      "startChapter": 31,
+      "startVerse": 34,
+      "endChapter": 31,
+      "endVerse": 34,
+      "originalReference": "JER 31:34",
+      "match": {
+        "none": 2,
+        "partial": 0,
+        "full": 40,
+        "total": 42
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "222222225222225222222520022252222252222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:JER.31.34"
+      ],
+      "text": "No longer will each man teach his neighbor or his brother, saying, ‘Know the LORD,’ because they will all know Me, from the least of them to the greatest, declares the LORD. For I will forgive their iniquities and will remember their sins no more.”",
+      "textComplete": true,
+      "id": "quotations:JER.31.34-31.34",
+      "events": [
+        "quotation-event:7c143672c02cb9eb",
+        "quotation-event:8c2bf164bd771fe5",
+        "quotation-event:f0724d2cec9182c4"
+      ],
+      "targetPassages": [
+        "HEB 8:11-12",
+        "HEB 10:17"
+      ],
+      "targetBooks": [
+        "HEB"
+      ],
+      "targetVerses": [
+        "quotations:HEB.8.11",
+        "quotations:HEB.8.12",
+        "quotations:HEB.10.17"
+      ],
+      "groups": [
+        "ubs-1378-03878d50f529",
+        "ubs-1379-dbe917600100"
+      ],
+      "full": 48,
+      "partial": 3,
+      "maximumTargetOverlap": 100,
+      "highestOverlapTarget": "HEB 8:11-12",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 1,
+      "distinctNtVerseCount": 3,
+      "fullMatchWordCount": 48,
+      "partialMatchWordCount": 3,
+      "meanVerbalOverlap": 58.92857142857142,
+      "maximumVerbalOverlap": 100,
+      "rank": 1,
+      "slug": "JER",
+      "modern": "Jeremiah",
+      "historical": "Jeremiah",
+      "testament": "Old",
+      "order": 24,
+      "chapter": 31,
+      "verse": 34,
+      "incoming": 2,
+      "outgoing": 3,
+      "sourceBooks": 1,
+      "connected": 2,
+      "deuterocanonical": false
+    },
+    {
+      "bookId": "EXO",
+      "startChapter": 20,
+      "startVerse": 16,
+      "endChapter": 20,
+      "endVerse": 16,
+      "originalReference": "EXO 20:16",
+      "match": {
+        "none": 0,
+        "partial": 0,
+        "full": 8,
+        "total": 8
+      },
+      "sourceAttribute": "HEB",
+      "annotation": "22222222",
+      "sourceOrder": 0,
+      "verseIds": [
+        "quotations:EXO.20.16"
+      ],
+      "text": "You shall not bear false witness against your neighbor.",
+      "textComplete": true,
+      "id": "quotations:EXO.20.16-20.16",
+      "events": [
+        "quotation-event:72c83af4e39e7d73",
+        "quotation-event:c1130db6553848b4",
+        "quotation-event:8d1cec39b6783558"
+      ],
+      "targetPassages": [
+        "MAT 19:18",
+        "MRK 10:19",
+        "LUK 18:20"
+      ],
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK"
+      ],
+      "targetVerses": [
+        "quotations:MAT.19.18",
+        "quotations:MRK.10.19",
+        "quotations:LUK.18.20"
+      ],
+      "groups": [
+        "ubs-123-4abbb884a3d9"
+      ],
+      "full": 8,
+      "partial": 0,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 3,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 3,
+      "fullMatchWordCount": 8,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
+      "slug": "EXO",
+      "modern": "Exodus",
+      "historical": "Exodus",
+      "testament": "Old",
+      "order": 2,
+      "chapter": 20,
+      "verse": 16,
+      "incoming": 1,
       "outgoing": 3,
       "sourceBooks": 3,
       "connected": 3,
@@ -1801,6 +3974,8 @@
       "verseIds": [
         "quotations:DEU.5.20"
       ],
+      "text": "You shall not bear false witness against your neighbor.",
+      "textComplete": true,
       "id": "quotations:DEU.5.20-5.20",
       "events": [
         "quotation-event:f9fabad6ac6d0e5b",
@@ -1825,16 +4000,20 @@
       "groups": [
         "ubs-123-4abbb884a3d9"
       ],
-      "full": 24,
+      "full": 8,
       "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 24,
-      "partialMatchWords": 0,
-      "rank": 22,
+      "maximumTargetOverlap": 12.5,
+      "highestOverlapTarget": "MAT 19:18",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 3,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 3,
+      "fullMatchWordCount": 8,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 12.5,
+      "rank": 5,
       "slug": "DEU",
       "modern": "Deuteronomy",
       "historical": "Deuteronomy",
@@ -1842,76 +4021,9 @@
       "order": 5,
       "chapter": 5,
       "verse": 20,
-      "text": null,
-      "incoming": 3,
+      "incoming": 1,
       "outgoing": 3,
       "sourceBooks": 3,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 24,
-      "startVerse": 1,
-      "endChapter": 24,
-      "endVerse": 1,
-      "originalReference": "DEU 24:1",
-      "match": {
-        "none": 30,
-        "partial": 6,
-        "full": 4,
-        "total": 40
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0000000000000000000000000220100002121111",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.24.1"
-      ],
-      "id": "quotations:DEU.24.1-24.1",
-      "events": [
-        "quotation-event:f8da705fb44fd869",
-        "quotation-event:1624d418acd110c1",
-        "quotation-event:5ac5d6bf5befc8dd"
-      ],
-      "targetPassages": [
-        "MAT 5:31",
-        "MAT 19:7",
-        "MRK 10:4"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.5.31",
-        "quotations:MAT.19.7",
-        "quotations:MRK.10.4"
-      ],
-      "groups": [
-        "ubs-368-837ce2e55bc9"
-      ],
-      "full": 12,
-      "partial": 18,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 18,
-      "rank": 22,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 24,
-      "verse": 1,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 2,
       "connected": 3,
       "deuterocanonical": false
     },
@@ -1934,6 +4046,8 @@
       "verseIds": [
         "quotations:DEU.25.5"
       ],
+      "text": "When brothers dwell together and one of them dies without a son, the widow must not marry outside the family. Her husband’s brother is to take her as his wife and fulfill the duty of a brother-in-law for her.",
+      "textComplete": true,
       "id": "quotations:DEU.25.5-25.5",
       "events": [
         "quotation-event:d01ebe9ef26e9795",
@@ -1961,16 +4075,20 @@
       "groups": [
         "ubs-371-16d4d570b249"
       ],
-      "full": 15,
-      "partial": 57,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 6,
-      "groupCount": 1,
-      "fullMatchWords": 15,
-      "partialMatchWords": 57,
-      "rank": 22,
+      "full": 5,
+      "partial": 19,
+      "maximumTargetOverlap": 85,
+      "highestOverlapTarget": "LUK 20:27-28",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 3,
+      "distinctNtBookCount": 3,
+      "distinctNtVerseCount": 6,
+      "fullMatchWordCount": 5,
+      "partialMatchWordCount": 19,
+      "meanVerbalOverlap": 33.72093023255814,
+      "maximumVerbalOverlap": 85,
+      "rank": 5,
       "slug": "DEU",
       "modern": "Deuteronomy",
       "historical": "Deuteronomy",
@@ -1978,218 +4096,1033 @@
       "order": 5,
       "chapter": 25,
       "verse": 5,
-      "text": null,
-      "incoming": 3,
+      "incoming": 1,
       "outgoing": 3,
       "sourceBooks": 3,
       "connected": 3,
       "deuterocanonical": false
+    }
+  ],
+  "topSourceVerses": [
+    {
+      "id": "quotations:PSA.110.1",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT",
+        "HEB"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:c3e9b6ecdb3eb02e",
+        "quotation-event:5aede51a40d74f88",
+        "quotation-event:eadf5c26ef82a65b",
+        "quotation-event:17d720538deb0d42",
+        "quotation-event:8e02a4fb4785a1df",
+        "quotation-event:beecc9e919c5a17d",
+        "quotation-event:543c8fbbb53f7ac3",
+        "quotation-event:ba61220b9f03f7c8"
+      ],
+      "chapter": 110,
+      "verse": 1,
+      "originalReference": "PSA 110:1",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 8,
+      "distinctNtPassageCount": 8,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 1,
+      "text": "The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”",
+      "rank": 1
+    },
+    {
+      "id": "quotations:DEU.6.5",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MRK",
+        "MAT",
+        "LUK"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:ac42afb140f6b801",
+        "quotation-event:58150c196e68b23b",
+        "quotation-event:8b78dd6191674574",
+        "quotation-event:7b683c8771121d3f",
+        "quotation-event:5e4e369857c17829"
+      ],
+      "chapter": 6,
+      "verse": 5,
+      "originalReference": "DEU 6:5",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 2,
+      "text": "And you shall love the LORD your God with all your heart and with all your soul and with all your strength.",
+      "rank": 1
+    },
+    {
+      "id": "quotations:JER.31.34",
+      "bookId": "JER",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "HEB"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:7c143672c02cb9eb",
+        "quotation-event:8c2bf164bd771fe5",
+        "quotation-event:f0724d2cec9182c4"
+      ],
+      "chapter": 31,
+      "verse": 34,
+      "originalReference": "JER 31:34",
+      "modern": "Jeremiah",
+      "order": 24,
+      "ntOccurrenceCount": 3,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 1,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 1,
+      "text": "No longer will each man teach his neighbor or his brother, saying, ‘Know the LORD,’ because they will all know Me, from the least of them to the greatest, declares the LORD. For I will forgive their iniquities and will remember their sins no more.”",
+      "rank": 1
+    },
+    {
+      "id": "quotations:DEU.18.15",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "ACT"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:c2a7bf8565aff3ae",
+        "quotation-event:bdd29d6737fe459c"
+      ],
+      "chapter": 18,
+      "verse": 15,
+      "originalReference": "DEU 18:15",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 1,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 2,
+      "text": "The LORD your God will raise up for you a prophet like me from among your brothers. You must listen to him.",
+      "rank": 1
+    },
+    {
+      "id": "quotations:DEU.32.35",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "ROM",
+        "HEB"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:e1f07766a45d38b5",
+        "quotation-event:fad608b71bca1277"
+      ],
+      "chapter": 32,
+      "verse": 35,
+      "originalReference": "DEU 32:35",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 2,
+      "text": "Vengeance is Mine; I will repay. In due time their foot will slip; for their day of disaster is near, and their doom is coming quickly.”",
+      "rank": 1
+    },
+    {
+      "id": "quotations:DEU.6.4",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MRK"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:ac42afb140f6b801",
+        "quotation-event:7142d48b393f9c38"
+      ],
+      "chapter": 6,
+      "verse": 4,
+      "originalReference": "DEU 6:4",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 1,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 2,
+      "text": "Hear, O Israel: The LORD our God, the LORD is One.",
+      "rank": 1
+    },
+    {
+      "id": "quotations:JOL.3.5",
+      "bookId": "JOL",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "ACT",
+        "ROM"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:9d2bbb5282d5bce2",
+        "quotation-event:584875e7b66a9215"
+      ],
+      "chapter": 3,
+      "verse": 5,
+      "originalReference": "JOL 3:5",
+      "modern": "Joel",
+      "order": 29,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 1,
+      "text": "For you took My silver and gold and carried off My finest treasures to your temples.",
+      "rank": 1
+    },
+    {
+      "id": "quotations:PSA.69.10",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "JHN",
+        "ROM"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:a929f3890a67bcb0",
+        "quotation-event:15398ff0e4bc7cc3"
+      ],
+      "chapter": 69,
+      "verse": 10,
+      "originalReference": "PSA 69:10",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "quotationGroupCount": 2,
+      "sourcePassageCount": 1,
+      "text": "I wept and fasted, but it brought me reproach.",
+      "rank": 1
+    },
+    {
+      "id": "quotations:LEV.19.18",
+      "bookId": "LEV",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "GAL",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:583e87c203ff036e",
+        "quotation-event:8fb2a8f1a8e6801b",
+        "quotation-event:a1b20f4014ad5165",
+        "quotation-event:0bd040ed677450d8",
+        "quotation-event:b2bc85fa45794c64",
+        "quotation-event:10873c4d1137ac03",
+        "quotation-event:89e481bf2fe75e0d",
+        "quotation-event:af664c6e0fad8580",
+        "quotation-event:38604b28ab318b3c"
+      ],
+      "chapter": 19,
+      "verse": 18,
+      "originalReference": "LEV 19:18",
+      "modern": "Leviticus",
+      "order": 3,
+      "ntOccurrenceCount": 9,
+      "distinctNtPassageCount": 9,
+      "distinctNtBookCount": 6,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Do not seek revenge or bear a grudge against any of your people, but love your neighbor as yourself. I am the LORD.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:DEU.5.16",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:8ca91f7ec0edbd22",
+        "quotation-event:a2fb4a7f3eeeaca3",
+        "quotation-event:747a0a80de818648",
+        "quotation-event:001b2f5222099e99",
+        "quotation-event:fc8a251c13d87dd1",
+        "quotation-event:592192ecca86c3dc"
+      ],
+      "chapter": 5,
+      "verse": 16,
+      "originalReference": "DEU 5:16",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Honor your father and your mother, as the LORD your God has commanded you, so that your days may be long and that it may go well with you in the land that the LORD your God is giving you.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:DEU.5.17",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:0817c83eb8a63077",
+        "quotation-event:6d381d6ec077c75d",
+        "quotation-event:a687cf0e753effb2",
+        "quotation-event:92d250308e6125ce",
+        "quotation-event:538f8fc458eb2108",
+        "quotation-event:40de594a9b7e60ae"
+      ],
+      "chapter": 5,
+      "verse": 17,
+      "originalReference": "DEU 5:17",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "You shall not murder.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:DEU.5.18",
+      "bookId": "DEU",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:69e97926ff60bb18",
+        "quotation-event:2f055ffbf25b2c95",
+        "quotation-event:86e19474a0c0c8c0",
+        "quotation-event:a098e178daea62cb",
+        "quotation-event:5979b5b269c6c5a9",
+        "quotation-event:3141843f2b4ab4eb"
+      ],
+      "chapter": 5,
+      "verse": 18,
+      "originalReference": "DEU 5:18",
+      "modern": "Deuteronomy",
+      "order": 5,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "You shall not commit adultery.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:EXO.20.12",
+      "bookId": "EXO",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "EPH"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:a649c11ad248b18c",
+        "quotation-event:d0fef5c8585590df",
+        "quotation-event:faed5cb9c2e7ee97",
+        "quotation-event:c481fa2f9972fc4a",
+        "quotation-event:6e5d9a95647c89da",
+        "quotation-event:5d8f1c032425e7c6"
+      ],
+      "chapter": 20,
+      "verse": 12,
+      "originalReference": "EXO 20:12",
+      "modern": "Exodus",
+      "order": 2,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Honor your father and mother, so that your days may be long in the land that the LORD your God is giving you.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:EXO.20.13",
+      "bookId": "EXO",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:e5e83bf9f90908d3",
+        "quotation-event:c59dec738b558cca",
+        "quotation-event:b95bdf661c74f1b4",
+        "quotation-event:cb80e069eda2e004",
+        "quotation-event:36c5f6308660940d",
+        "quotation-event:fa849776e9779092"
+      ],
+      "chapter": 20,
+      "verse": 13,
+      "originalReference": "EXO 20:13",
+      "modern": "Exodus",
+      "order": 2,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "You shall not murder.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:EXO.20.14",
+      "bookId": "EXO",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:6c47991dcbd1fa88",
+        "quotation-event:fdc3f48fadf41eb4",
+        "quotation-event:9a543d1463fe8ba0",
+        "quotation-event:3fc8f672bbbfb332",
+        "quotation-event:abe146b090dbb5a0",
+        "quotation-event:d8e66e6b5d635af8"
+      ],
+      "chapter": 20,
+      "verse": 14,
+      "originalReference": "EXO 20:14",
+      "modern": "Exodus",
+      "order": 2,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "You shall not commit adultery.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:PSA.110.4",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "HEB"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:f4743b61c4ccd423",
+        "quotation-event:e3614d301b88b773",
+        "quotation-event:65a785a2c563e2c4",
+        "quotation-event:4a8e1422ac95705e",
+        "quotation-event:d9739bfe589069cc",
+        "quotation-event:68988268833af74c"
+      ],
+      "chapter": 110,
+      "verse": 4,
+      "originalReference": "PSA 110:4",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 1,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "The LORD has sworn and will not change His mind: “You are a priest forever in the order of Melchizedek.”",
+      "rank": 9
+    },
+    {
+      "id": "quotations:PSA.118.22",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT",
+        "1PE"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:cafd312dd3c798ee",
+        "quotation-event:eae79d79cfb266eb",
+        "quotation-event:c7599cb463dcab95",
+        "quotation-event:abaadd8ed7bc5e17",
+        "quotation-event:9b3168d50b6f06c8",
+        "quotation-event:66558b18c4cd12a3"
+      ],
+      "chapter": 118,
+      "verse": 22,
+      "originalReference": "PSA 118:22",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "The stone the builders rejected has become the cornerstone.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:PSA.118.23",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT",
+        "1PE"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:cafd312dd3c798ee",
+        "quotation-event:eae79d79cfb266eb",
+        "quotation-event:c7599cb463dcab95",
+        "quotation-event:abaadd8ed7bc5e17",
+        "quotation-event:9b3168d50b6f06c8",
+        "quotation-event:66558b18c4cd12a3"
+      ],
+      "chapter": 118,
+      "verse": 23,
+      "originalReference": "PSA 118:23",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "This is from the LORD, and it is marvelous in our eyes.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:PSA.118.26",
+      "bookId": "PSA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:13e82df87cbb87e1",
+        "quotation-event:bd63b5cc64d2cb1a",
+        "quotation-event:8b038f0cc8a7bc50",
+        "quotation-event:65a10cae14a3b106",
+        "quotation-event:96f48a329c592cc4",
+        "quotation-event:59f903b4339bc44b"
+      ],
+      "chapter": 118,
+      "verse": 26,
+      "originalReference": "PSA 118:26",
+      "modern": "Psalms",
+      "order": 19,
+      "ntOccurrenceCount": 6,
+      "distinctNtPassageCount": 6,
+      "distinctNtBookCount": 4,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Blessed is he who comes in the name of the LORD. From the house of the LORD we bless you.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:DAN.7.13",
+      "bookId": "DAN",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:0cb04a75de3c3d75",
+        "quotation-event:9ac4e7cd13f93be9",
+        "quotation-event:f86a88739713aa33",
+        "quotation-event:4b7d1e0d33cd1d92",
+        "quotation-event:390e60a2ce9626c9"
+      ],
+      "chapter": 7,
+      "verse": 13,
+      "originalReference": "DAN 7:13",
+      "modern": "Daniel",
+      "order": 27,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "In my vision in the night I continued to watch, and I saw One like the Son of Man coming with the clouds of heaven. He approached the Ancient of Days and was led into His presence.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:EXO.3.15",
+      "bookId": "EXO",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:d36329f46f6a9056",
+        "quotation-event:fddfade5830c5544",
+        "quotation-event:3b14ec44f73e2d71",
+        "quotation-event:04ffba45c24ba497",
+        "quotation-event:29f899d3fd796b8a"
+      ],
+      "chapter": 3,
+      "verse": 15,
+      "originalReference": "EXO 3:15",
+      "modern": "Exodus",
+      "order": 2,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "God also told Moses, “Say to the Israelites, ‘The LORD, the God of your fathers—the God of Abraham, the God of Isaac, and the God of Jacob—has sent me to you.’ This is My name forever, and this is how I am to be remembered in every generation.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:EXO.3.6",
+      "bookId": "EXO",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "ACT"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:e56bb70f35890eaa",
+        "quotation-event:8a238aff84d7b437",
+        "quotation-event:fdb1ad7c1daa1686",
+        "quotation-event:337b236cc9367827",
+        "quotation-event:dd8cacef84477c3c"
+      ],
+      "chapter": 3,
+      "verse": 6,
+      "originalReference": "EXO 3:6",
+      "modern": "Exodus",
+      "order": 2,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 4,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Then He said, “I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.” At this, Moses hid his face, for he was afraid to look at God.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:GEN.15.6",
+      "bookId": "GEN",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "ROM",
+        "GAL",
+        "JAS"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:992dcf38904e285c",
+        "quotation-event:070a4fc55bdac3c5",
+        "quotation-event:2a057380cf683f64",
+        "quotation-event:2d218259033f3d78",
+        "quotation-event:149474f9abee93b0"
+      ],
+      "chapter": 15,
+      "verse": 6,
+      "originalReference": "GEN 15:6",
+      "modern": "Genesis",
+      "order": 1,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 3,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Abram believed the LORD, and it was credited to him as righteousness.",
+      "rank": 9
+    },
+    {
+      "id": "quotations:ISA.6.10",
+      "bookId": "ISA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN",
+        "ACT"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:145173648fef50bc",
+        "quotation-event:7a0376f4751c9274",
+        "quotation-event:26316018e11bb0f7",
+        "quotation-event:f1d54589bc1779bc",
+        "quotation-event:5908b1909f3a67f8"
+      ],
+      "chapter": 6,
+      "verse": 10,
+      "originalReference": "ISA 6:10",
+      "modern": "Isaiah",
+      "order": 23,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "Make the hearts of this people calloused; deafen their ears and close their eyes. Otherwise they might see with their eyes, hear with their ears, understand with their hearts, and turn and be healed. ”",
+      "rank": 9
+    },
+    {
+      "id": "quotations:ISA.6.9",
+      "bookId": "ISA",
+      "eventIds": {},
+      "targetPassages": {},
+      "groups": {},
+      "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
+        "JHN",
+        "ACT"
+      ],
+      "sourcePassages": {},
+      "events": [
+        "quotation-event:145173648fef50bc",
+        "quotation-event:7a0376f4751c9274",
+        "quotation-event:26316018e11bb0f7",
+        "quotation-event:f1d54589bc1779bc",
+        "quotation-event:5908b1909f3a67f8"
+      ],
+      "chapter": 6,
+      "verse": 9,
+      "originalReference": "ISA 6:9",
+      "modern": "Isaiah",
+      "order": 23,
+      "ntOccurrenceCount": 5,
+      "distinctNtPassageCount": 5,
+      "distinctNtBookCount": 5,
+      "quotationGroupCount": 1,
+      "sourcePassageCount": 1,
+      "text": "And He replied: “Go and tell this people, ‘Be ever hearing, but never understanding; be ever seeing, but never perceiving.’",
+      "rank": 9
+    }
+  ],
+  "missingText": {
+    "sourcePassagesMissingText": 2,
+    "sourcePassagesPartialText": 0,
+    "ntOccurrencesMissingText": 1
+  },
+  "focus": [
+    {
+      "originalReference": "EXO 34:6-7",
+      "missing": true
     },
     {
       "bookId": "PSA",
-      "startChapter": 2,
-      "startVerse": 7,
-      "endChapter": 2,
-      "endVerse": 7,
-      "originalReference": "PSA 2:7",
+      "startChapter": 110,
+      "startVerse": 1,
+      "endChapter": 110,
+      "endVerse": 1,
+      "originalReference": "PSA 110:1",
       "match": {
-        "none": 8,
+        "none": 1,
         "partial": 0,
-        "full": 8,
-        "total": 16
+        "full": 22,
+        "total": 23
       },
       "sourceAttribute": "HEB",
-      "annotation": "0000000022222222",
+      "annotation": "02252222252225222222222",
       "sourceOrder": 0,
       "verseIds": [
-        "quotations:PSA.2.7"
+        "quotations:PSA.110.1"
       ],
-      "id": "quotations:PSA.2.7-2.7",
+      "text": "The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”",
+      "textComplete": true,
+      "id": "quotations:PSA.110.1-110.1",
       "events": [
-        "quotation-event:752ff59d0727a05a",
-        "quotation-event:1aee9ebfe92d856b",
-        "quotation-event:bfa1adeca7884c29"
+        "quotation-event:c3e9b6ecdb3eb02e",
+        "quotation-event:5aede51a40d74f88",
+        "quotation-event:eadf5c26ef82a65b",
+        "quotation-event:17d720538deb0d42",
+        "quotation-event:8e02a4fb4785a1df",
+        "quotation-event:beecc9e919c5a17d",
+        "quotation-event:543c8fbbb53f7ac3",
+        "quotation-event:ba61220b9f03f7c8"
       ],
       "targetPassages": [
-        "ACT 13:33",
-        "HEB 1:5",
-        "HEB 5:5"
+        "MAT 22:43-44",
+        "MRK 12:36",
+        "LUK 20:42-43",
+        "ACT 2:34-35",
+        "HEB 1:13",
+        "MAT 26:64",
+        "MRK 14:62",
+        "LUK 22:69"
       ],
       "targetBooks": [
+        "MAT",
+        "MRK",
+        "LUK",
         "ACT",
         "HEB"
       ],
       "targetVerses": [
-        "quotations:ACT.13.33",
-        "quotations:HEB.1.5",
-        "quotations:HEB.5.5"
+        "quotations:MAT.22.43",
+        "quotations:MAT.22.44",
+        "quotations:MRK.12.36",
+        "quotations:LUK.20.42",
+        "quotations:LUK.20.43",
+        "quotations:ACT.2.34",
+        "quotations:ACT.2.35",
+        "quotations:HEB.1.13",
+        "quotations:MAT.26.64",
+        "quotations:MRK.14.62",
+        "quotations:LUK.22.69"
       ],
       "groups": [
-        "ubs-1164-9e6ad61b7754"
+        "ubs-1250-77185a2983bf",
+        "ubs-1251-68cbfe2696e9"
       ],
       "full": 24,
-      "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 24,
-      "partialMatchWords": 0,
-      "rank": 22,
+      "partial": 2,
+      "maximumTargetOverlap": 84.61538461538461,
+      "highestOverlapTarget": "LUK 20:42-43",
+      "quotationGroupCount": 2,
+      "ntOccurrenceCount": 8,
+      "distinctNtPassageCount": 8,
+      "distinctNtBookCount": 5,
+      "distinctNtVerseCount": 11,
+      "fullMatchWordCount": 24,
+      "partialMatchWordCount": 2,
+      "meanVerbalOverlap": 54.34782608695652,
+      "maximumVerbalOverlap": 84.61538461538461,
+      "rank": 1,
       "slug": "PSA",
       "modern": "Psalms",
       "historical": "Psalms",
       "testament": "Old",
       "order": 19,
-      "chapter": 2,
-      "verse": 7,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 2,
-      "connected": 3,
+      "chapter": 110,
+      "verse": 1,
+      "incoming": 2,
+      "outgoing": 8,
+      "sourceBooks": 5,
+      "connected": 8,
       "deuterocanonical": false
     },
     {
-      "bookId": "PSA",
-      "startChapter": 16,
-      "startVerse": 10,
-      "endChapter": 16,
-      "endVerse": 10,
-      "originalReference": "PSA 16:10",
+      "bookId": "LEV",
+      "startChapter": 19,
+      "startVerse": 18,
+      "endChapter": 19,
+      "endVerse": 18,
+      "originalReference": "LEV 19:18",
       "match": {
-        "none": 0,
+        "none": 18,
         "partial": 0,
-        "full": 15,
-        "total": 15
+        "full": 6,
+        "total": 24
       },
       "sourceAttribute": "HEB",
-      "annotation": "222222222222222",
+      "annotation": "000000000000000222222000",
       "sourceOrder": 0,
       "verseIds": [
-        "quotations:PSA.16.10"
+        "quotations:LEV.19.18"
       ],
-      "id": "quotations:PSA.16.10-16.10",
+      "text": "Do not seek revenge or bear a grudge against any of your people, but love your neighbor as yourself. I am the LORD.",
+      "textComplete": true,
+      "id": "quotations:LEV.19.18-19.18",
       "events": [
-        "quotation-event:00d19f836bbd0bea",
-        "quotation-event:da892f23d18e68c4",
-        "quotation-event:8fc20a54ce21ec00"
+        "quotation-event:583e87c203ff036e",
+        "quotation-event:8fb2a8f1a8e6801b",
+        "quotation-event:a1b20f4014ad5165",
+        "quotation-event:0bd040ed677450d8",
+        "quotation-event:b2bc85fa45794c64",
+        "quotation-event:10873c4d1137ac03",
+        "quotation-event:89e481bf2fe75e0d",
+        "quotation-event:af664c6e0fad8580",
+        "quotation-event:38604b28ab318b3c"
       ],
       "targetPassages": [
-        "ACT 2:27",
-        "ACT 2:31",
-        "ACT 13:35"
+        "MAT 5:43",
+        "MAT 19:19",
+        "MAT 22:39",
+        "MRK 12:31",
+        "MRK 12:33",
+        "LUK 10:27",
+        "ROM 13:9",
+        "GAL 5:14",
+        "JAS 2:8"
       ],
       "targetBooks": [
-        "ACT"
+        "MAT",
+        "MRK",
+        "LUK",
+        "ROM",
+        "GAL",
+        "JAS"
       ],
       "targetVerses": [
-        "quotations:ACT.2.27",
-        "quotations:ACT.2.31",
-        "quotations:ACT.13.35"
+        "quotations:MAT.5.43",
+        "quotations:MAT.19.19",
+        "quotations:MAT.22.39",
+        "quotations:MRK.12.31",
+        "quotations:MRK.12.33",
+        "quotations:LUK.10.27",
+        "quotations:ROM.13.9",
+        "quotations:GAL.5.14",
+        "quotations:JAS.2.8"
       ],
       "groups": [
-        "ubs-1182-cda7465323db"
+        "ubs-320-069426811932"
       ],
-      "full": 45,
+      "full": 6,
       "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 45,
-      "partialMatchWords": 0,
-      "rank": 22,
-      "slug": "PSA",
-      "modern": "Psalms",
-      "historical": "Psalms",
+      "maximumTargetOverlap": 60,
+      "highestOverlapTarget": "MAT 22:39",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 9,
+      "distinctNtPassageCount": 9,
+      "distinctNtBookCount": 6,
+      "distinctNtVerseCount": 9,
+      "fullMatchWordCount": 6,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 25,
+      "maximumVerbalOverlap": 60,
+      "rank": 5,
+      "slug": "LEV",
+      "modern": "Leviticus",
+      "historical": "Leviticus",
       "testament": "Old",
-      "order": 19,
-      "chapter": 16,
-      "verse": 10,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 1,
-      "connected": 3,
+      "order": 3,
+      "chapter": 19,
+      "verse": 18,
+      "incoming": 1,
+      "outgoing": 9,
+      "sourceBooks": 6,
+      "connected": 9,
       "deuterocanonical": false
     },
     {
-      "bookId": "PSA",
-      "startChapter": 95,
-      "startVerse": 7,
-      "endChapter": 95,
-      "endVerse": 8,
-      "originalReference": "PSA 95:7-8",
-      "match": {
-        "none": 15,
-        "partial": 0,
-        "full": 23,
-        "total": 38
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "00000000000000022222222222222222222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:PSA.95.7",
-        "quotations:PSA.95.8"
-      ],
-      "id": "quotations:PSA.95.7-95.8",
-      "events": [
-        "quotation-event:14f781642c3e51b6",
-        "quotation-event:7f309036ca7eddc6",
-        "quotation-event:665c046dd70e8218"
-      ],
-      "targetPassages": [
-        "HEB 3:7-8",
-        "HEB 3:15",
-        "HEB 4:7"
-      ],
-      "targetBooks": [
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:HEB.3.7",
-        "quotations:HEB.3.8",
-        "quotations:HEB.3.15",
-        "quotations:HEB.4.7"
-      ],
-      "groups": [
-        "ubs-1239-9f5267a0b63c"
-      ],
-      "full": 69,
-      "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 4,
-      "groupCount": 1,
-      "fullMatchWords": 69,
-      "partialMatchWords": 0,
-      "rank": 22,
-      "slug": "PSA",
-      "modern": "Psalms",
-      "historical": "Psalms",
-      "testament": "Old",
-      "order": 19,
-      "chapter": 95,
-      "verse": 7,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 1,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "PSA",
-      "startChapter": 95,
-      "startVerse": 11,
-      "endChapter": 95,
-      "endVerse": 11,
-      "originalReference": "PSA 95:11",
+      "bookId": "ISA",
+      "startChapter": 53,
+      "startVerse": 1,
+      "endChapter": 53,
+      "endVerse": 1,
+      "originalReference": "ISA 53:1",
       "match": {
         "none": 0,
         "partial": 0,
@@ -2200,1386 +5133,54 @@
       "annotation": "222222222222",
       "sourceOrder": 0,
       "verseIds": [
-        "quotations:PSA.95.11"
+        "quotations:ISA.53.1"
       ],
-      "id": "quotations:PSA.95.11-95.11",
+      "text": "Who has believed our message? And to whom has the arm of the LORD been revealed?",
+      "textComplete": true,
+      "id": "quotations:ISA.53.1-53.1",
       "events": [
-        "quotation-event:3f4d731e137843a4",
-        "quotation-event:ab371a6801342c55",
-        "quotation-event:7631165f04b4d71b"
+        "quotation-event:cf7e7fa45ff5413a",
+        "quotation-event:48f6619c40bc22a3"
       ],
       "targetPassages": [
-        "HEB 3:11",
-        "HEB 4:3",
-        "HEB 4:5"
+        "JHN 12:38",
+        "ROM 10:16"
       ],
       "targetBooks": [
-        "HEB"
+        "JHN",
+        "ROM"
       ],
       "targetVerses": [
-        "quotations:HEB.3.11",
-        "quotations:HEB.4.3",
-        "quotations:HEB.4.5"
+        "quotations:JHN.12.38",
+        "quotations:ROM.10.16"
       ],
       "groups": [
-        "ubs-1242-85b6571f8812"
+        "ubs-1335-9f3d5e5c5af9"
       ],
-      "full": 36,
+      "full": 12,
       "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 36,
-      "partialMatchWords": 0,
-      "rank": 22,
-      "slug": "PSA",
-      "modern": "Psalms",
-      "historical": "Psalms",
-      "testament": "Old",
-      "order": 19,
-      "chapter": 95,
-      "verse": 11,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 1,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "ISA",
-      "startChapter": 28,
-      "startVerse": 16,
-      "endChapter": 28,
-      "endVerse": 16,
-      "originalReference": "ISA 28:16",
-      "match": {
-        "none": 13,
-        "partial": 2,
-        "full": 14,
-        "total": 29
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "00000211000220222000022222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:ISA.28.16"
-      ],
-      "id": "quotations:ISA.28.16-28.16",
-      "events": [
-        "quotation-event:8c819ad517d73961",
-        "quotation-event:1faee5845cd6c9db",
-        "quotation-event:16d98a402b7e202d"
-      ],
-      "targetPassages": [
-        "ROM 9:33",
-        "ROM 10:11",
-        "1PE 2:6"
-      ],
-      "targetBooks": [
-        "ROM",
-        "1PE"
-      ],
-      "targetVerses": [
-        "quotations:ROM.9.33",
-        "quotations:ROM.10.11",
-        "quotations:1PE.2.6"
-      ],
-      "groups": [
-        "ubs-1311-259c28bfae8c"
-      ],
-      "full": 42,
-      "partial": 6,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 42,
-      "partialMatchWords": 6,
-      "rank": 22,
+      "maximumTargetOverlap": 57.14285714285714,
+      "highestOverlapTarget": "JHN 12:38",
+      "quotationGroupCount": 1,
+      "ntOccurrenceCount": 2,
+      "distinctNtPassageCount": 2,
+      "distinctNtBookCount": 2,
+      "distinctNtVerseCount": 2,
+      "fullMatchWordCount": 12,
+      "partialMatchWordCount": 0,
+      "meanVerbalOverlap": 100,
+      "maximumVerbalOverlap": 57.14285714285714,
+      "rank": 5,
       "slug": "ISA",
       "modern": "Isaiah",
       "historical": "Isaiah",
       "testament": "Old",
       "order": 23,
-      "chapter": 28,
-      "verse": 16,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 2,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "ISA",
-      "startChapter": 56,
-      "startVerse": 7,
-      "endChapter": 56,
-      "endVerse": 7,
-      "originalReference": "ISA 56:7",
-      "match": {
-        "none": 31,
-        "partial": 0,
-        "full": 9,
-        "total": 40
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0000000000000000000000000000002022222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:ISA.56.7"
-      ],
-      "id": "quotations:ISA.56.7-56.7",
-      "events": [
-        "quotation-event:2519852072f8057a",
-        "quotation-event:28ec9ce95e96189f",
-        "quotation-event:225fb052b072235d"
-      ],
-      "targetPassages": [
-        "MAT 21:13",
-        "MRK 11:17",
-        "LUK 19:46"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.21.13",
-        "quotations:MRK.11.17",
-        "quotations:LUK.19.46"
-      ],
-      "groups": [
-        "ubs-1344-120c1aa58048"
-      ],
-      "full": 27,
-      "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 27,
-      "partialMatchWords": 0,
-      "rank": 22,
-      "slug": "ISA",
-      "modern": "Isaiah",
-      "historical": "Isaiah",
-      "testament": "Old",
-      "order": 23,
-      "chapter": 56,
-      "verse": 7,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 3,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "JER",
-      "startChapter": 31,
-      "startVerse": 34,
-      "endChapter": 31,
-      "endVerse": 34,
-      "originalReference": "JER 31:34",
-      "match": {
-        "none": 2,
-        "partial": 0,
-        "full": 40,
-        "total": 42
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "222222225222225222222520022252222252222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:JER.31.34"
-      ],
-      "id": "quotations:JER.31.34-31.34",
-      "events": [
-        "quotation-event:7c143672c02cb9eb",
-        "quotation-event:8c2bf164bd771fe5",
-        "quotation-event:f0724d2cec9182c4"
-      ],
-      "targetPassages": [
-        "HEB 8:11-12",
-        "HEB 10:17"
-      ],
-      "targetBooks": [
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:HEB.8.11",
-        "quotations:HEB.8.12",
-        "quotations:HEB.10.17"
-      ],
-      "groups": [
-        "ubs-1378-03878d50f529",
-        "ubs-1379-dbe917600100"
-      ],
-      "full": 88,
-      "partial": 3,
-      "reuseEvents": 3,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 3,
-      "groupCount": 2,
-      "fullMatchWords": 88,
-      "partialMatchWords": 3,
-      "rank": 22,
-      "slug": "JER",
-      "modern": "Jeremiah",
-      "historical": "Jeremiah",
-      "testament": "Old",
-      "order": 24,
-      "chapter": 31,
-      "verse": 34,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "HAB",
-      "startChapter": 2,
-      "startVerse": 4,
-      "endChapter": 2,
-      "endVerse": 4,
-      "originalReference": "HAB 2:4",
-      "match": {
-        "none": 0,
-        "partial": 0,
-        "full": 16,
-        "total": 16
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "2222222222222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:HAB.2.4"
-      ],
-      "id": "quotations:HAB.2.4-2.4",
-      "events": [
-        "quotation-event:f5818da4d3e5818c",
-        "quotation-event:413e1bdf8e676357",
-        "quotation-event:a4f55ee8bd0de4ae"
-      ],
-      "targetPassages": [
-        "ROM 1:17",
-        "GAL 3:11",
-        "HEB 10:38"
-      ],
-      "targetBooks": [
-        "ROM",
-        "GAL",
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:ROM.1.17",
-        "quotations:GAL.3.11",
-        "quotations:HEB.10.38"
-      ],
-      "groups": [
-        "ubs-1425-0c040e9cd10e"
-      ],
-      "full": 48,
-      "partial": 0,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 48,
-      "partialMatchWords": 0,
-      "rank": 22,
-      "slug": "HAB",
-      "modern": "Habakkuk",
-      "historical": "Habakkuk",
-      "testament": "Old",
-      "order": 35,
-      "chapter": 2,
-      "verse": 4,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 3,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "MAL",
-      "startChapter": 3,
-      "startVerse": 1,
-      "endChapter": 3,
-      "endVerse": 1,
-      "originalReference": "MAL 3:1",
-      "match": {
-        "none": 24,
-        "partial": 6,
-        "full": 6,
-        "total": 36
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "221222412111300000003000000030030000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:MAL.3.1"
-      ],
-      "id": "quotations:MAL.3.1-3.1",
-      "events": [
-        "quotation-event:a52ff200e7076a4a",
-        "quotation-event:05a76ef007d639ea",
-        "quotation-event:83f3a0fa616b9903"
-      ],
-      "targetPassages": [
-        "MAT 11:10",
-        "MRK 1:2",
-        "LUK 7:27"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.11.10",
-        "quotations:MRK.1.2",
-        "quotations:LUK.7.27"
-      ],
-      "groups": [
-        "ubs-1433-714736746dd9"
-      ],
-      "full": 18,
-      "partial": 18,
-      "reuseEvents": 3,
-      "distinctNtPassages": 3,
-      "distinctNtBooks": 3,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 18,
-      "partialMatchWords": 18,
-      "rank": 22,
-      "slug": "MAL",
-      "modern": "Malachi",
-      "historical": "Malachi",
-      "testament": "Old",
-      "order": 39,
-      "chapter": 3,
+      "chapter": 53,
       "verse": 1,
-      "text": null,
-      "incoming": 3,
-      "outgoing": 3,
-      "sourceBooks": 3,
-      "connected": 3,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "GEN",
-      "startChapter": 1,
-      "startVerse": 27,
-      "endChapter": 1,
-      "endVerse": 27,
-      "originalReference": "GEN 1:27",
-      "match": {
-        "none": 11,
-        "partial": 0,
-        "full": 5,
-        "total": 16
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0000003000052222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:GEN.1.27"
-      ],
-      "id": "quotations:GEN.1.27-1.27",
-      "events": [
-        "quotation-event:7e0b90028b9b9173",
-        "quotation-event:7146338fab9fb562"
-      ],
-      "targetPassages": [
-        "MAT 19:4",
-        "MRK 10:6"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.19.4",
-        "quotations:MRK.10.6"
-      ],
-      "groups": [
-        "ubs-2-e161fb7cf332"
-      ],
-      "full": 10,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 10,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "GEN",
-      "modern": "Genesis",
-      "historical": "Genesis",
-      "testament": "Old",
-      "order": 1,
-      "chapter": 1,
-      "verse": 27,
-      "text": null,
-      "incoming": 2,
+      "incoming": 1,
       "outgoing": 2,
       "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "GEN",
-      "startChapter": 5,
-      "startVerse": 2,
-      "endChapter": 5,
-      "endVerse": 2,
-      "originalReference": "GEN 5:2",
-      "match": {
-        "none": 13,
-        "partial": 0,
-        "full": 5,
-        "total": 18
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "222223003000003000",
-      "sourceOrder": 1,
-      "verseIds": [
-        "quotations:GEN.5.2"
-      ],
-      "id": "quotations:GEN.5.2-5.2",
-      "events": [
-        "quotation-event:6bdfbaa8254954bd",
-        "quotation-event:a5064c966d480ccb"
-      ],
-      "targetPassages": [
-        "MAT 19:4",
-        "MRK 10:6"
-      ],
-      "targetBooks": [
-        "MAT",
-        "MRK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.19.4",
-        "quotations:MRK.10.6"
-      ],
-      "groups": [
-        "ubs-2-e161fb7cf332"
-      ],
-      "full": 10,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 10,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "GEN",
-      "modern": "Genesis",
-      "historical": "Genesis",
-      "testament": "Old",
-      "order": 1,
-      "chapter": 5,
-      "verse": 2,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "GEN",
-      "startChapter": 17,
-      "startVerse": 5,
-      "endChapter": 17,
-      "endVerse": 5,
-      "originalReference": "GEN 17:5",
-      "match": {
-        "none": 14,
-        "partial": 0,
-        "full": 6,
-        "total": 20
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "00000000000000222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:GEN.17.5"
-      ],
-      "id": "quotations:GEN.17.5-17.5",
-      "events": [
-        "quotation-event:cc942d9a8984dfd5",
-        "quotation-event:91492c1efa292256"
-      ],
-      "targetPassages": [
-        "ROM 4:17",
-        "ROM 4:18"
-      ],
-      "targetBooks": [
-        "ROM"
-      ],
-      "targetVerses": [
-        "quotations:ROM.4.17",
-        "quotations:ROM.4.18"
-      ],
-      "groups": [
-        "ubs-37-79aeea316bb6"
-      ],
-      "full": 12,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "GEN",
-      "modern": "Genesis",
-      "historical": "Genesis",
-      "testament": "Old",
-      "order": 1,
-      "chapter": 17,
-      "verse": 5,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "GEN",
-      "startChapter": 21,
-      "startVerse": 12,
-      "endChapter": 21,
-      "endVerse": 12,
-      "originalReference": "GEN 21:12",
-      "match": {
-        "none": 30,
-        "partial": 0,
-        "full": 6,
-        "total": 36
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "000000000000000000000000000000222222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:GEN.21.12"
-      ],
-      "id": "quotations:GEN.21.12-21.12",
-      "events": [
-        "quotation-event:5a238d586db56803",
-        "quotation-event:0225b0b0a870066d"
-      ],
-      "targetPassages": [
-        "ROM 9:7",
-        "HEB 11:18"
-      ],
-      "targetBooks": [
-        "ROM",
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:ROM.9.7",
-        "quotations:HEB.11.18"
-      ],
-      "groups": [
-        "ubs-42-2166b54c5b24"
-      ],
-      "full": 12,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "GEN",
-      "modern": "Genesis",
-      "historical": "Genesis",
-      "testament": "Old",
-      "order": 1,
-      "chapter": 21,
-      "verse": 12,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "EXO",
-      "startChapter": 2,
-      "startVerse": 14,
-      "endChapter": 2,
-      "endVerse": 14,
-      "originalReference": "EXO 2:14",
-      "match": {
-        "none": 12,
-        "partial": 1,
-        "full": 21,
-        "total": 34
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "2212222222222222222222000000000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:EXO.2.14"
-      ],
-      "id": "quotations:EXO.2.14-2.14",
-      "events": [
-        "quotation-event:0840424c8eac0e53",
-        "quotation-event:767556264bc4c60d"
-      ],
-      "targetPassages": [
-        "ACT 7:27-28",
-        "ACT 7:35"
-      ],
-      "targetBooks": [
-        "ACT"
-      ],
-      "targetVerses": [
-        "quotations:ACT.7.27",
-        "quotations:ACT.7.28",
-        "quotations:ACT.7.35"
-      ],
-      "groups": [
-        "ubs-83-d8e9a92a3b94"
-      ],
-      "full": 42,
-      "partial": 2,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 3,
-      "groupCount": 1,
-      "fullMatchWords": 42,
-      "partialMatchWords": 2,
-      "rank": 35,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
-      "testament": "Old",
-      "order": 2,
-      "chapter": 2,
-      "verse": 14,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "EXO",
-      "startChapter": 20,
-      "startVerse": 11,
-      "endChapter": 20,
-      "endVerse": 11,
-      "originalReference": "EXO 20:11",
-      "match": {
-        "none": 21,
-        "partial": 0,
-        "full": 15,
-        "total": 36
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "000022222222222222200000000000000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:EXO.20.11"
-      ],
-      "id": "quotations:EXO.20.11-20.11",
-      "events": [
-        "quotation-event:59c993c9a02e044d",
-        "quotation-event:987a19ffdcd1219c"
-      ],
-      "targetPassages": [
-        "ACT 4:24",
-        "ACT 14:15"
-      ],
-      "targetBooks": [
-        "ACT"
-      ],
-      "targetVerses": [
-        "quotations:ACT.4.24",
-        "quotations:ACT.14.15"
-      ],
-      "groups": [
-        "ubs-113-4f3eef290ecc"
-      ],
-      "full": 30,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 30,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
-      "testament": "Old",
-      "order": 2,
-      "chapter": 20,
-      "verse": 11,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "EXO",
-      "startChapter": 20,
-      "startVerse": 17,
-      "endChapter": 20,
-      "endVerse": 17,
-      "originalReference": "EXO 20:17",
-      "match": {
-        "none": 42,
-        "partial": 0,
-        "full": 2,
-        "total": 44
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "22000000000000000000000000000000000000000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:EXO.20.17"
-      ],
-      "id": "quotations:EXO.20.17-20.17",
-      "events": [
-        "quotation-event:1910ec698ed0d16b",
-        "quotation-event:276866759273b8f5"
-      ],
-      "targetPassages": [
-        "ROM 7:7",
-        "ROM 13:9"
-      ],
-      "targetBooks": [
-        "ROM"
-      ],
-      "targetVerses": [
-        "quotations:ROM.7.7",
-        "quotations:ROM.13.9"
-      ],
-      "groups": [
-        "ubs-125-add69922030c"
-      ],
-      "full": 4,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 4,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "EXO",
-      "modern": "Exodus",
-      "historical": "Exodus",
-      "testament": "Old",
-      "order": 2,
-      "chapter": 20,
-      "verse": 17,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "LEV",
-      "startChapter": 18,
-      "startVerse": 5,
-      "endChapter": 18,
-      "endVerse": 5,
-      "originalReference": "LEV 18:5",
-      "match": {
-        "none": 15,
-        "partial": 5,
-        "full": 5,
-        "total": 25
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0001100011000012222200000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:LEV.18.5"
-      ],
-      "id": "quotations:LEV.18.5-18.5",
-      "events": [
-        "quotation-event:fe636801a1ff7dd8",
-        "quotation-event:4c2d46caa080bafb"
-      ],
-      "targetPassages": [
-        "ROM 10:5",
-        "GAL 3:12"
-      ],
-      "targetBooks": [
-        "ROM",
-        "GAL"
-      ],
-      "targetVerses": [
-        "quotations:ROM.10.5",
-        "quotations:GAL.3.12"
-      ],
-      "groups": [
-        "ubs-318-e3f574ffd5c8"
-      ],
-      "full": 10,
-      "partial": 10,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 10,
-      "partialMatchWords": 10,
-      "rank": 35,
-      "slug": "LEV",
-      "modern": "Leviticus",
-      "historical": "Leviticus",
-      "testament": "Old",
-      "order": 3,
-      "chapter": 18,
-      "verse": 5,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 5,
-      "startVerse": 21,
-      "endChapter": 5,
-      "endVerse": 21,
-      "originalReference": "DEU 5:21",
-      "match": {
-        "none": 42,
-        "partial": 0,
-        "full": 2,
-        "total": 44
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "22000000000000000000000000000000000000000000",
-      "sourceOrder": 1,
-      "verseIds": [
-        "quotations:DEU.5.21"
-      ],
-      "id": "quotations:DEU.5.21-5.21",
-      "events": [
-        "quotation-event:63750aa65fadcedd",
-        "quotation-event:7035bf04c6dddab6"
-      ],
-      "targetPassages": [
-        "ROM 7:7",
-        "ROM 13:9"
-      ],
-      "targetBooks": [
-        "ROM"
-      ],
-      "targetVerses": [
-        "quotations:ROM.7.7",
-        "quotations:ROM.13.9"
-      ],
-      "groups": [
-        "ubs-125-add69922030c"
-      ],
-      "full": 4,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 4,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 5,
-      "verse": 21,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 6,
-      "startVerse": 13,
-      "endChapter": 6,
-      "endVerse": 13,
-      "originalReference": "DEU 6:13",
-      "match": {
-        "none": 9,
-        "partial": 1,
-        "full": 7,
-        "total": 17
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "22221222000000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.6.13"
-      ],
-      "id": "quotations:DEU.6.13-6.13",
-      "events": [
-        "quotation-event:ae0a22131691c58b",
-        "quotation-event:159d386c2289471e"
-      ],
-      "targetPassages": [
-        "MAT 4:10",
-        "LUK 4:8"
-      ],
-      "targetBooks": [
-        "MAT",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.4.10",
-        "quotations:LUK.4.8"
-      ],
-      "groups": [
-        "ubs-357-eedbeaac9589"
-      ],
-      "full": 14,
-      "partial": 2,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 14,
-      "partialMatchWords": 2,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 6,
-      "verse": 13,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 6,
-      "startVerse": 16,
-      "endChapter": 6,
-      "endVerse": 16,
-      "originalReference": "DEU 6:16",
-      "match": {
-        "none": 6,
-        "partial": 0,
-        "full": 6,
-        "total": 12
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "222222000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.6.16"
-      ],
-      "id": "quotations:DEU.6.16-6.16",
-      "events": [
-        "quotation-event:56fd47524bdac57d",
-        "quotation-event:8239d534727077a8"
-      ],
-      "targetPassages": [
-        "MAT 4:7",
-        "LUK 4:12"
-      ],
-      "targetBooks": [
-        "MAT",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.4.7",
-        "quotations:LUK.4.12"
-      ],
-      "groups": [
-        "ubs-358-301083beb467"
-      ],
-      "full": 12,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 12,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 6,
-      "verse": 16,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 8,
-      "startVerse": 3,
-      "endChapter": 8,
-      "endVerse": 3,
-      "originalReference": "DEU 8:3",
-      "match": {
-        "none": 24,
-        "partial": 0,
-        "full": 16,
-        "total": 40
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0000000000000000000022222222222202222000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.8.3"
-      ],
-      "id": "quotations:DEU.8.3-8.3",
-      "events": [
-        "quotation-event:68de21d344cdf3e4",
-        "quotation-event:4e431c6f6d3cf6bf"
-      ],
-      "targetPassages": [
-        "MAT 4:4",
-        "LUK 4:4"
-      ],
-      "targetBooks": [
-        "MAT",
-        "LUK"
-      ],
-      "targetVerses": [
-        "quotations:MAT.4.4",
-        "quotations:LUK.4.4"
-      ],
-      "groups": [
-        "ubs-359-b498f5048786"
-      ],
-      "full": 32,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 32,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 8,
-      "verse": 3,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 19,
-      "startVerse": 15,
-      "endChapter": 19,
-      "endVerse": 15,
-      "originalReference": "DEU 19:15",
-      "match": {
-        "none": 21,
-        "partial": 3,
-        "full": 9,
-        "total": 33
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "000000000000000000000222221121222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.19.15"
-      ],
-      "id": "quotations:DEU.19.15-19.15",
-      "events": [
-        "quotation-event:4c158c28a9fae9c2",
-        "quotation-event:4daa6ba75c016ae6"
-      ],
-      "targetPassages": [
-        "MAT 18:16",
-        "2CO 13:1"
-      ],
-      "targetBooks": [
-        "MAT",
-        "2CO"
-      ],
-      "targetVerses": [
-        "quotations:MAT.18.16",
-        "quotations:2CO.13.1"
-      ],
-      "groups": [
-        "ubs-366-304acdf2567b"
-      ],
-      "full": 18,
-      "partial": 6,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 18,
-      "partialMatchWords": 6,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 19,
-      "verse": 15,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "DEU",
-      "startChapter": 25,
-      "startVerse": 4,
-      "endChapter": 25,
-      "endVerse": 4,
-      "originalReference": "DEU 25:4",
-      "match": {
-        "none": 0,
-        "partial": 0,
-        "full": 4,
-        "total": 4
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "2222",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:DEU.25.4"
-      ],
-      "id": "quotations:DEU.25.4-25.4",
-      "events": [
-        "quotation-event:1603583a803d7a26",
-        "quotation-event:0d6fb4c73388cc1a"
-      ],
-      "targetPassages": [
-        "1CO 9:9",
-        "1TI 5:18"
-      ],
-      "targetBooks": [
-        "1CO",
-        "1TI"
-      ],
-      "targetVerses": [
-        "quotations:1CO.9.9",
-        "quotations:1TI.5.18"
-      ],
-      "groups": [
-        "ubs-370-a57f623637a6"
-      ],
-      "full": 8,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 8,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "DEU",
-      "modern": "Deuteronomy",
-      "historical": "Deuteronomy",
-      "testament": "Old",
-      "order": 5,
-      "chapter": 25,
-      "verse": 4,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "2SA",
-      "startChapter": 7,
-      "startVerse": 14,
-      "endChapter": 7,
-      "endVerse": 14,
-      "originalReference": "2SA 7:14",
-      "match": {
-        "none": 17,
-        "partial": 0,
-        "full": 11,
-        "total": 28
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "2222222222200000000000000000",
-      "sourceOrder": 0,
-      "verseIds": [
-        "quotations:2SA.7.14"
-      ],
-      "id": "quotations:2SA.7.14-7.14",
-      "events": [
-        "quotation-event:888f3be1756facf7",
-        "quotation-event:384d153fa5dfa5a9"
-      ],
-      "targetPassages": [
-        "2CO 6:18",
-        "HEB 1:5"
-      ],
-      "targetBooks": [
-        "2CO",
-        "HEB"
-      ],
-      "targetVerses": [
-        "quotations:2CO.6.18",
-        "quotations:HEB.1.5"
-      ],
-      "groups": [
-        "ubs-455-3d9d8790368c"
-      ],
-      "full": 22,
-      "partial": 0,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 2,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 22,
-      "partialMatchWords": 0,
-      "rank": 35,
-      "slug": "2SA",
-      "modern": "2 Samuel",
-      "historical": "2 Samuel",
-      "testament": "Old",
-      "order": 10,
-      "chapter": 7,
-      "verse": 14,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 2,
-      "connected": 2,
-      "deuterocanonical": false
-    },
-    {
-      "bookId": "NEH",
-      "startChapter": 9,
-      "startVerse": 6,
-      "endChapter": 9,
-      "endVerse": 6,
-      "originalReference": "NEH 9:6",
-      "match": {
-        "none": 34,
-        "partial": 1,
-        "full": 14,
-        "total": 49
-      },
-      "sourceAttribute": "HEB",
-      "annotation": "0000002001222000000000222000002222222000000000000",
-      "sourceOrder": 1,
-      "verseIds": [
-        "quotations:NEH.9.6"
-      ],
-      "id": "quotations:NEH.9.6-9.6",
-      "events": [
-        "quotation-event:7a92d825c32e973f",
-        "quotation-event:a133d7da98e96da6"
-      ],
-      "targetPassages": [
-        "ACT 4:24",
-        "ACT 14:15"
-      ],
-      "targetBooks": [
-        "ACT"
-      ],
-      "targetVerses": [
-        "quotations:ACT.4.24",
-        "quotations:ACT.14.15"
-      ],
-      "groups": [
-        "ubs-113-4f3eef290ecc"
-      ],
-      "full": 28,
-      "partial": 2,
-      "reuseEvents": 2,
-      "distinctNtPassages": 2,
-      "distinctNtBooks": 1,
-      "distinctNtVerses": 2,
-      "groupCount": 1,
-      "fullMatchWords": 28,
-      "partialMatchWords": 2,
-      "rank": 35,
-      "slug": "NEH",
-      "modern": "Nehemiah",
-      "historical": "Nehemiah",
-      "testament": "Old",
-      "order": 16,
-      "chapter": 9,
-      "verse": 6,
-      "text": null,
-      "incoming": 2,
-      "outgoing": 2,
-      "sourceBooks": 1,
       "connected": 2,
       "deuterocanonical": false
     }

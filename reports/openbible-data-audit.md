@@ -6,7 +6,7 @@
 - Duplicate pairs: 0
 - Self-links: 64
 - Invalid rows: 655
-- Missing BSB text: 31039
+- Missing BSB text: 14
 - Reciprocal pairs: 58177
 
 ## Top 25 by incoming links
