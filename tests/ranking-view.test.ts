@@ -1,0 +1,13 @@
+import {describe,expect,it} from 'vitest';
+import {filterRankingRows,paginateRankingRows,sortRankingRows} from '../src/ranking-view';
+import type {Verse} from '../src/types';
+
+function verse(index:number,overrides:Partial<Verse>={}):Verse{return {id:`genesis.1.${index}`,slug:'genesis',modern:'Genesis',historical:'Genesis',testament:'Old',deuterocanonical:false,order:1,chapter:1,verse:index,text:`Verse ${index}`,incoming:index%5,outgoing:0,sourceBooks:0,rank:index,...overrides}}
+const noFilters={search:'',testament:'',book:'',canon:'',minimumReferences:0};
+
+describe('generic ranking filtering and pagination',()=>{
+  it('keeps total and filtered counts independent of page size',()=>{const allRows=Array.from({length:35810},(_,index)=>verse(index+1)),filteredRows=filterRankingRows(allRows,noFilters),first=paginateRankingRows(sortRankingRows(filteredRows,'rank'),1,50),last=paginateRankingRows(sortRankingRows(filteredRows,'rank'),717,50);expect(filteredRows).toHaveLength(35810);expect(first.paginatedRows).toHaveLength(50);expect(last.paginatedRows).toHaveLength(10);expect(filteredRows.length).toBeLessThanOrEqual(allRows.length);const subset=filterRankingRows(allRows.map((row,index)=>index<83?{...row,text:'needle'}:row),{...noFilters,search:'needle'});expect(subset).toHaveLength(83)});
+  it('reports the full filtered count on the first page',()=>{const allRows=Array.from({length:83},(_,index)=>verse(index+1)),filteredRows=filterRankingRows(allRows,noFilters),page=paginateRankingRows(filteredRows,1,25);expect(filteredRows).toHaveLength(83);expect(page.paginatedRows).toHaveLength(25)});
+  it('applies search, book, testament, canon, and minimum-reference filters',()=>{const allRows=[verse(1,{text:'mercy',incoming:4}),verse(2,{slug:'tobias',modern:'Tobit',historical:'Tobias',deuterocanonical:true,incoming:3}),verse(3,{slug:'john',modern:'John',historical:'John',testament:'New',incoming:2})];expect(filterRankingRows(allRows,{...noFilters,search:'mercy'})).toHaveLength(1);expect(filterRankingRows(allRows,{...noFilters,book:'john'})).toHaveLength(1);expect(filterRankingRows(allRows,{...noFilters,testament:'New'})).toHaveLength(1);expect(filterRankingRows(allRows,{...noFilters,canon:'deutero'})).toHaveLength(1);expect(filterRankingRows(allRows,{...noFilters,minimumReferences:3})).toHaveLength(2);expect(filterRankingRows(allRows,{...noFilters,search:'missing'})).toHaveLength(0)});
+  it('supports OpenBible metric sorting without changing row count',()=>{const rows=[verse(1,{connected:2}),verse(2,{connected:9})],sorted=sortRankingRows(rows,'connected');expect(sorted.map(row=>row.connected)).toEqual([9,2]);expect(sorted).toHaveLength(rows.length)});
+});
