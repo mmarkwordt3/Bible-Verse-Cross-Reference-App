@@ -46,6 +46,7 @@ describe("local ODR source refresh", () => {
       sourceCommit: "abc123",
       generatedAt: "2026-01-01T00:00:00.000Z",
     });
+    if (!first) throw new Error("Local refresh returned no source metadata");
     expect(first.sourceCommit).toBe("abc123");
     expect(first.sourceType).toBe("local-git-checkout");
     expect(first.sha256).toMatch(/^[a-f0-9]{64}$/);

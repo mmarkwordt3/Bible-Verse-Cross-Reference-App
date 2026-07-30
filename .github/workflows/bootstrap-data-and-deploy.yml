@@ -91,6 +91,8 @@ jobs:
         run: npm run data:audit 2>&1 | tee bootstrap-audit.log
       - name: Build production site
         run: npm run build 2>&1 | tee bootstrap-build.log
+      - name: Verify deployed data files
+        run: npm run verify:dist 2>&1 | tee bootstrap-verify-dist.log
 
       - name: Commit generated application assets
         shell: bash
