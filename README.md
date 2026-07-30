@@ -123,7 +123,7 @@ The **Bootstrap production data and deploy** workflow refreshes and validates al
 
 ## Curated OT→NT quotations layer
 
-The default first-visit layer uses the [UBS Paratext Parallel Passages Database](https://github.com/ubsicap/ubs-open-license/tree/main/parallel%20passages) under CC BY-SA 4.0. It ranks Old Testament **source passages** by distinct curated passage-pair events leading to New Testament occurrences. It is passage-first: a ranged source and ranged target form one event rather than a Cartesian product of verse edges. Native `quotations:BOOK.CHAPTER.VERSE` identifiers remain separate from both OpenBible and Douay-Rheims versification.
+The default first-visit layer uses the [UBS Paratext Parallel Passages Database](https://github.com/ubsicap/ubs-open-license/tree/main/parallel%20passages) under CC BY-SA 4.0. It ranks Old Testament **source passages** by distinct UBS quotation or parallel groups, with New Testament occurrences reported separately. It is passage-first: a ranged source and ranged target form one event rather than a Cartesian product of verse edges. Native `quotations:BOOK.CHAPTER.VERSE` identifiers remain separate from both OpenBible and Douay-Rheims versification.
 
 Only groups with at least one recognized Old Testament passage and one recognized New Testament passage contribute. OT-only, NT-only, malformed, unknown-book, and directionless groups are audited. UBS match codes are normalized into no, partial, and full word overlap. These data do not prove conscious dependence in every case, exact chronology, objective importance, or comprehensive quotation/allusion coverage.
 
@@ -136,3 +136,9 @@ npm run verify:quotations-dist
 ```
 
 Set `UBS_PARALLEL_XML=/path/to/ParallelPassages.xml` for an offline refresh. Review `reports/quotations-data-audit.md`, `reports/quotations-invalid-groups.json`, `reports/quotations-book-inventory.json`, and `reports/quotations-events.json` when investigating coverage or reporting a correction.
+
+## Passage-first quotation rankings
+
+The UBS quotations layer ranks Old Testament **source passages** by the number of distinct UBS parallel groups in which they participate. New Testament occurrences, distinct target books, and verbal-overlap summaries remain separate metrics; source match annotations are counted once per UBS group and source passage. A source-verse view is provided as an explicit projection of those passage records. Passage URLs preserve same-chapter and cross-chapter ranges instead of collapsing them into ambiguous verse routes.
+
+The OpenBible build also creates a validated normalized BSB text registry in its ignored build cache. The quotations compiler consumes that same registry to attach source- and target-passage text. Run the **Bootstrap production data and deploy** workflow after merging changes that affect either compiler so all three committed production layers are regenerated together.
