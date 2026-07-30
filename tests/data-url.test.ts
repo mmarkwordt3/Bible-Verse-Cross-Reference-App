@@ -32,3 +32,12 @@ describe("resolveDataUrl", () => {
     );
   });
 });
+
+it("resolves layer-specific OpenBible assets", () => {
+  expect(resolveDataUrl("openbible/manifest.json", projectBase)).toBe(
+    "https://username.github.io/REPOSITORY-NAME/data/openbible/manifest.json",
+  );
+  expect(resolveDataUrl("openbible/books/EXO.json", `${projectBase}#/rankings`)).toBe(
+    "https://username.github.io/REPOSITORY-NAME/data/openbible/books/EXO.json",
+  );
+});

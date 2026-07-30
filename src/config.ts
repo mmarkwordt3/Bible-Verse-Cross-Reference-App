@@ -1,1 +1,1 @@
-export const APP={title:'Scripture Index',subtitle:'A cross-reference ranking of the Catholic Bible'} as const;
+export const APP={title:'Scripture Index',subtitle:'Explore how verses connect across biblical cross-reference systems'} as const;

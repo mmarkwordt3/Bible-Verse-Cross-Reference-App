@@ -1,37 +1,5 @@
 import { access, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 import { BOOKS } from "./config.mjs";
-
-const mode = process.argv[2];
-if (mode !== "public" && mode !== "dist") {
-  throw new Error("Usage: node scripts/verify-data-files.mjs <public|dist>");
-}
-
-const root = resolve(mode === "public" ? "public/data" : "dist/data");
-const required = [
-  "manifest.json",
-  "rankings.json",
-  "book-stats.json",
-  "data-quality.json",
-  ...BOOKS.map((slug) => `books/${slug}.json`),
-];
-const missing = [];
-const empty = [];
-for (const relativePath of required) {
-  const filePath = resolve(root, relativePath);
-  try {
-    await access(filePath);
-    if ((await stat(filePath)).size === 0) empty.push(relativePath);
-  } catch {
-    missing.push(relativePath);
-  }
-}
-if (missing.length || empty.length) {
-  const location = mode === "public" ? "generated public data" : "built deployment data";
-  const details = [
-    missing.length ? `missing: ${missing.join(", ")}` : "",
-    empty.length ? `empty: ${empty.join(", ")}` : "",
-  ].filter(Boolean).join("; ");
-  throw new Error(`Required ${location} is incomplete (${details}). ${mode === "public" ? "Run the bootstrap data workflow or npm run data:refresh first." : "Ensure Vite copied public/data into dist/data."}`);
-}
-console.log(`Verified ${required.length} required ${mode}/data files, including ${BOOKS.length} book files.`);
+import { OPENBIBLE_BOOKS } from "./openbible-config.mjs";
+const mode=process.argv[2],only=process.argv[3];if(!['public','dist'].includes(mode))throw Error('Usage: node scripts/verify-data-files.mjs <public|dist> [openbible]');const root=resolve(mode==='public'?'public/data':'dist/data');const douay=['manifest.json','rankings.json','book-stats.json','data-quality.json',...BOOKS.map(x=>`books/${x}.json`)];const open=['layers.json','openbible/manifest.json','openbible/rankings.json','openbible/book-stats.json','openbible/data-quality.json',...OPENBIBLE_BOOKS.map(x=>`openbible/books/${x.id}.json`)];const required=only==='openbible'?open:[...douay,...open],missing=[],empty=[];for(const path of required)try{await access(resolve(root,path));if((await stat(resolve(root,path))).size===0)empty.push(path)}catch{missing.push(path)}if(missing.length||empty.length)throw Error(`Required ${mode} data is incomplete. Missing: ${missing.join(', ')||'none'}; empty: ${empty.join(', ')||'none'}. Run the bootstrap data workflow before deployment.`);console.log(`Verified ${required.length} ${mode} data assets${only==='openbible'?` for ${OPENBIBLE_BOOKS.length} OpenBible books`:` for ${BOOKS.length} Douay and ${OPENBIBLE_BOOKS.length} OpenBible books`}.`)

@@ -74,11 +74,34 @@ jobs:
       - name: Install dependencies and repair lockfile
         run: npm install --no-audit --no-fund 2>&1 | tee bootstrap-npm-install.log
 
-      - name: Compile production data from local checkout
+      - name: Acquire OpenBible and BSB sources
+        id: openbible
+        run: |
+          mkdir -p .cache/openbible-sources
+          archive="$GITHUB_WORKSPACE/.cache/openbible-sources/cross-references.zip"
+          bsb="$GITHUB_WORKSPACE/.cache/openbible-sources/bsb-complete.json"
+          if curl --fail --location --retry 3 --retry-all-errors --output "$archive" https://a.openbible.info/data/cross-references.zip; then
+            echo "archive=$archive" >> "$GITHUB_OUTPUT"
+            sha256sum "$archive"
+          else
+            echo "Official archive unavailable; compiler will use the structured API fallback."
+            rm -f "$archive"
+          fi
+          if curl --fail --location --retry 3 --retry-all-errors --output "$bsb" https://bible.helloao.org/api/BSB/complete.json; then
+            echo "text=$bsb" >> "$GITHUB_OUTPUT"
+            sha256sum "$bsb"
+          else
+            echo "BSB bulk download unavailable; compiler will retry it directly."
+            rm -f "$bsb"
+          fi
+
+      - name: Compile both production data layers
         env:
           ODR_LOCAL_SOURCE_DIR: ${{ steps.source.outputs.directory }}
           ODR_SOURCE_COMMIT: ${{ steps.source.outputs.commit }}
           ODR_GENERATED_AT: ${{ steps.source.outputs.date }}
+          OPENBIBLE_LOCAL_ARCHIVE: ${{ steps.openbible.outputs.archive }}
+          OPENBIBLE_TEXT_JSON: ${{ steps.openbible.outputs.text }}
         run: npm run data:refresh 2>&1 | tee bootstrap-data.log
 
       - name: Lint
@@ -106,15 +129,23 @@ jobs:
             public/data/book-stats.json \
             public/data/data-quality.json \
             public/data/books \
+            public/data/layers.json \
+            public/data/openbible \
             reports/data-audit.json \
             reports/data-audit.md \
             reports/unparsed-cross-references.json \
-            reports/abbreviation-inventory.json
+            reports/abbreviation-inventory.json \
+            reports/openbible-data-audit.json \
+            reports/openbible-data-audit.md \
+            reports/openbible-invalid-rows.json \
+            reports/openbible-abbreviation-inventory.json \
+            reports/openbible-missing-text.json \
+            reports/openbible-top-rankings.json
           echo "Staged files:"
           git diff --cached --name-only
           while IFS= read -r file; do
             case "$file" in
-              package-lock.json|public/data/manifest.json|public/data/rankings.json|public/data/book-stats.json|public/data/data-quality.json|public/data/books/*.json|reports/data-audit.json|reports/data-audit.md|reports/unparsed-cross-references.json|reports/abbreviation-inventory.json) ;;
+              package-lock.json|public/data/manifest.json|public/data/rankings.json|public/data/book-stats.json|public/data/data-quality.json|public/data/books/*.json|public/data/layers.json|public/data/openbible/*.json|public/data/openbible/books/*.json|reports/data-audit.json|reports/data-audit.md|reports/unparsed-cross-references.json|reports/abbreviation-inventory.json|reports/openbible-*.json|reports/openbible-*.md) ;;
               *) echo "::error::Refusing to commit unintended file: $file"; exit 1 ;;
             esac
           done < <(git diff --cached --name-only)

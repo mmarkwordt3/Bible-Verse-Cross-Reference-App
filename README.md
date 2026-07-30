@@ -2,7 +2,7 @@
 
 **A cross-reference ranking of the Catholic Bible**
 
-Scripture Index is a static, accessible research interface ranking every verse in the 73-book Catholic canon by unique verse-level references directed to it by the Original Douay-Rheims cross-reference apparatus. It is not a ranking of theological importance or objective influence.
+Scripture Index is a static, accessible research interface for exploring two independent biblical cross-reference systems: the broad 66-book OpenBible network and the historical 73-book Catholic Original Douay-Rheims apparatus. Neither is a ranking of theological importance or objective influence.
 
 > Screenshot: after running the app, add a current capture to `docs/screenshot.png` and reference it here.
 
@@ -46,7 +46,7 @@ npm run data:build        # rebuild from .cache/odr only
 npm run data:audit        # validate committed generated assets
 ```
 
-`data:refresh` first retries `thedouayrheims.com` with exponential backoff, then uses GitHub raw as fallback. It records URL, timestamp, fallback status, and SHA-256 in `.cache/odr/sources.json`. The ignored cache is never deployed. Compact generated assets in `public/data/` and useful reports in `reports/` are committed. Review every parser failure in `reports/unparsed-cross-references.json`; the observed leading-token inventory is in `reports/abbreviation-inventory.json`. Submit parsing corrections with the source notation, expected canonical target, and evidence.
+`data:refresh` builds both layers. For Douay-Rheims it first retries `thedouayrheims.com` with exponential backoff, then uses GitHub raw as fallback. OpenBible first uses the official bulk archive, then its structured API fallback, and uses BSB for display text. It records URL, timestamp, fallback status, and SHA-256 in `.cache/odr/sources.json`. The ignored cache is never deployed. Compact generated assets in `public/data/` and useful reports in `reports/` are committed. Review every parser failure in `reports/unparsed-cross-references.json`; the observed leading-token inventory is in `reports/abbreviation-inventory.json`. Submit parsing corrections with the source notation, expected canonical target, and evidence.
 
 ## First Production Data Build
 
@@ -96,3 +96,26 @@ Rename the application once in `src/config.ts`. Update historical/modern labels 
 ## License
 
 MIT for application code; CC0 1.0 applies separately to the upstream dataset.
+
+## Two independent data layers
+
+Scripture Index keeps two native, independently ranked networks:
+
+- **OpenBible network** — a broad 66-book network from OpenBible.info, used in modified and normalized form under CC BY 4.0. It draws primarily from the Treasury of Scripture Knowledge. Public-domain Berean Standard Bible text is used only for display.
+- **Original Douay-Rheims apparatus** — the historical 73-book Catholic apparatus and Original Douay-Rheims text, supplied under CC0 1.0.
+
+The layers are never merged or silently converted between versification systems. In particular, OpenBible Psalm identifiers never select Douay-Rheims Psalm text. The seven deuterocanonical books are not covered by OpenBible; they are not assigned zero scores. OpenBible links are broad editorial relationships and do not prove chronology, conscious authorial use, literary dependence, theological significance, or objective importance.
+
+### OpenBible commands
+
+```bash
+npm run openbible:refresh       # acquire/build OpenBible and BSB data
+npm run openbible:build         # rebuild from .cache/openbible
+npm run openbible:audit         # validate generated OpenBible data
+npm run verify:openbible        # verify public OpenBible assets
+npm run verify:openbible-dist   # verify deployed OpenBible assets
+```
+
+Offline refreshes may set `OPENBIBLE_LOCAL_ARCHIVE` to the official zip, `OPENBIBLE_LOCAL_TSV` to an extracted cross-reference table, `OPENBIBLE_LOCAL_JSON_DIR` to a materialized structured fallback, and `OPENBIBLE_TEXT_JSON` to BSB complete JSON. Inspect failures in `reports/openbible-invalid-rows.json`, missing display text in `reports/openbible-missing-text.json`, and the full summary in `reports/openbible-data-audit.md`. Report corrections with the original row, expected native OpenBible identifier, and supporting source evidence.
+
+The **Bootstrap production data and deploy** workflow refreshes and validates both layers. Ordinary Pages deployments use only committed generated assets and make no runtime or build-time dataset requests.
