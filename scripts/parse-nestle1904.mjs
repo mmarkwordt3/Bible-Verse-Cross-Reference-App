@@ -3,6 +3,7 @@ import {resolve} from 'node:path';
 
 export const OSIS_TO_USFM={Matt:'MAT',Mark:'MRK',Luke:'LUK',John:'JHN',Acts:'ACT',Rom:'ROM','1Cor':'1CO','2Cor':'2CO',Gal:'GAL',Eph:'EPH',Phil:'PHP',Col:'COL','1Thess':'1TH','2Thess':'2TH','1Tim':'1TI','2Tim':'2TI',Titus:'TIT',Phlm:'PHM',Heb:'HEB',Jas:'JAS','1Pet':'1PE','2Pet':'2PE','1John':'1JN','2John':'2JN','3John':'3JN',Jude:'JUD',Rev:'REV'};
 const REQUIRED_FIXTURES=[['MAT',1,1],['JHN',1,1],['ROM',1,1],['HEB',1,1],['REV',1,1]];
+const NESTLE_HEADER=['bcv','text','func_morph','form_morph','strongs','lemma','normalized'];
 
 export function parseOsisReference(value){
   const match=String(value).match(/^\s*([1-3]?[A-Za-z]+)(?:\s+(\d+):(\d+)|\.(\d+)\.(\d+))\s*$/);
@@ -16,17 +17,23 @@ export function parseOsisReference(value){
 export function parseNestleMorph(text){
   const words=[],invalid=[];
   const lines=String(text).replace(/^\uFEFF/,'').split(/\r?\n/);
-  let nonemptyLines=0;
+  let physicalNonemptyLines=0,headerLinesSkipped=0,trailingEmptyColumnsNormalized=0;
   for(const [index,line] of lines.entries()){
-    if(!line.trim()||line.startsWith('#'))continue;
-    nonemptyLines++;
+    if(!line.trim())continue;
+    physicalNonemptyLines++;
+    if(line.startsWith('#'))continue;
     const fields=line.split('\t');
+    const hasTrailingEmptyColumn=fields.length===8&&fields[7]==='';
+    if(hasTrailingEmptyColumn)fields.pop();
+    const isHeader=fields.length===7&&fields.every((field,fieldIndex)=>field.trim().toLowerCase()===NESTLE_HEADER[fieldIndex]);
+    if(isHeader){headerLinesSkipped++;continue}
+    if(hasTrailingEmptyColumn)trailingEmptyColumnsNormalized++;
     if(fields.length!==7){invalid.push({line:index+1,reason:`Expected 7 tab-delimited columns, found ${fields.length}`,raw:line});continue}
     const reference=parseOsisReference(fields[0]);
     if(!reference){invalid.push({line:index+1,reason:`Invalid or unknown OSIS reference: ${fields[0].trim()}`,raw:line});continue}
     words.push({...reference,sourceOrder:words.length,surface:fields[1],functionalMorphology:fields[2],formMorphology:fields[3],strong:fields[4],lemma:fields[5],normalized:fields[6]})
   }
-  return {words,invalid,nonemptyLines};
+  return {words,invalid,nonemptyLines:physicalNonemptyLines,physicalNonemptyLines,headerLinesSkipped,parsedWordRows:words.length,invalidDataRows:invalid.length,trailingEmptyColumnsNormalized};
 }
 
 export function validateNestleMorphStructure(parsed,{minimumWords=100000}={}){
@@ -43,7 +50,7 @@ export function validateNestleMorphStructure(parsed,{minimumWords=100000}={}){
   return {...parsed,structure:{bookCount:books.size,wordCount:parsed.words.length,lemmaCoverage,normalizedCoverage}};
 }
 
-function diagnostic(path,parsed,error){return {path,nonemptyLines:parsed?.nonemptyLines??0,validWords:parsed?.words.length??0,invalidLines:parsed?.invalid.length??0,invalidReasons:(parsed?.invalid||[]).slice(0,5).map(item=>item.reason),validationError:error instanceof Error?error.message:error?String(error):null}}
+function diagnostic(path,parsed,error){return {path,nonemptyLines:parsed?.physicalNonemptyLines??parsed?.nonemptyLines??0,headerLinesSkipped:parsed?.headerLinesSkipped??0,validWords:parsed?.parsedWordRows??parsed?.words.length??0,invalidLines:parsed?.invalidDataRows??parsed?.invalid.length??0,trailingEmptyColumnsNormalized:parsed?.trailingEmptyColumnsNormalized??0,invalidReasons:(parsed?.invalid||[]).slice(0,5).map(item=>item.reason),validationError:error instanceof Error?error.message:error?String(error):null}}
 export async function discoverNestleMorph(directory,{validate=true}={}){
   const root=resolve(directory),preferred=resolve(root,'Nestle1904.csv'),inspected=[],names=[];
   try{await access(preferred);names.push('Nestle1904.csv')}catch{/* use recursive fallback */}
@@ -58,6 +65,6 @@ export async function discoverNestleMorph(directory,{validate=true}={}){
       return {path,text,...parsed,inspected};
     }catch(error){inspected.push(diagnostic(path,parsed,error))}
   }
-  const details=inspected.map(item=>`${item.path}: ${item.nonemptyLines} nonempty, ${item.validWords} valid, ${item.invalidLines} invalid${item.validationError?`; ${item.validationError}`:''}${item.invalidReasons.length?`; first reasons: ${item.invalidReasons.join(' | ')}`:''}`).join('\n');
+  const details=inspected.map(item=>`${item.path}: ${item.nonemptyLines} physical nonempty, ${item.headerLinesSkipped} headers skipped, ${item.validWords} valid words, ${item.invalidLines} invalid data rows, ${item.trailingEmptyColumnsNormalized} trailing-empty rows normalized${item.validationError?`; ${item.validationError}`:''}${item.invalidReasons.length?`; first reasons: ${item.invalidReasons.join(' | ')}`:''}`).join('\n');
   throw Error(`No valid seven-column Nestle1904 morphology file found under ${root}. Files inspected: ${names.length}. Candidate diagnostics:\n${details||'(no eligible .csv/.tsv/.txt files found)'}`);
 }
