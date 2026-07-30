@@ -10,9 +10,9 @@
     "dev": "vite",
     "build": "npm run verify:data && vite build",
     "preview": "vite preview",
-    "data:refresh": "npm run douay:refresh && npm run openbible:refresh",
-    "data:build": "npm run douay:build && npm run openbible:build",
-    "data:audit": "node scripts/validate-data.mjs && npm run openbible:audit",
+    "data:refresh": "npm run douay:refresh && npm run openbible:refresh && npm run quotations:refresh",
+    "data:build": "npm run douay:build && npm run openbible:build && npm run quotations:build",
+    "data:audit": "node scripts/validate-data.mjs && npm run openbible:audit && npm run quotations:audit",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -25,7 +25,12 @@
     "openbible:build": "node scripts/build-openbible-data.mjs",
     "openbible:audit": "node scripts/validate-openbible.mjs",
     "verify:openbible": "node scripts/verify-data-files.mjs public openbible",
-    "verify:openbible-dist": "node scripts/verify-data-files.mjs dist openbible"
+    "verify:openbible-dist": "node scripts/verify-data-files.mjs dist openbible",
+    "quotations:refresh": "node scripts/build-quotations-data.mjs --refresh",
+    "quotations:build": "node scripts/build-quotations-data.mjs",
+    "quotations:audit": "node scripts/validate-quotations.mjs",
+    "verify:quotations": "node scripts/verify-data-files.mjs public quotations",
+    "verify:quotations-dist": "node scripts/verify-data-files.mjs dist quotations"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",

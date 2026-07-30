@@ -65,6 +65,25 @@ jobs:
           echo "date=$source_date" >> "$GITHUB_OUTPUT"
           echo "Source commit: $source_commit"
 
+      - name: Check out UBS parallel passages source
+        uses: actions/checkout@v4
+        with:
+          repository: ubsicap/ubs-open-license
+          path: .cache/ubs-open-license
+          fetch-depth: 1
+
+      - name: Verify UBS parallel passages XML
+        id: ubs
+        run: |
+          xml="$GITHUB_WORKSPACE/.cache/ubs-open-license/parallel passages/ParallelPassages.xml"
+          if [[ ! -s "$xml" ]]; then
+            echo "::error::UBS ParallelPassages.xml was not found at $xml"
+            exit 1
+          fi
+          echo "xml=$xml" >> "$GITHUB_OUTPUT"
+          echo "commit=$(git -C "$GITHUB_WORKSPACE/.cache/ubs-open-license" rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          sha256sum "$xml"
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -102,6 +121,8 @@ jobs:
           ODR_GENERATED_AT: ${{ steps.source.outputs.date }}
           OPENBIBLE_LOCAL_ARCHIVE: ${{ steps.openbible.outputs.archive }}
           OPENBIBLE_TEXT_JSON: ${{ steps.openbible.outputs.text }}
+          UBS_PARALLEL_XML: ${{ steps.ubs.outputs.xml }}
+          UBS_SOURCE_COMMIT: ${{ steps.ubs.outputs.commit }}
         run: npm run data:refresh 2>&1 | tee bootstrap-data.log
 
       - name: Lint
@@ -131,6 +152,7 @@ jobs:
             public/data/books \
             public/data/layers.json \
             public/data/openbible \
+            public/data/quotations \
             reports/data-audit.json \
             reports/data-audit.md \
             reports/unparsed-cross-references.json \
@@ -140,12 +162,18 @@ jobs:
             reports/openbible-invalid-rows.json \
             reports/openbible-abbreviation-inventory.json \
             reports/openbible-missing-text.json \
-            reports/openbible-top-rankings.json
+            reports/openbible-top-rankings.json \
+            reports/quotations-data-audit.json \
+            reports/quotations-data-audit.md \
+            reports/quotations-invalid-groups.json \
+            reports/quotations-book-inventory.json \
+            reports/quotations-events.json \
+            reports/quotations-top-rankings.json
           echo "Staged files:"
           git diff --cached --name-only
           while IFS= read -r file; do
             case "$file" in
-              package-lock.json|public/data/manifest.json|public/data/rankings.json|public/data/book-stats.json|public/data/data-quality.json|public/data/books/*.json|public/data/layers.json|public/data/openbible/*.json|public/data/openbible/books/*.json|reports/data-audit.json|reports/data-audit.md|reports/unparsed-cross-references.json|reports/abbreviation-inventory.json|reports/openbible-*.json|reports/openbible-*.md) ;;
+              package-lock.json|public/data/manifest.json|public/data/rankings.json|public/data/book-stats.json|public/data/data-quality.json|public/data/books/*.json|public/data/layers.json|public/data/openbible/*.json|public/data/openbible/books/*.json|public/data/quotations/*.json|public/data/quotations/books/*.json|reports/data-audit.json|reports/data-audit.md|reports/unparsed-cross-references.json|reports/abbreviation-inventory.json|reports/openbible-*.json|reports/openbible-*.md|reports/quotations-*.json|reports/quotations-*.md) ;;
               *) echo "::error::Refusing to commit unintended file: $file"; exit 1 ;;
             esac
           done < <(git diff --cached --name-only)

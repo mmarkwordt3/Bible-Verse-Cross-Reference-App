@@ -9,3 +9,5 @@ OpenBible.info cross-reference data is used in modified and normalized form unde
 Berean Standard Bible text used to display the OpenBible layer is dedicated to the public domain. It is obtained from the Free Use Bible API; no ESV text is copied from OpenBible.info.
 
 This project is not affiliated with or endorsed by OpenBible.info, AO Lab, Bible Hub, the Original Douay-Rheims website, or any dataset maintainer. Biblical text, source data, and generated rankings are not proprietary project content.
+
+The UBS Paratext Parallel Passages Database is used in normalized form under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). It is authored and distributed separately by UBS ICAP. This project is not affiliated with or endorsed by UBS or Paratext.

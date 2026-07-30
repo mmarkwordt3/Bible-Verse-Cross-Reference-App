@@ -97,10 +97,11 @@ Rename the application once in `src/config.ts`. Update historical/modern labels 
 
 MIT for application code; CC0 1.0 applies separately to the upstream dataset.
 
-## Two independent data layers
+## Three independent data layers
 
-Scripture Index keeps two native, independently ranked networks:
+Scripture Index keeps three native, independently ranked cross-reference layers:
 
+- **Curated OT→NT quotations** — passage-first UBS parallel groups directed from Old Testament sources to New Testament occurrences under CC BY-SA 4.0.
 - **OpenBible network** — a broad 66-book network from OpenBible.info, used in modified and normalized form under CC BY 4.0. It draws primarily from the Treasury of Scripture Knowledge. Public-domain Berean Standard Bible text is used only for display.
 - **Original Douay-Rheims apparatus** — the historical 73-book Catholic apparatus and Original Douay-Rheims text, supplied under CC0 1.0.
 
@@ -118,4 +119,20 @@ npm run verify:openbible-dist   # verify deployed OpenBible assets
 
 Offline refreshes may set `OPENBIBLE_LOCAL_ARCHIVE` to the official zip, `OPENBIBLE_LOCAL_TSV` to an extracted cross-reference table, `OPENBIBLE_LOCAL_JSON_DIR` to a materialized structured fallback, and `OPENBIBLE_TEXT_JSON` to BSB complete JSON. Inspect failures in `reports/openbible-invalid-rows.json`, missing display text in `reports/openbible-missing-text.json`, and the full summary in `reports/openbible-data-audit.md`. Report corrections with the original row, expected native OpenBible identifier, and supporting source evidence.
 
-The **Bootstrap production data and deploy** workflow refreshes and validates both layers. Ordinary Pages deployments use only committed generated assets and make no runtime or build-time dataset requests.
+The **Bootstrap production data and deploy** workflow refreshes and validates all three layers. Ordinary Pages deployments use only committed generated assets and make no runtime or build-time dataset requests.
+
+## Curated OT→NT quotations layer
+
+The default first-visit layer uses the [UBS Paratext Parallel Passages Database](https://github.com/ubsicap/ubs-open-license/tree/main/parallel%20passages) under CC BY-SA 4.0. It ranks Old Testament **source passages** by distinct curated passage-pair events leading to New Testament occurrences. It is passage-first: a ranged source and ranged target form one event rather than a Cartesian product of verse edges. Native `quotations:BOOK.CHAPTER.VERSE` identifiers remain separate from both OpenBible and Douay-Rheims versification.
+
+Only groups with at least one recognized Old Testament passage and one recognized New Testament passage contribute. OT-only, NT-only, malformed, unknown-book, and directionless groups are audited. UBS match codes are normalized into no, partial, and full word overlap. These data do not prove conscious dependence in every case, exact chronology, objective importance, or comprehensive quotation/allusion coverage.
+
+```bash
+npm run quotations:refresh
+npm run quotations:build
+npm run quotations:audit
+npm run verify:quotations
+npm run verify:quotations-dist
+```
+
+Set `UBS_PARALLEL_XML=/path/to/ParallelPassages.xml` for an offline refresh. Review `reports/quotations-data-audit.md`, `reports/quotations-invalid-groups.json`, `reports/quotations-book-inventory.json`, and `reports/quotations-events.json` when investigating coverage or reporting a correction.
