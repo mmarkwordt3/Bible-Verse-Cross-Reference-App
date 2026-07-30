@@ -1,0 +1,190 @@
+name: Bootstrap production data and deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scripture-index-bootstrap
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash --noprofile --norc -eo pipefail {0}
+    steps:
+      - name: Check out Scripture Index
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Check out Original Douay-Rheims source
+        uses: actions/checkout@v4
+        with:
+          repository: janvier-s/original-douay-rheims
+          path: .cache/original-douay-rheims
+          fetch-depth: 1
+
+      - name: Inspect and verify source checkout
+        id: source
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_root="$GITHUB_WORKSPACE/.cache/original-douay-rheims"
+          source_dir="$source_root/bible/raw"
+          echo "Original Douay-Rheims checkout (top level):"
+          find "$source_root" -maxdepth 2 -mindepth 1 -type d -print | sort | head -40
+          if [[ ! -d "$source_dir" ]]; then
+            echo "::error::Expected source JSON directory not found: $source_dir"
+            exit 1
+          fi
+          source_commit="$(git -C "$source_root" rev-parse HEAD)"
+          source_date="$(git -C "$source_root" show -s --format=%cI HEAD)"
+          node --input-type=module <<'NODE'
+          import { access } from 'node:fs/promises';
+          import { BOOKS } from './scripts/config.mjs';
+          const directory = `${process.env.GITHUB_WORKSPACE}/.cache/original-douay-rheims/bible/raw`;
+          const missing = [];
+          for (const slug of BOOKS) {
+            try { await access(`${directory}/${slug}.json`); }
+            catch { missing.push(`${slug}.json`); }
+          }
+          if (missing.length) throw new Error(`Missing ${missing.length} canonical source files: ${missing.join(', ')}`);
+          console.log(`Verified ${BOOKS.length} required canonical JSON files in ${directory}`);
+          NODE
+          echo "directory=$source_dir" >> "$GITHUB_OUTPUT"
+          echo "commit=$source_commit" >> "$GITHUB_OUTPUT"
+          echo "date=$source_date" >> "$GITHUB_OUTPUT"
+          echo "Source commit: $source_commit"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies and repair lockfile
+        run: npm install --no-audit --no-fund 2>&1 | tee bootstrap-npm-install.log
+
+      - name: Acquire OpenBible and BSB sources
+        id: openbible
+        run: |
+          mkdir -p .cache/openbible-sources
+          archive="$GITHUB_WORKSPACE/.cache/openbible-sources/cross-references.zip"
+          bsb="$GITHUB_WORKSPACE/.cache/openbible-sources/bsb-complete.json"
+          if curl --fail --location --retry 3 --retry-all-errors --output "$archive" https://a.openbible.info/data/cross-references.zip; then
+            echo "archive=$archive" >> "$GITHUB_OUTPUT"
+            sha256sum "$archive"
+          else
+            echo "Official archive unavailable; compiler will use the structured API fallback."
+            rm -f "$archive"
+          fi
+          if curl --fail --location --retry 3 --retry-all-errors --output "$bsb" https://bible.helloao.org/api/BSB/complete.json; then
+            echo "text=$bsb" >> "$GITHUB_OUTPUT"
+            sha256sum "$bsb"
+          else
+            echo "BSB bulk download unavailable; compiler will retry it directly."
+            rm -f "$bsb"
+          fi
+
+      - name: Compile both production data layers
+        env:
+          ODR_LOCAL_SOURCE_DIR: ${{ steps.source.outputs.directory }}
+          ODR_SOURCE_COMMIT: ${{ steps.source.outputs.commit }}
+          ODR_GENERATED_AT: ${{ steps.source.outputs.date }}
+          OPENBIBLE_LOCAL_ARCHIVE: ${{ steps.openbible.outputs.archive }}
+          OPENBIBLE_TEXT_JSON: ${{ steps.openbible.outputs.text }}
+        run: npm run data:refresh 2>&1 | tee bootstrap-data.log
+
+      - name: Lint
+        run: npm run lint 2>&1 | tee bootstrap-lint.log
+      - name: Type-check
+        run: npm run typecheck 2>&1 | tee bootstrap-typecheck.log
+      - name: Test
+        run: npm run test 2>&1 | tee bootstrap-test.log
+      - name: Audit generated data
+        run: npm run data:audit 2>&1 | tee bootstrap-audit.log
+      - name: Build production site
+        run: npm run build 2>&1 | tee bootstrap-build.log
+      - name: Verify deployed data files
+        run: npm run verify:dist 2>&1 | tee bootstrap-verify-dist.log
+
+      - name: Commit generated application assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          git add -- \
+            package-lock.json \
+            public/data/manifest.json \
+            public/data/rankings.json \
+            public/data/book-stats.json \
+            public/data/data-quality.json \
+            public/data/books \
+            public/data/layers.json \
+            public/data/openbible \
+            reports/data-audit.json \
+            reports/data-audit.md \
+            reports/unparsed-cross-references.json \
+            reports/abbreviation-inventory.json \
+            reports/openbible-data-audit.json \
+            reports/openbible-data-audit.md \
+            reports/openbible-invalid-rows.json \
+            reports/openbible-abbreviation-inventory.json \
+            reports/openbible-missing-text.json \
+            reports/openbible-top-rankings.json
+          echo "Staged files:"
+          git diff --cached --name-only
+          while IFS= read -r file; do
+            case "$file" in
+              package-lock.json|public/data/manifest.json|public/data/rankings.json|public/data/book-stats.json|public/data/data-quality.json|public/data/books/*.json|public/data/layers.json|public/data/openbible/*.json|public/data/openbible/books/*.json|reports/data-audit.json|reports/data-audit.md|reports/unparsed-cross-references.json|reports/abbreviation-inventory.json|reports/openbible-*.json|reports/openbible-*.md) ;;
+              *) echo "::error::Refusing to commit unintended file: $file"; exit 1 ;;
+            esac
+          done < <(git diff --cached --name-only)
+          if git diff --cached --quiet; then
+            echo "Generated files are already current; no commit needed."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "build: generate Scripture Index production data"
+            git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scripture-index-bootstrap-diagnostics-${{ github.run_id }}
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            reports/
+            bootstrap-*.log
+            /home/runner/.npm/_logs/
+
+  deploy:
+    if: success()
+    needs: bootstrap
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
