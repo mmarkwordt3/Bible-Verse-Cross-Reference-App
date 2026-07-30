@@ -1,7 +1,5 @@
 import {describe,expect,it} from 'vitest';
-// @ts-expect-error JavaScript build module intentionally has no declaration file.
 import {flattenBsbVerseContent,parseBsbComplete,passageText} from '../scripts/parse-bsb.mjs';
-// @ts-expect-error JavaScript build module intentionally has no declaration file.
 import {OPENBIBLE_BOOKS} from '../scripts/openbible-config.mjs';
 
 describe('BSB complete JSON parser',()=>{
@@ -26,7 +24,11 @@ describe('BSB complete JSON parser',()=>{
   });
   it('validates 66 books, a plausible registry size, and known verse text',()=>{
     const knownChapters:Record<string,number>={LEV:19,PSA:110,JHN:3};
-    const complete={books:OPENBIBLE_BOOKS.map((book:{id:string})=>({id:book.id,chapters:[{chapter:{number:knownChapters[book.id]||1,content:Array.from({length:460},(_,index)=>({type:'verse',number:index+1,content:[`${book.id} text ${index+1}`]}))}}]}))};
+    const complete={books:OPENBIBLE_BOOKS.map(book=>{
+      const bookId=String(book.id??'');
+      if(!bookId)throw new Error('Expected every OpenBible book to have an ID');
+      return {id:bookId,chapters:[{chapter:{number:knownChapters[bookId]??1,content:Array.from({length:460},(_,index)=>({type:'verse',number:index+1,content:[`${bookId} text ${index+1}`]}))}}]};
+    })};
     const verses=parseBsbComplete(complete);
     expect(verses.size).toBeGreaterThan(30000);
     for(const id of ['openbible:GEN.1.1','openbible:LEV.19.18','openbible:PSA.110.1','openbible:JHN.3.16'])expect(verses.get(id)?.text).toBeTruthy();
