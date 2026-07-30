@@ -11,3 +11,5 @@ Berean Standard Bible text used to display the OpenBible layer is dedicated to t
 This project is not affiliated with or endorsed by OpenBible.info, AO Lab, Bible Hub, the Original Douay-Rheims website, or any dataset maintainer. Biblical text, source data, and generated rankings are not proprietary project content.
 
 The UBS Paratext Parallel Passages Database is used in normalized form under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). It is authored and distributed separately by UBS ICAP. This project is not affiliated with or endorsed by UBS or Paratext.
+
+The automated Greek reuse layer adapts the CenterBLC Rahlfs LXX 1935 Text-Fabric dataset under the MIT License and the Biblical Humanities Nestle1904 morphology under CC0 1.0. It is not affiliated with or endorsed by CenterBLC or Biblical Humanities. Its algorithmic candidates require human review and are not assertions of quotation or authorial dependence.

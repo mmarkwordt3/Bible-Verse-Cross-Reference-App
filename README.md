@@ -119,7 +119,7 @@ npm run verify:openbible-dist   # verify deployed OpenBible assets
 
 Offline refreshes may set `OPENBIBLE_LOCAL_ARCHIVE` to the official zip, `OPENBIBLE_LOCAL_TSV` to an extracted cross-reference table, `OPENBIBLE_LOCAL_JSON_DIR` to a materialized structured fallback, and `OPENBIBLE_TEXT_JSON` to BSB complete JSON. Inspect failures in `reports/openbible-invalid-rows.json`, missing display text in `reports/openbible-missing-text.json`, and the full summary in `reports/openbible-data-audit.md`. Report corrections with the original row, expected native OpenBible identifier, and supporting source evidence.
 
-The **Bootstrap production data and deploy** workflow refreshes and validates all three layers. Ordinary Pages deployments use only committed generated assets and make no runtime or build-time dataset requests.
+The **Bootstrap production data and deploy** workflow refreshes and validates all four layers. Ordinary Pages deployments use only committed generated assets and make no runtime or build-time dataset requests.
 
 ## Curated OT→NT quotations layer
 
@@ -141,4 +141,24 @@ Set `UBS_PARALLEL_XML=/path/to/ParallelPassages.xml` for an offline refresh. Rev
 
 The UBS quotations layer ranks Old Testament **source passages** by the number of distinct UBS parallel groups in which they participate. New Testament occurrences, distinct target books, and verbal-overlap summaries remain separate metrics; source match annotations are counted once per UBS group and source passage. A source-verse view is provided as an explicit projection of those passage records. Passage URLs preserve same-chapter and cross-chapter ranges instead of collapsing them into ambiguous verse routes.
 
-The OpenBible build also creates a validated normalized BSB text registry in its ignored build cache. The quotations compiler consumes that same registry to attach source- and target-passage text. Run the **Bootstrap production data and deploy** workflow after merging changes that affect either compiler so all three committed production layers are regenerated together.
+The OpenBible build also creates a validated normalized BSB text registry in its ignored build cache. The quotations compiler consumes that same registry to attach source- and target-passage text. Run the **Bootstrap production data and deploy** workflow after merging changes that affect either compiler so all four committed production layers are regenerated together.
+
+## Automated Greek reuse candidates
+
+The independent `greek-reuse` layer compares native Greek passage windows from the CenterBLC Rahlfs LXX 1935 dataset (MIT) with the Biblical Humanities Nestle1904 morphology (CC0 1.0). It normalizes Greek surface forms and lemmas, retrieves possible LXX windows through an inverted lemma index, scores transparent lexical and word-order evidence, and clusters overlapping sliding-window results. UBS OT→NT parallels calibrate the high and medium thresholds but are not added to the algorithmic score.
+
+These are computational candidates intended for human review—not proven quotations, definitive allusions, probabilities of dependence, or theological rankings. Native LXX numbering and book coverage remain separate from Douay-Rheims and BSB versification.
+
+Local or bootstrap builds use:
+
+```bash
+LXX_TF_DIR=/path/to/LXX/tf/1935 \
+NESTLE1904_MORPH_DIR=/path/to/Nestle1904/morph \
+LXX_SOURCE_COMMIT=<sha> NESTLE1904_SOURCE_COMMIT=<sha> \
+npm run greek-reuse:refresh
+
+npm run greek-reuse:audit
+npm run verify:greek-reuse
+```
+
+The bootstrap workflow checks out both source repositories, records their commits, builds and audits the fourth layer, commits only normalized production assets and audit reports, and deploys only after all four layers pass validation.

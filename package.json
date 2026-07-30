@@ -10,9 +10,9 @@
     "dev": "vite",
     "build": "npm run verify:data && vite build",
     "preview": "vite preview",
-    "data:refresh": "npm run douay:refresh && npm run openbible:refresh && npm run quotations:refresh",
-    "data:build": "npm run douay:build && npm run openbible:build && npm run quotations:build",
-    "data:audit": "node scripts/validate-data.mjs && npm run openbible:audit && npm run quotations:audit",
+    "data:refresh": "npm run douay:refresh && npm run openbible:refresh && npm run quotations:refresh && npm run greek-reuse:refresh",
+    "data:build": "npm run douay:build && npm run openbible:build && npm run quotations:build && npm run greek-reuse:build",
+    "data:audit": "node scripts/validate-data.mjs && npm run openbible:audit && npm run quotations:audit && npm run greek-reuse:audit",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
@@ -30,7 +30,12 @@
     "quotations:build": "node scripts/build-quotations-data.mjs",
     "quotations:audit": "node scripts/validate-quotations.mjs",
     "verify:quotations": "node scripts/verify-data-files.mjs public quotations",
-    "verify:quotations-dist": "node scripts/verify-data-files.mjs dist quotations"
+    "verify:quotations-dist": "node scripts/verify-data-files.mjs dist quotations",
+    "greek-reuse:refresh": "node scripts/build-greek-reuse-data.mjs --refresh",
+    "greek-reuse:build": "node scripts/build-greek-reuse-data.mjs",
+    "greek-reuse:audit": "node scripts/validate-greek-reuse.mjs",
+    "verify:greek-reuse": "node scripts/verify-data-files.mjs public greek-reuse",
+    "verify:greek-reuse-dist": "node scripts/verify-data-files.mjs dist greek-reuse"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
