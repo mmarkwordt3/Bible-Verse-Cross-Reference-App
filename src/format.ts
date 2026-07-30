@@ -1,0 +1,1 @@
+import type {Verse} from './types'; import type {Names} from './preferences'; export const ref=(v:Verse,n:Names)=>`${n==='modern'?v.modern:v.historical} ${v.chapter}:${v.verse}`; export const number=(n:number)=>new Intl.NumberFormat().format(n);
