@@ -1,0 +1,3277 @@
+[
+  {
+    "line": 2753,
+    "raw": "Gen.11.31\tGen.11.32-Gen.12.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 3381,
+    "raw": "Gen.14.18\tHeb.6.20-Heb.7.3\t18",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 4069,
+    "raw": "Gen.17.10\tRom.2.28-Rom.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 4929,
+    "raw": "Gen.19.38\tJudg.10.6-Judg.11.40\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 5198,
+    "raw": "Gen.21.6\t1Sam.1.26-1Sam.2.10\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 5371,
+    "raw": "Gen.21.21\tGen.27.46-Gen.28.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 5630,
+    "raw": "Gen.22.12\tPs.111.10-Ps.112.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 5955,
+    "raw": "Gen.24.3\tGen.27.46-Gen.28.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 5966,
+    "raw": "Gen.24.4\tGen.11.25-Gen.12.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 6943,
+    "raw": "Gen.26.35\tGen.27.46-Gen.28.2\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 7294,
+    "raw": "Gen.28.3\tPs.127.3-Ps.128.6\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 7716,
+    "raw": "Gen.29.31\tGen.20.18-Gen.21.2\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 8139,
+    "raw": "Gen.31.16\tGen.30.35-Gen.31.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 8490,
+    "raw": "Gen.32.5\tGen.30.43-Gen.31.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 8635,
+    "raw": "Gen.32.22\tGen.29.21-Gen.30.24\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 9892,
+    "raw": "Gen.37.34\tIsa.36.22-Isa.37.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 10376,
+    "raw": "Gen.40.1\tNeh.1.11-Neh.2.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 10436,
+    "raw": "Gen.40.11\tNeh.1.11-Neh.2.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 11251,
+    "raw": "Gen.43.11\tSong.4.14-Song.5.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 11720,
+    "raw": "Gen.45.10\tGen.46.34-Gen.47.6\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 11971,
+    "raw": "Gen.46.12\t1Chr.3.1-1Chr.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 12040,
+    "raw": "Gen.46.19\tGen.39.1-Gen.40.23\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 12106,
+    "raw": "Gen.46.28\tGen.46.34-Gen.47.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 13337,
+    "raw": "Exod.1.1\tGen.29.31-Gen.30.21\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 14020,
+    "raw": "Exod.3.18\tExod.4.31-Exod.5.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 14248,
+    "raw": "Exod.4.21\tExod.9.35-Exod.10.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 14654,
+    "raw": "Exod.6.24\tPs.84.1-Ps.85.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 16058,
+    "raw": "Exod.12.31\tExod.10.29-Exod.11.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 19607,
+    "raw": "Exod.25.5\tExod.26.37-Exod.27.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 19786,
+    "raw": "Exod.25.31\tRev.1.20-Rev.2.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 19812,
+    "raw": "Exod.25.37\tRev.1.20-Rev.2.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 20226,
+    "raw": "Exod.28.3\tExod.35.35-Exod.36.2\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 21209,
+    "raw": "Exod.31.6\tExod.35.34-Exod.36.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 21214,
+    "raw": "Exod.31.7\tExod.36.8-Exod.37.9\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 22087,
+    "raw": "Exod.34.11\tDeut.6.25-Deut.7.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 22521,
+    "raw": "Exod.36.1\tExod.39.1-Exod.40.38\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 22676,
+    "raw": "Exod.37.17\tRev.1.12-Rev.2.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 22703,
+    "raw": "Exod.37.23\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 22822,
+    "raw": "Exod.38.22\tExod.35.30-Exod.36.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 23435,
+    "raw": "Lev.1.7\tLev.9.24-Lev.10.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 24671,
+    "raw": "Lev.7.1\tLev.5.14-Lev.6.7\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 24853,
+    "raw": "Lev.7.21\tLev.12.1-Lev.13.59\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 24953,
+    "raw": "Lev.7.37\tLev.6.20-Lev.7.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 24954,
+    "raw": "Lev.7.37\tLev.1.1-Lev.5.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 24960,
+    "raw": "Lev.8.2\tExod.28.40-Exod.29.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 25272,
+    "raw": "Lev.9.4\tLev.2.1-Lev.3.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 26822,
+    "raw": "Lev.15.32\tLev.14.54-Lev.15.18\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 28820,
+    "raw": "Lev.24.4\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 28891,
+    "raw": "Lev.24.11\t2Kgs.18.37-2Kgs.19.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 29030,
+    "raw": "Lev.25.10\tGal.4.25-Gal.5.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 29916,
+    "raw": "Lev.26.40\tHos.5.15-Hos.6.2\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 30419,
+    "raw": "Num.1.47\tNum.3.1-Num.4.49\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 30646,
+    "raw": "Num.3.1\tLev.27.34-Num.1.1\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 30840,
+    "raw": "Num.3.31\tExod.37.1-Exod.38.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 30986,
+    "raw": "Num.4.9\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 31148,
+    "raw": "Num.4.49\tNum.3.51-Num.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 31188,
+    "raw": "Num.5.6\tLev.5.14-Lev.6.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 31777,
+    "raw": "Num.8.2\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 34089,
+    "raw": "Num.16.46\tLev.9.24-Lev.10.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 34443,
+    "raw": "Num.18.28\tHeb.6.20-Heb.7.10\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 35918,
+    "raw": "Num.24.17\tIsa.15.1-Isa.16.14\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 37268,
+    "raw": "Num.32.7\tNum.13.27-Num.14.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 37276,
+    "raw": "Num.32.9\tNum.13.23-Num.14.10\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 37563,
+    "raw": "Num.33.54\tJosh.18.11-Josh.19.48\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 37952,
+    "raw": "Deut.1.4\tDeut.2.26-Deut.3.11\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 38347,
+    "raw": "Deut.2.12\tDeut.2.32-Deut.3.11\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 38714,
+    "raw": "Deut.4.1\tDeut.5.33-Deut.6.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 39203,
+    "raw": "Deut.4.38\tDeut.2.31-Deut.3.16\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 40168,
+    "raw": "Deut.8.1\tDeut.5.32-Deut.6.3\t12",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 40585,
+    "raw": "Deut.9.23\tNum.13.1-Num.14.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 41244,
+    "raw": "Deut.12.10\tJosh.3.17-Josh.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 41954,
+    "raw": "Deut.15.15\tEph.4.32-Eph.5.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 42855,
+    "raw": "Deut.20.8\tNum.13.31-Num.14.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 42870,
+    "raw": "Deut.20.10\t2Cor.5.18-2Cor.6.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 43316,
+    "raw": "Deut.23.9\t2Chr.31.20-2Chr.32.22\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 43845,
+    "raw": "Deut.26.7\tExod.2.23-Exod.3.4\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 44244,
+    "raw": "Deut.28.1\tDeut.26.19-Deut.27.1\t21",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 44974,
+    "raw": "Deut.29.7\tDeut.2.24-Deut.3.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 45681,
+    "raw": "Deut.31.19\tDeut.31.30-Deut.32.45\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 47116,
+    "raw": "Josh.1.8\tDeut.5.32-Deut.6.3\t50",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 47297,
+    "raw": "Josh.2.10\tDeut.2.30-Deut.3.8\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 48649,
+    "raw": "Josh.8.34\tDeut.27.14-Deut.28.68\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 48764,
+    "raw": "Josh.9.10\tDeut.2.30-Deut.3.7\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 49182,
+    "raw": "Josh.10.40\tJosh.18.21-Josh.19.8\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 49508,
+    "raw": "Josh.12.7\tJosh.11.23-Josh.12.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 50839,
+    "raw": "Josh.22.4\tJosh.13.15-Josh.14.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 51338,
+    "raw": "Josh.24.2\tGen.11.26-Gen.12.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 51392,
+    "raw": "Josh.24.8\tDeut.2.32-Deut.3.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 54906,
+    "raw": "Judg.18.2\tJudg.16.31-Judg.17.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 56203,
+    "raw": "Ruth.4.11\tGen.29.32-Gen.30.24\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 56221,
+    "raw": "Ruth.4.13\tGen.20.17-Gen.21.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 59074,
+    "raw": "1Sam.15.11\t1Sam.15.35-1Sam.16.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 59755,
+    "raw": "1Sam.17.45\tPs.124.8-Ps.125.1\t17",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 60913,
+    "raw": "1Sam.24.6\tRom.12.14-Rom.13.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 61585,
+    "raw": "1Sam.27.1\t1Sam.29.2-1Sam.30.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 61722,
+    "raw": "1Sam.28.6\tProv.27.1-Prov.28.28\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 61794,
+    "raw": "1Sam.28.16\tRev.18.24-Rev.19.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 62610,
+    "raw": "2Sam.3.3\t2Sam.14.24-2Sam.15.18\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 62663,
+    "raw": "2Sam.3.12\t2Sam.19.41-2Sam.20.13\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 63172,
+    "raw": "2Sam.6.12\t1Chr.15.25-1Chr.16.3\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 64272,
+    "raw": "2Sam.12.13\t1John.1.7-1John.2.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 64411,
+    "raw": "2Sam.13.5\t2Sam.16.21-2Sam.17.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 65054,
+    "raw": "2Sam.15.30\tPs.42.3-Ps.43.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 66156,
+    "raw": "2Sam.21.1\tGen.41.57-Gen.42.1\t-1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 67049,
+    "raw": "2Sam.23.14\t1Sam.13.23-1Sam.14.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 68219,
+    "raw": "1Kgs.3.1\t1Kgs.6.1-1Kgs.7.15\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 68589,
+    "raw": "1Kgs.4.19\tDeut.2.26-Deut.3.17\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 69053,
+    "raw": "1Kgs.7.14\tExod.35.30-Exod.36.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 69216,
+    "raw": "1Kgs.7.49\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 69261,
+    "raw": "1Kgs.8.1\t1Chr.15.29-1Chr.16.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 69609,
+    "raw": "1Kgs.8.33\tIsa.63.15-Isa.64.12\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70059,
+    "raw": "1Kgs.8.66\t2Chr.30.26-2Chr.31.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70085,
+    "raw": "1Kgs.9.1\t2Chr.7.11-2Chr.8.6\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70089,
+    "raw": "1Kgs.9.1\t1Kgs.6.37-1Kgs.7.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70204,
+    "raw": "1Kgs.9.10\t1Kgs.6.37-1Kgs.7.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70235,
+    "raw": "1Kgs.9.15\t1Kgs.6.38-1Kgs.7.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 70274,
+    "raw": "1Kgs.9.21\tJudg.2.20-Judg.3.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 71062,
+    "raw": "1Kgs.12.14\tJas.3.14-Jas.4.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 73220,
+    "raw": "1Kgs.19.17\t2Kgs.9.14-2Kgs.10.25\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 73911,
+    "raw": "1Kgs.21.29\t2Kgs.9.33-2Kgs.10.7\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 74596,
+    "raw": "2Kgs.2.2\t1Kgs.12.33-1Kgs.13.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 74919,
+    "raw": "2Kgs.3.11\t2Kgs.2.25-2Kgs.3.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 75499,
+    "raw": "2Kgs.5.7\t2Kgs.18.37-2Kgs.19.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 76463,
+    "raw": "2Kgs.8.24\t2Chr.21.20-2Chr.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 76474,
+    "raw": "2Kgs.8.25\t2Chr.21.20-2Chr.22.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 77059,
+    "raw": "2Kgs.11.2\t2Kgs.11.21-2Kgs.12.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 77819,
+    "raw": "2Kgs.15.8\t2Kgs.14.29-2Kgs.15.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 78185,
+    "raw": "2Kgs.16.20\t2Chr.28.27-2Chr.29.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 78605,
+    "raw": "2Kgs.17.37\tDeut.5.31-Deut.6.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 78638,
+    "raw": "2Kgs.18.1\t2Chr.28.27-2Chr.29.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 78639,
+    "raw": "2Kgs.18.1\t2Kgs.16.20-2Kgs.17.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 78742,
+    "raw": "2Kgs.18.10\tAmos.3.11-Amos.4.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 79002,
+    "raw": "2Kgs.19.3\tHos.5.15-Hos.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 79591,
+    "raw": "2Kgs.21.1\t2Chr.32.33-2Chr.33.9\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 80272,
+    "raw": "2Kgs.23.15\t1Kgs.12.28-1Kgs.13.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 80755,
+    "raw": "2Kgs.25.25\tJer.40.15-Jer.41.15\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 80789,
+    "raw": "1Chr.1.1\tGen.4.25-Gen.5.32\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 81207,
+    "raw": "1Chr.3.10\t1Kgs.14.31-1Kgs.15.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 81239,
+    "raw": "1Chr.3.13\t2Kgs.20.21-2Kgs.21.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 81246,
+    "raw": "1Chr.3.14\t2Kgs.21.26-2Kgs.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 81690,
+    "raw": "1Chr.6.31\t1Chr.15.25-1Chr.16.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 81791,
+    "raw": "1Chr.6.49\tNum.16.16-Num.17.13\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 82717,
+    "raw": "1Chr.12.23\t1Chr.10.14-1Chr.11.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 82824,
+    "raw": "1Chr.13.5\t1Sam.6.21-1Sam.7.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 85474,
+    "raw": "1Chr.28.8\tDeut.5.32-Deut.6.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 85599,
+    "raw": "1Chr.28.15\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 85648,
+    "raw": "1Chr.28.21\tExod.35.25-Exod.36.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 85698,
+    "raw": "1Chr.29.6\t1Chr.27.25-1Chr.28.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 86052,
+    "raw": "2Chr.1.8\t2Sam.22.51-2Sam.23.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 86788,
+    "raw": "2Chr.6.26\tHos.5.15-Hos.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 87118,
+    "raw": "2Chr.7.10\tPs.32.11-Ps.33.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 87354,
+    "raw": "2Chr.8.14\t1Chr.23.1-1Chr.26.19\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 87700,
+    "raw": "2Chr.10.14\tJas.3.14-Jas.4.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 90050,
+    "raw": "2Chr.22.9\t2Chr.21.20-2Chr.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 90223,
+    "raw": "2Chr.24.1\t2Kgs.11.21-2Kgs.12.15\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 90704,
+    "raw": "2Chr.26.16\t1Kgs.12.33-1Kgs.13.4\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91075,
+    "raw": "2Chr.29.10\tNeh.9.38-Neh.10.39\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91216,
+    "raw": "2Chr.29.30\tPs.32.11-Ps.33.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91563,
+    "raw": "2Chr.31.2\tPs.134.1-Ps.135.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91571,
+    "raw": "2Chr.31.3\tNum.28.1-Num.29.40\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91698,
+    "raw": "2Chr.31.17\t1Chr.24.20-1Chr.25.26\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 91734,
+    "raw": "2Chr.32.1\tIsa.36.1-Isa.37.38\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 92201,
+    "raw": "2Chr.33.8\tDeut.27.26-Deut.28.14\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 92210,
+    "raw": "2Chr.33.8\tDeut.5.31-Deut.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 92951,
+    "raw": "2Chr.36.12\tJer.27.12-Jer.28.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93092,
+    "raw": "2Chr.36.22\tIsa.44.28-Isa.45.5\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93139,
+    "raw": "Ezra.1.2\tIsa.44.26-Isa.45.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93452,
+    "raw": "Ezra.3.1\tNeh.7.73-Neh.8.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93620,
+    "raw": "Ezra.4.3\t2Chr.36.22-Ezra.1.3\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 93628,
+    "raw": "Ezra.4.3\tIsa.44.28-Isa.45.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93636,
+    "raw": "Ezra.4.5\tEzra.5.5-Ezra.6.18\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93709,
+    "raw": "Ezra.4.15\t2Kgs.24.20-2Kgs.25.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93727,
+    "raw": "Ezra.4.19\tEzra.5.17-Ezra.6.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93763,
+    "raw": "Ezra.5.1\tHag.1.1-Hag.2.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93864,
+    "raw": "Ezra.5.13\tIsa.44.28-Isa.45.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 93915,
+    "raw": "Ezra.6.3\t2Chr.36.22-Ezra.1.4\t4",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 94010,
+    "raw": "Ezra.6.14\tEzra.4.24-Ezra.5.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 94660,
+    "raw": "Ezra.9.3\t2Kgs.18.37-2Kgs.19.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 96432,
+    "raw": "Neh.7.73\tEzra.2.70-Ezra.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 96737,
+    "raw": "Neh.9.5\tPs.134.1-Ps.135.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 96841,
+    "raw": "Neh.9.10\tExod.7.1-Exod.12.32\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 97116,
+    "raw": "Neh.9.28\tJudg.5.31-Judg.6.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 97882,
+    "raw": "Neh.13.1\tJer.48.1-Jer.49.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 97884,
+    "raw": "Neh.13.1\tAmos.1.13-Amos.2.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 98425,
+    "raw": "Esth.2.23\tEsth.5.14-Esth.6.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 98772,
+    "raw": "Esth.5.14\t2Sam.16.21-2Sam.17.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 99013,
+    "raw": "Esth.8.7\tEsth.7.10-Esth.8.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 99237,
+    "raw": "Esth.9.25\tEsth.7.5-Esth.8.14\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 102005,
+    "raw": "Job.12.15\tGen.7.11-Gen.8.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 107264,
+    "raw": "Job.35.5\tJob.36.26-Job.37.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 109637,
+    "raw": "Ps.5.11\tPs.69.36-Ps.70.4\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 109799,
+    "raw": "Ps.7.1\tPs.30.12-Ps.31.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 110149,
+    "raw": "Ps.8.8\tJob.38.39-Job.39.30\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 110150,
+    "raw": "Ps.8.8\tJob.40.15-Job.41.34\t0",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 112501,
+    "raw": "Ps.19.9\tPs.111.10-Ps.112.6\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 112714,
+    "raw": "Ps.21.1\tPs.71.17-Ps.72.2\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 113312,
+    "raw": "Ps.23.1\tPs.79.13-Ps.80.1\t59",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 113989,
+    "raw": "Ps.26.3\tEph.4.32-Eph.5.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 114061,
+    "raw": "Ps.26.8\t2Chr.5.14-2Chr.6.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 114754,
+    "raw": "Ps.30.4\tPs.32.11-Ps.33.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 114756,
+    "raw": "Ps.30.4\tPs.148.14-Ps.149.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 115309,
+    "raw": "Ps.32.3\t2Sam.11.27-2Sam.12.12\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 115839,
+    "raw": "Ps.34.11\tEccl.11.9-Eccl.12.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 116689,
+    "raw": "Ps.37.10\tEsth.7.10-Esth.8.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 117807,
+    "raw": "Ps.42.4\tJob.29.2-Job.30.31\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 117928,
+    "raw": "Ps.43.1\t2Sam.16.20-2Sam.17.4\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 118473,
+    "raw": "Ps.45.10\t2Cor.6.17-2Cor.7.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 119628,
+    "raw": "Ps.51.1\t2Sam.11.2-2Sam.12.13\t21",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 121583,
+    "raw": "Ps.62.8\tPs.46.11-Ps.47.3\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 121961,
+    "raw": "Ps.64.10\tPs.32.11-Ps.33.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 122401,
+    "raw": "Ps.67.4\tPs.96.10-Ps.97.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 122483,
+    "raw": "Ps.68.3\tPs.32.11-Ps.33.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 122591,
+    "raw": "Ps.68.11\tJudg.4.6-Judg.5.31\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 122672,
+    "raw": "Ps.68.18\tRev.1.20-Rev.2.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 123688,
+    "raw": "Ps.72.1\t1Kgs.1.39-1Kgs.2.4\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 123982,
+    "raw": "Ps.73.1\tPs.73.18-Ps.74.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 124659,
+    "raw": "Ps.76.1\tRom.2.17-Rom.3.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 125137,
+    "raw": "Ps.78.12\tExod.7.1-Exod.12.51\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 125313,
+    "raw": "Ps.78.37\tHos.7.16-Hos.8.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 125516,
+    "raw": "Ps.78.61\t1Sam.4.21-1Sam.5.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 125547,
+    "raw": "Ps.78.67\t1Sam.6.21-1Sam.7.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 126543,
+    "raw": "Ps.85.1\tEzra.1.11-Ezra.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 126932,
+    "raw": "Ps.86.14\t2Sam.16.20-2Sam.17.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 127013,
+    "raw": "Ps.87.3\tIsa.61.3-Isa.62.12\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 127020,
+    "raw": "Ps.87.3\tIsa.59.20-Isa.60.22\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 127051,
+    "raw": "Ps.87.5\tHeb.11.32-Heb.12.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 127584,
+    "raw": "Ps.89.23\tPs.109.3-Ps.110.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 127957,
+    "raw": "Ps.90.7\tHeb.3.17-Heb.4.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 128091,
+    "raw": "Ps.90.17\t2Thess.2.16-2Thess.3.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129049,
+    "raw": "Ps.95.7\tPs.79.13-Ps.80.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129119,
+    "raw": "Ps.96.2\tPs.103.20-Ps.104.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129231,
+    "raw": "Ps.96.10\tPs.96.13-Ps.97.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129254,
+    "raw": "Ps.96.10\tPs.98.9-Ps.99.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129480,
+    "raw": "Ps.97.12\tPs.32.11-Ps.33.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 129593,
+    "raw": "Ps.98.7\tPs.96.11-Ps.97.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 130227,
+    "raw": "Ps.102.17\tNeh.1.11-Neh.2.8\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 130349,
+    "raw": "Ps.103.1\tPs.103.22-Ps.104.1\t22",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 130958,
+    "raw": "Ps.104.35\tPs.103.22-Ps.104.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 131322,
+    "raw": "Ps.105.45\tDeut.5.33-Deut.6.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 131487,
+    "raw": "Ps.106.12\tExod.14.31-Exod.15.21\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 131833,
+    "raw": "Ps.106.48\tPs.105.45-Ps.106.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 132346,
+    "raw": "Ps.108.1\tPs.145.21-Ps.146.2\t12",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 132860,
+    "raw": "Ps.110.4\tHeb.6.20-Heb.7.3\t16",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 133144,
+    "raw": "Ps.112.4\tEph.4.32-Eph.5.2\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 133908,
+    "raw": "Ps.118.15\tPs.32.11-Ps.33.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 134163,
+    "raw": "Ps.119.9\tEccl.11.9-Eccl.12.1\t18",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 134961,
+    "raw": "Ps.119.67\tHos.5.15-Hos.6.1\t17",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 137453,
+    "raw": "Ps.135.11\tDeut.2.30-Deut.3.11\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 137774,
+    "raw": "Ps.137.8\tJer.50.1-Jer.51.64\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 138310,
+    "raw": "Ps.140.13\tPs.32.11-Ps.33.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 138854,
+    "raw": "Ps.145.1\tPs.145.21-Ps.146.2\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 138997,
+    "raw": "Ps.145.11\tPs.96.10-Ps.97.12\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 139132,
+    "raw": "Ps.146.1\tPs.103.22-Ps.104.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 139830,
+    "raw": "Prov.1.4\tEccl.11.9-Eccl.12.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 139868,
+    "raw": "Prov.1.7\tPs.111.10-Ps.112.1\t59",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 140113,
+    "raw": "Prov.1.28\tHos.5.15-Hos.6.4\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 141353,
+    "raw": "Prov.6.7\tJob.38.39-Job.39.12\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 141943,
+    "raw": "Prov.8.12\tExod.35.30-Exod.36.4\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 144359,
+    "raw": "Prov.15.18\t2Sam.19.43-2Sam.20.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 145057,
+    "raw": "Prov.17.14\t2Sam.19.41-2Sam.20.22\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 145640,
+    "raw": "Prov.19.11\tEph.4.32-Eph.5.1\t15",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 145924,
+    "raw": "Prov.20.3\tEph.4.32-Eph.5.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 146965,
+    "raw": "Prov.23.17\tPs.111.10-Ps.112.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 147558,
+    "raw": "Prov.25.2\tJob.38.4-Job.39.30\t12",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 147560,
+    "raw": "Prov.25.2\tEzra.5.17-Ezra.6.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 149698,
+    "raw": "Eccl.2.5\tSong.4.12-Song.5.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 149773,
+    "raw": "Eccl.2.13\tMal.3.18-Mal.4.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 149799,
+    "raw": "Eccl.2.15\tEccl.1.18-Eccl.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 151329,
+    "raw": "Eccl.8.6\tEccl.11.9-Eccl.12.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 151652,
+    "raw": "Eccl.9.10\tNeh.2.12-Neh.3.16\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 151710,
+    "raw": "Eccl.9.14\t2Kgs.6.24-2Kgs.7.20\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 151866,
+    "raw": "Eccl.10.13\t2Sam.19.41-2Sam.20.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 152003,
+    "raw": "Eccl.11.5\tJob.38.4-Job.39.30\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 152258,
+    "raw": "Eccl.12.13\tPs.111.10-Ps.112.1\t49",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 152527,
+    "raw": "Song.1.14\t1Sam.23.29-1Sam.24.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153473,
+    "raw": "Song.6.2\tSong.4.12-Song.5.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153665,
+    "raw": "Song.7.8\tSong.4.16-Song.5.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153727,
+    "raw": "Song.7.13\tSong.4.16-Song.5.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153787,
+    "raw": "Song.8.2\tSong.4.10-Song.5.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153869,
+    "raw": "Song.8.8\tActs.10.1-Acts.11.18\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153957,
+    "raw": "Isa.1.1\t2Chr.26.1-2Chr.32.33\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153968,
+    "raw": "Isa.1.1\t2Kgs.15.32-2Kgs.16.20\t-1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 153981,
+    "raw": "Isa.1.1\t2Kgs.18.1-2Kgs.20.21\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 155815,
+    "raw": "Isa.6.4\t2Chr.5.13-2Chr.6.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 157111,
+    "raw": "Isa.10.13\tAmos.5.27-Amos.6.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 157113,
+    "raw": "Isa.10.14\tNah.2.9-Nah.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 157815,
+    "raw": "Isa.13.1\tJer.50.1-Jer.51.64\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 157823,
+    "raw": "Isa.13.1\tIsa.22.25-Isa.23.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 157849,
+    "raw": "Isa.13.3\tRev.18.20-Rev.19.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 158713,
+    "raw": "Isa.16.12\tNum.22.41-Num.23.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 158767,
+    "raw": "Isa.17.3\tAmos.8.14-Amos.9.10\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 159846,
+    "raw": "Isa.23.1\tEzek.26.1-Ezek.28.24\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 160531,
+    "raw": "Isa.25.5\tEzek.38.9-Ezek.39.10\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 161137,
+    "raw": "Isa.27.1\tRev.12.3-Rev.13.2\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 161382,
+    "raw": "Isa.27.13\tRev.8.6-Rev.9.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 162104,
+    "raw": "Isa.29.22\tEzek.39.25-Ezek.40.48\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 162436,
+    "raw": "Isa.30.18\tHos.5.15-Hos.6.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 163112,
+    "raw": "Isa.32.15\tIsa.59.19-Isa.60.22\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 163283,
+    "raw": "Isa.33.5\tIsa.61.11-Isa.62.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 163333,
+    "raw": "Isa.33.7\t2Kgs.18.37-2Kgs.19.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 163419,
+    "raw": "Isa.33.13\tDan.3.27-Dan.4.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 164302,
+    "raw": "Isa.37.1\tIsa.36.22-Isa.37.38\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 164322,
+    "raw": "Isa.37.3\tHos.5.15-Hos.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 165105,
+    "raw": "Isa.40.1\tIsa.60.1-Isa.61.3\t9",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 165273,
+    "raw": "Isa.40.10\tIsa.59.15-Isa.60.22\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 165926,
+    "raw": "Isa.41.25\tIsa.44.28-Isa.45.6\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 166730,
+    "raw": "Isa.43.14\tIsa.44.24-Isa.45.5\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 167053,
+    "raw": "Isa.44.5\tNeh.9.38-Neh.10.29\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 167489,
+    "raw": "Isa.44.28\t2Chr.36.22-Ezra.1.3\t12",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 167538,
+    "raw": "Isa.45.4\tIsa.44.28-Isa.45.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 167684,
+    "raw": "Isa.45.13\tIsa.44.28-Isa.45.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 168132,
+    "raw": "Isa.46.11\tIsa.44.28-Isa.45.6\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 168695,
+    "raw": "Isa.48.14\tIsa.44.28-Isa.45.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 169430,
+    "raw": "Isa.50.10\tPs.111.10-Ps.112.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 170386,
+    "raw": "Isa.53.11\tRom.4.24-Rom.5.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 170632,
+    "raw": "Isa.54.11\tIsa.51.23-Isa.52.5\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 170671,
+    "raw": "Isa.54.14\tIsa.61.10-Isa.62.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 172817,
+    "raw": "Isa.61.11\tSong.4.16-Song.5.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 172930,
+    "raw": "Isa.62.7\tIsa.61.11-Isa.62.3\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 173802,
+    "raw": "Isa.65.16\tIsa.11.16-Isa.12.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 174269,
+    "raw": "Jer.1.2\t2Kgs.21.24-2Kgs.22.20\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 174273,
+    "raw": "Jer.1.3\t2Kgs.24.17-2Kgs.25.30\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 174276,
+    "raw": "Jer.1.3\tJer.34.1-Jer.35.19\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 174504,
+    "raw": "Jer.1.18\tJer.21.4-Jer.22.30\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 174534,
+    "raw": "Jer.2.2\tExod.14.31-Exod.15.20\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 175256,
+    "raw": "Jer.3.10\t2Chr.34.33-2Chr.35.18\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 176746,
+    "raw": "Jer.6.16\tHeb.11.2-Heb.12.1\t23",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 176879,
+    "raw": "Jer.6.26\tJer.8.21-Jer.9.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 178583,
+    "raw": "Jer.11.10\tHos.7.16-Hos.8.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 179016,
+    "raw": "Jer.12.14\tJer.48.1-Jer.49.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 179862,
+    "raw": "Jer.15.8\tIsa.3.25-Isa.4.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 180366,
+    "raw": "Jer.17.3\tMic.3.12-Mic.4.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 181010,
+    "raw": "Jer.18.20\tJer.14.20-Jer.15.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 182060,
+    "raw": "Jer.22.20\tJer.2.36-Jer.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 182115,
+    "raw": "Jer.22.23\tHos.5.15-Hos.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 182850,
+    "raw": "Jer.24.8\tJer.43.1-Jer.44.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 182998,
+    "raw": "Jer.25.9\tIsa.44.28-Isa.45.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183032,
+    "raw": "Jer.25.12\tIsa.46.1-Isa.47.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183042,
+    "raw": "Jer.25.12\tIsa.20.1-Isa.21.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183142,
+    "raw": "Jer.25.21\tJer.48.1-Jer.49.22\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183146,
+    "raw": "Jer.25.21\tAmos.1.11-Amos.2.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183383,
+    "raw": "Jer.26.2\tLuke.19.47-Luke.20.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183577,
+    "raw": "Jer.26.18\tMic.3.12-Mic.4.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183678,
+    "raw": "Jer.27.3\tAmos.1.9-Amos.2.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 183901,
+    "raw": "Jer.27.22\t2Chr.36.21-Ezra.1.5\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 184161,
+    "raw": "Jer.29.10\t2Chr.36.21-Ezra.1.2\t7",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 184224,
+    "raw": "Jer.29.13\tHos.5.15-Hos.6.3\t18",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 185355,
+    "raw": "Jer.31.18\tHos.5.15-Hos.6.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 185695,
+    "raw": "Jer.31.38\tNeh.2.17-Neh.3.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 186740,
+    "raw": "Jer.34.8\tNeh.9.38-Neh.10.27\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 187288,
+    "raw": "Jer.36.7\tHos.5.15-Hos.6.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 187415,
+    "raw": "Jer.36.24\tIsa.36.22-Isa.37.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 187830,
+    "raw": "Jer.38.9\tJer.37.21-Jer.38.6\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 188107,
+    "raw": "Jer.39.14\tJer.40.1-Jer.41.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 188233,
+    "raw": "Jer.40.8\tJer.40.11-Jer.41.16\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 188775,
+    "raw": "Jer.43.9\tEzek.4.1-Ezek.5.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 188796,
+    "raw": "Jer.43.10\tIsa.44.28-Isa.45.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 189258,
+    "raw": "Jer.44.30\tEzek.31.18-Ezek.32.32\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 191087,
+    "raw": "Jer.50.17\t2Kgs.24.1-2Kgs.25.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 192836,
+    "raw": "Lam.1.7\tJob.29.2-Job.30.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 193395,
+    "raw": "Lam.2.11\tJer.8.19-Jer.9.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 194150,
+    "raw": "Lam.3.58\tPs.34.22-Ps.35.1\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 194754,
+    "raw": "Ezek.1.4\t2Chr.5.13-2Chr.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 194936,
+    "raw": "Ezek.1.26\tJosh.5.13-Josh.6.2\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 197202,
+    "raw": "Ezek.11.23\tMatt.23.37-Matt.24.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 198938,
+    "raw": "Ezek.16.52\tRom.1.32-Rom.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 200345,
+    "raw": "Ezek.20.19\tDeut.5.32-Deut.6.8\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 200948,
+    "raw": "Ezek.21.23\t2Kgs.24.20-2Kgs.25.7\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 203266,
+    "raw": "Ezek.28.22\tEzek.38.23-Ezek.39.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 203353,
+    "raw": "Ezek.28.26\tEzek.34.31-Ezek.35.15\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 203368,
+    "raw": "Ezek.29.2\tIsa.18.1-Isa.19.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 203371,
+    "raw": "Ezek.29.2\tEzek.30.1-Ezek.32.32\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 203717,
+    "raw": "Ezek.30.13\tJer.43.12-Jer.44.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 205310,
+    "raw": "Ezek.36.3\tJer.52.1-Lam.1.5\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 205636,
+    "raw": "Ezek.36.28\t2Cor.6.16-2Cor.7.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 208975,
+    "raw": "Dan.2.39\tIsa.44.28-Isa.45.5\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 210667,
+    "raw": "Dan.6.28\t2Chr.36.22-Ezra.1.2\t3",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 210669,
+    "raw": "Dan.6.28\tIsa.44.28-Isa.45.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 210781,
+    "raw": "Dan.7.9\tRev.19.18-Rev.20.4\t9",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 211277,
+    "raw": "Dan.8.15\tDan.7.28-Dan.8.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 211293,
+    "raw": "Dan.8.17\tEzek.1.28-Ezek.2.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 211414,
+    "raw": "Dan.9.1\tDan.5.31-Dan.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 211979,
+    "raw": "Dan.10.1\tIsa.44.28-Isa.45.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 211987,
+    "raw": "Dan.10.1\t2Chr.36.22-Ezra.1.2\t3",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 212609,
+    "raw": "Dan.11.34\tRev.12.13-Rev.13.4\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 212648,
+    "raw": "Dan.11.35\tDan.9.27-Dan.10.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 212976,
+    "raw": "Hos.1.1\t2Kgs.14.16-2Kgs.15.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 213214,
+    "raw": "Hos.2.7\tJer.2.36-Jer.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 213223,
+    "raw": "Hos.2.7\tHos.5.15-Hos.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 214417,
+    "raw": "Hos.7.1\tHos.11.12-Hos.12.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 215073,
+    "raw": "Hos.9.9\tJudg.19.16-Judg.20.21\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 216127,
+    "raw": "Hos.13.16\tAmos.3.9-Amos.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 216947,
+    "raw": "Joel.2.23\tPs.32.11-Ps.33.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 217388,
+    "raw": "Amos.1.1\t2Kgs.14.23-2Kgs.15.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 218080,
+    "raw": "Amos.4.6\tHos.5.15-Hos.6.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 218213,
+    "raw": "Amos.4.12\tMatt.24.44-Matt.25.13\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 218419,
+    "raw": "Amos.5.11\tAmos.3.15-Amos.4.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 219975,
+    "raw": "Jonah.2.1\tHos.5.15-Hos.6.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 220294,
+    "raw": "Jonah.4.11\tJonah.3.10-Jonah.4.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 220577,
+    "raw": "Mic.2.3\tAmos.2.14-Amos.3.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 221397,
+    "raw": "Mic.5.6\tNah.2.11-Nah.3.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 223103,
+    "raw": "Hab.2.3\tDan.9.24-Dan.10.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 223437,
+    "raw": "Hab.3.2\tIsa.63.15-Isa.64.4\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 223711,
+    "raw": "Hab.3.19\tPs.54.1-Ps.55.23\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 224186,
+    "raw": "Zeph.2.9\tAmos.1.13-Amos.2.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 224192,
+    "raw": "Zeph.2.9\tJer.48.1-Jer.49.6\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 224747,
+    "raw": "Hag.1.1\tHag.2.20-Zech.1.1\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 224770,
+    "raw": "Hag.1.1\tEzra.4.24-Ezra.5.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 224771,
+    "raw": "Hag.1.2\tEzra.4.23-Ezra.5.2\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 225076,
+    "raw": "Hag.2.10\tHag.1.15-Hag.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 225220,
+    "raw": "Zech.1.1\tHag.1.15-Hag.2.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 225227,
+    "raw": "Zech.1.1\tEzra.4.24-Ezra.5.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 226030,
+    "raw": "Zech.4.2\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 226464,
+    "raw": "Zech.6.13\tHeb.6.20-Heb.7.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 227167,
+    "raw": "Zech.9.7\t1Chr.21.15-1Chr.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 229945,
+    "raw": "Mal.3.16\tPs.111.10-Ps.112.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230288,
+    "raw": "Matt.1.5\tRuth.1.22-Ruth.2.4\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230317,
+    "raw": "Matt.1.7\t1Kgs.11.43-1Kgs.12.24\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230334,
+    "raw": "Matt.1.9\t2Kgs.15.32-2Kgs.16.20\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230337,
+    "raw": "Matt.1.9\t2Chr.27.1-2Chr.29.32\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230344,
+    "raw": "Matt.1.10\t2Kgs.20.21-2Kgs.23.30\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230347,
+    "raw": "Matt.1.10\t2Chr.32.33-2Chr.35.27\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 230349,
+    "raw": "Matt.1.11\t2Kgs.23.31-2Kgs.24.20\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 231693,
+    "raw": "Matt.5.4\tZech.12.10-Zech.13.1\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 231758,
+    "raw": "Matt.5.7\tEph.4.32-Eph.5.1\t72",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 231954,
+    "raw": "Matt.5.14\tRev.1.20-Rev.2.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 232758,
+    "raw": "Matt.6.9\tMatt.5.48-Matt.6.1\t9",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 233648,
+    "raw": "Matt.8.1\tMatt.4.25-Matt.5.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 234594,
+    "raw": "Matt.10.5\tActs.10.45-Acts.11.18\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 236573,
+    "raw": "Matt.13.30\tMal.3.18-Mal.4.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 236916,
+    "raw": "Matt.13.55\tMark.15.47-Mark.16.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 237961,
+    "raw": "Matt.16.21\tMark.8.31-Mark.9.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 238641,
+    "raw": "Matt.18.17\t1Cor.5.9-1Cor.6.7\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 238699,
+    "raw": "Matt.18.22\tEph.4.31-Eph.5.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 238774,
+    "raw": "Matt.18.33\tEph.4.32-Eph.5.2\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 239495,
+    "raw": "Matt.20.24\tJas.3.14-Jas.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 239870,
+    "raw": "Matt.21.23\tLuke.19.47-Luke.20.8\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 240652,
+    "raw": "Matt.22.44\tRev.19.19-Rev.20.3\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 240719,
+    "raw": "Matt.23.5\tLuke.20.47-Luke.21.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 241452,
+    "raw": "Matt.24.31\tRev.1.20-Rev.2.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 241701,
+    "raw": "Matt.25.1\tSong.5.16-Song.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 241885,
+    "raw": "Matt.25.16\t1Chr.28.2-1Chr.29.17\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 242252,
+    "raw": "Matt.25.40\t1John.4.20-1John.5.2\t12",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 242471,
+    "raw": "Matt.26.12\tLuke.23.56-Luke.24.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 243095,
+    "raw": "Matt.26.65\t2Kgs.18.37-2Kgs.19.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 243724,
+    "raw": "Matt.27.56\tMark.15.47-Mark.16.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 243780,
+    "raw": "Matt.28.1\tLuke.23.56-Luke.24.10\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 245381,
+    "raw": "Mark.4.31\tIsa.53.12-Isa.54.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 247990,
+    "raw": "Mark.10.46\tLuke.18.35-Luke.19.1\t25",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 248337,
+    "raw": "Mark.12.1\tMatt.21.28-Matt.22.14\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 248454,
+    "raw": "Mark.12.9\tRom.10.20-Rom.11.12\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 248897,
+    "raw": "Mark.13.9\tActs.7.54-Acts.8.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 249304,
+    "raw": "Mark.14.8\tMark.15.42-Mark.16.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 249312,
+    "raw": "Mark.14.8\tLuke.23.53-Luke.24.3\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 249700,
+    "raw": "Mark.14.49\tLuke.19.47-Luke.20.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 249818,
+    "raw": "Mark.14.63\tIsa.36.22-Isa.37.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 250197,
+    "raw": "Mark.15.40\tMark.15.47-Mark.16.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 250239,
+    "raw": "Mark.15.47\tLuke.23.55-Luke.24.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 250252,
+    "raw": "Mark.16.1\tLuke.23.56-Luke.24.12\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 251791,
+    "raw": "Luke.2.28\tPs.32.11-Ps.33.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 252337,
+    "raw": "Luke.3.36\tGen.6.22-Gen.7.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 252351,
+    "raw": "Luke.3.38\tGen.4.25-Gen.5.3\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 252517,
+    "raw": "Luke.4.18\tIsa.59.21-Isa.60.2\t17",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 252671,
+    "raw": "Luke.4.31\tActs.13.50-Acts.14.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 252945,
+    "raw": "Luke.5.15\tMark.1.45-Mark.2.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 253336,
+    "raw": "Luke.6.13\tMatt.9.36-Matt.10.4\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 253989,
+    "raw": "Luke.7.2\tCol.3.22-Col.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 254743,
+    "raw": "Luke.8.16\tRev.1.20-Rev.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 255320,
+    "raw": "Luke.9.22\tMark.8.31-Mark.9.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 255688,
+    "raw": "Luke.9.51\t1Pet.3.22-1Pet.4.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 255980,
+    "raw": "Luke.10.13\tEzek.26.1-Ezek.28.26\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 256630,
+    "raw": "Luke.11.32\tJonah.3.5-Jonah.4.4\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 256854,
+    "raw": "Luke.11.49\tActs.7.57-Acts.8.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 257731,
+    "raw": "Luke.13.19\tIsa.53.10-Isa.54.3\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 257733,
+    "raw": "Luke.13.19\tSong.4.16-Song.5.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 258134,
+    "raw": "Luke.14.17\t2Cor.5.18-2Cor.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 258855,
+    "raw": "Luke.16.9\t2Cor.4.17-2Cor.5.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 262500,
+    "raw": "Luke.24.20\tLuke.22.66-Luke.23.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 262723,
+    "raw": "Luke.24.44\tIsa.52.13-Isa.53.12\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 263229,
+    "raw": "John.1.18\tJosh.5.13-Josh.6.2\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 263342,
+    "raw": "John.1.29\tRev.21.27-Rev.22.3\t12",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 264071,
+    "raw": "John.3.6\tRom.7.25-Rom.8.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 268226,
+    "raw": "John.9.14\tMark.2.23-Mark.3.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 268571,
+    "raw": "John.10.2\tRev.1.20-Rev.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 269821,
+    "raw": "John.12.2\tSong.4.16-Song.5.1\t0",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 270877,
+    "raw": "John.13.34\t1John.4.21-1John.5.1\t39",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 270998,
+    "raw": "John.14.3\t2Thess.1.12-2Thess.2.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 272180,
+    "raw": "John.16.2\tActs.7.56-Acts.8.3\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 272395,
+    "raw": "John.16.14\t1John.3.23-1John.4.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 273011,
+    "raw": "John.17.13\tJohn.16.33-John.17.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 273955,
+    "raw": "John.19.30\tHeb.9.22-Heb.10.14\t9",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 274065,
+    "raw": "John.20.1\tMatt.27.64-Matt.28.10\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 274327,
+    "raw": "John.20.25\tHeb.3.18-Heb.4.2\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 274443,
+    "raw": "John.21.2\tJohn.1.45-John.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 274906,
+    "raw": "Acts.1.13\t2John.1.1-3John.1.14\t1",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 275710,
+    "raw": "Acts.2.35\tRev.19.19-Rev.20.3\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 275929,
+    "raw": "Acts.2.45\tActs.4.34-Acts.5.2\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 276250,
+    "raw": "Acts.3.19\tIsa.61.9-Isa.62.5\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 276738,
+    "raw": "Acts.4.27\tJohn.18.28-John.19.24\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 276773,
+    "raw": "Acts.4.27\tLuke.22.63-Luke.23.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 276898,
+    "raw": "Acts.4.34\tActs.4.37-Acts.5.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 276919,
+    "raw": "Acts.4.36\tActs.12.25-Acts.13.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 277244,
+    "raw": "Acts.5.27\tActs.22.30-Acts.23.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 277576,
+    "raw": "Acts.6.5\tActs.7.1-Acts.8.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 277843,
+    "raw": "Acts.7.8\tGen.29.31-Gen.30.24\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 277885,
+    "raw": "Acts.7.13\tGen.46.31-Gen.47.10\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 278282,
+    "raw": "Acts.7.47\t1Kgs.5.1-1Kgs.6.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 278432,
+    "raw": "Acts.7.55\tPs.109.31-Ps.110.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 279199,
+    "raw": "Acts.9.15\tActs.28.17-Rom.1.1\t1",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 279228,
+    "raw": "Acts.9.15\tActs.25.22-Acts.26.11\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 279469,
+    "raw": "Acts.9.31\tZech.8.20-Zech.9.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 280520,
+    "raw": "Acts.11.20\tActs.5.42-Acts.6.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 280669,
+    "raw": "Acts.11.30\t2John.1.1-3John.1.15\t2",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 281247,
+    "raw": "Acts.13.16\tActs.21.40-Acts.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 281328,
+    "raw": "Acts.13.21\t1Sam.8.5-1Sam.9.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 282066,
+    "raw": "Acts.14.14\t2Kgs.18.37-2Kgs.19.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 283016,
+    "raw": "Acts.16.10\tActs.27.1-Acts.28.16\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 283954,
+    "raw": "Acts.18.4\tActs.13.14-Acts.14.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 284122,
+    "raw": "Acts.18.14\tActs.21.39-Acts.22.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 284238,
+    "raw": "Acts.18.24\tActs.18.28-Acts.19.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 284679,
+    "raw": "Acts.19.33\tActs.21.40-Acts.22.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 286076,
+    "raw": "Acts.23.10\tJas.3.14-Jas.4.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 286141,
+    "raw": "Acts.23.15\tActs.22.30-Acts.23.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 286203,
+    "raw": "Acts.23.24\tActs.23.33-Acts.24.3\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 286735,
+    "raw": "Acts.25.12\tActs.26.32-Acts.27.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 286775,
+    "raw": "Acts.25.21\tActs.26.32-Acts.27.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 287176,
+    "raw": "Acts.26.20\tEph.4.17-Eph.5.25\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 288205,
+    "raw": "Rom.1.7\tEph.6.23-Phil.1.2\t3",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 288210,
+    "raw": "Rom.1.7\tRev.2.29-Rev.3.1\t0",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 288242,
+    "raw": "Rom.1.7\t1Thess.5.28-2Thess.1.2\t3",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 288771,
+    "raw": "Rom.2.3\tRom.1.32-Rom.2.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 289245,
+    "raw": "Rom.2.25\tRom.2.28-Rom.3.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 289469,
+    "raw": "Rom.3.9\tRom.1.18-Rom.2.29\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 289684,
+    "raw": "Rom.3.23\tRom.1.28-Rom.2.16\t17",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 289930,
+    "raw": "Rom.4.5\tRom.4.24-Rom.5.2\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 290500,
+    "raw": "Rom.5.11\tPs.32.11-Ps.33.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 292900,
+    "raw": "Rom.10.1\t1Sam.15.35-1Sam.16.1\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 293119,
+    "raw": "Rom.10.15\tMatt.9.38-Matt.10.6\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 293161,
+    "raw": "Rom.10.17\t1Pet.1.23-1Pet.2.2\t16",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 293376,
+    "raw": "Rom.11.12\tIsa.11.11-Isa.12.6\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 293493,
+    "raw": "Rom.11.20\tHeb.3.19-Heb.4.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 293604,
+    "raw": "Rom.11.26\tEzek.39.25-Ezek.40.48\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 294075,
+    "raw": "Rom.12.10\t1John.4.20-1John.5.2\t15",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 294922,
+    "raw": "Rom.15.2\t1Cor.10.33-1Cor.11.1\t14",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 295025,
+    "raw": "Rom.15.8\tEph.2.12-Eph.3.8\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 295138,
+    "raw": "Rom.15.16\tEph.2.22-Eph.3.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 296012,
+    "raw": "1Cor.1.12\tActs.18.24-Acts.19.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 298390,
+    "raw": "1Cor.8.11\t1Cor.10.33-1Cor.11.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 298411,
+    "raw": "1Cor.8.13\t1Cor.10.33-1Cor.11.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 299757,
+    "raw": "1Cor.12.31\t1Cor.13.1-1Cor.14.1\t15",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 300061,
+    "raw": "1Cor.13.13\tHeb.10.39-Heb.11.7\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 300064,
+    "raw": "1Cor.14.1\t1Cor.12.31-1Cor.13.9\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 300557,
+    "raw": "1Cor.15.4\tJohn.19.38-John.20.9\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 301267,
+    "raw": "1Cor.16.12\tActs.18.24-Acts.19.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 301337,
+    "raw": "1Cor.16.14\t1Cor.12.31-1Cor.14.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 301880,
+    "raw": "2Cor.2.3\t1Cor.4.21-1Cor.5.13\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 301884,
+    "raw": "2Cor.2.3\t2Cor.12.21-2Cor.13.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 303572,
+    "raw": "2Cor.7.1\tRom.5.20-Rom.6.11\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 305009,
+    "raw": "2Cor.11.26\tActs.19.23-Acts.20.6\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 305016,
+    "raw": "2Cor.11.26\tActs.15.40-Acts.16.24\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 305411,
+    "raw": "2Cor.12.20\t2Cor.1.23-2Cor.2.4\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 305624,
+    "raw": "2Cor.13.11\t2Thess.2.16-2Thess.3.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 305918,
+    "raw": "Gal.1.9\tDeut.12.32-Deut.13.11\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 306349,
+    "raw": "Gal.2.16\tRom.4.24-Rom.5.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307037,
+    "raw": "Gal.4.3\tGal.4.31-Gal.5.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307140,
+    "raw": "Gal.4.7\tGal.4.31-Gal.5.1\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307150,
+    "raw": "Gal.4.7\tGal.3.29-Gal.4.2\t18",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307684,
+    "raw": "Gal.5.13\tGal.4.22-Gal.5.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307714,
+    "raw": "Gal.5.15\tJas.3.14-Jas.4.3\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307860,
+    "raw": "Gal.5.22\tEph.4.23-Eph.5.2\t26",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 307953,
+    "raw": "Gal.6.1\t2Sam.11.2-2Sam.12.15\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 310215,
+    "raw": "Eph.4.16\t1Cor.13.13-1Cor.14.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 310547,
+    "raw": "Eph.4.31\t2Sam.19.43-2Sam.20.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 310560,
+    "raw": "Eph.4.31\tJas.3.14-Jas.4.2\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 311092,
+    "raw": "Eph.5.22\tCol.3.18-Col.4.1\t42",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 311094,
+    "raw": "Eph.5.22\tEph.5.22-Eph.6.9\t16",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 311378,
+    "raw": "Eph.6.9\tCol.3.25-Col.4.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 311701,
+    "raw": "Phil.1.1\tRev.1.20-Rev.2.1\t0",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 312200,
+    "raw": "Phil.1.27\tPhil.3.18-Phil.4.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 312258,
+    "raw": "Phil.1.30\tCol.1.29-Col.2.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 312369,
+    "raw": "Phil.2.5\t1Cor.10.33-1Cor.11.1\t47",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 312656,
+    "raw": "Phil.2.14\tJas.3.14-Jas.4.1\t14",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 312941,
+    "raw": "Phil.3.1\tPs.32.11-Ps.33.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 313278,
+    "raw": "Phil.3.14\t2Cor.4.17-2Cor.5.1\t22",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 313319,
+    "raw": "Phil.3.17\t1Cor.10.32-1Cor.11.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 313423,
+    "raw": "Phil.3.20\t2Cor.4.18-2Cor.5.1\t35",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 313724,
+    "raw": "Phil.4.9\t1Cor.10.31-1Cor.11.1\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 313796,
+    "raw": "Phil.4.15\tActs.16.40-Acts.17.5\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 315667,
+    "raw": "Col.3.18\tEph.5.22-Eph.6.9\t24",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 315981,
+    "raw": "Col.4.12\tHeb.5.14-Heb.6.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 316789,
+    "raw": "1Thess.2.19\t2Thess.1.7-2Thess.2.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 317250,
+    "raw": "1Thess.4.9\t1John.4.21-1John.5.1\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 317652,
+    "raw": "1Thess.5.12\tRev.1.20-Rev.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 317703,
+    "raw": "1Thess.5.14\tEph.4.32-Eph.5.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 318063,
+    "raw": "2Thess.1.7\t1Pet.3.22-1Pet.4.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 318379,
+    "raw": "2Thess.2.9\tRev.12.17-Rev.13.5\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 318990,
+    "raw": "1Tim.1.5\t1Cor.13.1-1Cor.14.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 319836,
+    "raw": "1Tim.3.13\tActs.6.15-Acts.7.53\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 320899,
+    "raw": "1Tim.6.6\t2Cor.4.17-2Cor.5.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 321346,
+    "raw": "2Tim.1.4\t1Thess.2.17-1Thess.3.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 322271,
+    "raw": "2Tim.3.1\tDan.11.36-Dan.12.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 323090,
+    "raw": "Titus.1.3\tDan.9.24-Dan.10.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 324649,
+    "raw": "Heb.2.9\t2Cor.5.21-2Cor.6.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 324833,
+    "raw": "Heb.2.17\tHeb.4.14-Heb.5.2\t15",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 325197,
+    "raw": "Heb.4.1\tMatt.24.48-Matt.25.3\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 325311,
+    "raw": "Heb.4.11\tHeb.3.18-Heb.4.1\t13",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 325408,
+    "raw": "Heb.4.14\tHeb.2.17-Heb.3.1\t9",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 326721,
+    "raw": "Heb.9.2\tExod.25.23-Exod.26.30\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 326992,
+    "raw": "Heb.9.15\tHeb.8.13-Heb.9.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 327899,
+    "raw": "Heb.11.3\tGen.1.1-Gen.2.1\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 327988,
+    "raw": "Heb.11.7\tGen.6.13-Gen.7.1\t17",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 328126,
+    "raw": "Heb.11.14\t2Cor.4.18-2Cor.5.7\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 328191,
+    "raw": "Heb.11.21\tGen.47.31-Gen.48.1\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 328309,
+    "raw": "Heb.11.29\tExod.14.13-Exod.15.21\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 328342,
+    "raw": "Heb.11.32\tJudg.4.1-Judg.6.8\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 329198,
+    "raw": "Heb.13.1\t1John.4.20-1John.5.1\t18",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 329209,
+    "raw": "Heb.13.2\tGen.18.1-Gen.19.3\t29",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 329460,
+    "raw": "Heb.13.14\t2Cor.4.17-2Cor.5.8\t7",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 329630,
+    "raw": "Heb.13.21\tRom.11.36-Rom.12.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 330861,
+    "raw": "Jas.3.6\t2Sam.16.20-2Sam.17.2\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 330871,
+    "raw": "Jas.3.6\t2Sam.19.43-2Sam.20.1\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 332536,
+    "raw": "1Pet.1.22\t1John.4.20-1John.5.2\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 333300,
+    "raw": "1Pet.3.8\tEph.4.31-Eph.5.2\t32",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 333461,
+    "raw": "1Pet.3.15\tActs.21.39-Acts.22.5\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 333569,
+    "raw": "1Pet.3.20\tGen.6.13-Gen.7.7\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 333764,
+    "raw": "1Pet.4.8\t1Cor.13.1-1Cor.14.1\t35",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 334025,
+    "raw": "1Pet.5.1\t2John.1.1-3John.1.15\t7",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 334464,
+    "raw": "2Pet.1.4\t2Cor.6.17-2Cor.7.1\t25",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 334694,
+    "raw": "2Pet.1.16\tMatt.16.28-Matt.17.8\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 336672,
+    "raw": "1John.3.18\t2John.1.1-3John.1.15\t11",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 336898,
+    "raw": "1John.4.7\t1John.4.20-1John.5.1\t45",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 336959,
+    "raw": "1John.4.11\tEph.4.31-Eph.5.2\t11",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 337532,
+    "raw": "2John.1.1\t2John.1.13-3John.1.15\t6",
+    "reason": "Cross-book ranges are unsupported"
+  },
+  {
+    "line": 337922,
+    "raw": "Jude.1.5\tHeb.3.16-Heb.4.2\t23",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338366,
+    "raw": "Rev.1.4\tRev.1.20-Rev.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338439,
+    "raw": "Rev.1.6\tRom.11.36-Rom.12.1\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338565,
+    "raw": "Rev.1.11\tRev.1.19-Rev.2.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338577,
+    "raw": "Rev.1.12\tRev.1.20-Rev.2.1\t10",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338613,
+    "raw": "Rev.1.16\tRev.1.20-Rev.2.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 338677,
+    "raw": "Rev.1.19\tRev.1.11-Rev.2.3\t1",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 339199,
+    "raw": "Rev.3.1\tRev.1.20-Rev.2.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 339710,
+    "raw": "Rev.4.6\tRev.5.14-Rev.6.1\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 340599,
+    "raw": "Rev.8.2\tRev.8.6-Rev.9.1\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 340876,
+    "raw": "Rev.9.12\tRev.8.13-Rev.9.2\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 341418,
+    "raw": "Rev.11.17\tRev.19.11-Rev.20.3\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 341450,
+    "raw": "Rev.11.18\tDan.11.44-Dan.12.2\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 341558,
+    "raw": "Rev.12.3\tRev.12.17-Rev.13.4\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342003,
+    "raw": "Rev.13.11\tRev.12.17-Rev.13.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342172,
+    "raw": "Rev.14.2\tRev.8.7-Rev.9.1\t2",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342503,
+    "raw": "Rev.15.1\tRev.16.1-Rev.17.1\t3",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342514,
+    "raw": "Rev.15.2\tRev.13.14-Rev.14.5\t5",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342536,
+    "raw": "Rev.15.3\tDeut.31.30-Deut.32.43\t6",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 342620,
+    "raw": "Rev.15.7\tRev.16.2-Rev.17.1\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 343962,
+    "raw": "Rev.20.8\tEzek.38.1-Ezek.39.1\t8",
+    "reason": "Multi-chapter ranges require a verse registry"
+  },
+  {
+    "line": 344746,
+    "raw": "Rev.22.18\tRev.15.6-Rev.16.21\t4",
+    "reason": "Multi-chapter ranges require a verse registry"
+  }
+]
