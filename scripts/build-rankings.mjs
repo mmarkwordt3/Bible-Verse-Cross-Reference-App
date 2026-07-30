@@ -1,0 +1,1 @@
+export function competitionRank(rows){rows.sort((a,b)=>b.incoming-a.incoming||a.order-b.order||a.chapter-b.chapter||a.verse-b.verse);let prior=-1;rows.forEach((v,i)=>{v.rank=v.incoming===prior?rows[i-1].rank:i+1;prior=v.incoming});return rows}
