@@ -1,0 +1,14 @@
+{
+  "eligibleUbsEvents": 10,
+  "unmappableUbsEvents": 412,
+  "top1Recall": 1,
+  "top5Recall": 1,
+  "top10Recall": 1,
+  "aboveThreshold": {
+    "high": 0.25496688741721857,
+    "medium": 0.6026490066225165
+  },
+  "medianUbsScore": 0.5856816169830116,
+  "medianDeterministicNegativeScore": 0,
+  "precisionClaimed": false
+}
