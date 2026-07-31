@@ -8,6 +8,11 @@ const explicit=new Map([
  ['JOEL.3.4',[{book:'JOL',chapter:2,verse:31,displayLabel:'LXX Joel 3:4; commonly Joel 2:31'}]],
 ]);
 const key=(book,chapter,verse)=>`${book}.${chapter}.${verse}`;
+/**
+ * @typedef {{book:string,chapter:number,verse:number}} BridgeReference
+ * @typedef {{source:BridgeReference,targets:BridgeReference[]}} BridgeRecord
+ */
+/** @param {BridgeRecord[]} records */
 export function createVersificationBridge(records){const forward=new Map(),reverse=new Map();for(const record of records){const source=key(record.source.book,record.source.chapter,record.source.verse),targets=record.targets.map(target=>({...target}));forward.set(source,targets);for(const target of targets){const targetKey=key(target.book,target.chapter,target.verse),sources=reverse.get(targetKey)||[];sources.push({...record.source});reverse.set(targetKey,sources)}}return {forward,reverse,mapSource:(book,chapter,verse)=>forward.get(key(book,chapter,verse))||null,mapTarget:(book,chapter,verse)=>reverse.get(key(book,chapter,verse))||null}}
 export function mapLxxVerse(nativeBook,chapter,verse,target='ubs'){
  const special=explicit.get(key(nativeBook,chapter,verse));if(special)return {targets:special,provenance:LXX_VERSIFICATION_PROVENANCE,explicit:true};

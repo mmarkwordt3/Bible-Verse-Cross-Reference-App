@@ -8,13 +8,40 @@ const suffix=id=>String(id).split(':').at(-1);
 const verseParts=id=>{const [book,chapter,verse]=suffix(id).split('.');return {book,chapter,verse}};
 const pairKey=(sourceBook,sourceVerse,targetBook,targetVerse)=>`${sourceBook}|${sourceVerse}|${targetBook}|${targetVerse}`;
 
+/**
+ * @typedef {object} UbsBenchmarkPassage
+ * @property {string} [bookId]
+ * @property {string[]} [verseIds]
+ */
+
+/**
+ * @typedef {object} UbsBenchmarkEvent
+ * @property {string} [id]
+ * @property {string} [groupId]
+ * @property {UbsBenchmarkPassage} [sourcePassage]
+ * @property {UbsBenchmarkPassage} [targetPassage]
+ */
+
+/**
+ * @typedef {object} BuildUbsOverlapIndexOptions
+ * @property {string[]} [lxxVerseIds]
+ */
+
 export function createMemoryTracker({logger=console.log,startedAt=performance.now(),warningHeapBytes=Infinity}={}){
   let peakRss=0,peakHeapUsed=0,peakHeapTotal=0;
   function sample(stage,details={}){const memory=process.memoryUsage();peakRss=Math.max(peakRss,memory.rss);peakHeapUsed=Math.max(peakHeapUsed,memory.heapUsed);peakHeapTotal=Math.max(peakHeapTotal,memory.heapTotal);logger(JSON.stringify({stage,elapsedMs:Math.round(performance.now()-startedAt),rss:memory.rss,heapUsed:memory.heapUsed,heapTotal:memory.heapTotal,memoryWarning:memory.heapUsed>=warningHeapBytes,...details}));return memory}
   return {sample,metrics:()=>({peakRss,peakHeapUsed,peakHeapTotal})};
 }
 
-export function buildUbsOverlapIndex(events,{lxxVerseIds=[]}={}){
+/**
+ * Build the verse-pair lookup used to compare native LXX candidates with UBS events.
+ * Invalid or incomplete events remain available in the returned diagnostics.
+ *
+ * @param {UbsBenchmarkEvent[]} events
+ * @param {BuildUbsOverlapIndexOptions} [options]
+ */
+export function buildUbsOverlapIndex(events,options={}){
+  const {lxxVerseIds=[]}=options;
   const pairs=new Map(),groups=new Set(),mappedEvents=new Set(),unmappedEvents=[];
   const available=new Set(lxxVerseIds.map(id=>suffix(id)));
   const mappedUbsBooks=new Set(LXX_BOOKS.filter(book=>book.directionalEligibility==='eligible'&&book.ubsBookId).map(book=>book.ubsBookId));
