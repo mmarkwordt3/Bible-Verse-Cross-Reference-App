@@ -123,6 +123,13 @@ jobs:
       - name: Install dependencies and repair lockfile
         run: npm install --no-audit --no-fund 2>&1 | tee bootstrap-npm-install.log
 
+      - name: Lint
+        run: npm run lint 2>&1 | tee bootstrap-lint.log
+      - name: Type-check
+        run: npm run typecheck 2>&1 | tee bootstrap-typecheck.log
+      - name: Test
+        run: npm run test 2>&1 | tee bootstrap-test.log
+
       - name: Acquire OpenBible and BSB sources
         id: openbible
         run: |
@@ -162,12 +169,6 @@ jobs:
           NODE_OPTIONS: --max-old-space-size=6144
         run: npm run data:refresh 2>&1 | tee bootstrap-data.log
 
-      - name: Lint
-        run: npm run lint 2>&1 | tee bootstrap-lint.log
-      - name: Type-check
-        run: npm run typecheck 2>&1 | tee bootstrap-typecheck.log
-      - name: Test
-        run: npm run test 2>&1 | tee bootstrap-test.log
       - name: Audit generated data
         run: npm run data:audit 2>&1 | tee bootstrap-audit.log
       - name: Build production site
