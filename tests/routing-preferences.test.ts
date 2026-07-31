@@ -1,0 +1,14 @@
+import {beforeEach,describe,expect,it} from 'vitest';import {parseGreekCandidateRoute,parseQuotationPassageRoute,parseVerseRoute,quotationPassageHash} from '../src/routing';import {getLayer,setLayer} from '../src/preferences';
+const values=new Map<string,string>();Object.defineProperty(globalThis,'localStorage',{value:{getItem:(key:string)=>values.get(key)||null,setItem:(key:string,value:string)=>values.set(key,value)}});beforeEach(()=>values.clear());
+it('keeps OpenBible and Douay verse routes explicit',()=>{expect(parseVerseRoute(['verse','openbible','EXO','34','6'])).toMatchObject({layer:'openbible',book:'EXO',chapter:34,verse:6,legacy:false});expect(parseVerseRoute(['verse','douay','john','3','16'])).toMatchObject({layer:'douay',book:'john'})});it('treats legacy verse routes as Douay',()=>expect(parseVerseRoute(['verse','john','3','16'])).toMatchObject({layer:'douay',legacy:true}));describe('layer preference',()=>{it('defaults to quotations and persists an explicit choice',()=>{expect(getLayer()).toBe('quotations');setLayer('douay');expect(getLayer()).toBe('douay')})});
+it('parses explicit quotation routes',()=>expect(parseVerseRoute(['verse','quotations','EXO','34','6'])).toMatchObject({layer:'quotations',book:'EXO',legacy:false}));
+
+it('creates deterministic exact, same-chapter, and cross-chapter quotation passage routes',()=>{
+ expect(quotationPassageHash({book:'EXO',startChapter:34,startVerse:6,endChapter:34,endVerse:7})).toBe('#/passage/quotations/EXO/34/6-7');
+ expect(parseQuotationPassageRoute('#/passage/quotations/EXO/34/6-7')).toMatchObject({book:'EXO',startChapter:34,startVerse:6,endChapter:34,endVerse:7});
+ expect(parseQuotationPassageRoute('#/passage/quotations/ISA/52/13-53/12')).toMatchObject({book:'ISA',startChapter:52,startVerse:13,endChapter:53,endVerse:12});
+ expect(parseQuotationPassageRoute(quotationPassageHash({book:'PSA',startChapter:110,startVerse:1,endChapter:110,endVerse:1}))).toMatchObject({startVerse:1,endVerse:1});
+});
+it('parses explicit Greek reuse verse routes',()=>expect(parseVerseRoute(['verse','greek-reuse','PSA','109','1'])).toMatchObject({layer:'greek-reuse',book:'PSA',legacy:false}));
+it('persists the Greek reuse layer independently',()=>{setLayer('greek-reuse');expect(getLayer()).toBe('greek-reuse')});
+it('parses Greek candidate routes',()=>expect(parseGreekCandidateRoute(['candidate','greek-reuse','greek-candidate%3Aabc'])).toEqual({layer:'greek-reuse',candidateId:'greek-candidate:abc'}));
