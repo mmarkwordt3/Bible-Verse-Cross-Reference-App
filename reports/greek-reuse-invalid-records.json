@@ -1,0 +1,10 @@
+{
+  "lxx": [],
+  "nestle1904": [
+    {
+      "line": 5337,
+      "reason": "Expected 7 tab-delimited columns, found 9",
+      "raw": "Matt 10:28\tφοβεῖσθε\tV-PEM-2P@@V-PNM-2P\tV-PEM-2P@@V-PNM-2P\t5399\tφοβέω\tφοβεῖσθε\tV-PEM-2P\tV-PNM-2P"
+    }
+  ]
+}
