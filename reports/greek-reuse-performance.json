@@ -1,9 +1,9 @@
 {
-  "buildDurationMs": 3368699,
-  "peakRss": 4035567616,
-  "peakHeapUsed": 3702058160,
-  "peakHeapTotal": 3789709312,
-  "maxPartitionHeapGrowth": 1982345784,
+  "buildDurationMs": 3364379,
+  "peakRss": 3992870912,
+  "peakHeapUsed": 3692382816,
+  "peakHeapTotal": 3779919872,
+  "maxPartitionHeapGrowth": 2054832128,
   "partitionExceededOneGiBHeapGrowth": true,
   "maxSimultaneouslyRetainedCandidates": 16393,
   "calibrationMaxRetainedCandidates": 250,
@@ -28,24 +28,24 @@
   },
   "assetSizes": {
     "manifest.json": {
-      "raw": 21731,
-      "gzip": 4749
+      "raw": 21732,
+      "gzip": 4715
     },
     "passage-rankings.json": {
       "raw": 27183782,
       "gzip": 4424426
     },
     "verse-rankings.json": {
-      "raw": 14317155,
-      "gzip": 1589749
+      "raw": 10362758,
+      "gzip": 1660409
     },
     "book-stats.json": {
       "raw": 28680,
       "gzip": 4305
     },
     "data-quality.json": {
-      "raw": 21863,
-      "gzip": 4833
+      "raw": 21864,
+      "gzip": 4799
     },
     "config.json": {
       "raw": 1254,

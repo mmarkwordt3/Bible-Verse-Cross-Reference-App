@@ -7,9 +7,9 @@ This layer compares Greek LXX and Greek NT wording. It produces candidates for h
 - Low preliminary candidates discarded: 5017302
 - Nested alternatives removed: 42736
 - UBS overlap: 176
-- Peak heap: 3702058160 bytes
-- Peak RSS: 4035567616 bytes
-- Build duration: 3368699 ms
+- Peak heap: 3692382816 bytes
+- Peak RSS: 3992870912 bytes
+- Build duration: 3364379 ms
 
 ## Top 25 LXX passages
 - greek-reuse-lxx:PS.109.1-109.1: 6 high; score sum 4.658
@@ -40,30 +40,30 @@ This layer compares Greek LXX and Greek NT wording. It produces candidates for h
 
 ## Top 25 source verses
 - greek-reuse-lxx:EZEK.38.20: 16 high; 44 medium-or-higher
-- greek-reuse-lxx:DAN.4.12: 13 high; 27 medium-or-higher
-- greek-reuse-lxx:DAN.4.37: 12 high; 57 medium-or-higher
-- greek-reuse-lxx:4MAC.18.24: 11 high; 13 medium-or-higher
-- greek-reuse-lxx:DAN.4.11: 11 high; 27 medium-or-higher
-- greek-reuse-lxx:DAN.4.13: 8 high; 13 medium-or-higher
 - greek-reuse-lxx:EZEK.38.19: 8 high; 25 medium-or-higher
 - greek-reuse-lxx:EZEK.31.13: 7 high; 15 medium-or-higher
+- greek-reuse-lxx:1KGS.2.35: 6 high; 34 medium-or-higher
+- greek-reuse-lxx:GEN.1.28: 6 high; 23 medium-or-higher
+- greek-reuse-lxx:HAG.1.12: 6 high; 21 medium-or-higher
+- greek-reuse-lxx:HAG.1.11: 6 high; 18 medium-or-higher
+- greek-reuse-lxx:EZEK.38.21: 6 high; 18 medium-or-higher
 - greek-reuse-lxx:1CHR.29.11: 6 high; 16 medium-or-higher
 - greek-reuse-lxx:1CHR.29.12: 6 high; 15 medium-or-higher
-- greek-reuse-lxx:1ESDR.5.58: 6 high; 14 medium-or-higher
-- greek-reuse-lxx:1KGS.2.35: 6 high; 34 medium-or-higher
-- greek-reuse-lxx:1MAC.9.34: 6 high; 10 medium-or-higher
-- greek-reuse-lxx:1MAC.9.35: 6 high; 11 medium-or-higher
-- greek-reuse-lxx:DAN.4.17: 6 high; 25 medium-or-higher
-- greek-reuse-lxx:DAN.4.22: 6 high; 26 medium-or-higher
-- greek-reuse-lxx:DAN.4.36: 6 high; 32 medium-or-higher
-- greek-reuse-lxx:EXOD.2.24: 6 high; 12 medium-or-higher
 - greek-reuse-lxx:EZEK.31.12: 6 high; 12 medium-or-higher
-- greek-reuse-lxx:EZEK.38.21: 6 high; 18 medium-or-higher
-- greek-reuse-lxx:GEN.1.28: 6 high; 23 medium-or-higher
-- greek-reuse-lxx:HAG.1.11: 6 high; 18 medium-or-higher
-- greek-reuse-lxx:HAG.1.12: 6 high; 21 medium-or-higher
-- greek-reuse-lxx:OD.12.15: 6 high; 20 medium-or-higher
+- greek-reuse-lxx:EXOD.2.24: 6 high; 12 medium-or-higher
+- greek-reuse-lxx:1MAC.9.35: 6 high; 11 medium-or-higher
+- greek-reuse-lxx:1MAC.9.34: 6 high; 10 medium-or-higher
 - greek-reuse-lxx:PS.109.1: 6 high; 7 medium-or-higher
+- greek-reuse-lxx:AMO.9.6: 5 high; 25 medium-or-higher
+- greek-reuse-lxx:GEN.1.26: 5 high; 18 medium-or-higher
+- greek-reuse-lxx:2KGS.4.37: 5 high; 16 medium-or-higher
+- greek-reuse-lxx:ISA.13.10: 5 high; 16 medium-or-higher
+- greek-reuse-lxx:2CHR.6.14: 5 high; 16 medium-or-higher
+- greek-reuse-lxx:GEN.1.27: 5 high; 13 medium-or-higher
+- greek-reuse-lxx:EXOD.32.13: 5 high; 12 medium-or-higher
+- greek-reuse-lxx:GEN.22.17: 5 high; 11 medium-or-higher
+- greek-reuse-lxx:JDT.1.12: 5 high; 11 medium-or-higher
+- greek-reuse-lxx:EXOD.4.5: 5 high; 9 medium-or-higher
 
 ## Highest-scoring retained candidates
 - greek-reuse-lxx:PS.2.2-2.2 → greek-reuse-nt:ACT.4.26-4.26: 1.000
