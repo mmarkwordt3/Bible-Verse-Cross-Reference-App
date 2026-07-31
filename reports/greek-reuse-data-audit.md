@@ -7,9 +7,9 @@ This layer compares Greek LXX and Greek NT wording. It produces candidates for h
 - Low preliminary candidates discarded: 5017302
 - Nested alternatives removed: 42736
 - UBS overlap: 176
-- Peak heap: 3692382816 bytes
-- Peak RSS: 3992870912 bytes
-- Build duration: 3364379 ms
+- Peak heap: 3692174528 bytes
+- Peak RSS: 3980050432 bytes
+- Build duration: 3153158 ms
 
 ## Top 25 LXX passages
 - greek-reuse-lxx:PS.109.1-109.1: 6 high; score sum 4.658

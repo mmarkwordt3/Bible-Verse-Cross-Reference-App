@@ -19,9 +19,9 @@
     "nestle1904SourceTimestamp": "2023-05-11T13:17:53-04:00",
     "ubsSourceTimestamp": "2026-07-09T14:17:22-04:00",
     "nestle1904SourceHash": "3beee6abb6302f691110fe0fc949fc195593b999cf2d0e463c9b573c1bb67150",
-    "generatedAt": "2026-07-31T17:22:09Z",
-    "actualGeneratedAt": "2026-07-31T17:22:09Z",
-    "calibrationTimestamp": "2026-07-31T17:22:09Z",
+    "generatedAt": "2026-07-31T19:13:44Z",
+    "actualGeneratedAt": "2026-07-31T19:13:44Z",
+    "calibrationTimestamp": "2026-07-31T19:13:44Z",
     "lxxBookCount": 57,
     "lxxBookInventory": [
       {
@@ -906,9 +906,9 @@
       "ωσει",
       "ωστε"
     ],
-    "buildDurationMs": 3364379,
-    "peakRss": 3992870912,
-    "peakHeapUsed": 3692382816,
+    "buildDurationMs": 3153158,
+    "peakRss": 3980050432,
+    "peakHeapUsed": 3692174528,
     "sourceBooks": [
       "1CHR",
       "1ESDR",
@@ -1017,7 +1017,7 @@
     "generatedAssetSizes": {
       "manifest.json": {
         "raw": 21732,
-        "gzip": 4715
+        "gzip": 4717
       },
       "passage-rankings.json": {
         "raw": 27183782,
@@ -1033,7 +1033,7 @@
       },
       "data-quality.json": {
         "raw": 21864,
-        "gzip": 4799
+        "gzip": 4801
       },
       "config.json": {
         "raw": 1254,

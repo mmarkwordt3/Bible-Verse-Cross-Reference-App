@@ -1,9 +1,9 @@
 {
-  "buildDurationMs": 3364379,
-  "peakRss": 3992870912,
-  "peakHeapUsed": 3692382816,
-  "peakHeapTotal": 3779919872,
-  "maxPartitionHeapGrowth": 2054832128,
+  "buildDurationMs": 3153158,
+  "peakRss": 3980050432,
+  "peakHeapUsed": 3692174528,
+  "peakHeapTotal": 3776434176,
+  "maxPartitionHeapGrowth": 2043768552,
   "partitionExceededOneGiBHeapGrowth": true,
   "maxSimultaneouslyRetainedCandidates": 16393,
   "calibrationMaxRetainedCandidates": 250,
@@ -29,7 +29,7 @@
   "assetSizes": {
     "manifest.json": {
       "raw": 21732,
-      "gzip": 4715
+      "gzip": 4717
     },
     "passage-rankings.json": {
       "raw": 27183782,
@@ -45,7 +45,7 @@
     },
     "data-quality.json": {
       "raw": 21864,
-      "gzip": 4799
+      "gzip": 4801
     },
     "config.json": {
       "raw": 1254,
