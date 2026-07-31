@@ -63,7 +63,7 @@ const production=await processGreekPartitions({targetWindows,retrieve,score,ubsI
 const representatives=production.summaries,candidateById=new Map(representatives.map(candidate=>[candidate.id,candidate]));
 const clusters=representatives.map(candidate=>({id:`cluster:${candidate.id.slice(-20)}`,representative:candidate,alternatives:candidate.alternativeWindows.map(id=>({id}))}));
 const passageRankings=buildGreekRankings(clusters,thresholds);if(passageRankings.length>limits.maxRankingRows)throw Error(`Greek reuse ranking safety limit exceeded: rows=${passageRankings.length}; limit=${limits.maxRankingRows}`);
-const verseRankings=projectGreekVerses(passageRankings,candidateById,thresholds);if(verseRankings.length>limits.maxRankingRows)throw Error(`Greek reuse verse ranking safety limit exceeded: rows=${verseRankings.length}; limit=${limits.maxRankingRows}`);
+const verseRankings=projectGreekVerses(passageRankings,candidateById,thresholds,lxxVerses);if(verseRankings.length>limits.maxRankingRows)throw Error(`Greek reuse verse ranking safety limit exceeded: rows=${verseRankings.length}; limit=${limits.maxRankingRows}`);
 tracker.sample('ranking-complete',{processed:representatives.length,retained:passageRankings.length});
 
 const bsbRecords=JSON.parse(await readFile('.cache/openbible/bsb-verses.json','utf8')),bsbById=new Map(bsbRecords.map(record=>[record.id,record.text]));
