@@ -1,22 +1,23 @@
 {
-  "buildDurationMs": 3067176,
-  "peakRss": 4046573568,
-  "peakHeapUsed": 3703698192,
-  "peakHeapTotal": 3792285696,
-  "maxPartitionHeapGrowth": 2353100032,
+  "buildDurationMs": 3368699,
+  "peakRss": 4035567616,
+  "peakHeapUsed": 3702058160,
+  "peakHeapTotal": 3789709312,
+  "maxPartitionHeapGrowth": 1982345784,
   "partitionExceededOneGiBHeapGrowth": true,
-  "maxSimultaneouslyRetainedCandidates": 2520,
+  "maxSimultaneouslyRetainedCandidates": 16393,
   "calibrationMaxRetainedCandidates": 250,
   "calibrationRawRetrievedPairs": 5069578,
   "calibrationScoredPairs": 5069578,
   "productionCounts": {
     "rawRetrievedPairs": 5069578,
     "scoredPairs": 5069578,
-    "lowScoringRawCandidates": 5060824,
-    "mediumRetainedCandidates": 7541,
-    "highRetainedCandidates": 1213,
-    "clusteredRepresentatives": 1497,
-    "nestedAlternativesRemoved": 7257
+    "lowScoringRawCandidates": 5017302,
+    "mediumRetainedCandidates": 43894,
+    "highRetainedCandidates": 8345,
+    "clusteredRepresentatives": 9540,
+    "nestedAlternativesRemoved": 42736,
+    "formulaicAuditCandidatesRetained": 37
   },
   "limits": {
     "maxRetainedPerPartition": 100000,
@@ -27,261 +28,261 @@
   },
   "assetSizes": {
     "manifest.json": {
-      "raw": 6677,
-      "gzip": 2682
+      "raw": 21731,
+      "gzip": 4749
     },
     "passage-rankings.json": {
-      "raw": 4298366,
-      "gzip": 836510
+      "raw": 27183782,
+      "gzip": 4424426
     },
     "verse-rankings.json": {
-      "raw": 3355462,
-      "gzip": 457396
+      "raw": 14317155,
+      "gzip": 1589749
     },
     "book-stats.json": {
-      "raw": 21340,
-      "gzip": 3330
+      "raw": 28680,
+      "gzip": 4305
     },
     "data-quality.json": {
-      "raw": 6809,
-      "gzip": 2771
+      "raw": 21863,
+      "gzip": 4833
     },
     "config.json": {
-      "raw": 736,
-      "gzip": 488
+      "raw": 1254,
+      "gzip": 596
     },
     "candidate-index.json": {
-      "raw": 89094,
-      "gzip": 21113
+      "raw": 569228,
+      "gzip": 131131
     },
     "books": {
       "1CHR": {
-        "raw": 225708,
-        "gzip": 45214
+        "raw": 1364434,
+        "gzip": 248776
       },
       "1ESDR": {
-        "raw": 135936,
-        "gzip": 28254
+        "raw": 1387745,
+        "gzip": 239278
       },
       "1KGS": {
-        "raw": 586401,
-        "gzip": 111163
+        "raw": 7205012,
+        "gzip": 1339869
       },
       "1MAC": {
-        "raw": 279634,
-        "gzip": 58244
+        "raw": 2623347,
+        "gzip": 501013
       },
       "1SAM": {
-        "raw": 214784,
-        "gzip": 46111
+        "raw": 2343651,
+        "gzip": 450198
       },
       "2CHR": {
-        "raw": 434647,
-        "gzip": 89081
+        "raw": 4029816,
+        "gzip": 774741
       },
       "2ESDR": {
-        "raw": 129735,
-        "gzip": 24975
+        "raw": 1687087,
+        "gzip": 295888
       },
       "2KGS": {
-        "raw": 305615,
-        "gzip": 60705
+        "raw": 2924963,
+        "gzip": 561952
       },
       "2MAC": {
-        "raw": 40926,
-        "gzip": 8209
+        "raw": 598831,
+        "gzip": 118139
       },
       "2SAM": {
-        "raw": 251250,
-        "gzip": 49571
+        "raw": 2428446,
+        "gzip": 460022
       },
       "3MAC": {
-        "raw": 45,
-        "gzip": 60
+        "raw": 115470,
+        "gzip": 22009
       },
       "4MAC": {
-        "raw": 90116,
-        "gzip": 14847
+        "raw": 345974,
+        "gzip": 58146
       },
       "AMO": {
-        "raw": 99912,
-        "gzip": 19133
+        "raw": 668030,
+        "gzip": 117740
       },
       "BAR": {
-        "raw": 24803,
-        "gzip": 5571
+        "raw": 225318,
+        "gzip": 42245
       },
       "BEL": {
-        "raw": 8760,
-        "gzip": 2394
+        "raw": 129071,
+        "gzip": 18843
       },
       "BELTH": {
-        "raw": 8633,
-        "gzip": 2412
+        "raw": 163772,
+        "gzip": 27186
       },
       "CANT": {
-        "raw": 45,
-        "gzip": 60
+        "raw": 52491,
+        "gzip": 9057
       },
       "DAN": {
-        "raw": 956708,
-        "gzip": 186471
+        "raw": 5366504,
+        "gzip": 976403
       },
       "DANTH": {
-        "raw": 644195,
-        "gzip": 131139
+        "raw": 3654586,
+        "gzip": 643381
       },
       "DEUT": {
-        "raw": 630853,
-        "gzip": 123446
+        "raw": 4099107,
+        "gzip": 793081
       },
       "EPJER": {
-        "raw": 46,
-        "gzip": 61
+        "raw": 19360,
+        "gzip": 4280
       },
       "ESTH": {
-        "raw": 193138,
-        "gzip": 37112
+        "raw": 2750258,
+        "gzip": 502388
       },
       "EXOD": {
-        "raw": 695376,
-        "gzip": 139865
+        "raw": 3741280,
+        "gzip": 727373
       },
       "EZEK": {
-        "raw": 610908,
-        "gzip": 122148
+        "raw": 4031098,
+        "gzip": 777764
       },
       "GEN": {
-        "raw": 946402,
-        "gzip": 193151
+        "raw": 5911401,
+        "gzip": 1146339
       },
       "HAB": {
-        "raw": 16598,
-        "gzip": 4119
+        "raw": 73948,
+        "gzip": 14157
       },
       "HAG": {
-        "raw": 85932,
-        "gzip": 13825
+        "raw": 395048,
+        "gzip": 60469
       },
       "HOS": {
-        "raw": 129871,
-        "gzip": 23273
+        "raw": 549267,
+        "gzip": 96382
       },
       "ISA": {
-        "raw": 617045,
-        "gzip": 138010
+        "raw": 3766435,
+        "gzip": 758063
       },
       "JDT": {
-        "raw": 256226,
-        "gzip": 48418
+        "raw": 1753278,
+        "gzip": 337760
       },
       "JER": {
-        "raw": 261654,
-        "gzip": 53600
+        "raw": 3036528,
+        "gzip": 588946
       },
       "JOB": {
-        "raw": 46991,
-        "gzip": 8820
+        "raw": 464090,
+        "gzip": 82058
       },
       "JOL": {
-        "raw": 83533,
-        "gzip": 15116
+        "raw": 437712,
+        "gzip": 75460
       },
       "JONAH": {
-        "raw": 60009,
-        "gzip": 10617
+        "raw": 329943,
+        "gzip": 53275
       },
       "JOSH": {
-        "raw": 284546,
-        "gzip": 56500
+        "raw": 2249207,
+        "gzip": 435873
       },
       "JUDG": {
-        "raw": 617920,
-        "gzip": 107053
+        "raw": 5609647,
+        "gzip": 950915
       },
       "LAM": {
-        "raw": 44,
-        "gzip": 59
+        "raw": 39242,
+        "gzip": 7354
       },
       "LEV": {
-        "raw": 249440,
-        "gzip": 49704
+        "raw": 1818563,
+        "gzip": 324036
       },
       "MAL": {
-        "raw": 17566,
-        "gzip": 3977
+        "raw": 132558,
+        "gzip": 24410
       },
       "MIC": {
-        "raw": 5225,
-        "gzip": 1745
+        "raw": 151902,
+        "gzip": 29924
       },
       "NAH": {
-        "raw": 14260,
-        "gzip": 3255
+        "raw": 82378,
+        "gzip": 14184
       },
       "NUM": {
-        "raw": 233471,
-        "gzip": 48239
+        "raw": 1836767,
+        "gzip": 343595
       },
       "OBAD": {
-        "raw": 45,
-        "gzip": 60
+        "raw": 27440,
+        "gzip": 5134
       },
       "OD": {
-        "raw": 251846,
-        "gzip": 50110
+        "raw": 802157,
+        "gzip": 136801
       },
       "PROV": {
-        "raw": 36427,
-        "gzip": 7732
+        "raw": 118140,
+        "gzip": 22163
       },
       "PS": {
-        "raw": 545526,
-        "gzip": 115124
+        "raw": 2385035,
+        "gzip": 440695
       },
       "PSSOL": {
-        "raw": 35579,
-        "gzip": 5955
+        "raw": 291970,
+        "gzip": 46095
       },
       "QOH": {
-        "raw": 36498,
-        "gzip": 7028
+        "raw": 398306,
+        "gzip": 69851
       },
       "RUT": {
-        "raw": 16207,
-        "gzip": 4123
+        "raw": 281552,
+        "gzip": 48401
       },
       "SIR": {
-        "raw": 20080,
-        "gzip": 3983
+        "raw": 363783,
+        "gzip": 65375
       },
       "SUS": {
-        "raw": 44,
-        "gzip": 59
+        "raw": 105803,
+        "gzip": 18098
       },
       "SUSTH": {
-        "raw": 8511,
-        "gzip": 2375
+        "raw": 149112,
+        "gzip": 22929
       },
       "TOBBA": {
-        "raw": 75010,
-        "gzip": 15471
+        "raw": 901558,
+        "gzip": 152204
       },
       "TOBS": {
-        "raw": 240261,
-        "gzip": 47631
+        "raw": 2702192,
+        "gzip": 465175
       },
       "WIS": {
-        "raw": 44,
-        "gzip": 59
+        "raw": 23511,
+        "gzip": 4995
       },
       "ZECH": {
-        "raw": 101389,
-        "gzip": 19850
+        "raw": 1002595,
+        "gzip": 182965
       },
       "ZEPH": {
-        "raw": 25188,
-        "gzip": 4946
+        "raw": 188668,
+        "gzip": 32879
       }
     }
   }

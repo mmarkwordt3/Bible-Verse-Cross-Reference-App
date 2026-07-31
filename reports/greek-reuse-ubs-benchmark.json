@@ -1,14 +1,28 @@
 {
-  "eligibleUbsEvents": 10,
-  "unmappableUbsEvents": 412,
-  "top1Recall": 1,
-  "top5Recall": 1,
-  "top10Recall": 1,
-  "aboveThreshold": {
-    "high": 0.25496688741721857,
-    "medium": 0.6026490066225165
+  "totalUbsEvents": 422,
+  "totalUbsGroups": 249,
+  "safelyMappableUbsEvents": 300,
+  "safelyMappableUbsGroups": 168,
+  "recoveredUbsEvents": 266,
+  "recoveredUbsGroups": 154,
+  "unmappableUbsEvents": 122,
+  "unmappableUbsGroups": 81,
+  "unmappableByReason": {
+    "Missing verse-level crosswalk": 115,
+    "Unknown LXX book mapping": 7
   },
-  "medianUbsScore": 0.5856816169830116,
+  "top1EventRecall": 0.71,
+  "top5EventRecall": 0.7933333333333333,
+  "top10EventRecall": 0.81,
+  "top1GroupRecall": 0.8333333333333334,
+  "top5GroupRecall": 0.8630952380952381,
+  "top10GroupRecall": 0.875,
+  "benchmarkMappingCoverage": 0.7109004739336493,
+  "aboveThreshold": {
+    "high": 0.25021582733812947,
+    "medium": 0.6001438848920864
+  },
+  "medianUbsScore": 0.47862741555206495,
   "medianDeterministicNegativeScore": 0,
   "precisionClaimed": false
 }
