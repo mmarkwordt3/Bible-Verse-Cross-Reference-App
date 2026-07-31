@@ -1,0 +1,288 @@
+{
+  "buildDurationMs": 3067176,
+  "peakRss": 4046573568,
+  "peakHeapUsed": 3703698192,
+  "peakHeapTotal": 3792285696,
+  "maxPartitionHeapGrowth": 2353100032,
+  "partitionExceededOneGiBHeapGrowth": true,
+  "maxSimultaneouslyRetainedCandidates": 2520,
+  "calibrationMaxRetainedCandidates": 250,
+  "calibrationRawRetrievedPairs": 5069578,
+  "calibrationScoredPairs": 5069578,
+  "productionCounts": {
+    "rawRetrievedPairs": 5069578,
+    "scoredPairs": 5069578,
+    "lowScoringRawCandidates": 5060824,
+    "mediumRetainedCandidates": 7541,
+    "highRetainedCandidates": 1213,
+    "clusteredRepresentatives": 1497,
+    "nestedAlternativesRemoved": 7257
+  },
+  "limits": {
+    "maxRetainedPerPartition": 100000,
+    "maxTempFileBytes": 262144000,
+    "maxFinalBookBytes": 104857600,
+    "maxRankingRows": 500000,
+    "warningHeapBytes": 4294967296
+  },
+  "assetSizes": {
+    "manifest.json": {
+      "raw": 6677,
+      "gzip": 2682
+    },
+    "passage-rankings.json": {
+      "raw": 4298366,
+      "gzip": 836510
+    },
+    "verse-rankings.json": {
+      "raw": 3355462,
+      "gzip": 457396
+    },
+    "book-stats.json": {
+      "raw": 21340,
+      "gzip": 3330
+    },
+    "data-quality.json": {
+      "raw": 6809,
+      "gzip": 2771
+    },
+    "config.json": {
+      "raw": 736,
+      "gzip": 488
+    },
+    "candidate-index.json": {
+      "raw": 89094,
+      "gzip": 21113
+    },
+    "books": {
+      "1CHR": {
+        "raw": 225708,
+        "gzip": 45214
+      },
+      "1ESDR": {
+        "raw": 135936,
+        "gzip": 28254
+      },
+      "1KGS": {
+        "raw": 586401,
+        "gzip": 111163
+      },
+      "1MAC": {
+        "raw": 279634,
+        "gzip": 58244
+      },
+      "1SAM": {
+        "raw": 214784,
+        "gzip": 46111
+      },
+      "2CHR": {
+        "raw": 434647,
+        "gzip": 89081
+      },
+      "2ESDR": {
+        "raw": 129735,
+        "gzip": 24975
+      },
+      "2KGS": {
+        "raw": 305615,
+        "gzip": 60705
+      },
+      "2MAC": {
+        "raw": 40926,
+        "gzip": 8209
+      },
+      "2SAM": {
+        "raw": 251250,
+        "gzip": 49571
+      },
+      "3MAC": {
+        "raw": 45,
+        "gzip": 60
+      },
+      "4MAC": {
+        "raw": 90116,
+        "gzip": 14847
+      },
+      "AMO": {
+        "raw": 99912,
+        "gzip": 19133
+      },
+      "BAR": {
+        "raw": 24803,
+        "gzip": 5571
+      },
+      "BEL": {
+        "raw": 8760,
+        "gzip": 2394
+      },
+      "BELTH": {
+        "raw": 8633,
+        "gzip": 2412
+      },
+      "CANT": {
+        "raw": 45,
+        "gzip": 60
+      },
+      "DAN": {
+        "raw": 956708,
+        "gzip": 186471
+      },
+      "DANTH": {
+        "raw": 644195,
+        "gzip": 131139
+      },
+      "DEUT": {
+        "raw": 630853,
+        "gzip": 123446
+      },
+      "EPJER": {
+        "raw": 46,
+        "gzip": 61
+      },
+      "ESTH": {
+        "raw": 193138,
+        "gzip": 37112
+      },
+      "EXOD": {
+        "raw": 695376,
+        "gzip": 139865
+      },
+      "EZEK": {
+        "raw": 610908,
+        "gzip": 122148
+      },
+      "GEN": {
+        "raw": 946402,
+        "gzip": 193151
+      },
+      "HAB": {
+        "raw": 16598,
+        "gzip": 4119
+      },
+      "HAG": {
+        "raw": 85932,
+        "gzip": 13825
+      },
+      "HOS": {
+        "raw": 129871,
+        "gzip": 23273
+      },
+      "ISA": {
+        "raw": 617045,
+        "gzip": 138010
+      },
+      "JDT": {
+        "raw": 256226,
+        "gzip": 48418
+      },
+      "JER": {
+        "raw": 261654,
+        "gzip": 53600
+      },
+      "JOB": {
+        "raw": 46991,
+        "gzip": 8820
+      },
+      "JOL": {
+        "raw": 83533,
+        "gzip": 15116
+      },
+      "JONAH": {
+        "raw": 60009,
+        "gzip": 10617
+      },
+      "JOSH": {
+        "raw": 284546,
+        "gzip": 56500
+      },
+      "JUDG": {
+        "raw": 617920,
+        "gzip": 107053
+      },
+      "LAM": {
+        "raw": 44,
+        "gzip": 59
+      },
+      "LEV": {
+        "raw": 249440,
+        "gzip": 49704
+      },
+      "MAL": {
+        "raw": 17566,
+        "gzip": 3977
+      },
+      "MIC": {
+        "raw": 5225,
+        "gzip": 1745
+      },
+      "NAH": {
+        "raw": 14260,
+        "gzip": 3255
+      },
+      "NUM": {
+        "raw": 233471,
+        "gzip": 48239
+      },
+      "OBAD": {
+        "raw": 45,
+        "gzip": 60
+      },
+      "OD": {
+        "raw": 251846,
+        "gzip": 50110
+      },
+      "PROV": {
+        "raw": 36427,
+        "gzip": 7732
+      },
+      "PS": {
+        "raw": 545526,
+        "gzip": 115124
+      },
+      "PSSOL": {
+        "raw": 35579,
+        "gzip": 5955
+      },
+      "QOH": {
+        "raw": 36498,
+        "gzip": 7028
+      },
+      "RUT": {
+        "raw": 16207,
+        "gzip": 4123
+      },
+      "SIR": {
+        "raw": 20080,
+        "gzip": 3983
+      },
+      "SUS": {
+        "raw": 44,
+        "gzip": 59
+      },
+      "SUSTH": {
+        "raw": 8511,
+        "gzip": 2375
+      },
+      "TOBBA": {
+        "raw": 75010,
+        "gzip": 15471
+      },
+      "TOBS": {
+        "raw": 240261,
+        "gzip": 47631
+      },
+      "WIS": {
+        "raw": 44,
+        "gzip": 59
+      },
+      "ZECH": {
+        "raw": 101389,
+        "gzip": 19850
+      },
+      "ZEPH": {
+        "raw": 25188,
+        "gzip": 4946
+      }
+    }
+  }
+}
