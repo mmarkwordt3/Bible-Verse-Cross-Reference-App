@@ -1,11 +1,11 @@
 import {lxxToBsbBookId,lxxToUbsBookId} from './lxx-book-metadata.mjs';
 export const LXX_VERSIFICATION_BRIDGE_VERSION='explicit-lxx-ubs-v1';
 export const LXX_VERSIFICATION_PROVENANCE='Scripture Index explicit crosswalk; reviewed native Rahlfs/CenterBLC and UBS/USFM reference pairs. Identity mappings are limited to books without a known chapter-level numbering conflict.';
-const complexBooks=new Set(['PS','JER','JOEL','MAL','DAN','DANTH','SUS','SUSTH','BEL','BELTH']);
+const complexBooks=new Set(['PS','JER','JOL','MAL','DAN','DANTH','SUS','SUSTH','BEL','BELTH']);
 const explicit=new Map([
  ['PS.8.6',[{book:'PSA',chapter:8,verse:6}]],
  ['PS.109.1',[{book:'PSA',chapter:110,verse:1,displayLabel:'LXX Psalm 109:1; commonly Psalm 110:1'}]],
- ['JOEL.3.4',[{book:'JOL',chapter:2,verse:31,displayLabel:'LXX Joel 3:4; commonly Joel 2:31'}]],
+ ['JOL.3.4',[{book:'JOL',chapter:2,verse:31,displayLabel:'LXX Joel 3:4; commonly Joel 2:31'}]],
 ]);
 const key=(book,chapter,verse)=>`${book}.${chapter}.${verse}`;
 /**

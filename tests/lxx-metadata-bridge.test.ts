@@ -2,19 +2,26 @@ import {readFile} from 'node:fs/promises';
 import {describe,expect,it} from 'vitest';
 import {analyzeFormulaicCandidate} from '../scripts/formulaic-greek.mjs';
 import {buildUbsOverlapIndex} from '../scripts/greek-reuse-pipeline.mjs';
-import {getLxxBookMetadata,LXX_BOOKS,lxxNativeBookId,lxxToUbsBookId,validateLxxInventory} from '../scripts/lxx-book-metadata.mjs';
+import {getLxxBookMetadata,LXX_BOOKS,lxxNativeBookId,lxxToUbsBookId,normalizeCenterBlcBookId,validateLxxInventory} from '../scripts/lxx-book-metadata.mjs';
 import {createVersificationBridge,mapLxxVerse,mappedDisplayReference} from '../scripts/lxx-versification-bridge.mjs';
 
-const actualIds=['GEN','EXOD','LEV','NUM','DEUT','JOSH','JUDG','RUTH','1SAM','2SAM','1KGS','2KGS','1CH','2CH','1ESDR','2ESDR','ESTH','JDT','TOBBA','TOBS','1MAC','2MAC','3MAC','4MAC','PS','OD','PROV','QOH','CANT','JOB','WIS','SIR','PSSOL','HOS','AMOS','MIC','JOEL','OBAD','JONAH','NAH','HAB','ZEPH','HAG','ZECH','MAL','ISA','JER','BAR','LAM','EPJ','EZEK','SUS','SUSTH','DAN','DANTH','BEL','BELTH'];
+const confirmedCenterBlcNativeIds=['GEN','EXOD','LEV','NUM','DEUT','JOSH','JUDG','RUT','1SAM','2SAM','1KGS','2KGS','1CHR','2CHR','1ESDR','2ESDR','ESTH','JDT','TOBBA','TOBS','1MAC','2MAC','3MAC','4MAC','PS','OD','PROV','QOH','CANT','JOB','WIS','SIR','PSSOL','HOS','MIC','AMO','JOL','JONAH','OBAD','NAH','HAB','ZEPH','HAG','ZECH','MAL','ISA','JER','BAR','EPJER','LAM','EZEK','BEL','BELTH','DAN','DANTH','SUS','SUSTH'];
+const correctedIds=['RUT','1CHR','2CHR','AMO','JOL','EPJER'];
+const formerIds=['RUTH','1CH','2CH','AMOS','JOEL','EPJ'];
 
 describe('CenterBLC LXX metadata',()=>{
- it('covers all 57 native IDs and preserves them in Layer D',()=>{expect(LXX_BOOKS).toHaveLength(57);expect(()=>validateLxxInventory(actualIds)).not.toThrow();expect(lxxNativeBookId('EXOD')).toBe('EXOD');expect(lxxNativeBookId('PS')).toBe('PS');expect(()=>lxxNativeBookId('UNKNOWN')).toThrow(/Unknown CenterBLC/)});
- it('maps safely comparable native books without renaming native IDs',()=>{expect(lxxToUbsBookId('EXOD')).toBe('EXO');expect(lxxToUbsBookId('DEUT')).toBe('DEU');expect(lxxToUbsBookId('JOSH')).toBe('JOS');expect(lxxToUbsBookId('JUDG')).toBe('JDG');expect(lxxToUbsBookId('PS')).toBe('PSA');expect(lxxToUbsBookId('EZEK')).toBe('EZK');expect(lxxToUbsBookId('ZECH')).toBe('ZEC')});
+ it('covers the confirmed 57-book production inventory exactly',()=>{const primaryIds=LXX_BOOKS.map(book=>book.nativeId);expect(LXX_BOOKS).toHaveLength(57);expect(new Set(primaryIds).size).toBe(57);expect(primaryIds).toEqual(confirmedCenterBlcNativeIds);expect(()=>validateLxxInventory(confirmedCenterBlcNativeIds)).not.toThrow();for(const id of correctedIds)expect(lxxNativeBookId(id)).toBe(id);for(const id of formerIds)expect(primaryIds).not.toContain(id)});
+ it('normalizes real mixed-case Text-Fabric tokens through explicit source mappings',()=>{expect(['Ruth','1Chr','2Chr','Amos','Joel','EpJer'].map(normalizeCenterBlcBookId)).toEqual(correctedIds)});
+ it('keeps former invented IDs as compatibility aliases only',()=>{expect(formerIds.map(lxxNativeBookId)).toEqual(correctedIds)});
+ it('reports the complete inventory mismatch before downstream processing',()=>{expect(()=>validateLxxInventory(['1Chr','UnknownBook'])).toThrow(/Unknown raw IDs: UnknownBook.*Unknown normalized IDs: UNKNOWNBOOK.*Metadata IDs not observed:.*Full observed inventory:.*Full expected inventory:/)});
+ it('maps safely comparable native books without renaming native IDs',()=>{expect(lxxToUbsBookId('EXOD')).toBe('EXO');expect(lxxToUbsBookId('RUT')).toBe('RUT');expect(lxxToUbsBookId('1CHR')).toBe('1CH');expect(lxxToUbsBookId('2CHR')).toBe('2CH');expect(lxxToUbsBookId('AMO')).toBe('AMO');expect(lxxToUbsBookId('JOL')).toBe('JOL');expect(lxxToUbsBookId('EPJER')).toBeNull();expect(lxxToUbsBookId('PS')).toBe('PSA');expect(lxxToUbsBookId('EZEK')).toBe('EZK');expect(lxxToUbsBookId('ZECH')).toBe('ZEC')});
  it('classifies derivative, uncertain, alternate, and Catholic materials explicitly',()=>{expect(getLxxBookMetadata('OD').directionalEligibility).toBe('ineligible');expect(getLxxBookMetadata('4MAC')).toMatchObject({displayName:'4 Maccabees',directionalEligibility:'uncertain',catholicCanonical:false});expect(getLxxBookMetadata('TOBBA').corpusCategory).toBe('alternate-recension');expect(getLxxBookMetadata('WIS').corpusCategory).toBe('catholic-deuterocanonical')});
+ it('rejects unknown individual CenterBLC IDs',()=>{expect(()=>lxxNativeBookId('UNKNOWN')).toThrow(/Unknown CenterBLC/)});
 });
 
 describe('LXX versification bridge',()=>{
  it('maps Psalm 109:1 explicitly without changing its native identity',()=>{const mapping=mapLxxVerse('PS',109,1);expect(mapping.targets).toEqual([expect.objectContaining({book:'PSA',chapter:110,verse:1})]);expect(mappedDisplayReference('PS',109,1)).toContain('commonly Psalm 110:1')});
+ it('uses the corrected native Joel ID for its explicit bridge',()=>{expect(mapLxxVerse('JOL',3,4).targets).toEqual([expect.objectContaining({book:'JOL',chapter:2,verse:31})])});
  it('supports one-to-many and many-to-one explicit records',()=>{const bridge=createVersificationBridge([{source:{book:'X',chapter:1,verse:1},targets:[{book:'Y',chapter:2,verse:1},{book:'Y',chapter:2,verse:2}]},{source:{book:'X',chapter:1,verse:2},targets:[{book:'Y',chapter:2,verse:2}]}]);expect(bridge.mapSource('X',1,1)).toHaveLength(2);expect(bridge.mapTarget('Y',2,2)).toHaveLength(2);expect(bridge.mapSource('X',9,9)).toBeNull()});
 });
 

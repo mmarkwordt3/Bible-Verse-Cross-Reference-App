@@ -25,7 +25,9 @@ const tracker=createMemoryTracker({startedAt,warningHeapBytes:limits.warningHeap
 async function loadLxx(directory){
   const required=['book','chapter','verse','word','lex_utf8','sp','morphology'],features={},hashes={};
   for(const feature of required){const path=resolve(directory,`${feature}.tf`),text=await readFile(path,'utf8').catch(()=>{throw Error(`Required LXX Text-Fabric feature is missing: ${path}`)});features[feature]=parseTextFabricFeature(text);hashes[basename(path)]=sha(text)}
-  const aligned=alignTextFabricFeatures(features,required),invalid=aligned.filter(row=>!row.book||!row.chapter||!row.verse||!row.word).map(row=>({node:row.node,reason:'Missing LXX book, chapter, verse, or word feature'})),words=aligned.filter(row=>row.book&&row.chapter&&row.verse&&row.word).map(row=>({book:lxxBookId(row.book),nativeBook:String(row.book),chapter:Number(row.chapter),verse:Number(row.verse),surface:String(row.word),lemma:String(row.lex_utf8||''),sp:String(row.sp||''),morphology:String(row.morphology||''),node:row.node}));
+  const aligned=alignTextFabricFeatures(features,required),rawBookIds=[...new Set(aligned.map(row=>String(row.book||'')).filter(Boolean))];
+  validateLxxInventory(rawBookIds);
+  const invalid=aligned.filter(row=>!row.book||!row.chapter||!row.verse||!row.word).map(row=>({node:row.node,reason:'Missing LXX book, chapter, verse, or word feature'})),words=aligned.filter(row=>row.book&&row.chapter&&row.verse&&row.word).map(row=>({book:lxxBookId(row.book),nativeBook:String(row.book),chapter:Number(row.chapter),verse:Number(row.verse),surface:String(row.word),lemma:String(row.lex_utf8||''),sp:String(row.sp||''),morphology:String(row.morphology||''),node:row.node}));
   if(words.length<1000)throw Error(`LXX aligned word registry is implausibly small: ${words.length}`);return {words,hashes,invalid};
 }
 function percentile(values,p){const sorted=[...values].sort((a,b)=>a-b);return sorted[Math.min(sorted.length-1,Math.floor((sorted.length-1)*p))]}
@@ -37,13 +39,13 @@ tracker.sample('source-load-start');
 let lxx,nt;
 if(process.env.LXX_TF_DIR&&process.env.NESTLE1904_MORPH_DIR){lxx=await loadLxx(process.env.LXX_TF_DIR);nt=await discoverNestleMorph(process.env.NESTLE1904_MORPH_DIR);await mkdir(cache,{recursive:true});await writeFile(resolve(cache,'lxx-words.json'),JSON.stringify(lxx));await writeFile(resolve(cache,'nt-morph.json'),JSON.stringify({words:nt.words,invalid:nt.invalid,sourceHash:sha(nt.text)}))}
 else{lxx=JSON.parse(await readFile(resolve(cache,'lxx-words.json'),'utf8'));const cachedNt=JSON.parse(await readFile(resolve(cache,'nt-morph.json'),'utf8'));nt={...cachedNt,text:cachedNt.sourceHash}}
+validateLxxInventory([...new Set(lxx.words.map(word=>word.book))]);
 tracker.sample('source-load-complete',{processed:lxx.words.length+nt.words.length,retained:lxx.words.length+nt.words.length});
 
 const lxxVerses=groupGreekVerses(lxx.words,'greek-reuse-lxx'),ntVerses=groupGreekVerses(nt.words,'greek-reuse-nt');
 const sourceWindows=buildPassageWindows(lxxVerses),targetWindows=buildPassageWindows(ntVerses);
 tracker.sample('window-build-complete',{processed:sourceWindows.length+targetWindows.length,retained:sourceWindows.length+targetWindows.length});
 const idf=inverseDocumentFrequencies([...sourceWindows,...targetWindows]),frequencies=documentFrequencies([...sourceWindows,...targetWindows]),stopwords=buildStopwords([...lxx.words,...nt.words],frequencies,sourceWindows.length+targetWindows.length),index=buildLemmaIndex(sourceWindows,stopwords);
-validateLxxInventory([...new Set(lxx.words.map(word=>word.book))]);
 const formulaicStatistics=buildFormulaicCorpusStatistics(sourceWindows,targetWindows),retrieve=target=>retrieveCandidates(target,index,idf,GREEK_REUSE_CONFIG),score=(source,target)=>analyzeFormulaicCandidate(scoreGreekCandidate(source,target,idf,{stopwords}),formulaicStatistics);
 const ubs=JSON.parse(await readFile('public/data/quotations/events.json','utf8')),ubsIndex=buildUbsOverlapIndex(ubs,{lxxVerseIds:lxxVerses.map(verse=>verse.id)});
 await mkdir('reports',{recursive:true});await writeFile('reports/greek-reuse-ubs-unmapped-events.json',JSON.stringify(ubsIndex.unmappedEvents,null,2));
