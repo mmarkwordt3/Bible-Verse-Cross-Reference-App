@@ -1,101 +1,101 @@
 {
-  "generatedAt": "2026-08-03T16:14:00.640Z",
+  "generatedAt": "2026-08-03T16:28:42.992Z",
   "total": 332,
   "counts": {
-    "complete": 0,
+    "complete": 274,
     "partial": 0,
-    "unavailable": 332,
+    "unavailable": 58,
     "ambiguous": 0
   },
   "byBook": {
     "ISA": {
-      "complete": 0,
+      "complete": 55,
       "partial": 0,
-      "unavailable": 55,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "PS": {
-      "complete": 0,
+      "complete": 45,
       "partial": 0,
-      "unavailable": 45,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "PROV": {
-      "complete": 0,
+      "complete": 5,
       "partial": 0,
-      "unavailable": 6,
+      "unavailable": 1,
       "ambiguous": 0
     },
     "GEN": {
-      "complete": 0,
+      "complete": 29,
       "partial": 0,
-      "unavailable": 29,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "AMO": {
-      "complete": 0,
+      "complete": 5,
       "partial": 0,
-      "unavailable": 5,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "EXOD": {
-      "complete": 0,
+      "complete": 30,
       "partial": 0,
-      "unavailable": 30,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "HAB": {
-      "complete": 0,
+      "complete": 4,
       "partial": 0,
-      "unavailable": 4,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "DEUT": {
-      "complete": 0,
+      "complete": 29,
       "partial": 0,
-      "unavailable": 29,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "MIC": {
-      "complete": 0,
+      "complete": 3,
       "partial": 0,
-      "unavailable": 3,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "HOS": {
-      "complete": 0,
+      "complete": 5,
       "partial": 0,
-      "unavailable": 5,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "JONAH": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "ZECH": {
-      "complete": 0,
+      "complete": 5,
       "partial": 0,
-      "unavailable": 5,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "1KGS": {
-      "complete": 0,
+      "complete": 3,
       "partial": 0,
-      "unavailable": 3,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "LEV": {
-      "complete": 0,
+      "complete": 9,
       "partial": 0,
-      "unavailable": 9,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "HAG": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "OD": {
@@ -105,9 +105,9 @@
       "ambiguous": 0
     },
     "JOL": {
-      "complete": 0,
+      "complete": 4,
       "partial": 0,
-      "unavailable": 4,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "4MAC": {
@@ -117,39 +117,39 @@
       "ambiguous": 0
     },
     "JER": {
-      "complete": 0,
+      "complete": 5,
       "partial": 0,
-      "unavailable": 5,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "1CHR": {
-      "complete": 0,
+      "complete": 3,
       "partial": 0,
-      "unavailable": 3,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "EZEK": {
-      "complete": 0,
+      "complete": 12,
       "partial": 0,
-      "unavailable": 12,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "JOSH": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "RUT": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "2KGS": {
-      "complete": 0,
+      "complete": 3,
       "partial": 0,
-      "unavailable": 3,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "TOBS": {
@@ -159,9 +159,9 @@
       "ambiguous": 0
     },
     "2SAM": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "1ESDR": {
@@ -177,21 +177,21 @@
       "ambiguous": 0
     },
     "JDT": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "JUDG": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "2MAC": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "DANTH": {
@@ -213,15 +213,15 @@
       "ambiguous": 0
     },
     "1MAC": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "2CHR": {
-      "complete": 0,
+      "complete": 2,
       "partial": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "TOBBA": {
@@ -231,9 +231,9 @@
       "ambiguous": 0
     },
     "1SAM": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "BELTH": {
@@ -243,15 +243,15 @@
       "ambiguous": 0
     },
     "NUM": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     },
     "BAR": {
-      "complete": 0,
+      "complete": 1,
       "partial": 0,
-      "unavailable": 1,
+      "unavailable": 0,
       "ambiguous": 0
     }
   },
