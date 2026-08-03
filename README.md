@@ -187,3 +187,11 @@ npm run reviews:validate
 7. Deploy normally with **Deploy Scripture Index to Pages**.
 
 The queue build consumes only existing committed Layer D production files; it never refreshes the Greek corpora or reruns similarity scoring. `predev` and `prebuild` regenerate the compact queue and deployable review copy without invoking the hour-long corpus bootstrap.
+
+## Phase E1b: English-assisted evidence triage
+
+The `#/review/greek-reuse` workstation defaults to evidence triage and keeps its six outcomes separate from the optional expert relationship classification. Brenton (`eng-Brenton`) English LXX is review assistance only; English context does not replace examination of Greek, and Brenton does not safely represent every CenterBLC recension or textual form. Transliteration is not translation. UBS overlap is external evidence, not proof. Candidates without safe English mapping should receive `expert-review-required` or `cannot-assess`. Layer D candidate generation, scores, thresholds, IDs, rankings, and the deterministic 332-item queue remain unchanged.
+
+Review exports use schema version 2. On first load without v2 data, valid array-shaped v1 local drafts are converted to `reviewKind: "expert"`, written to the v2 key, and the original JSON is preserved at `scripture-index:greek-reuse-reviews:v1:backup`; a notice appears once.
+
+Assistance maintenance is offline by default: `npm run reviews:assistance:build` reads committed normalized data and `npm run reviews:assistance:audit` validates it. `npm run reviews:assistance:refresh` is the only command that downloads the public-domain eBible.org source.

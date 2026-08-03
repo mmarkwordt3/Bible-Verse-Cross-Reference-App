@@ -6,3 +6,4 @@ export const loadGreekVerseRankings=()=>json<unknown[]>('greek-reuse/verse-ranki
 export const loadGreekCandidateIndex=()=>json<Array<{id:string;book:string}>>('greek-reuse/candidate-index.json');
 export const loadGreekReviewQueue=()=>json<import('./greek-review').QueueItem[]|{schemaVersion:number;algorithmVersion:string;datasetGeneratedAt:string;candidates:import('./greek-review').QueueItem[]}>('greek-reuse/review-queue.json');
 export const loadPublishedGreekReviews=()=>json<import('./greek-review').ReviewFile>('reviews/greek-reuse-reviews.json');
+export const loadGreekReviewAssistance=()=>json<import('./greek-assistance').ReviewAssistance>('greek-reuse/review-assistance.json');

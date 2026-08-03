@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-08-03T16:14:00.640Z",
+  "total": 332,
+  "counts": {
+    "complete": 0,
+    "partial": 0,
+    "unavailable": 332,
+    "ambiguous": 0
+  },
+  "byBook": {
+    "ISA": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 55,
+      "ambiguous": 0
+    },
+    "PS": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 45,
+      "ambiguous": 0
+    },
+    "PROV": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 6,
+      "ambiguous": 0
+    },
+    "GEN": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 29,
+      "ambiguous": 0
+    },
+    "AMO": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "EXOD": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 30,
+      "ambiguous": 0
+    },
+    "HAB": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 4,
+      "ambiguous": 0
+    },
+    "DEUT": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 29,
+      "ambiguous": 0
+    },
+    "MIC": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "HOS": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "JONAH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "ZECH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "1KGS": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "LEV": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 9,
+      "ambiguous": 0
+    },
+    "HAG": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "OD": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 17,
+      "ambiguous": 0
+    },
+    "JOL": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 4,
+      "ambiguous": 0
+    },
+    "4MAC": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "JER": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "1CHR": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "EZEK": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 12,
+      "ambiguous": 0
+    },
+    "JOSH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "RUT": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "2KGS": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "TOBS": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 15,
+      "ambiguous": 0
+    },
+    "2SAM": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "1ESDR": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 4,
+      "ambiguous": 0
+    },
+    "ESTH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "JDT": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "JUDG": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "2MAC": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "DANTH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "DAN": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 5,
+      "ambiguous": 0
+    },
+    "2ESDR": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 3,
+      "ambiguous": 0
+    },
+    "1MAC": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "2CHR": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "TOBBA": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 2,
+      "ambiguous": 0
+    },
+    "1SAM": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "BELTH": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "NUM": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    },
+    "BAR": {
+      "complete": 0,
+      "partial": 0,
+      "unavailable": 1,
+      "ambiguous": 0
+    }
+  },
+  "unsupportedBooks": [
+    "OD",
+    "4MAC",
+    "TOBS",
+    "1ESDR",
+    "DANTH",
+    "DAN",
+    "2ESDR",
+    "TOBBA",
+    "BELTH"
+  ],
+  "mappingConflicts": []
+}
