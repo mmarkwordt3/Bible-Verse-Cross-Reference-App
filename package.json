@@ -7,7 +7,9 @@
     "node": ">=22"
   },
   "scripts": {
+    "predev": "npm run reviews:queue",
     "dev": "vite",
+    "prebuild": "npm run reviews:queue",
     "build": "npm run verify:data && vite build",
     "preview": "vite preview",
     "data:refresh": "npm run douay:refresh && npm run openbible:refresh && npm run quotations:refresh && npm run greek-reuse:refresh",
@@ -16,7 +18,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "check": "npm run lint && npm run typecheck && npm test && npm run data:audit && npm run verify:data",
+    "check": "npm run lint && npm run typecheck && npm test && npm run reviews:validate && npm run data:audit && npm run verify:data",
     "verify:data": "node scripts/verify-data-files.mjs public",
     "verify:dist": "node scripts/verify-data-files.mjs dist",
     "douay:refresh": "node scripts/build-data.mjs --refresh",
@@ -35,7 +37,9 @@
     "greek-reuse:build": "node scripts/build-greek-reuse-data.mjs",
     "greek-reuse:audit": "node scripts/validate-greek-reuse.mjs",
     "verify:greek-reuse": "node scripts/verify-data-files.mjs public greek-reuse",
-    "verify:greek-reuse-dist": "node scripts/verify-data-files.mjs dist greek-reuse"
+    "verify:greek-reuse-dist": "node scripts/verify-data-files.mjs dist greek-reuse",
+    "reviews:queue": "node scripts/build-greek-review-queue.mjs",
+    "reviews:validate": "node scripts/validate-greek-reuse-reviews.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",

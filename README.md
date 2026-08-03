@@ -162,3 +162,28 @@ npm run verify:greek-reuse
 ```
 
 The bootstrap workflow checks out both source repositories, records their commits, builds and audits the fourth layer, commits only normalized production assets and audit reports, and deploys only after all four layers pass validation.
+
+## Phase E1 Greek-reuse review workstation
+
+The static route `#/review/greek-reuse` provides a human review workstation for a deterministic queue of Layer D automated candidates. It does not add a reviewed ranking and does not change Layer D scoring. The interface keeps three things visibly separate: immutable algorithm output, browser-local human-review drafts, and reviews published from the committed source file. Even a published classification remains a scholarly judgment rather than an objective fact about quotation, allusion, chronology, or literary dependence.
+
+Drafts autosave only in the current browser under `scripture-index:greek-reuse-reviews:v1`. There is no server, account, or cloud synchronization. **A visitor's local edits cannot alter the published project.** Use **Export reviews** to download UTF-8 JSON. Imports are previewed before application, report new/updated/unchanged/conflicting records, unknown IDs, and algorithm mismatches, and offer keep-local, use-imported, or prefer-latest conflict policies. Export a backup before replacing drafts.
+
+The committed source of published review data is `data/reviews/greek-reuse-reviews.json`; the lightweight queue compiler copies it into the deployable static data tree. Validate it offline against current Layer D candidate IDs and the current algorithm version with:
+
+```bash
+npm run reviews:queue
+npm run reviews:validate
+```
+
+### Review publication workflow
+
+1. Review candidates in the browser.
+2. Export JSON.
+3. Inspect the JSON and its scholarly claims.
+4. Merge reviewed records into `data/reviews/greek-reuse-reviews.json`.
+5. Run `npm run reviews:validate`.
+6. Commit through a pull request.
+7. Deploy normally with **Deploy Scripture Index to Pages**.
+
+The queue build consumes only existing committed Layer D production files; it never refreshes the Greek corpora or reruns similarity scoring. `predev` and `prebuild` regenerate the compact queue and deployable review copy without invoking the hour-long corpus bootstrap.
