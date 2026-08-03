@@ -16,5 +16,19 @@ export const UNSUPPORTED=Object.freeze({
  BEL:'Old Greek recension is unsupported',BELTH:'Theodotion recension cannot safely be inferred',DAN:'Old Greek recension is unsupported',DANTH:'Theodotion recension cannot safely be inferred',SUS:'Old Greek recension is unsupported',SUSTH:'Theodotion recension cannot safely be inferred'
 });
 export function mappingFor(book){if(Object.hasOwn(BRENTON_BOOK_MAP,book))return {status:'exact',usfmBook:BRENTON_BOOK_MAP[book],notes:book==='PS'?'LXX/Brenton Psalm numbering is retained; no MT renumbering is inferred.':''};if(Object.hasOwn(UNSUPPORTED,book))return {status:'unsupported',notes:UNSUPPORTED[book]};return {status:'unknown',notes:'Unknown CenterBLC book ID; fuzzy matching is forbidden.'}}
-export function parseUsfm(text){const id=/\\id\s+([^\s]+)/.exec(text)?.[1];if(!id)throw Error('USFM is missing an \\id marker');let chapter=0;const verses={};for(const line of text.split(/\r?\n/)){const c=/^\\c\s+(\d+)/.exec(line);if(c){chapter=Number(c[1]);continue}const v=/^\\v\s+([0-9]+(?:-[0-9]+)?)\s+(.+)/.exec(line);if(v){const clean=v[2].replace(/\\[a-z0-9]+\*?/gi,'').replace(/\s+/g,' ').trim();for(const n of v[1].split('-').map(Number)){verses[`${chapter}:${n}`]=clean}}}return {id,verses}}
+// Notes are containers, not character styles. Remove the complete container first;
+// stripping marker names first would leak their cross-reference/footnote payload.
+export const NOTE_CONTAINERS=Object.freeze(['x','f','fe','ef','ex']);
+export function cleanUsfmVerse(value){
+ let clean=String(value);
+ for(const marker of NOTE_CONTAINERS){
+  const escaped=marker.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  clean=clean.replace(new RegExp(`\\\\${escaped}(?:\\s|$)[\\s\\S]*?\\\\${escaped}\\*`,'gi'),' ');
+ }
+ // Character-formatting markers deliberately retain their enclosed Scripture text.
+ clean=clean.replace(/\\\+[a-z][a-z0-9-]*\*?/gi,'').replace(/\\[a-z][a-z0-9-]*\*?/gi,'');
+ return clean.replace(/\s+([,.;:!?])/g,'$1').replace(/\s+/g,' ').trim();
+}
+export function parseUsfm(text){const id=/\\id\s+([^\s]+)/.exec(text)?.[1];if(!id)throw Error('USFM is missing an \\id marker');let chapter=0;const verses={};for(const line of text.split(/\r?\n/)){const c=/^\\c\s+(\d+)/.exec(line);if(c){chapter=Number(c[1]);continue}const v=/^\\v\s+([0-9]+(?:-[0-9]+)?)\s+(.+)/.exec(line);if(v){const clean=cleanUsfmVerse(v[2]);for(const n of v[1].split('-').map(Number)){verses[`${chapter}:${n}`]=clean}}}return {id,verses}}
+export function residualUsfmArtifact(value){return /\\(?:x|xt|xo|f|fe|fr|ft|fq|fk)\b/i.test(value)||/^\+\s*\d+:\d+\b/.test(value)||/\+\s*\d+:\d+\s+(?:Mat|Mark|Luke|John|Acts|Rom|Cor|Gal|Eph|Heb|Pet|Rev)\./i.test(value)}
 export function loadNormalized(path='data/normalized/brenton-verses.json'){return fs.existsSync(path)?JSON.parse(fs.readFileSync(path,'utf8')):{sourceId:'eng-Brenton',books:{}}}
