@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T18:02:50.890Z",
+  "generatedAt": "2026-08-03T18:10:15.818Z",
   "provenance": {
     "brenton": {
       "sourceName": "Brenton English Septuagint",
@@ -9,7 +9,7 @@
       "publicDomain": true,
       "archiveUrl": "https://ebible.org/Scriptures/eng-Brenton_usfm.zip",
       "archiveSha256": "c75beefcbe8044f01fc6d6a47fd48782a911335aeb6572b196a100dbceb40f64",
-      "retrievedAt": "2026-08-03T16:28:33.681Z",
+      "retrievedAt": "2026-08-03T18:10:06.634Z",
       "retrievalStatus": "network-unavailable; run the manual assistance workflow to pin the first verified archive"
     },
     "bsb": {
@@ -65,7 +65,7 @@
       "usfmBook": "PRO"
     },
     "greek-reuse-lxx:GEN.2.24-2.24": {
-      "text": "Therefore shall a man leave his father and his mother and shall Mat. 19. 5.cleave to his wife, and they two shall be one flesh.",
+      "text": "Therefore shall a man leave his father and his mother and shall cleave to his wife, and they two shall be one flesh.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 2:24",
@@ -1163,7 +1163,7 @@
       "usfmBook": "LEV"
     },
     "greek-reuse-lxx:GEN.25.23-25.25": {
-      "text": "And the Lord said to her, There are two nations in thy womb, and two peoples shall be separated from thy belly, and one people shall excel the other, and the Rom. 9. 12.elder shall serve the younger. And the days were fulfilled that she should be delivered, and she had twins in her womb. And the first came out red, hairy all over like a skin; and she called his name Esau.",
+      "text": "And the Lord said to her, There are two nations in thy womb, and two peoples shall be separated from thy belly, and one people shall excel the other, and the elder shall serve the younger. And the days were fulfilled that she should be delivered, and she had twins in her womb. And the first came out red, hairy all over like a skin; and she called his name Esau.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 25:23–25:25",
