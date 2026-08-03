@@ -8,7 +8,7 @@ import {afterEach,describe,expect,it} from 'vitest';
 const execFileAsync=promisify(execFile);
 const roots:string[]=[];
 const verifier=resolve('scripts/verify-data-files.mjs');
-const greekCore=['passage-rankings.json','verse-rankings.json','book-stats.json','data-quality.json','config.json','candidate-index.json'];
+const greekCore=['passage-rankings.json','verse-rankings.json','book-stats.json','data-quality.json','config.json','candidate-index.json','review-queue.json'];
 
 afterEach(async()=>{
   await Promise.all(roots.splice(0).map(root=>rm(root,{recursive:true,force:true})));
@@ -18,7 +18,9 @@ async function fixtureRoot(){
   const root=await mkdtemp(join(tmpdir(),'verify-data-'));
   roots.push(root);
   await mkdir(join(root,'public/data/greek-reuse/books'),{recursive:true});
+  await mkdir(join(root,'public/data/reviews'),{recursive:true});
   await writeFile(join(root,'public/data/layers.json'),'[]');
+  await writeFile(join(root,'public/data/reviews/greek-reuse-reviews.json'),'{}');
   return root;
 }
 
@@ -29,7 +31,7 @@ describe('generated data verification',()=>{
     for(const file of greekCore)await writeFile(join(root,'public/data/greek-reuse',file),'{}');
     await writeFile(join(root,'public/data/greek-reuse/books/GEN.json'),'{}');
     const result=await execFileAsync(process.execPath,[verifier,'public','greek-reuse'],{cwd:root,encoding:'utf8'});
-    expect(result.stdout).toContain('Verified 9 public data assets');
+    expect(result.stdout).toContain('Verified 11 public data assets');
     expect(result.stderr).toBe('');
   });
 

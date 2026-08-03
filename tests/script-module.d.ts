@@ -1,0 +1,2 @@
+declare module '../scripts/greek-review-queue.mjs' { export function buildReviewQueue(candidates:Record<string,unknown>[],manifest:Record<string,unknown>,passages?:Record<string,unknown>[]):{candidates:Array<{candidateId:string;queueReasons:string[]}>;selection:{seed:string}} }
+declare module '../scripts/greek-review-validation.mjs' { export function validateReviewData(data:unknown,options?:{candidateIds?:Set<string>;algorithmVersion?:string;allowPending?:boolean}):string[] }

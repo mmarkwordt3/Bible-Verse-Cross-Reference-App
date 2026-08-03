@@ -74,6 +74,8 @@ const greekCore=[
   'greek-reuse/data-quality.json',
   'greek-reuse/config.json',
   'greek-reuse/candidate-index.json',
+  'greek-reuse/review-queue.json',
+  'reviews/greek-reuse-reviews.json',
 ];
 const greekReuse=[
   ...greekCore,

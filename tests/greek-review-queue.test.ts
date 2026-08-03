@@ -1,0 +1,10 @@
+import {describe,expect,it} from 'vitest';
+import {buildReviewQueue} from '../scripts/greek-review-queue.mjs';
+
+const candidate=(n:number,changes:Record<string,unknown>={})=>({id:`c${String(n).padStart(3,'0')}`,source:{id:`LXX.${n}`,book:n%2?'ISA':'EZEK',startChapter:1,startVerse:n,endChapter:1,endVerse:n,bookMetadata:{displayName:'Source',corpusCategory:'protocanonical',directionalEligibility:'eligible'}},target:{id:`NT.${n}`,book:'ROM'},score:.8-n/1000,adjustedSimilarityScore:.8-n/1000,rawSimilarityScore:.8-n/1000,category:n<270?'high':'medium',overlapsUbsGroup:n<10,formulaicCategories:[],formulaicPenalty:0,...changes});
+describe('review queue generation',()=>{
+  const candidates=Array.from({length:400},(_,i)=>candidate(i));const manifest={algorithmVersion:'v1',generatedAt:'2026-01-01T00:00:00Z'};
+  it('is deterministic, unique, and bounded',()=>{const a=buildReviewQueue(candidates,manifest),b=buildReviewQueue([...candidates].reverse(),manifest);expect(a).toEqual(b);expect(a.candidates.length).toBeGreaterThanOrEqual(300);expect(a.candidates.length).toBeLessThanOrEqual(350);expect(new Set(a.candidates.map(x=>x.candidateId)).size).toBe(a.candidates.length)});
+  it('selects required buckets with fixed-seed medium sampling and tags',()=>{const queue=buildReviewQueue(candidates,manifest,[{candidates:['c020']}]);const reasons=new Set(queue.candidates.flatMap(x=>x.queueReasons));expect(reasons).toEqual(expect.objectContaining(new Set(['ubs-overlap','top-high-non-ubs','medium-stratified-sample','top-ranked-source'])));expect(queue.selection.seed).toBe('greek-review-v1');expect(queue.candidates.filter(x=>x.queueReasons.includes('ubs-overlap'))).toHaveLength(10)});
+  it('deduplicates candidates selected by multiple reasons',()=>{const special=candidate(0,{formulaicCategories:['liturgical-amen']});const queue=buildReviewQueue([special,...candidates.slice(1)],manifest,[{candidates:['c000']}]);expect(queue.candidates.filter(x=>x.candidateId==='c000')).toHaveLength(1);expect(queue.candidates.find(x=>x.candidateId==='c000')?.queueReasons).toContain('formulaic-audit')});
+});
