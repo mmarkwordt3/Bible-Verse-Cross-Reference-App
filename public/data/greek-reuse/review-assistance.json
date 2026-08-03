@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T16:28:42.992Z",
+  "generatedAt": "2026-08-03T18:02:50.890Z",
   "provenance": {
     "brenton": {
       "sourceName": "Brenton English Septuagint",
@@ -20,7 +20,7 @@
   },
   "sourcePassages": {
     "greek-reuse-lxx:ISA.6.9-6.10": {
-      "text": "Ye shall hear indeed, but ye shall not understand; and ye shall see indeed, but ye shall not perceive. + 6:10 Mat. 13. 15; Mark 4. 12. For the heart of this people has become gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and be converted, and I should heal them.",
+      "text": "Ye shall hear indeed, but ye shall not understand; and ye shall see indeed, but ye shall not perceive. For the heart of this people has become gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and be converted, and I should heal them.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 6:9–6:10",
@@ -29,7 +29,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.6.10-6.10": {
-      "text": "+ 6:10 Mat. 13. 15; Mark 4. 12. For the heart of this people has become gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and be converted, and I should heal them.",
+      "text": "For the heart of this people has become gross, and their ears are dull of hearing, and their eyes have they closed; lest they should see with their eyes, and hear with their ears, and understand with their heart, and be converted, and I should heal them.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 6:10",
@@ -56,7 +56,7 @@
       "usfmBook": "PRO"
     },
     "greek-reuse-lxx:PROV.11.31-11.31": {
-      "text": "+ 11:31 See 1 Pet.If the righteous scarcely be saved, where shall the ungodly and the sinner appear?",
+      "text": "If the righteous scarcely be saved, where shall the ungodly and the sinner appear?",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Proverbs 11:31",
@@ -65,7 +65,7 @@
       "usfmBook": "PRO"
     },
     "greek-reuse-lxx:GEN.2.24-2.24": {
-      "text": "Therefore shall a man leave his father and his mother and shall + 2:24 Gr. be cemented. Mat. 19. 5.cleave to his wife, and they two shall be one flesh.",
+      "text": "Therefore shall a man leave his father and his mother and shall Mat. 19. 5.cleave to his wife, and they two shall be one flesh.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 2:24",
@@ -74,7 +74,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:ISA.40.4-40.4": {
-      "text": "Every valley shall be filled, and every mountain and hill shall be brought low: + 40:4 See Luke 3. 5, with which Alex. agrees.and all the crooked ways shall become straight, and the rough places plains.",
+      "text": "Every valley shall be filled, and every mountain and hill shall be brought low: and all the crooked ways shall become straight, and the rough places plains.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 40:4",
@@ -83,7 +83,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.40.3-40.3": {
-      "text": "+ 40:3 Mat. 3. 3; John 1. 23. The voice of one crying in the wilderness, Prepare ye the way of the Lord, make straight the paths of our God.",
+      "text": "The voice of one crying in the wilderness, Prepare ye the way of the Lord, make straight the paths of our God.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 40:3",
@@ -110,7 +110,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.54.1-54.1": {
-      "text": "+ 54:1 Gal. 4. 27. Rejoice, thou barren that bearest not; break forth and cry, thou that dost not travail: for more are the children of the desolate than of her that has a husband: for the Lord has said,",
+      "text": "Rejoice, thou barren that bearest not; break forth and cry, thou that dost not travail: for more are the children of the desolate than of her that has a husband: for the Lord has said,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 54:1",
@@ -128,7 +128,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.66.1-66.1": {
-      "text": "Thus saith the Lord, + 66:1 Acts 7. 49,50. Heaven is my throne, and the earth is my footstool: what kind of a house will ye build me? and of what kind is to be the place of my rest?",
+      "text": "Thus saith the Lord, Heaven is my throne, and the earth is my footstool: what kind of a house will ye build me? and of what kind is to be the place of my rest?",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 66:1",
@@ -146,7 +146,7 @@
       "usfmBook": "HAB"
     },
     "greek-reuse-lxx:ISA.40.6-40.7": {
-      "text": "The voice of one saying, Cry; and I said, What shall I cry? + 40:6 1 Pet. 1. 24. All flesh is grass, and all the glory of man as the flower of grass. The grass withers, and the flower fades:",
+      "text": "The voice of one saying, Cry; and I said, What shall I cry? All flesh is grass, and all the glory of man as the flower of grass. The grass withers, and the flower fades:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 40:6–40:7",
@@ -164,7 +164,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:ISA.1.9-1.9": {
-      "text": "+ 1:9 Rom. 9. 29. And if the Lord of Sabaoth had not left us a seed, we should have been as Sodoma, and we should have been made like to Gomorrha.",
+      "text": "And if the Lord of Sabaoth had not left us a seed, we should have been as Sodoma, and we should have been made like to Gomorrha.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 1:9",
@@ -173,7 +173,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.29.13-29.13": {
-      "text": "And the Lord has said, + 29:13 Mat. 8. 9. This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men.",
+      "text": "And the Lord has said, This people draw nigh to me with their mouth, and they honour me with their lips, but their heart is far from me: but in vain do they worship me, teaching the commandments and doctrines of men.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 29:13",
@@ -182,7 +182,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.61.1-61.1": {
-      "text": "The Spirit of the Lord is upon me, because he has anointed me; he has sent + 61:1 Luke 4. 18. me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;",
+      "text": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind;",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 61:1",
@@ -209,7 +209,7 @@
       "usfmBook": "HAB"
     },
     "greek-reuse-lxx:GEN.15.6-15.6": {
-      "text": "+ 15:6 Rom. 4. 3. And Abram believed God, and it was counted to him for righteousness.",
+      "text": "And Abram believed God, and it was counted to him for righteousness.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 15:6",
@@ -218,7 +218,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:ISA.53.7-53.7": {
-      "text": "And he, because of his affliction, opens not his mouth: + 53:7 Acts 8. 32,33. he was led as a sheep to the slaughter, and as a lamb before the shearer is dumb, so he opens not his mouth.",
+      "text": "And he, because of his affliction, opens not his mouth: he was led as a sheep to the slaughter, and as a lamb before the shearer is dumb, so he opens not his mouth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 53:7",
@@ -245,7 +245,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:GEN.21.10-21.10": {
-      "text": "then she said to Abraam, + 21:10 Gal. 4. 30. Cast out this bondwoman and her son, for the son of this bondwoman shall not inherit with my son Isaac.",
+      "text": "then she said to Abraam, Cast out this bondwoman and her son, for the son of this bondwoman shall not inherit with my son Isaac.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 21:10",
@@ -254,7 +254,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:ISA.11.10-11.10": {
-      "text": "And in that day + 11:10 Rom. 15. 12. there shall be a root of Jesse, and he that shall arise to rule over the Gentiles; in him shall the Gentiles trust, and his rest shall be glorious.",
+      "text": "And in that day there shall be a root of Jesse, and he that shall arise to rule over the Gentiles; in him shall the Gentiles trust, and his rest shall be glorious.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 11:10",
@@ -263,7 +263,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:EXOD.32.23-32.23": {
-      "text": "For they say to me, Make us gods, which shall go before us; for as for this man Moses, who brought us out of Egypt, we do not know what is + 32:23 Lit. done to him.become of him.",
+      "text": "For they say to me, Make us gods, which shall go before us; for as for this man Moses, who brought us out of Egypt, we do not know what is become of him.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 32:23",
@@ -272,7 +272,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.59.7-59.7": {
-      "text": "And + 59:7 Rom. 3. 15-17. their feet run to wickedness, swift to shed blood; their thoughts also are thoughts + 59:7 Gr. from murders, but Alex. reads ὐφρόνων.of murder; destruction and misery are in their ways;",
+      "text": "And their feet run to wickedness, swift to shed blood; their thoughts also are thoughts of murder; destruction and misery are in their ways;",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 59:7",
@@ -317,7 +317,7 @@
       "usfmBook": "MIC"
     },
     "greek-reuse-lxx:GEN.15.13-15.14": {
-      "text": "And it was said to Abram, Thou shalt surely know that thy seed shall be a sojourner in a land not their own, and they shall enslave them, and afflict them, and humble them four hundred years. And the nation whomsoever they shall serve I will judge; and after this, they shall come forth hither with much + 15:14 Lit. baggage.property.",
+      "text": "And it was said to Abram, Thou shalt surely know that thy seed shall be a sojourner in a land not their own, and they shall enslave them, and afflict them, and humble them four hundred years. And the nation whomsoever they shall serve I will judge; and after this, they shall come forth hither with much property.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 15:13–15:14",
@@ -335,7 +335,7 @@
       "usfmBook": "HOS"
     },
     "greek-reuse-lxx:EXOD.20.12-20.12": {
-      "text": "+ 20:12 Mat. 15. 4. Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee.",
+      "text": "Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 20:12",
@@ -353,7 +353,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:PROV.3.34-3.34": {
-      "text": "+ 3:34 See 1 Pet. 5. 5.The Lord resists the proud; but he gives grace to the humble.",
+      "text": "The Lord resists the proud; but he gives grace to the humble.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Proverbs 3:34",
@@ -362,7 +362,7 @@
       "usfmBook": "PRO"
     },
     "greek-reuse-lxx:EXOD.32.1-32.1": {
-      "text": "+ 32:1 Acts 7. 40. And when the people saw that Moses delayed to come down from the mountain, the people combined against Aaron, and said to him, Arise and make us gods who shall go before us; for this Moses, the man who brought us forth out of the land of Egypt—we do not know what is become of him.",
+      "text": "And when the people saw that Moses delayed to come down from the mountain, the people combined against Aaron, and said to him, Arise and make us gods who shall go before us; for this Moses, the man who brought us forth out of the land of Egypt—we do not know what is become of him.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 32:1",
@@ -371,7 +371,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.53.1-53.1": {
-      "text": "O Lord, + 53:1 John 12. 38; Rom. 10. 16. who has believed our report? and to whom has the arm of the Lord been revealed?",
+      "text": "O Lord, who has believed our report? and to whom has the arm of the Lord been revealed?",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 53:1",
@@ -380,7 +380,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.7.14-7.14": {
-      "text": "Therefore the Lord himself shall give you a sign; + 7:14 Mat. 1. 23. behold, a virgin shall conceive in the womb, and shall bring forth a son, and thou shalt call his name Emmanuel.",
+      "text": "Therefore the Lord himself shall give you a sign; behold, a virgin shall conceive in the womb, and shall bring forth a son, and thou shalt call his name Emmanuel.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 7:14",
@@ -389,7 +389,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.42.3-42.4": {
-      "text": "A bruised reed shall he not break, and smoking flax shall he not quench; but he shall bring forth judgment to truth. He shall shine out, and shall not be + 42:4 Lit. broken.discouraged, until he have set judgment on the earth: and in his name shall the Gentiles trust.",
+      "text": "A bruised reed shall he not break, and smoking flax shall he not quench; but he shall bring forth judgment to truth. He shall shine out, and shall not be discouraged, until he have set judgment on the earth: and in his name shall the Gentiles trust.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 42:3–42:4",
@@ -398,7 +398,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:GEN.2.2-2.2": {
-      "text": "+ 2:2 Heb. 4. 4. And God finished on the sixth day his works which he made, and he ceased on the seventh day from all his works which he made.",
+      "text": "And God finished on the sixth day his works which he made, and he ceased on the seventh day from all his works which he made.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 2:2",
@@ -416,7 +416,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.59.20-59.20": {
-      "text": "And + 59:20 Rom. 11. 26. the deliverer shall come for Sion's sake, and shall turn away ungodliness from Jacob.",
+      "text": "And the deliverer shall come for Sion's sake, and shall turn away ungodliness from Jacob.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 59:20",
@@ -434,7 +434,7 @@
       "usfmBook": "JON"
     },
     "greek-reuse-lxx:ISA.40.13-40.13": {
-      "text": "+ 40:13 Rom. 11. 34. Who has known the mind of the Lord? and who has been his counsellor, to instruct him?",
+      "text": "Who has known the mind of the Lord? and who has been his counsellor, to instruct him?",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 40:13",
@@ -443,7 +443,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:PROV.3.11-3.11": {
-      "text": "+ 3:11 Heb. 12. 5,6. My son, despise not the chastening of the Lord; nor faint when thou art rebuked of him:",
+      "text": "My son, despise not the chastening of the Lord; nor faint when thou art rebuked of him:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Proverbs 3:11",
@@ -452,7 +452,7 @@
       "usfmBook": "PRO"
     },
     "greek-reuse-lxx:ISA.29.14-29.14": {
-      "text": "Therefore behold I will proceed to remove this people, and I will remove them: and + 29:14 1 Cor. 1. 19. I will destroy the wisdom of the wise, and will hide the understanding of the prudent.",
+      "text": "Therefore behold I will proceed to remove this people, and I will remove them: and I will destroy the wisdom of the wise, and will hide the understanding of the prudent.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 29:14",
@@ -470,7 +470,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:ISA.10.22-10.23": {
-      "text": "+ 10:22 Rom. 9. 27,28. And though the people of Israel be as the sand of the sea, a remnant of them shall be saved. + 10:23 Gr. finishing — cutting.He will finish the work, and cut it short in righteousness: because the Lord will make a short work in all the world.",
+      "text": "And though the people of Israel be as the sand of the sea, a remnant of them shall be saved. He will finish the work, and cut it short in righteousness: because the Lord will make a short work in all the world.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 10:22–10:23",
@@ -479,7 +479,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:DEUT.8.3-8.3": {
-      "text": "And he afflicted thee and straitened thee with hunger, and fed thee with manna, which thy fathers knew not; that he might teach thee that + 8:3 Mat. 4. 4. man shall not live by bread alone, but by every word that proceeds out of the mouth of God shall man live.",
+      "text": "And he afflicted thee and straitened thee with hunger, and fed thee with manna, which thy fathers knew not; that he might teach thee that man shall not live by bread alone, but by every word that proceeds out of the mouth of God shall man live.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 8:3",
@@ -497,7 +497,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:EXOD.3.6-3.6": {
-      "text": "And he said, + 3:6 Mat. 22. 32. I am the God of thy father, the God of Abraam, and the God of Isaac, and the God of Jacob; and Moses turned away his face, for he was afraid to gaze at God.",
+      "text": "And he said, I am the God of thy father, the God of Abraam, and the God of Isaac, and the God of Jacob; and Moses turned away his face, for he was afraid to gaze at God.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 3:6",
@@ -506,7 +506,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:DEUT.5.16-5.16": {
-      "text": "+ 5:16 Mat. 15. 4; Eph. 6. 1. Honour thy father and thy mother, as the Lord thy God commanded thee; that it may be well with thee, and that thou mayest live long upon the land, which the Lord thy God gives thee.",
+      "text": "Honour thy father and thy mother, as the Lord thy God commanded thee; that it may be well with thee, and that thou mayest live long upon the land, which the Lord thy God gives thee.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 5:16",
@@ -515,7 +515,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:ZECH.9.9-9.9": {
-      "text": "Rejoice greatly, O daughter of Sion; proclaim it aloud, O daughter of Jerusalem; + 9:9 Mat. 21. 5. behold, the King is coming to thee, just, and + 9:9 Gr. saving.a Saviour; he is meek and riding on an ass, and a young foal.",
+      "text": "Rejoice greatly, O daughter of Sion; proclaim it aloud, O daughter of Jerusalem; behold, the King is coming to thee, just, and a Saviour; he is meek and riding on an ass, and a young foal.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Zechariah 9:9",
@@ -542,7 +542,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.53.9-53.9": {
-      "text": "And I will give the wicked for his burial, and the rich for his death; + 53:9 1 Pet. 2. 22. for he practised no iniquity, nor craft with his mouth.",
+      "text": "And I will give the wicked for his burial, and the rich for his death; for he practised no iniquity, nor craft with his mouth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 53:9",
@@ -569,7 +569,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:1KGS.19.10-19.10": {
-      "text": "And Eliu said, + 19:10 Rom. 11. 3. I have been very jealous for the Lord Almighty, because the children of Israel have forsaken thee: they have digged down thine altars, and have slain thy prophets with the sword; and I only am left alone, and they seek my life to take it.",
+      "text": "And Eliu said, I have been very jealous for the Lord Almighty, because the children of Israel have forsaken thee: they have digged down thine altars, and have slain thy prophets with the sword; and I only am left alone, and they seek my life to take it.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "1 Kings 19:10",
@@ -578,7 +578,7 @@
       "usfmBook": "1KI"
     },
     "greek-reuse-lxx:ISA.42.1-42.2": {
-      "text": "Jacob is + 42:1 See Mat. 12. 18, etc.my servant, I will help him: Israel is my chosen, my soul has accepted him; I have put my Spirit upon him; he shall bring forth judgment to the Gentiles. He shall not cry, nor lift up his voice, nor shall his voice be heard without.",
+      "text": "Jacob is my servant, I will help him: Israel is my chosen, my soul has accepted him; I have put my Spirit upon him; he shall bring forth judgment to the Gentiles. He shall not cry, nor lift up his voice, nor shall his voice be heard without.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 42:1–42:2",
@@ -596,7 +596,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:DEUT.32.21-32.21": {
-      "text": "+ 32:21 Rom. 10. 9. They have provoked me to jealousy with that which is not God, they have exasperated me with their idols; and I will provoke them to jealousy with them that are no nation, I will anger them with a nation void of understanding.",
+      "text": "They have provoked me to jealousy with that which is not God, they have exasperated me with their idols; and I will provoke them to jealousy with them that are no nation, I will anger them with a nation void of understanding.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 32:21",
@@ -605,7 +605,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:ISA.52.15-52.15": {
-      "text": "Thus shall many nations wonder at him; and kings shall keep their mouths shut: + 52:15 Rom. 15. 21. for they to whom no report was brought concerning him, shall see; and they who have not heard, shall consider.",
+      "text": "Thus shall many nations wonder at him; and kings shall keep their mouths shut: for they to whom no report was brought concerning him, shall see; and they who have not heard, shall consider.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 52:15",
@@ -614,7 +614,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:EXOD.9.16-9.16": {
-      "text": "And + 9:16 See Rom. 9. 17.for this purpose hast thou been preserved, that I might display in thee my strength, and that my name might be published in all the earth.",
+      "text": "And for this purpose hast thou been preserved, that I might display in thee my strength, and that my name might be published in all the earth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 9:16",
@@ -623,7 +623,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:EXOD.3.6-3.7": {
-      "text": "And he said, + 3:6 Mat. 22. 32. I am the God of thy father, the God of Abraam, and the God of Isaac, and the God of Jacob; and Moses turned away his face, for he was afraid to gaze at God. And the Lord said to Moses, I have surely seen the affliction of my people that is in Egypt, and I have heard their cry caused by their task-masters; for I know their affliction.",
+      "text": "And he said, I am the God of thy father, the God of Abraam, and the God of Isaac, and the God of Jacob; and Moses turned away his face, for he was afraid to gaze at God. And the Lord said to Moses, I have surely seen the affliction of my people that is in Egypt, and I have heard their cry caused by their task-masters; for I know their affliction.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 3:6–3:7",
@@ -659,7 +659,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.49.6-49.6": {
-      "text": "And he said to me, It is a great thing for thee to be called my servant, to establish the tribes of Jacob, and to recover the dispersion of Israel: behold, + 49:6 Acts 13. 47. I have given thee for the + 49:6 Gr. a perpetual covenant.covenant of a race, for a light of the Gentiles, that thou shouldest be for salvation to the end of the earth.",
+      "text": "And he said to me, It is a great thing for thee to be called my servant, to establish the tribes of Jacob, and to recover the dispersion of Israel: behold, I have given thee for the covenant of a race, for a light of the Gentiles, that thou shouldest be for salvation to the end of the earth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 49:6",
@@ -668,7 +668,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.49.8-49.8": {
-      "text": "Thus saith the Lord, + 49:8 2 Cor. 6. 2. In an acceptable time have I heard thee, and in a day of salvation have I succoured thee: and I have formed thee, and given thee for a covenant of the nations, to establish the earth, and to cause to inherit the desert heritages:",
+      "text": "Thus saith the Lord, In an acceptable time have I heard thee, and in a day of salvation have I succoured thee: and I have formed thee, and given thee for a covenant of the nations, to establish the earth, and to cause to inherit the desert heritages:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 49:8",
@@ -677,7 +677,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:EXOD.16.17-16.18": {
-      "text": "And the children of Israel did so, and gathered some much and some less. And having measured the homer full, + 16:18 2 Cor. 8. 15. he that had gathered much had nothing over, and he that had gathered less had no lack; each gathered + 16:18 i. e. just sufficient for.according to the need of those who belonged to him.",
+      "text": "And the children of Israel did so, and gathered some much and some less. And having measured the homer full, he that had gathered much had nothing over, and he that had gathered less had no lack; each gathered according to the need of those who belonged to him.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 16:17–16:18",
@@ -695,7 +695,7 @@
       "usfmBook": "LEV"
     },
     "greek-reuse-lxx:EXOD.20.13-20.15": {
-      "text": "+ 20:13 Mat. 5. 27. Thou shalt not commit adultery. + 20:14 Mark 10. 19. Thou shalt not steal. + 20:15 Mat. 5. 21. Thou shalt not kill.",
+      "text": "Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not kill.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 20:13–20:15",
@@ -731,7 +731,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:DEUT.19.15-19.15": {
-      "text": "One witness shall not + 19:15 Gr. remain.stand to testify against a man for any iniquity, or for any fault, or for any sin which he may commit; + 19:15 2 Cor. 13. 1. by the mouth of two witnesses, or by the mouth of three witnesses, shall every word be established.",
+      "text": "One witness shall not stand to testify against a man for any iniquity, or for any fault, or for any sin which he may commit; by the mouth of two witnesses, or by the mouth of three witnesses, shall every word be established.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 19:15",
@@ -740,7 +740,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:HAG.2.6-2.6": {
-      "text": "For thus saith the Lord Almighty; + 2:6 Heb. 12. 26. Yet once I will shake the heaven, and the earth, and the sea, and the dry land;",
+      "text": "For thus saith the Lord Almighty; Yet once I will shake the heaven, and the earth, and the sea, and the dry land;",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Haggai 2:6",
@@ -749,7 +749,7 @@
       "usfmBook": "HAG"
     },
     "greek-reuse-lxx:ISA.45.23-45.23": {
-      "text": "By myself + 45:23 Rom. 14. 11. I swear, righteousness shall surely proceed out of my mouth; my words shall not be frustrated; that to me every knee shall bend, and every tongue shall swear by God,",
+      "text": "By myself I swear, righteousness shall surely proceed out of my mouth; my words shall not be frustrated; that to me every knee shall bend, and every tongue shall swear by God,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 45:23",
@@ -776,7 +776,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:ISA.56.6-56.7": {
-      "text": "And I will give it to the strangers that attach themselves to the Lord, to serve him, and to love the name of the Lord, to be to him servants and handmaids; and as for all that keep my sabbaths from profaning them, and that take hold of my covenant; I will bring them to my holy mountain, and gladden them in my house of prayer: their whole-burnt-offerings and their sacrifices shall be acceptable upon mine altar; for + 56:7 Mat. 21. 13. my house shall be called a house of prayer for all nations,",
+      "text": "And I will give it to the strangers that attach themselves to the Lord, to serve him, and to love the name of the Lord, to be to him servants and handmaids; and as for all that keep my sabbaths from profaning them, and that take hold of my covenant; I will bring them to my holy mountain, and gladden them in my house of prayer: their whole-burnt-offerings and their sacrifices shall be acceptable upon mine altar; for my house shall be called a house of prayer for all nations,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 56:6–56:7",
@@ -785,7 +785,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.52.11-52.11": {
-      "text": "+ 52:11 2 Cor. 6. 17,18. Depart ye, depart, go out from thence, and touch not the unclean thing; go ye out from the midst of her; separate yourselves, ye that bear the vessels of the Lord.",
+      "text": "Depart ye, depart, go out from thence, and touch not the unclean thing; go ye out from the midst of her; separate yourselves, ye that bear the vessels of the Lord.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 52:11",
@@ -794,7 +794,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:DEUT.19.15-19.17": {
-      "text": "One witness shall not + 19:15 Gr. remain.stand to testify against a man for any iniquity, or for any fault, or for any sin which he may commit; + 19:15 2 Cor. 13. 1. by the mouth of two witnesses, or by the mouth of three witnesses, shall every word be established. And if an unjust witness rise up against a man, alleging iniquity against him; then shall the two men between whom the controversy is, stand before the Lord, and before the priests, and before the judges, who may be in those days.",
+      "text": "One witness shall not stand to testify against a man for any iniquity, or for any fault, or for any sin which he may commit; by the mouth of two witnesses, or by the mouth of three witnesses, shall every word be established. And if an unjust witness rise up against a man, alleging iniquity against him; then shall the two men between whom the controversy is, stand before the Lord, and before the priests, and before the judges, who may be in those days.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 19:15–19:17",
@@ -803,7 +803,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:ISA.40.5-40.7": {
-      "text": "And the glory of the Lord shall appear, and all flesh shall see the salvation of God: for the Lord has spoken it. The voice of one saying, Cry; and I said, What shall I cry? + 40:6 1 Pet. 1. 24. All flesh is grass, and all the glory of man as the flower of grass. The grass withers, and the flower fades:",
+      "text": "And the glory of the Lord shall appear, and all flesh shall see the salvation of God: for the Lord has spoken it. The voice of one saying, Cry; and I said, What shall I cry? All flesh is grass, and all the glory of man as the flower of grass. The grass withers, and the flower fades:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 40:5–40:7",
@@ -812,7 +812,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:EXOD.32.6-32.6": {
-      "text": "And having risen early on the morrow, he + 32:6 Gr. Set upon the altar.offered whole burnt-offerings, and offered a peace-offering; and + 32:6 1 Cor. 10. 7. the people sat down to eat and drink, and rose up to play.",
+      "text": "And having risen early on the morrow, he offered whole burnt-offerings, and offered a peace-offering; and the people sat down to eat and drink, and rose up to play.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 32:6",
@@ -821,7 +821,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:GEN.1.27-1.27": {
-      "text": "And God made man, according to the image of God + 1:27 Mat. 19. 4. he made him, male and female he made them.",
+      "text": "And God made man, according to the image of God he made him, male and female he made them.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 1:27",
@@ -839,7 +839,7 @@
       "usfmBook": "AMO"
     },
     "greek-reuse-lxx:GEN.21.12-21.13": {
-      "text": "But God said to Abraam, Let it not be hard before thee concerning the child, and concerning the bondwoman; in all things whatsoever Sarrha shall say to thee, hear her voice, for + 21:12 Rom. 9. 7. in Isaac shall thy seed be called. And moreover I will make the son of this bondwoman a great nation, because he is thy seed.",
+      "text": "But God said to Abraam, Let it not be hard before thee concerning the child, and concerning the bondwoman; in all things whatsoever Sarrha shall say to thee, hear her voice, for in Isaac shall thy seed be called. And moreover I will make the son of this bondwoman a great nation, because he is thy seed.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 21:12–21:13",
@@ -848,7 +848,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:EXOD.24.6-24.8": {
-      "text": "And Moses took half the blood and poured it into bowls, and half the blood he poured out upon the altar. And he took the book of the covenant and read it in the ears of the people, and they said, All things whatsoever the Lord has spoken we will do and hearken therein. And + 24:8 Heb. 9. 19. Moses took the blood and sprinkled it upon the people, and said, Behold the blood of the covenant, which the Lord has made with you concerning all these words.",
+      "text": "And Moses took half the blood and poured it into bowls, and half the blood he poured out upon the altar. And he took the book of the covenant and read it in the ears of the people, and they said, All things whatsoever the Lord has spoken we will do and hearken therein. And Moses took the blood and sprinkled it upon the people, and said, Behold the blood of the covenant, which the Lord has made with you concerning all these words.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 24:6–24:8",
@@ -857,7 +857,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.65.1-65.1": {
-      "text": "+ 65:1 Rom. 10. 20,21. I became manifest to them that asked not for me; I was found of them that sought me not: I said, Behold, I am here, to a nation, who called not on my name.",
+      "text": "I became manifest to them that asked not for me; I was found of them that sought me not: I said, Behold, I am here, to a nation, who called not on my name.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 65:1",
@@ -866,7 +866,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:EXOD.20.11-20.12": {
-      "text": "For in six days the Lord made the heaven and the earth, and the sea and all things in them, and rested on the seventh day; therefore the Lord blessed the seventh day, and hallowed it. + 20:12 Mat. 15. 4. Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee.",
+      "text": "For in six days the Lord made the heaven and the earth, and the sea and all things in them, and rested on the seventh day; therefore the Lord blessed the seventh day, and hallowed it. Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 20:11–20:12",
@@ -875,7 +875,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:DEUT.18.15-18.17": {
-      "text": "+ 18:15 Acts 3. 22. The Lord thy God shall raise up to thee a prophet of thy brethren, like me; him shall ye hear: according to all things which thou didst desire of the Lord thy God in Choreb in the day of the assembly, saying, We will not again hear the voice of the Lord thy God, and we will not any more see this great fire, and so we shall not die. And the Lord said to me, They have spoken rightly all that they have said to thee.",
+      "text": "The Lord thy God shall raise up to thee a prophet of thy brethren, like me; him shall ye hear: according to all things which thou didst desire of the Lord thy God in Choreb in the day of the assembly, saying, We will not again hear the voice of the Lord thy God, and we will not any more see this great fire, and so we shall not die. And the Lord said to me, They have spoken rightly all that they have said to thee.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 18:15–18:17",
@@ -893,7 +893,7 @@
       "usfmBook": "LEV"
     },
     "greek-reuse-lxx:GEN.5.2-5.2": {
-      "text": "male and female he made them, and blessed them; and he called + 5:2 Alex. their.his name Adam, in the day in which he made them.",
+      "text": "male and female he made them, and blessed them; and he called his name Adam, in the day in which he made them.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 5:2",
@@ -902,7 +902,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:DEUT.27.26-27.26": {
-      "text": "+ 27:26 Gal. 3. 10. Cursed is every man that continues not in all the words of this law to do them: and all the people shall say, So be it.",
+      "text": "Cursed is every man that continues not in all the words of this law to do them: and all the people shall say, So be it.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 27:26",
@@ -920,7 +920,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:GEN.15.6-15.7": {
-      "text": "+ 15:6 Rom. 4. 3. And Abram believed God, and it was counted to him for righteousness. And he said to him, I am God that brought thee out of the land of the Chaldeans, so as to give thee this land to inherit.",
+      "text": "And Abram believed God, and it was counted to him for righteousness. And he said to him, I am God that brought thee out of the land of the Chaldeans, so as to give thee this land to inherit.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 15:6–15:7",
@@ -929,7 +929,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:DEUT.18.18-18.19": {
-      "text": "I will raise up to them a prophet of their brethren, like thee; and I will put my words in his mouth, and he shall speak to them as I shall command him. + 18:19 Acts 3. 23. And whatever man shall not hearken to whatsoever words that prophet shall speak in my name, I will take vengeance on him.",
+      "text": "I will raise up to them a prophet of their brethren, like thee; and I will put my words in his mouth, and he shall speak to them as I shall command him. And whatever man shall not hearken to whatsoever words that prophet shall speak in my name, I will take vengeance on him.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 18:18–18:19",
@@ -947,7 +947,7 @@
       "usfmBook": "AMO"
     },
     "greek-reuse-lxx:ISA.56.7-56.7": {
-      "text": "I will bring them to my holy mountain, and gladden them in my house of prayer: their whole-burnt-offerings and their sacrifices shall be acceptable upon mine altar; for + 56:7 Mat. 21. 13. my house shall be called a house of prayer for all nations,",
+      "text": "I will bring them to my holy mountain, and gladden them in my house of prayer: their whole-burnt-offerings and their sacrifices shall be acceptable upon mine altar; for my house shall be called a house of prayer for all nations,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 56:7",
@@ -956,7 +956,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:ISA.61.1-61.2": {
-      "text": "The Spirit of the Lord is upon me, because he has anointed me; he has sent + 61:1 Luke 4. 18. me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn;",
+      "text": "The Spirit of the Lord is upon me, because he has anointed me; he has sent me to preach glad tidings to the poor, to heal the broken in heart, to proclaim liberty to the captives, and recovery of sight to the blind; to declare the acceptable year of the Lord, and the day of recompence; to comfort all that mourn;",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 61:1–61:2",
@@ -965,7 +965,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:GEN.5.2-5.3": {
-      "text": "male and female he made them, and blessed them; and he called + 5:2 Alex. their.his name Adam, in the day in which he made them. And Adam lived two hundred and thirty years, and begot a son after his own form, and after his own image, and he called his name Seth.",
+      "text": "male and female he made them, and blessed them; and he called his name Adam, in the day in which he made them. And Adam lived two hundred and thirty years, and begot a son after his own form, and after his own image, and he called his name Seth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 5:2–5:3",
@@ -974,7 +974,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:GEN.21.12-21.12": {
-      "text": "But God said to Abraam, Let it not be hard before thee concerning the child, and concerning the bondwoman; in all things whatsoever Sarrha shall say to thee, hear her voice, for + 21:12 Rom. 9. 7. in Isaac shall thy seed be called.",
+      "text": "But God said to Abraam, Let it not be hard before thee concerning the child, and concerning the bondwoman; in all things whatsoever Sarrha shall say to thee, hear her voice, for in Isaac shall thy seed be called.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 21:12",
@@ -983,7 +983,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:EXOD.25.38-25.40": {
-      "text": "And thou shalt make its funnel and its snuff-dishes of pure gold. All these articles shall be a talent of pure gold. See, thou shalt make them + 25:40 Heb. 8. 5. according to the pattern shewed thee in the mount.",
+      "text": "And thou shalt make its funnel and its snuff-dishes of pure gold. All these articles shall be a talent of pure gold. See, thou shalt make them according to the pattern shewed thee in the mount.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 25:38–25:40",
@@ -992,7 +992,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:DEUT.32.35-32.36": {
-      "text": "In the day of vengeance + 32:35 Rom. 12. 19. I will recompense, whensoever their foot shall be tripped up; for the day of their destruction is near to them, and the judgments at hand are close upon you. For the Lord shall judge his people, and shall be comforted over his servants; for he saw that they were + 32:36 Gr. paralysed.utterly weakened, and failed in the hostile invasion, and were become feeble:",
+      "text": "In the day of vengeance I will recompense, whensoever their foot shall be tripped up; for the day of their destruction is near to them, and the judgments at hand are close upon you. For the Lord shall judge his people, and shall be comforted over his servants; for he saw that they were utterly weakened, and failed in the hostile invasion, and were become feeble:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 32:35–32:36",
@@ -1019,7 +1019,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:DEUT.6.16-6.16": {
-      "text": "+ 6:16 Mat. 4. 7. Thou shalt not tempt the Lord thy God, as ye tempted him in the temptation.",
+      "text": "Thou shalt not tempt the Lord thy God, as ye tempted him in the temptation.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 6:16",
@@ -1037,7 +1037,7 @@
       "usfmBook": "HOS"
     },
     "greek-reuse-lxx:GEN.17.5-17.7": {
-      "text": "And thy name shall no more be called Abram, but thy name shall be Abraam, + 17:5 Rom. 4. 17. for I have made thee a father of many nations. And I will increase thee very exceedingly, and I will make nations of thee, and kings shall come out of thee. And I will establish my covenant between thee and thy seed after thee, to their generations, for an everlasting covenant, to be thy God, and the God of thy seed after thee.",
+      "text": "And thy name shall no more be called Abram, but thy name shall be Abraam, for I have made thee a father of many nations. And I will increase thee very exceedingly, and I will make nations of thee, and kings shall come out of thee. And I will establish my covenant between thee and thy seed after thee, to their generations, for an everlasting covenant, to be thy God, and the God of thy seed after thee.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 17:5–17:7",
@@ -1055,7 +1055,7 @@
       "usfmBook": "HAB"
     },
     "greek-reuse-lxx:EXOD.20.12-20.14": {
-      "text": "+ 20:12 Mat. 15. 4. Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee. + 20:13 Mat. 5. 27. Thou shalt not commit adultery. + 20:14 Mark 10. 19. Thou shalt not steal.",
+      "text": "Honour thy father and thy mother, that it may be well with thee, and that thou mayest live long on the good land, which the Lord thy God gives to thee. Thou shalt not commit adultery. Thou shalt not steal.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 20:12–20:14",
@@ -1082,7 +1082,7 @@
       "usfmBook": "HOS"
     },
     "greek-reuse-lxx:ISA.8.17-8.18": {
-      "text": "And one shall say, I will wait for God, who has turned away his face from the house of Jacob, and I will trust in him. + 8:18 Heb. 2. 13. Behold I and the children which God has given me: and they shall be for signs and wonders in the house of Israel from the Lord of hosts, who dwells in mount Sion.",
+      "text": "And one shall say, I will wait for God, who has turned away his face from the house of Jacob, and I will trust in him. Behold I and the children which God has given me: and they shall be for signs and wonders in the house of Israel from the Lord of hosts, who dwells in mount Sion.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 8:17–8:18",
@@ -1091,7 +1091,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:GEN.18.10-18.10": {
-      "text": "And he said, + 18:10 Rom. 9. 9. I will return and come to thee according to this period seasonably, and Sarrha thy wife shall have a son; and Sarrha heard at the door of the tent, being behind him.",
+      "text": "And he said, I will return and come to thee according to this period seasonably, and Sarrha thy wife shall have a son; and Sarrha heard at the door of the tent, being behind him.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 18:10",
@@ -1100,7 +1100,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:GEN.22.15-22.17": {
-      "text": "And an angel of the Lord called Abraam the second time out of heaven, saying, I have sworn by myself, says the Lord, because thou hast done this thing, and on my account hast not spared thy beloved son, + 22:17 Heb. 6. 14. surely blessing I will bless thee, and multiplying I will multiply thy seed as the stars of heaven, and as the sand which is by the shore of the sea, and thy seed shall inherit the cities of their enemies.",
+      "text": "And an angel of the Lord called Abraam the second time out of heaven, saying, I have sworn by myself, says the Lord, because thou hast done this thing, and on my account hast not spared thy beloved son, surely blessing I will bless thee, and multiplying I will multiply thy seed as the stars of heaven, and as the sand which is by the shore of the sea, and thy seed shall inherit the cities of their enemies.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 22:15–22:17",
@@ -1118,7 +1118,7 @@
       "usfmBook": "ZEC"
     },
     "greek-reuse-lxx:DEUT.5.16-5.18": {
-      "text": "+ 5:16 Mat. 15. 4; Eph. 6. 1. Honour thy father and thy mother, as the Lord thy God commanded thee; that it may be well with thee, and that thou mayest live long upon the land, which the Lord thy God gives thee. Thou shalt not commit murder. Thou shalt not commit adultery.",
+      "text": "Honour thy father and thy mother, as the Lord thy God commanded thee; that it may be well with thee, and that thou mayest live long upon the land, which the Lord thy God gives thee. Thou shalt not commit murder. Thou shalt not commit adultery.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 5:16–5:18",
@@ -1136,7 +1136,7 @@
       "usfmBook": "MIC"
     },
     "greek-reuse-lxx:DEUT.6.16-6.18": {
-      "text": "+ 6:16 Mat. 4. 7. Thou shalt not tempt the Lord thy God, as ye tempted him in the temptation. Thou shalt by all means keep the commands of the Lord thy God, the testimonies, and the ordinances, which he commanded thee. And thou shalt do that which is pleasing and good before the Lord thy God, that it may be well with thee, and that thou mayest go in and inherit the good land, which the Lord sware to your fathers,",
+      "text": "Thou shalt not tempt the Lord thy God, as ye tempted him in the temptation. Thou shalt by all means keep the commands of the Lord thy God, the testimonies, and the ordinances, which he commanded thee. And thou shalt do that which is pleasing and good before the Lord thy God, that it may be well with thee, and that thou mayest go in and inherit the good land, which the Lord sware to your fathers,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 6:16–6:18",
@@ -1163,7 +1163,7 @@
       "usfmBook": "LEV"
     },
     "greek-reuse-lxx:GEN.25.23-25.25": {
-      "text": "And the Lord said to her, There are two nations in thy womb, and two peoples shall be separated from thy belly, and one people shall excel the other, and the + 25:23 Gr. the greater shall serve the less. Rom. 9. 12.elder shall serve the younger. And the days were fulfilled that she should be delivered, and she had twins in her womb. And the first came out red, hairy all over like a skin; and she called his name Esau.",
+      "text": "And the Lord said to her, There are two nations in thy womb, and two peoples shall be separated from thy belly, and one people shall excel the other, and the Rom. 9. 12.elder shall serve the younger. And the days were fulfilled that she should be delivered, and she had twins in her womb. And the first came out red, hairy all over like a skin; and she called his name Esau.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 25:23–25:25",
@@ -1172,7 +1172,7 @@
       "usfmBook": "GEN"
     },
     "greek-reuse-lxx:EXOD.3.1-3.2": {
-      "text": "And Moses was feeding the flock of Jothor his father-in-law, the priest of Madiam; and he brought the sheep nigh to the wilderness, and came to the mount of Choreb. And an angel of the Lord appeared to him in + 3:2 Gr. fire of flame.flaming fire out of the bush, and he sees that the bush burns with fire,—but the bush was not consumed.",
+      "text": "And Moses was feeding the flock of Jothor his father-in-law, the priest of Madiam; and he brought the sheep nigh to the wilderness, and came to the mount of Choreb. And an angel of the Lord appeared to him in flaming fire out of the bush, and he sees that the bush burns with fire,—but the bush was not consumed.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Exodus 3:1–3:2",
@@ -1181,7 +1181,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:ISA.22.12-22.13": {
-      "text": "And the Lord, the Lord of hosts, called in that day for weeping, and lamentation, and + 22:12 Gr. shaving.baldness, and for girding with sackcloth: but they engaged in joy and gladness, slaying calves, and killing sheep, so as to eat flesh, and drink wine; saying, Let us eat and drink; for to-morrow we die.",
+      "text": "And the Lord, the Lord of hosts, called in that day for weeping, and lamentation, and baldness, and for girding with sackcloth: but they engaged in joy and gladness, slaying calves, and killing sheep, so as to eat flesh, and drink wine; saying, Let us eat and drink; for to-morrow we die.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 22:12–22:13",
@@ -1208,7 +1208,7 @@
       "usfmBook": "LEV"
     },
     "greek-reuse-lxx:DEUT.18.15-18.16": {
-      "text": "+ 18:15 Acts 3. 22. The Lord thy God shall raise up to thee a prophet of thy brethren, like me; him shall ye hear: according to all things which thou didst desire of the Lord thy God in Choreb in the day of the assembly, saying, We will not again hear the voice of the Lord thy God, and we will not any more see this great fire, and so we shall not die.",
+      "text": "The Lord thy God shall raise up to thee a prophet of thy brethren, like me; him shall ye hear: according to all things which thou didst desire of the Lord thy God in Choreb in the day of the assembly, saying, We will not again hear the voice of the Lord thy God, and we will not any more see this great fire, and so we shall not die.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Deuteronomy 18:15–18:16",
@@ -1284,7 +1284,7 @@
       "mappingNotes": "Odes is derivative and has no safe Brenton mapping"
     },
     "greek-reuse-lxx:PS.101.26-101.28": {
-      "text": "In the + 101:26 Gr. plural.beginning thou, O Lord, didst lay the foundation of the earth; and the heavens are the works of thine hands. They shall perish, but thou remainest: and they all shall wax old as a garment; and as a vesture shalt thou fold them, and they shall be changed. But thou art the same, and thy years shall not fail.",
+      "text": "In the beginning thou, O Lord, didst lay the foundation of the earth; and the heavens are the works of thine hands. They shall perish, but thou remainest: and they all shall wax old as a garment; and as a vesture shalt thou fold them, and they shall be changed. But thou art the same, and thy years shall not fail.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 101:26–101:28",
@@ -1301,7 +1301,7 @@
       "mappingNotes": "Odes is derivative and has no safe Brenton mapping"
     },
     "greek-reuse-lxx:PS.94.8-94.8": {
-      "text": "+ 94:8 Heb. 3. 7-12. To-day, if ye will hear his voice, harden not your hearts, as in the provocation, according to the day of + 94:8 Note, πειρασμοῦ is the reading of several editions.irritation in the wilderness:",
+      "text": "To-day, if ye will hear his voice, harden not your hearts, as in the provocation, according to the day of irritation in the wilderness:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 94:8",
@@ -1370,7 +1370,7 @@
       "mappingNotes": "Odes is derivative and has no safe Brenton mapping"
     },
     "greek-reuse-lxx:PS.33.13-33.15": {
-      "text": "+ 33:13 1 Pet. 3. 10-13. What man is there that desires life, loving to see good days? Keep thy tongue from evil, and thy lips from speaking guile. Turn away from evil, and do good; seek peace, and pursue it.",
+      "text": "What man is there that desires life, loving to see good days? Keep thy tongue from evil, and thy lips from speaking guile. Turn away from evil, and do good; seek peace, and pursue it.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 33:13–33:15",
@@ -1396,7 +1396,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.31.1-31.1": {
-      "text": "A Psalm of + 31:1 Gr. for or, of.instruction by David.",
+      "text": "A Psalm of instruction by David.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 31:1",
@@ -1439,7 +1439,7 @@
       "usfmBook": "JOL"
     },
     "greek-reuse-lxx:PS.52.4-52.4": {
-      "text": "+ 52:4 Rom. 3. 10-12. They have all gone out of the way, they are together become unprofitable; there is none that does good, there is not even one.",
+      "text": "They have all gone out of the way, they are together become unprofitable; there is none that does good, there is not even one.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 52:4",
@@ -1526,7 +1526,7 @@
       "usfmBook": "JOL"
     },
     "greek-reuse-lxx:PS.43.23-43.23": {
-      "text": "+ 43:23 Rom. 8. 36. For, for thy sake we are killed all the day long; we are counted as sheep for slaughter.",
+      "text": "For, for thy sake we are killed all the day long; we are counted as sheep for slaughter.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 43:23",
@@ -1543,7 +1543,7 @@
       "mappingNotes": "Odes is derivative and has no safe Brenton mapping"
     },
     "greek-reuse-lxx:PS.44.7-44.7": {
-      "text": "+ 44:7 Heb. 1. 8-10. Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a sceptre of righteousness.",
+      "text": "Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a sceptre of righteousness.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 44:7",
@@ -1570,7 +1570,7 @@
       "usfmBook": "JOS"
     },
     "greek-reuse-lxx:PS.117.22-117.22": {
-      "text": "+ 117:22 Mat. 21. 42. The stone which the builders rejected, the same is become the head of the corner.",
+      "text": "The stone which the builders rejected, the same is become the head of the corner.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 117:22",
@@ -1597,7 +1597,7 @@
       "usfmBook": "RUT"
     },
     "greek-reuse-lxx:PS.93.11-93.11": {
-      "text": "+ 93:11 1 Cor. 3. 20. The Lord knows the thoughts of men, that they are vain.",
+      "text": "The Lord knows the thoughts of men, that they are vain.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 93:11",
@@ -1606,7 +1606,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.117.22-117.23": {
-      "text": "+ 117:22 Mat. 21. 42. The stone which the builders rejected, the same is become the head of the corner. This has been done of the Lord; and it is wonderful in our eyes.",
+      "text": "The stone which the builders rejected, the same is become the head of the corner. This has been done of the Lord; and it is wonderful in our eyes.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 117:22–117:23",
@@ -1615,7 +1615,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.18.5-18.5": {
-      "text": "+ 18:5 Rom. 10. 18. Their voice is gone out into all the earth, and their words to the ends of the world.",
+      "text": "Their voice is gone out into all the earth, and their words to the ends of the world.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 18:5",
@@ -1624,7 +1624,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.111.9-111.9": {
-      "text": "+ 111:9 2 Cor. 9. 9. He has dispersed abroad; he has given to the poor; his righteousness endures for evermore: his horn shall be exalted with honour.",
+      "text": "He has dispersed abroad; he has given to the poor; his righteousness endures for evermore: his horn shall be exalted with honour.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 111:9",
@@ -1633,7 +1633,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.35.2-35.2": {
-      "text": "The transgressor, that he may sin, says within himself, that + 35:2 Rom. 3. 18. there is no fear of God before his eyes.",
+      "text": "The transgressor, that he may sin, says within himself, that there is no fear of God before his eyes.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 35:2",
@@ -1642,7 +1642,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.8.5-8.5": {
-      "text": "+ 8:5 Heb. 2. 6-9. What is man, that thou art mindful of him? or the son of man, that thou visitest him?",
+      "text": "What is man, that thou art mindful of him? or the son of man, that thou visitest him?",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 8:5",
@@ -1668,7 +1668,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:2KGS.1.10-1.12": {
-      "text": "And Eliu answered and said to the captain of fifty, And if I am a man of God, fire shall come down out of heaven, and devour thee and thy fifty. And fire came down out of heaven, and devoured him and his fifty. And the king + 1:11 Gr. added and sent.sent a second time to him another captain of fifty, and his fifty. And the captain of fifty spoke to him, and said, O man of God, thus says the king, Come down quickly. And Eliu answered and spoke to him, and said, If I am a man of God, fire shall come down out of heaven, and devour thee and thy fifty. And fire came down out of heaven, and devoured him and his fifty.",
+      "text": "And Eliu answered and said to the captain of fifty, And if I am a man of God, fire shall come down out of heaven, and devour thee and thy fifty. And fire came down out of heaven, and devoured him and his fifty. And the king sent a second time to him another captain of fifty, and his fifty. And the captain of fifty spoke to him, and said, O man of God, thus says the king, Come down quickly. And Eliu answered and spoke to him, and said, If I am a man of God, fire shall come down out of heaven, and devour thee and thy fifty. And fire came down out of heaven, and devoured him and his fifty.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "2 Kings 1:10–1:12",
@@ -1694,7 +1694,7 @@
       "usfmBook": "DEU"
     },
     "greek-reuse-lxx:PS.90.11-90.12": {
-      "text": "For he shall give his angels charge concerning thee, to keep thee in all thy ways. + 90:12 Mat. 4. 6. They shall bear thee up on their hands, lest at any time thou dash thy foot against a stone.",
+      "text": "For he shall give his angels charge concerning thee, to keep thee in all thy ways. They shall bear thee up on their hands, lest at any time thou dash thy foot against a stone.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 90:11–90:12",
@@ -1721,7 +1721,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.103.4-103.4": {
-      "text": "+ 103:4 Heb. 1. 7. Who makes his angels spirits, and his ministers a flaming fire.",
+      "text": "Who makes his angels spirits, and his ministers a flaming fire.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 103:4",
@@ -1757,7 +1757,7 @@
       "usfmBook": "EXO"
     },
     "greek-reuse-lxx:PS.68.23-68.23": {
-      "text": "+ 68:23 Rom. 11. 9,10. Let their table before them be for a snare, and for a recompence, and for a stumbling-block.",
+      "text": "Let their table before them be for a snare, and for a recompence, and for a stumbling-block.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 68:23",
@@ -1775,7 +1775,7 @@
       "usfmBook": "PSA"
     },
     "greek-reuse-lxx:PS.39.7-39.9": {
-      "text": "+ 39:7 Heb. 10. 5,6. Sacrifice and offering thou wouldest not; but a body hast thou prepared me: whole-burnt-offering and sacrifice for sin thou didst not require. Then I said, Behold, I + 39:8 Or, am come.come: in the volume of the book it is written concerning me, I desired to do thy will, O my God, and thy law in the midst of mine heart.",
+      "text": "Sacrifice and offering thou wouldest not; but a body hast thou prepared me: whole-burnt-offering and sacrifice for sin thou didst not require. Then I said, Behold, I come: in the volume of the book it is written concerning me, I desired to do thy will, O my God, and thy law in the midst of mine heart.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 39:7–39:9",
@@ -1802,7 +1802,7 @@
       "usfmBook": "JER"
     },
     "greek-reuse-lxx:PS.94.7-94.8": {
-      "text": "For he is our God; and we are the people of his pasture, and the sheep of his hand. + 94:8 Heb. 3. 7-12. To-day, if ye will hear his voice, harden not your hearts, as in the provocation, according to the day of + 94:8 Note, πειρασμοῦ is the reading of several editions.irritation in the wilderness:",
+      "text": "For he is our God; and we are the people of his pasture, and the sheep of his hand. To-day, if ye will hear his voice, harden not your hearts, as in the provocation, according to the day of irritation in the wilderness:",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Psalms 94:7–94:8",
@@ -1845,7 +1845,7 @@
       "mappingNotes": "Esdras identity and versification are ambiguous"
     },
     "greek-reuse-lxx:2SAM.12.18-12.20": {
-      "text": "And it came to pass on the seventh day that the child died: and the servants of David were afraid to tell him that the child was dead; for they said, Behold, while the child was yet alive we spoke to him, and he hearkened not to our voice; and how should we tell him that the child is dead?—so + 12:18 Gr. will.would he do himself harm. And David understood that his servants were whispering, and David perceived that the child was dead: and David said to his servants, Is the child dead? and they said, He is dead. Then David rose up from the earth, and washed, and anointed himself, and changed his raiment, and went into the house of God, and worshipped him; and went into his own house, and called for bread to eat, and they set bread before him and he ate.",
+      "text": "And it came to pass on the seventh day that the child died: and the servants of David were afraid to tell him that the child was dead; for they said, Behold, while the child was yet alive we spoke to him, and he hearkened not to our voice; and how should we tell him that the child is dead?—so would he do himself harm. And David understood that his servants were whispering, and David perceived that the child was dead: and David said to his servants, Is the child dead? and they said, He is dead. Then David rose up from the earth, and washed, and anointed himself, and changed his raiment, and went into the house of God, and worshipped him; and went into his own house, and called for bread to eat, and they set bread before him and he ate.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "2 Samuel 12:18–12:20",
@@ -1881,7 +1881,7 @@
       "usfmBook": "ISA"
     },
     "greek-reuse-lxx:JONAH.1.4-1.6": {
-      "text": "And the Lord raised up a wind on the sea; and there was a great storm on the sea, and the ship was in danger of being broken. And the sailors were alarmed, and cried every one to his god, and cast out the wares that were in the ship into the sea, that it might be lightened of them. But Jonas was gone down into the + 1:5 Lit. hollow.hold of the ship, and was asleep, and snored. And the shipmaster came to him, and said to him, Why snorest thou? arise, and call upon thy God, that God may save us, and we perish not.",
+      "text": "And the Lord raised up a wind on the sea; and there was a great storm on the sea, and the ship was in danger of being broken. And the sailors were alarmed, and cried every one to his god, and cast out the wares that were in the ship into the sea, that it might be lightened of them. But Jonas was gone down into the hold of the ship, and was asleep, and snored. And the shipmaster came to him, and said to him, Why snorest thou? arise, and call upon thy God, that God may save us, and we perish not.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Jonah 1:4–1:6",
@@ -1890,7 +1890,7 @@
       "usfmBook": "JON"
     },
     "greek-reuse-lxx:1KGS.2.35-2.37": {
-      "text": "And the king + 2:35 Gr. gave.appointed Banæas son of Jodae in his place over the host; and the kingdom was established in Jerusalem; and as for Sadoc the priest, the king appointed him to be high priest in the room of Abiathar. And Solomon son of David reigned over Israel and Juda in Jerusalem: And the king called Semei, and said to him, Build thee a house in Jerusalem, and dwell there, and thou shalt not go out thence any whither. And it shall come to pass in the day + 2:37 Gr. of thy going forth.that thou shalt go forth and cross over the brook Kedron, + 2:37 Gr. knowing thou shalt know.know assuredly that thou shalt certainly die: thy blood shall be upon thine head. And the king caused him to swear in that day.",
+      "text": "And the king appointed Banæas son of Jodae in his place over the host; and the kingdom was established in Jerusalem; and as for Sadoc the priest, the king appointed him to be high priest in the room of Abiathar. And Solomon son of David reigned over Israel and Juda in Jerusalem: And the king called Semei, and said to him, Build thee a house in Jerusalem, and dwell there, and thou shalt not go out thence any whither. And it shall come to pass in the day that thou shalt go forth and cross over the brook Kedron, know assuredly that thou shalt certainly die: thy blood shall be upon thine head. And the king caused him to swear in that day.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "1 Kings 2:35–2:37",
@@ -1951,7 +1951,7 @@
       "mappingNotes": "Theodotion recension cannot safely be inferred"
     },
     "greek-reuse-lxx:GEN.9.2-9.4": {
-      "text": "And the dread and the fear of you shall be upon all the wild beasts of the earth, on all the birds of the sky, and on all things moving upon the earth, and upon all the fishes of the sea, I have placed them under your + 9:2 Gr. hands.power. And every reptile which is living shall be to you for meat, I have given all things to you as the + 9:3 Gr. herbs of grass.green herbs. But flesh with blood of life ye shall not eat.",
+      "text": "And the dread and the fear of you shall be upon all the wild beasts of the earth, on all the birds of the sky, and on all things moving upon the earth, and upon all the fishes of the sea, I have placed them under your power. And every reptile which is living shall be to you for meat, I have given all things to you as the green herbs. But flesh with blood of life ye shall not eat.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 9:2–9:4",
@@ -2003,7 +2003,7 @@
       "usfmBook": "EZK"
     },
     "greek-reuse-lxx:ZECH.13.7-13.9": {
-      "text": "Awake, O sword, against my + 13:7 Alex. shepherd.shepherds, and against the man who is my citizen, saith the Lord Almighty: + 13:7 Mat. 26. 31. smite the shepherds, and draw out the sheep: and I will bring mine hand upon the little ones. And it shall come to pass, that in all the land, saith the Lord, two parts thereof shall be cut off and perish; but the third shall be left therein. And I will bring the third part through the fire, and I will try them as silver is tried, and I will prove them as gold is proved: they shall call upon my name, and I will hear them, and say, This is my people: and they shall say, The Lord is my God.",
+      "text": "Awake, O sword, against my shepherds, and against the man who is my citizen, saith the Lord Almighty: smite the shepherds, and draw out the sheep: and I will bring mine hand upon the little ones. And it shall come to pass, that in all the land, saith the Lord, two parts thereof shall be cut off and perish; but the third shall be left therein. And I will bring the third part through the fire, and I will try them as silver is tried, and I will prove them as gold is proved: they shall call upon my name, and I will hear them, and say, This is my people: and they shall say, The Lord is my God.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Zechariah 13:7–13:9",
@@ -2012,7 +2012,7 @@
       "usfmBook": "ZEC"
     },
     "greek-reuse-lxx:2KGS.4.37-4.39": {
-      "text": "And the woman went in, and fell at his feet, and did obeisance bowing to the ground; and she took her son, and went out. And Elisaie returned to Galgala: and a famine was in the land; and the sons of the prophets sat before him: and Elisaie said to his servant, Set on the great pot, and boil pottage for the sons of the prophets. And he went out into the field to gather herbs, and found a vine in the field, and gathered of it wild + 4:39 Gr. sing. colosynth.gourds, his garment full; and he cast it into the caldron of pottage, for they knew them not.",
+      "text": "And the woman went in, and fell at his feet, and did obeisance bowing to the ground; and she took her son, and went out. And Elisaie returned to Galgala: and a famine was in the land; and the sons of the prophets sat before him: and Elisaie said to his servant, Set on the great pot, and boil pottage for the sons of the prophets. And he went out into the field to gather herbs, and found a vine in the field, and gathered of it wild gourds, his garment full; and he cast it into the caldron of pottage, for they knew them not.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "2 Kings 4:37–4:39",
@@ -2092,7 +2092,7 @@
       "usfmBook": "JDG"
     },
     "greek-reuse-lxx:ISA.58.11-58.13": {
-      "text": "and thy God shall be with thee continually, and thou shalt be satisfied according as thy soul desires; and thy bones shall be made fat, and shall be as a well-watered garden, and as a fountain from which the water has not failed. And thy old waste desert places shall be built up, and thy foundations shall last through all generations; and thou shalt be called a repairer of breaches, and thou shalt cause thy paths between to be in peace. If thou turn away thy foot from the sabbath, so as not to do thy + 58:13 Gr. pleasures.pleasure on the holy days, and shalt call the sabbaths delightful, holy to God; if thou shalt not lift up thy foot to work, nor speak a word in anger out of thy mouth,",
+      "text": "and thy God shall be with thee continually, and thou shalt be satisfied according as thy soul desires; and thy bones shall be made fat, and shall be as a well-watered garden, and as a fountain from which the water has not failed. And thy old waste desert places shall be built up, and thy foundations shall last through all generations; and thou shalt be called a repairer of breaches, and thou shalt cause thy paths between to be in peace. If thou turn away thy foot from the sabbath, so as not to do thy pleasure on the holy days, and shalt call the sabbaths delightful, holy to God; if thou shalt not lift up thy foot to work, nor speak a word in anger out of thy mouth,",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Isaiah 58:11–58:13",
@@ -2119,7 +2119,7 @@
       "usfmBook": "1MA"
     },
     "greek-reuse-lxx:GEN.1.28-1.30": {
-      "text": "And God blessed them, saying, Increase and multiply, and fill the earth and subdue it, and have dominion over the fish of the seas and flying creatures of heaven, and all the cattle and all the earth, and all the reptiles that creep on the earth. And God said, Behold I have given to you every seed-bearing herb sowing seed which is upon all the earth, and every tree which has in itself the fruit of seed that is sown, to you it shall be for food. And to all the wild beasts of the earth, and to all the flying creatures of heaven, and to every reptile creeping on the earth, which has in itself the + 1:30 Gr. soul.breath of life, even every green plant for food; and it was so.",
+      "text": "And God blessed them, saying, Increase and multiply, and fill the earth and subdue it, and have dominion over the fish of the seas and flying creatures of heaven, and all the cattle and all the earth, and all the reptiles that creep on the earth. And God said, Behold I have given to you every seed-bearing herb sowing seed which is upon all the earth, and every tree which has in itself the fruit of seed that is sown, to you it shall be for food. And to all the wild beasts of the earth, and to all the flying creatures of heaven, and to every reptile creeping on the earth, which has in itself the breath of life, even every green plant for food; and it was so.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 1:28–1:30",
@@ -2197,7 +2197,7 @@
       "usfmBook": "BAR"
     },
     "greek-reuse-lxx:ZECH.4.11-4.13": {
-      "text": "And I answered, and said to him, What are these two olive-trees, which are on the right and left hand of the candlestick? And I asked the second time, and said to him, What are the two branches of the olive-trees that are by the side of the two golden + 4:12 Gr. nostrils.pipes that pour into and communicate with the golden oil funnels? And he said to me, Knowest thou not what these are? and I said, No, my lord.",
+      "text": "And I answered, and said to him, What are these two olive-trees, which are on the right and left hand of the candlestick? And I asked the second time, and said to him, What are the two branches of the olive-trees that are by the side of the two golden pipes that pour into and communicate with the golden oil funnels? And he said to me, Knowest thou not what these are? and I said, No, my lord.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Zechariah 4:11–4:13",
@@ -2398,7 +2398,7 @@
       "usfmBook": "EZK"
     },
     "greek-reuse-lxx:GEN.1.24-1.26": {
-      "text": "And God said, Let the earth bring forth the living + 1:24 Gr. soul.creature according to its kind, quadrupeds and reptiles and wild beasts of the earth according to their kind, and it was so. And God made the wild beasts of the earth according to their kind, and cattle according to their kind, and all the reptiles of the earth according to their kind, and God saw that they were good. And God said, Let us make man according to our image and likeness, and let them have dominion over the fish of the sea, and over the flying creatures of heaven, and over the cattle and all the earth, and over all the reptiles that creep on the earth.",
+      "text": "And God said, Let the earth bring forth the living creature according to its kind, quadrupeds and reptiles and wild beasts of the earth according to their kind, and it was so. And God made the wild beasts of the earth according to their kind, and cattle according to their kind, and all the reptiles of the earth according to their kind, and God saw that they were good. And God said, Let us make man according to our image and likeness, and let them have dominion over the fish of the sea, and over the flying creatures of heaven, and over the cattle and all the earth, and over all the reptiles that creep on the earth.",
       "translation": "Brenton English Septuagint",
       "sourceId": "eng-Brenton",
       "reference": "Genesis 1:24–1:26",
