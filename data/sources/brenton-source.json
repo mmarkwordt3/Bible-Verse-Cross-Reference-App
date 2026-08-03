@@ -1,0 +1,10 @@
+{
+  "sourceName": "Brenton English Septuagint",
+  "sourceId": "eng-Brenton",
+  "sourceVersion": "eBible.org edition, 2024-01-18",
+  "publicDomain": true,
+  "archiveUrl": "https://ebible.org/Scriptures/eng-Brenton_usfm.zip",
+  "archiveSha256": null,
+  "retrievedAt": null,
+  "retrievalStatus": "network-unavailable; run the manual assistance workflow to pin the first verified archive"
+}

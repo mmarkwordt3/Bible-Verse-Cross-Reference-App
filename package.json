@@ -40,6 +40,9 @@
     "verify:greek-reuse-dist": "node scripts/verify-data-files.mjs dist greek-reuse",
     "reviews:queue": "node scripts/build-greek-review-queue.mjs",
     "reviews:validate": "node scripts/validate-greek-reuse-reviews.mjs"
+    ,"reviews:assistance:refresh": "node scripts/fetch-brenton.mjs && node scripts/parse-brenton-usfm.mjs && npm run reviews:assistance:build"
+    ,"reviews:assistance:build": "node scripts/build-greek-review-assistance.mjs"
+    ,"reviews:assistance:audit": "node scripts/validate-greek-review-assistance.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",

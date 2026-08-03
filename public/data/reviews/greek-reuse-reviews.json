@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "layerId": "greek-reuse",
   "algorithmVersion": "greek-reuse-v2-formulaic",
   "datasetGeneratedAt": "2026-07-31T19:13:44Z",
-  "reviewSetVersion": 1,
+  "reviewSetVersion": 2,
   "reviews": []
 }
